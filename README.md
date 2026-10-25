@@ -4,7 +4,7 @@ Publiczny hub analiz działek pod dom w Trójmieście i okolicach.
 
 **Strona:** https://patrykmilewski.github.io/dzialki-hub/
 
-Analizy: **220508_5.0004.750/73**, **220508_5.0004.1209/2** i **220508_5.0004.775/193**, Chwaszczyno, stan ustaleń 25.10.2026. Katalog, porównanie, mapy, źródła, ryzyka i listy pytań. Kalkulator wspólnej drogi i mediów dotyczy wyłącznie 750/73; dla 1209/2 koszt przygotowania pozostaje nieustalony.
+Analizy: **220508_5.0004.750/73**, **220508_5.0004.1209/2**, **220508_5.0004.775/193** oraz pakiet **220508_5.0004.768/136 + 220508_5.0004.768/137**, Chwaszczyno, stan ustaleń 25.10.2026. Katalog, porównanie, mapy, źródła, ryzyka i listy pytań. Kalkulator wspólnej drogi i mediów dotyczy wyłącznie 750/73; dla 1209/2 koszt przygotowania pozostaje nieustalony.
 
 ## Uruchomienie i sprawdzenie
 
@@ -49,3 +49,5 @@ Warianty oszczędniejsze wymagają potwierdzenia nośności gruntu i konstrukcji
 Brak analityki, backendu, kluczy API i formularza wysyłającego wiadomości. Lista pytań zapisuje tylko identyfikatory zaznaczeń w `localStorage` użytkownika. Czcionki są pobierane z Google Fonts; pozostałe zasoby strony są lokalne. Repozytorium i wszystkie jego dane są publiczne.
 
 Analiza 775/193 obejmuje MPZP 05029/05029z, dwa obrysy 200 m², teren i media. NMT: 08.09.2024; data zdjęcia ortofotomapy nieustalona. Nie ma kalkulatora: koszt drogi, przyłączy i przygotowania gruntu pozostaje nieustalony.
+
+Pakiet 768/136 + 768/137 jest jedną kartą zakupu pod jeden dom. Cena 700 000 zł i ofertowe 1224 m² dotyczą całości; pole `id` zawiera oba pełne identyfikatory, więc wyszukiwanie działa dla każdego. NMT: 08.09.2024; data zdjęcia ortofotomapy niepotwierdzona. Warianty domu i ogrodu zależą od zachowania zadrzewienia; koszt przygotowania pozostaje nieustalony, bez kalkulatora.

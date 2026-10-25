@@ -1,0 +1,516 @@
+{
+	"schemaVersion": 1,
+	"updatedAt": "2026-10-25",
+	"plots": [
+		{
+			"slug": "chwaszczyno-750-73",
+			"id": "220508_5.0004.750/73",
+			"number": "750/73",
+			"title": "Sobiesława I",
+			"location": "Chwaszczyno · gmina Żukowo",
+			"areaM2": 944,
+			"pricePln": 542800,
+			"pricePerM2": 575,
+			"statusKey": "conditional",
+			"statusLabel": "Warunkowo",
+			"summary": "Łagodny teren i możliwość ogrodu od południowego zachodu. Deklarowane WZ ograniczają jednak powierzchnię zabudowy do 136,88 m² — przy założeniu, że wskaźnik dotyczy całych 944 m². To istotny konflikt z domem o rzucie 200 m² z garażem.",
+			"verdict": {
+				"title": "Do dalszej analizy przy mniejszym rzucie domu",
+				"text": "Najpierw pełna decyzja WZ. Jeżeli potwierdzi maksymalnie 14,5% zabudowy dla 944 m², rzut 200 m² nie spełni limitu. Schemat 130 m² mieści się w deklarowanym wskaźniku, ale jego legalność i program pomieszczeń pozostają niepotwierdzone. Zakup wymaga też wyjaśnienia praw do całej drogi, mediów oraz warunków gruntowo-wodnych. Cena ofertowa jest o około 15,2% wyższa od stawki sąsiedniej transakcji z lutego 2026 r."
+			},
+			"offerUrl": "https://www.olx.pl/d/oferta/dzialka-budowlana-z-wz-chwaszczyno-w-sasiedztwie-lasu-i-jeziora-wysockiego-CID3-ID1cIXVb.html",
+			"thumbnail": "assets/750-73/lokalizacja-750-73.png",
+			"facts": [
+				{
+					"label": "Limit zabudowy z oferty",
+					"value": "136,88 m²",
+					"note": "14,5% × 944 m²; warunkowy rachunek, bez wglądu w decyzję WZ.",
+					"status": "declared"
+				},
+				{
+					"label": "Powierzchnia biologicznie czynna",
+					"value": "min. 40%",
+					"note": "Deklaracja oferty; dla 944 m² to 377,6 m².",
+					"status": "declared"
+				},
+				{
+					"label": "Średnie nachylenie",
+					"value": "ok. 1,95%",
+					"note": "Nachylenie płaszczyzny dopasowanej do NMT z 30.04.2022.",
+					"status": "verified"
+				},
+				{
+					"label": "Różnica wysokości",
+					"value": "1,11 m",
+					"note": "NMT 2022: 142,04–143,15 m; aktualne rzędne wymagają pomiaru.",
+					"status": "verified"
+				},
+				{
+					"label": "Szkoła obwodowa",
+					"value": "SP w Chwaszczynie",
+					"note": "SP im. Adama Mickiewicza, ul. Mickiewicza 16; najnowsza odnaleziona uchwała: 2023/4964.",
+					"status": "verified"
+				},
+				{
+					"label": "Prawny dostęp do drogi",
+					"value": "Do potwierdzenia",
+					"note": "Geometria wskazuje wjazd od 750/69; nie sprawdzono wszystkich udziałów i służebności.",
+					"status": "unknown"
+				}
+			],
+			"sections": [
+				{
+					"id": "planowanie",
+					"title": "Planowanie i dokumenty",
+					"lead": "Parametry WZ pochodzą z ogłoszenia. O zgodności domu rozstrzygnie pełna decyzja z mapą i zakresem terenu.",
+					"items": [
+						{
+							"label": "MPZP na mapie gminy",
+							"text": "Odczyt SIP z 25.10.2026 wskazuje lokalizację poza rysunkami obowiązujących planów. To wynik przeglądu mapy, nie urzędowe zaświadczenie.",
+							"status": "verified",
+							"sourceIds": ["sip"]
+						},
+						{
+							"label": "Deklarowane WZ",
+							"text": "Ogłoszenie podaje dom wolnostojący, zabudowę 10,45–14,5%, minimum 40% PBC, wysokość do 9 m i dach dwuspadowy 30–40°. Nie udostępniono numeru, daty ani treści decyzji.",
+							"status": "declared",
+							"sourceIds": ["offer", "offer-mirror"]
+						},
+						{
+							"label": "Konflikt z rzutem 200 m²",
+							"text": "Przy podstawie 944 m² deklarowany przedział zabudowy wynosi 98,65–136,88 m². Rzut 200 m² wymaga 21,19%. Poddasze zwiększa powierzchnię użytkową, lecz nie limit powierzchni zabudowy; osobny garaż nie jest automatycznym obejściem wskaźnika.",
+							"status": "assumed",
+							"sourceIds": ["offer"]
+						},
+						{
+							"label": "Procedowany plan",
+							"text": "Obwieszczenie z 11.02.2025 dotyczy rejonu Sobiesława I, Świętobora i Kaszubska Droga: UN-P.6722.9.2025.LM, uchwała XXXVI/393/2017. Nie oznacza uchwalenia planu.",
+							"status": "verified",
+							"sourceIds": ["plan-notice", "plan-resolution"]
+						},
+						{
+							"label": "Zasięg i przyszłe wskaźniki",
+							"text": "Nie potwierdzono dokładnego przecięcia obecnej 750/73 ze starym załącznikiem planistycznym ani projektowanych dróg i parametrów. Aktualne wejście w życie planu ogólnego również pozostaje nieustalone; nie należy zakładać łatwego uzyskania nowej WZ na większy dom.",
+							"status": "unknown",
+							"sourceIds": ["plan-resolution", "general-plan", "wz-communique"]
+						},
+						{
+							"label": "Użytek RVI i wyłączenie",
+							"text": "Warstwa KIEG wskazuje RVI. Nie ustalono mineralnego lub organicznego pochodzenia gleby ani konieczności i istnienia decyzji o wyłączeniu z produkcji rolnej. Potrzebne są wypis EGiB i potwierdzenie w starostwie.",
+							"status": "unknown",
+							"sourceIds": ["kieg", "agricultural-exclusion"]
+						}
+					],
+					"figures": []
+				},
+				{
+					"id": "dom-ogrod",
+					"title": "Dom i ogród",
+					"lead": "Testy prostokątnych obrysów pokazują możliwości przestrzenne. Nie zastępują projektu ani sprawdzenia zgodności z WZ.",
+					"items": [
+						{
+							"label": "Granice i kształt",
+							"text": "Obrys ULDK jest nieregularny, z wcięciem przy dojeździe 750/69. Obliczona powierzchnia w PL-2000 wynosi 944,11 m²; nie zastępuje powierzchni urzędowej EGiB.",
+							"status": "verified",
+							"sourceIds": ["uldk"]
+						},
+						{
+							"label": "Dwa testy 200 m²",
+							"text": "Obrysy 20 × 10 m oraz 16 × 12,5 m mieszczą się geometrycznie przy roboczym odsunięciu około 4 m. Wydzielone fragmenty ogrodu SW mają odpowiednio około 146 i 243 m². Oba obrysy przekraczają deklarowany limit zabudowy; pierwszy praktycznie nie ma zapasu ponad 4 m.",
+							"status": "assumed",
+							"sourceIds": ["uldk", "offer"]
+						},
+						{
+							"label": "Test 130 m²",
+							"text": "Obrys 13 × 10 m daje około 322 m² wydzielonego ogrodu SW przy geometrycznym odsunięciu co najmniej 4,02 m. Mieści się wyłącznie w ofertowym limicie powierzchni. Nie potwierdzono rozplanowania gabinetu, trzech sypialni i garażu.",
+							"status": "assumed",
+							"sourceIds": ["uldk", "offer"]
+						},
+						{
+							"label": "Co oznacza zielona powierzchnia",
+							"text": "W modelu odjęto dom z metrowym obejściem, taras 24 m² i roboczy podjazd. Pozostała zieleń obejmuje również wąskie boczne pasy. Nie jest zatwierdzoną PBC ani potwierdzeniem suchego, użytkowego ogrodu.",
+							"status": "assumed",
+							"sourceIds": ["uldk"]
+						},
+						{
+							"label": "Wjazd i orientacja",
+							"text": "Roboczy wjazd od NE przez 750/69 pozwala skierować salon i taras na SW. Ogród graniczy z 750/54, a nie bezpośrednio z lasem. Nie zweryfikowano zjazdu, łuków skrętu ani przejezdności.",
+							"status": "assumed",
+							"sourceIds": ["uldk", "ortho"]
+						},
+						{
+							"label": "Nasłonecznienie i projekt",
+							"text": "Nie ustalono rzeczywistych godzin słońca: potrzebne są aktualne wysokości drzew i sąsiednich budynków. Do sprawdzenia pozostają linia zabudowy, szerokość elewacji, odległości pożarowe, okapy i okna poddasza. Przyjęte 4 m to wyłącznie parametr testu geometrycznego.",
+							"status": "unknown",
+							"sourceIds": ["sip", "offer"]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/750-73/lokalizacja-750-73.png",
+							"alt": "Granice działki 750/73 i sąsiedztwo na ortofotomapie",
+							"caption": "Ortofotomapa: 23.04.2023; granice pobrane 25.10.2026. Zdjęcie nie pokazuje aktualnego stanu zabudowy w 2026 r."
+						},
+						{
+							"src": "assets/750-73/warianty-domu.png",
+							"alt": "Trzy schematyczne obrysy domu oraz wydzielone fragmenty ogrodu",
+							"caption": "Dwa rzuty 200 m² i jeden 130 m². Test geometrii, bez potwierdzenia legalnej zabudowy; oba warianty 200 m² przekraczają deklarowany limit WZ."
+						}
+					]
+				},
+				{
+					"id": "teren",
+					"title": "Teren, grunt i woda",
+					"lead": "Urzędowy model wysokości wskazuje łagodny teren. Nie rozstrzyga o nośności gruntu, wodzie ani stanie działki po 2022 r.",
+					"items": [
+						{
+							"label": "Data i dokładność modelu",
+							"text": "Dane ALS z 30.04.2022, siatka NMT 0,5 m, układ pionowy PL-EVRF2007-NH. Metadane wskazują średni błąd wysokości 0,10 m, co nie gwarantuje takiej dokładności każdego punktu. Wybrano spójny model całej parceli.",
+							"status": "verified",
+							"sourceIds": ["nmt"]
+						},
+						{
+							"label": "Wysokości i spadek",
+							"text": "Zakres NMT wynosi 142,04–143,15 m, a różnica 1,11 m. Nachylenie dopasowanej płaszczyzny to około 1,95%; lokalne nachylenia są różne. Wyżej położone otoczenie od SE i niższe od NW sugerują możliwy kierunek spływu, nie dowodzą rzeczywistego przepływu wody.",
+							"status": "verified",
+							"sourceIds": ["nmt"]
+						},
+						{
+							"label": "Pod domem i na osi ogrodu",
+							"text": "Pod schematycznym obrysem 130 m² różnica NMT wynosi około 0,24 m. Łamana wjazd–dom–ogród ma 36,79 m, a jej końce są na około 142,45 m. Po drodze występują lokalne różnice wysokości.",
+							"status": "assumed",
+							"sourceIds": ["nmt", "uldk"]
+						},
+						{
+							"label": "Roboty ziemne",
+							"text": "Historyczny model nie wskazuje topograficznej potrzeby dużego nasypu ani wysokich murów. Nie ma jednak aktualnej mapy ani projektu rzędnych, odwodnienia i zagospodarowania. Nie ustalono zakresu robót.",
+							"status": "unknown",
+							"sourceIds": ["nmt"]
+						},
+						{
+							"label": "Grunt i suchy ogród",
+							"text": "Brak lokalnej opinii geotechnicznej. Nieustalone pozostają nośność, nasypy, organika, woda gruntowa i infiltracja. Nie ma podstaw ani do przyjęcia konieczności pali, ani do wykluczenia wzmocnienia podłoża. Łagodny teren i RVI nie potwierdzają suchego ogrodu.",
+							"status": "unknown",
+							"sourceIds": []
+						},
+						{
+							"label": "Powódź, podtopienia i osuwiska",
+							"text": "Nie uzyskano rozstrzygającego odczytu aktualnych map zagrożenia powodziowego; obraz warstwy podtopień był niejednoznaczny. Na wstępnym odczycie SOPO nie widać osuwiska na parceli. Te odczyty nie wykluczają lokalnych problemów wodnych ani nie zastępują badania gruntu.",
+							"status": "unknown",
+							"sourceIds": ["hydroportal", "sopo", "flooding"]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/750-73/teren-750-73.png",
+							"alt": "Mapa wysokości działki 750/73 i jej otoczenia",
+							"caption": "NMT 0,5 m ze skaningu 30.04.2022. Stan historyczny; przed projektowaniem potrzebny aktualny pomiar geodezyjny."
+						},
+						{
+							"src": "assets/750-73/wjazd-ogrod.png",
+							"alt": "Przebieg i profil od wjazdu przez schemat domu do ogrodu",
+							"caption": "Wariant roboczy dla obrysu 130 m². Równe rzędne końców nie oznaczają płaskiego całego przebiegu."
+						},
+						{
+							"src": "assets/750-73/przekroje-750-73.png",
+							"alt": "Przekroje terenu przez działkę oraz sąsiednie grunty",
+							"caption": "Przekroje w osiach siatki PL-2000. Skala pionowa jest powiększona — rysunek nie pokazuje nachylenia w jednakowych skalach."
+						}
+					]
+				},
+				{
+					"id": "otoczenie",
+					"title": "Otoczenie i codzienność",
+					"lead": "Szkołę wskazuje odnaleziona uchwała obwodowa. Dostępność kąpieliska, hałas i warunki dojazdu wymagają osobnego sprawdzenia.",
+					"items": [
+						{
+							"label": "Szkoła obwodowa",
+							"text": "SP im. Adama Mickiewicza, ul. Mickiewicza 16 w Chwaszczynie. Uchwała LXIV/833/2023, opublikowana jako 2023/4964, obejmuje całą miejscowość od 1.09.2024. W wyszukiwaniu tytułowym do 25.10.2026 nie odnaleziono nowszej zmiany; nie ustalono warunków rekrutacji i organizacji nauki w 2026/27.",
+							"status": "verified",
+							"sourceIds": ["school"]
+						},
+						{
+							"label": "Dojazd i nawierzchnia",
+							"text": "Ogłoszenie deklaruje dojazd częściowo po płytach JUMBO, częściowo po gruncie. Nie potwierdzono praw do wszystkich odcinków dojazdu do drogi publicznej ani zasad utrzymania i odśnieżania.",
+							"status": "declared",
+							"sourceIds": ["offer"]
+						},
+						{
+							"label": "Jezioro i las",
+							"text": "Oferta deklaruje około 350 m do kąpieliska nad Jeziorem Wysockim. Nie zweryfikowano długości i legalnej dostępności trasy pieszej. Las znajduje się dalej na zachód; działka nie ma bezpośredniej granicy z lasem.",
+							"status": "declared",
+							"sourceIds": ["offer", "kieg", "uldk"]
+						},
+						{
+							"label": "Kontur lasu",
+							"text": "Na poglądowym odczycie KIEG kontur LsVI nie przecina parceli ani jej bezpośredniego otoczenia do 16 m. Nie zmierzono dokładnej minimalnej odległości. Projekt wymaga aktualnej mapy konturu leśnego.",
+							"status": "verified",
+							"sourceIds": ["kieg"]
+						},
+						{
+							"label": "Ochrona przyrody",
+							"text": "Zapytania wybranych warstw GDOŚ nie wykazały przecięcia z OSO, SOO, obszarem chronionego krajobrazu ani rezerwatem. To wynik tych zapytań, a nie pełne wykluczenie wszystkich form ochrony, otulin i chronionych gatunków.",
+							"status": "verified",
+							"sourceIds": ["gdos"]
+						},
+						{
+							"label": "Hałas i lotnisko",
+							"text": "Nie odczytano rozstrzygająco izofon ani położenia względem prawnego obszaru ograniczonego użytkowania lotniska. Starsze mapy drogowe z 2022 r. poprzedzają uruchomienie OMT w 2025 r. Potrzebne są aktualne źródła oraz oględziny w godzinach ruchu i lotów.",
+							"status": "unknown",
+							"sourceIds": ["sip", "noise"]
+						},
+						{
+							"label": "Codzienne trasy",
+							"text": "Nie ustalono czasu do pracy ani bezpiecznej trasy do szkoły. Dostępność usług, chodników i transportu publicznego wymaga oceny według konkretnych codziennych celów.",
+							"status": "unknown",
+							"sourceIds": []
+						}
+					],
+					"figures": []
+				},
+				{
+					"id": "cena",
+					"title": "Cena i punkt odniesienia",
+					"lead": "575 zł/m² to cena ofertowa. Najbliższa odnaleziona transakcja daje argument do rozmowy, ale nie stanowi wyceny tej działki.",
+					"items": [
+						{
+							"label": "Właściwa cena oferty",
+							"text": "Dla 750/73 podano 944 m² i 542 800 zł, czyli 575 zł/m². Nagłówkowe 469 775 zł dotyczy innej parceli — 750/71. Oferta jest zbiorcza; opis odczytano z indeksu wyszukiwarki i lustra, ponieważ strona OLX blokowała bezpośredni odczyt.",
+							"status": "declared",
+							"sourceIds": ["offer", "offer-mirror"]
+						},
+						{
+							"label": "Transakcja sąsiada 750/72",
+							"text": "RCN: 16.02.2026, parcela 819 m², cena głównej nieruchomości 408 900 zł, czyli 499,27 zł/m². Cały akt na 409 500 zł obejmuje dodatkowo udziały drogowe za 600 zł. Nie przypisano całej ceny aktu samej działce.",
+							"status": "verified",
+							"sourceIds": ["rcn", "rcn-info"]
+						},
+						{
+							"label": "Różnica 15,17%",
+							"text": "Cena ofertowa 750/73 jest o 15,17% wyższa jednostkowo od wskazanej transakcji. Mechaniczne przeliczenie stawki sąsiada na 944 m² daje około 471 308 zł. To wyłącznie scenariusz negocjacyjny: bez korekt za datę, WZ, grunt, media, drogę, wielkość i kształt.",
+							"status": "assumed",
+							"sourceIds": ["offer", "rcn"]
+						},
+						{
+							"label": "Szeroki rozrzut porównań",
+							"text": "Inne bliskie transakcje: 750/38 — 487,50 zł/m² w 2022 r.; 750/60 — 421,00 zł/m² w 2023 r.; 757/9 — 808,31 zł/m² w 2024 r. Różnice i wiek danych nie uzasadniają prostej mediany ani uznania oferty za okazję.",
+							"status": "verified",
+							"sourceIds": ["rcn"]
+						},
+						{
+							"label": "Zakres sprzedaży",
+							"text": "Nie ustalono, czy cena obejmuje wszystkie wymagane udziały drogowe i jakie ewentualne dopłaty obciążą nabywcę. Prawa drogowe opisane przy transakcji 750/72 nie dowodzą takich samych praw dla 750/73.",
+							"status": "unknown",
+							"sourceIds": ["offer", "rcn"]
+						}
+					],
+					"figures": []
+				}
+			],
+			"risks": [
+				{
+					"title": "Rzut 200 m² koliduje z deklarowanym WZ",
+					"detail": "Przy wskaźniku 14,5% dla 944 m² limit wynosi 136,88 m². Brak pełnej decyzji uniemożliwia ostateczną ocenę; nowa WZ na większy dom nie jest zapewniona.",
+					"severity": "high"
+				},
+				{
+					"title": "Niepotwierdzone prawa do całej drogi",
+					"detail": "Sąsiedztwo 750/69 potwierdza geometrię dojazdu, ale nie pełny tytuł prawny do trasy, zjazdu i prowadzenia mediów.",
+					"severity": "high"
+				},
+				{
+					"title": "Media i ścieki bez warunków operatorów",
+					"detail": "Sieci w ulicy to deklaracja. Nie potwierdzono warunków, tras, wymaganych zgód ani sposobu odprowadzania ścieków.",
+					"severity": "high"
+				},
+				{
+					"title": "Grunt i woda pozostają nieznane",
+					"detail": "NMT z 2022 r. wskazuje łagodną rzeźbę, ale brak badań nośności, nasypów, wody i infiltracji. Suchy ogród nie jest potwierdzony.",
+					"severity": "medium"
+				},
+				{
+					"title": "Planowanie i otoczenie mogą zmienić ocenę",
+					"detail": "Nie ustalono zakresu procedowanego MPZP dla parceli, aktualnego POG, izofon, OOU lotniska ani pełnego zagrożenia podtopieniami.",
+					"severity": "medium"
+				},
+				{
+					"title": "Cena powyżej sąsiedniej transakcji",
+					"detail": "Oferta jest około 15,2% droższa za m² niż główna nieruchomość 750/72 z lutego 2026 r. Różnica wymaga wyjaśnienia cechami działki, nie przesądza o wartości rynkowej.",
+					"severity": "medium"
+				}
+			],
+			"questions": [
+				{
+					"id": "wz-document",
+					"text": "Czy może Pani udostępnić pełną decyzję WZ z mapą, datą, numerem i potwierdzeniem ostateczności oraz dokumenty wiążące ją z obecną działką 750/73?"
+				},
+				{
+					"id": "wz-scope",
+					"text": "Jakiej dokładnie powierzchni terenu dotyczą wskaźniki WZ 10,45–14,5% i 40% PBC? Czy obejmują dom i garaż łącznie, jaka jest linia zabudowy oraz szerokość elewacji i czy decyzję można przenieść na kupującego?"
+				},
+				{
+					"id": "sale-scope",
+					"text": "Jakie działki i udziały drogowe obejmuje cena 542 800 zł? Czy są dodatkowe dopłaty, obciążenia lub zobowiązania związane z drogą i mediami?"
+				},
+				{
+					"id": "road-title",
+					"text": "Czy są dokumenty potwierdzające dostęp do drogi publicznej na całej trasie, w tym udziały lub służebności, zgodę na zjazd oraz prawo prowadzenia i serwisowania mediów?"
+				},
+				{
+					"id": "utilities",
+					"text": "Czy są aktualne warunki przyłączenia prądu, wody i gazu oraz mapy punktów włączenia? Kto finansuje rozbudowę i przyłącza, a kto zapewnia zgody na przejście przez cudze grunty?"
+				},
+				{
+					"id": "wastewater",
+					"text": "Czy dostępna jest kanalizacja? Jeśli nie, jaki sposób odprowadzania ścieków dopuszczają dokumenty działki i czy potwierdzono warunki dla tego rozwiązania?"
+				},
+				{
+					"id": "geotechnics",
+					"text": "Czy wykonano badania gruntu i wody? Czy działka była nasypywana, drenowana albo podtapiana oraz czy można wykonać odwierty i oględziny po deszczu przed zakupem?"
+				},
+				{
+					"id": "survey-egib",
+					"text": "Czy dostępne są aktualna mapa wysokościowa, wypis i wyrys EGiB, dokumenty graniczne oraz informacja o pochodzeniu gleby RVI i ewentualnym wyłączeniu z produkcji rolnej?"
+				},
+				{
+					"id": "planning",
+					"text": "Czy są aktualne informacje z gminy o MPZP, planie ogólnym i objęciu 750/73 procedurą UN-P.6722.9.2025.LM, w tym o projektowanych drogach lub zmianach parametrów zabudowy?"
+				},
+				{
+					"id": "neighbourhood",
+					"text": "Jak uzgodniono utrzymanie i odśnieżanie drogi? Czy są znane plany zabudowy sąsiadów, dokumenty dotyczące hałasu lub OOU lotniska i potwierdzona publicznie dostępna trasa piesza do kąpieliska?"
+				}
+			],
+			"sources": [
+				{
+					"id": "offer",
+					"label": "Ogłoszenie OLX",
+					"url": "https://www.olx.pl/d/oferta/dzialka-budowlana-z-wz-chwaszczyno-w-sasiedztwie-lasu-i-jeziora-wysockiego-CID3-ID1cIXVb.html",
+					"note": "Oferta zbiorcza; dane 750/73 odczytane 25.10.2026 z indeksu i lustra. Parametry WZ są deklaracją, nie odczytem decyzji."
+				},
+				{
+					"id": "offer-mirror",
+					"label": "Lustrzana oferta TXO",
+					"url": "https://txo.pl/ogloszenia/plot-chwaszczyno-dzialka-budowlana-z-wz-chwaszczyno-w-sasiedztwie-lasu-i-jeziora-wysockiego",
+					"note": "Pomocnicze potwierdzenie opisu oferty; nie stanowi niezależnego ogłoszenia ani źródła urzędowego."
+				},
+				{
+					"id": "uldk",
+					"label": "GUGiK — ULDK",
+					"url": "https://uldk.gugik.gov.pl/",
+					"note": "Geometria parceli i sąsiedztwa pobrana 25.10.2026; obliczone pole nie zastępuje EGiB."
+				},
+				{
+					"id": "nmt",
+					"label": "GUGiK — źródłowy NMT 0,5 m",
+					"url": "https://opendata.geoportal.gov.pl/NumDaneWys/NMT/77225/77225_1309620_6.222.24.13.4.asc",
+					"note": "Skaning 30.04.2022; układ poziomy EPSG:2177, pionowy PL-EVRF2007-NH. Plik źródłowy modelu wysokości."
+				},
+				{
+					"id": "ortho",
+					"label": "GUGiK — usługi mapowe",
+					"url": "https://www.geoportal.gov.pl/pl/usluga/uslugi-przegladania-wms-i-wmts/",
+					"note": "Źródła map; wykorzystana ortofotomapa ma datę 23.04.2023 i nie pokazuje bieżącego stanu zabudowy."
+				},
+				{
+					"id": "sip",
+					"label": "System Informacji Przestrzennej Żukowa",
+					"url": "https://sip.gison.pl/zukowo",
+					"note": "Odczyt planów i warstw otoczenia 25.10.2026; mapy przeglądowe nie zastępują zaświadczeń."
+				},
+				{
+					"id": "plan-notice",
+					"label": "BIP Żukowo — obwieszczenie planistyczne",
+					"url": "https://bip.zukowo.pl/a,87917,obwieszczenie-o-przystapieniu-do-sporzadzenia-miejscowych-planow-zagospodarowania-przestrzennego-dla.html",
+					"note": "Obwieszczenie 11.02.2025; procedura UN-P.6722.9.2025.LM."
+				},
+				{
+					"id": "plan-resolution",
+					"label": "Uchwała XXXVI/393/2017 z mapą",
+					"url": "https://bip.zukowo.pl/e,pobierz,get.html?id=118510",
+					"note": "Stary podkład wymaga dokładnego przypisania do obecnej 750/73; zasięg na parceli nie został potwierdzony."
+				},
+				{
+					"id": "general-plan",
+					"label": "BIP Żukowo — plan ogólny",
+					"url": "https://bip.zukowo.pl/m,2451,plan-ogolny-gminy-zukowo.html",
+					"note": "Przystąpienie potwierdzone; nie ustalono aktualnego aktu wejścia w życie planu ogólnego."
+				},
+				{
+					"id": "wz-communique",
+					"label": "Gmina Żukowo — komunikat o WZ",
+					"url": "https://www.zukowo.pl/31_sierpnia_-_wazny_termin_dla_mieszkancow%2C10%2C10201",
+					"note": "Komunikat z 27.08.2026 wskazywał brak obowiązującego POG; nie potwierdza stanu na dowolny późniejszy dzień."
+				},
+				{
+					"id": "kieg",
+					"label": "GUGiK — Krajowa Integracja Ewidencji Gruntów",
+					"url": "https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaEwidencjiGruntow",
+					"note": "Poglądowy odczyt użytków i konturów: RVI na parceli, LsVI dalej na zachód."
+				},
+				{
+					"id": "agricultural-exclusion",
+					"label": "Starostwo Kartuskie — wyłączenie gruntu",
+					"url": "https://bip.kartuskipowiat.pl/sprawa-do-zalatwienia/701/informacja-dot-koniecznosci-uzyskania-decyzji-o-wylaczeniu-gruntu-z-produkcji-rolnej",
+					"note": "Informacja urzędowa; obowiązek dla tej działki wymaga ustalenia pochodzenia gleby i dokumentów."
+				},
+				{
+					"id": "school",
+					"label": "Dziennik Urzędowy — obwody szkół, 2023/4964",
+					"url": "https://edziennik.gdansk.uw.gov.pl/legalact/2023/4964/",
+					"note": "Uchwała LXIV/833/2023, publikacja 16.11.2023, obwód od 1.09.2024. Najnowsza odnaleziona w wyszukiwaniu tytułowym do 25.10.2026."
+				},
+				{
+					"id": "rcn",
+					"label": "RCN powiatu kartuskiego — usługa WFS",
+					"url": "https://kartuski-wms.webewid.pl/iip/ows/rcn",
+					"note": "750/72: transakcja 49085, akt 784/2026 z 16.02.2026. Cena głównej nieruchomości 408 900 zł; cały akt 409 500 zł."
+				},
+				{
+					"id": "rcn-info",
+					"label": "Starostwo Kartuskie — publiczne dane RCN",
+					"url": "https://bip.kartuskipowiat.pl/artykul/50/5315/uwolnione-dane-z-rejestru-cen-nieruchomosci",
+					"note": "Informacja o dostępie do rejestru cen nieruchomości."
+				},
+				{
+					"id": "gdos",
+					"label": "GDOŚ — dane geoprzestrzenne",
+					"url": "https://sdi.gdos.gov.pl/wfs",
+					"note": "Sprawdzono wybrane warstwy OSO, SOO, OChK i rezerwatów; brak przecięć nie jest pełnym audytem ochrony przyrody."
+				},
+				{
+					"id": "hydroportal",
+					"label": "Wody Polskie — Hydroportal",
+					"url": "https://wody.isok.gov.pl/hydroportal.html",
+					"note": "Aktualne mapy zagrożenia powodziowego nie zostały skutecznie odczytane; ryzyko pozostaje nieustalone."
+				},
+				{
+					"id": "sopo",
+					"label": "PIG-PIB — SOPO",
+					"url": "https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/sopo_obszary/MapServer/WMSServer",
+					"note": "Wstępny odczyt mapy, bez widocznego osuwiska na parceli; nie zastępuje badań geotechnicznych."
+				},
+				{
+					"id": "flooding",
+					"label": "PIG-PIB — podtopienia",
+					"url": "https://cbdgmapa.pgi.gov.pl/arcgis/services/hydrogeologia/podtopienia/MapServer/WMSServer",
+					"note": "Uzyskany obraz był niejednoznaczny; nie przyjęto braku zagrożenia."
+				},
+				{
+					"id": "noise",
+					"label": "GIOŚ — strategiczne mapy hałasu",
+					"url": "https://www.gov.pl/web/gios/strategiczne-mapy-halasu",
+					"note": "Nie ustalono izofon dla działki; starsze mapy mogą nie obejmować skutków uruchomienia OMT w 2025 r."
+				}
+			],
+			"hero": "assets/750-73/hero.svg",
+			"costFile": "data/costs.json",
+			"updatedAt": "2026-10-25",
+			"imageLabel": "ORTOFOTOMAPA · 23.04.2023",
+			"cardNotice": {
+				"title": "Najpierw sprawdź WZ",
+				"text": "Pełna decyzja nie została udostępniona."
+			}
+		}
+	]
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#173e35">
+    <meta name="description" content="Atlas analiz działek pod dom. Mapy, warunki zabudowy, ryzyka i przejrzyste scenariusze kosztów. Pierwsza analiza: Chwaszczyno 750/73.">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>Działki — atlas decyzji</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="scripts/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Przejdź do treści</a>
+    <header class="site-header wrap">
+      <a class="brand" href="./" aria-label="Działki — strona główna"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M7 10 28 5 34 29 14 35Z"/><path d="m7 10 15 11 12 8M22 21l-8 14"/></svg><span>Działki<small>ATLAS DECYZJI</small></span></a>
+      <nav aria-label="Nawigacja główna"><a href="./" data-home>Przegląd</a><a href="#metoda">Jak czytać analizy</a><a class="external-nav" href="https://github.com/PatrykMilewski/dzialki-hub" target="_blank" rel="noopener noreferrer">Repozytorium ↗</a></nav>
+    </header>
+    <main id="main" class="wrap" tabindex="-1">
+      <div class="loading" role="status">Przygotowuję atlas…</div>
+    </main>
+    <footer class="site-footer wrap" id="metoda">
+      <div><span class="eyebrow">JAK CZYTAĆ ATLAS</span><h2>Najpierw dowody.<br>Potem decyzja.</h2></div>
+      <div class="method-copy"><p>Każda analiza rozdziela ustalenia ze źródeł, deklaracje sprzedającego i założenia. Kosztorysy służą do porównania scenariuszy; nie zastępują ofert wykonawców ani projektu.</p><div class="evidence-legend"><span class="badge verified">Potwierdzone</span><span class="badge declared">Deklaracja</span><span class="badge assumed">Założenie</span><span class="badge unknown">Do sprawdzenia</span></div><p class="small">Stan pierwszej analizy: 25.10.2026. Daty zdjęć i pomiarów są opisane przy mapach. Brak informacji nie oznacza braku ryzyka.</p></div>
+      <div class="footer-bottom"><span>Osobisty atlas działek · Trójmiasto i okolice</span><span>Bez reklam i analityki. Lista pytań zapisywana tylko w tej przeglądarce.</span></div>
+    </footer>
+    <dialog id="map-dialog" aria-labelledby="map-title"><div class="dialog-bar"><h2 id="map-title">Mapa</h2><button type="button" id="close-map" class="button secondary">Zamknij ×</button></div><img id="map-image" alt=""><p id="map-caption"></p><a id="map-original" target="_blank" rel="noopener noreferrer">Otwórz obraz w pełnym rozmiarze ↗</a></dialog>
+    <noscript><div class="wrap notice">Ta strona korzysta z JavaScript do wyświetlania danych. <a href="data/plots.json">Dane analizy</a> i <a href="data/costs.json">scenariusze kosztów</a> są również dostępne jako JSON.</div></noscript>
+  </body>
+</html>

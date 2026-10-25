@@ -1,0 +1,11 @@
+{
+	"name": "dzialki-hub",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"description": "Atlas analiz działek — statyczny GitHub Pages",
+	"scripts": {
+		"test": "node --test tests/*.test.js",
+		"check": "node --check scripts/app.js && node --check scripts/render.js && node --check scripts/calculator.js && node --check scripts/model.js && node --check scripts/ui.js && npm test"
+	}
+}

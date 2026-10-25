@@ -4,7 +4,7 @@ Publiczny hub analiz działek pod dom w Trójmieście i okolicach.
 
 **Strona:** https://patrykmilewski.github.io/dzialki-hub/
 
-Analizy: **220508_5.0004.750/73** i **220508_5.0004.1209/2**, Chwaszczyno, stan ustaleń 25.10.2026. Katalog, porównanie, mapy, źródła, ryzyka i listy pytań. Kalkulator wspólnej drogi i mediów dotyczy wyłącznie 750/73; dla 1209/2 koszt przygotowania pozostaje nieustalony.
+Analizy: **220508_5.0004.750/73**, **220508_5.0004.1209/2** i **220508_5.0004.775/193**, Chwaszczyno, stan ustaleń 25.10.2026. Katalog, porównanie, mapy, źródła, ryzyka i listy pytań. Kalkulator wspólnej drogi i mediów dotyczy wyłącznie 750/73; dla 1209/2 koszt przygotowania pozostaje nieustalony.
 
 ## Uruchomienie i sprawdzenie
 
@@ -47,3 +47,5 @@ Warianty oszczędniejsze wymagają potwierdzenia nośności gruntu i konstrukcji
 Źródła merytoryczne oraz ograniczenia znajdują się w rekordzie działki i na stronie. Mapy są opracowaniami analitycznymi na podstawie wskazanych danych publicznych. Dla 750/73 ortofotomapa pochodzi z 23.04.2023; pełnej decyzji WZ, praw do drogi i końców sieci nie zweryfikowano dokumentami. Dla 1209/2 wykorzystano NMT z 08.09.2024, a konkretna data zdjęcia w mozaice ortofotomapy pozostaje niepotwierdzona. Granica dwóch MPZP jest orientacyjna; test obrysów domu nie jest projektem ani potwierdzeniem dopuszczalności zabudowy.
 
 Brak analityki, backendu, kluczy API i formularza wysyłającego wiadomości. Lista pytań zapisuje tylko identyfikatory zaznaczeń w `localStorage` użytkownika. Czcionki są pobierane z Google Fonts; pozostałe zasoby strony są lokalne. Repozytorium i wszystkie jego dane są publiczne.
+
+Analiza 775/193 obejmuje MPZP 05029/05029z, dwa obrysy 200 m², teren i media. NMT: 08.09.2024; data zdjęcia ortofotomapy nieustalona. Nie ma kalkulatora: koszt drogi, przyłączy i przygotowania gruntu pozostaje nieustalony.

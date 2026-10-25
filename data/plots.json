@@ -1115,6 +1115,597 @@
 					"note": "Odczyt 25.10.2026: 200/250 zł netto za godzinę. Bez czasu pracy i indywidualnej oferty na działkę."
 				}
 			]
+		},
+		{
+			"slug": "chwaszczyno-775-193",
+			"id": "220508_5.0004.775/193",
+			"number": "775/193",
+			"title": "Rejon ul. Bogusława",
+			"location": "Chwaszczyno · gmina Żukowo",
+			"areaM2": 1146,
+			"pricePln": 570000,
+			"pricePerM2": 497.38,
+			"updatedAt": "2026-10-25",
+			"statusKey": "conditional",
+			"statusLabel": "Warunkowo",
+			"summary": "Niemal płaski teren i MPZP dopuszczający rzut domu 200 m². Wariant szerokiego domu pozostawia około 505 m² ogrodu od SE. Przed zakupem trzeba potwierdzić drogę, przyłącza i grunt; plan wymaga drzew i krzewów na co najmniej 30% działki.",
+			"verdict": {
+				"title": "Dobry potencjał dla domu 200 m², zakup warunkowy",
+				"text": "Dom z garażem w bryle, poddaszem, gabinetem i trzema sypialniami jest przestrzennie realny. Dwa obrysy 200 m² przechodzą orientacyjny test geometrii, a limit zabudowy wynosi 30%. Nie jest to potwierdzenie projektu ani suchego ogrodu. Najważniejsze warunki zakupu to pełne prawa i wykonanie dojazdu, warunki przyłączenia mediów oraz lokalne badania gruntu i infiltracji. Cena 570 tys. zł mieści się w rozrzucie bliskich transakcji, ale nie dowodzi okazji."
+			},
+			"offerUrl": "https://www.otodom.pl/pl/oferta/chwaszczyno-twoja-przestrzen-na-wymarzony-dom-bl-ID4DD65",
+			"thumbnail": "assets/chwaszczyno-775-193/ortofoto.png",
+			"hero": "assets/chwaszczyno-775-193/ortofoto.png",
+			"imageLabel": "ORTOFOTOMAPA · DATA ZDJĘCIA NIEUSTALONA",
+			"imageAlt": "Granice działki 775/193 i sąsiedztwo na ortofotomapie odczytanej 25.10.2026",
+			"cardNotice": {
+				"title": "Droga, media i suchy ogród wymagają potwierdzenia",
+				"text": "Symbol kanalizacji około 35 m od działki nie potwierdza dostępnego kolektora. Bliskość sieci nie jest warunkami przyłączenia."
+			},
+			"facts": [
+				{
+					"label": "Limit zabudowy",
+					"value": "30% · 343,8 m²",
+					"note": "Dla ofertowych 1146 m²; dom 200 m² zajmuje 17,45%.",
+					"status": "verified"
+				},
+				{
+					"label": "Drzewa i krzewy",
+					"value": "min. 30%",
+					"note": "Około 344 m² nasadzeń; sam trawnik nie spełnia tego zapisu.",
+					"status": "verified"
+				},
+				{
+					"label": "Różnica wysokości",
+					"value": "0,32 m",
+					"note": "NMT 08.09.2024: 156,24–156,56 m.",
+					"status": "verified"
+				},
+				{
+					"label": "Średnie nachylenie",
+					"value": "ok. 0,49%",
+					"note": "Dopasowana płaszczyzna opada ku SE; nie dowodzi odpływu wody.",
+					"status": "verified"
+				},
+				{
+					"label": "Ogród za domem",
+					"value": "ok. 505 m²",
+					"note": "Wariant 16 × 12,5 m, za pasem tarasu; geometryczna rezerwa.",
+					"status": "assumed"
+				},
+				{
+					"label": "Droga i przyłącza",
+					"value": "Do potwierdzenia",
+					"note": "Brak pełnej weryfikacji praw do dojazdu i warunków operatorów.",
+					"status": "unknown"
+				}
+			],
+			"sections": [
+				{
+					"id": "planowanie",
+					"title": "MPZP i dokumenty",
+					"lead": "Plan pozwala rozważać dom o rzucie 200 m², ale ustala także nasadzenia i dwie linie zabudowy od drogi.",
+					"items": [
+						{
+							"label": "Plan 05029 i zmiana 05029z",
+							"text": "Działka przypisana do 3MN w MPZP XLV/781/2002 z 30.08.2002, zmienionym IV/52/2006 z 29.12.2006. BIP wskazuje oba dokumenty; nie ukończono pełnego audytu orzeczeń sądowych i nadzorczych.",
+							"status": "verified",
+							"sourceIds": [
+								"plan",
+								"amendment",
+								"bip"
+							]
+						},
+						{
+							"label": "Parametry domu",
+							"text": "Maksymalnie 30% powierzchni zabudowy, wysokość do 10,5 m od terenu do kalenicy, poziom parteru do 0,8 m ponad terenem, dach dwu- lub wielospadowy 22–45°. Minimalna powierzchnia działki 1000 m². Dla ofertowych 1146 m² limit zabudowy wynosi 343,8 m².",
+							"status": "verified",
+							"sourceIds": [
+								"plan"
+							]
+						},
+						{
+							"label": "Nasadzenia i woda",
+							"text": "Co najmniej 30% powierzchni należy obsadzić drzewami i krzewami — około 344 m². To nie jest zamiennie sam trawnik ani ogólny wskaźnik PBC. Plan nakazuje zachowanie istniejących oczek wodnych i grup drzew oraz odprowadzanie wód z dachów do własnego gruntu; zdolność infiltracji nie jest potwierdzona.",
+							"status": "verified",
+							"sourceIds": [
+								"plan"
+							]
+						},
+						{
+							"label": "Droga z dwóch stron",
+							"text": "775/133 przylega od NW i SW. Przyjęto 5 m od rozgraniczeń dróg po obu stronach i 4 m od pozostałych granic. Nałożenie współczesnej EGiB na stary rysunek jest orientacyjne; architekt i geodeta muszą potwierdzić linie, narożne ścięcie, okapy, okna oraz odległości pożarowe.",
+							"status": "assumed",
+							"sourceIds": [
+								"drawing",
+								"uldk"
+							]
+						},
+						{
+							"label": "Ścieki — zmiana z 2006 r.",
+							"text": "Dopuszczono przejściowy szczelny zbiornik do czasu kanalizacji, z udokumentowanym wywozem. Po jej wykonaniu należy usunąć zbiornik i podłączyć budynek. Zapis nie jest ogólną zgodą na przydomową oczyszczalnię.",
+							"status": "verified",
+							"sourceIds": [
+								"amendment"
+							]
+						},
+						{
+							"label": "Użytek RIVa",
+							"text": "Odczyt mapy wskazuje RIVa. Nie ustalono pochodzenia gleby ani istnienia lub konieczności decyzji o wyłączeniu z produkcji rolnej. Zwolnienie z opłat do 500 m² nie jest automatycznym zwolnieniem z decyzji. Potrzebne potwierdzenie starostwa.",
+							"status": "unknown",
+							"sourceIds": [
+								"gesut",
+								"agricultural"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/chwaszczyno-775-193/mpzp-parcel.png",
+							"alt": "Granica 775/193 na archiwalnym rysunku MPZP 05029",
+							"caption": "Rysunek MPZP z 2002 r. i współczesna granica ULDK; dopasowanie orientacyjne, nie mapa do projektowania."
+						},
+						{
+							"src": "assets/chwaszczyno-775-193/egib-parcel.png",
+							"alt": "Działka 775/193 i sąsiednie parcele na mapie ewidencyjnej",
+							"caption": "Odczyt 25.10.2026. Mapa nie potwierdza własności, służebności ani urzędowej powierzchni z wypisu EGiB."
+						}
+					]
+				},
+				{
+					"id": "dom-ogrod",
+					"title": "Dom i ogród",
+					"lead": "Najkorzystniej wypada szeroki obrys domu z wjazdem od NW i ogrodem od SE. Schemat nie zawiera projektu pomieszczeń.",
+					"items": [
+						{
+							"label": "Tożsamość i powierzchnia",
+							"text": "Analiza dotyczy wyłącznie 220508_5.0004.775/193. Oferta podaje 1146 m²; obliczenie poligonu ULDK daje 1143,96 m². Ta różnica nie zastępuje wypisu EGiB. Rejon ul. Bogusława jest opisem oferty, nie potwierdzonym adresem parceli.",
+							"status": "verified",
+							"sourceIds": [
+								"uldk",
+								"offer-mirror"
+							]
+						},
+						{
+							"label": "Dwa obrysy 200 m²",
+							"text": "Wariant A: 16 × 12,5 m, około 505 m² za pasem tarasu; wariant B: 10 × 20 m, około 305 m². Minimalne odległości obrysów od granic wynoszą odpowiednio około 4,66 i 5,72 m. Oba przechodzą roboczy test 5 m od dróg i 4 m od pozostałych granic, nie stanowią potwierdzenia dopuszczalności projektu.",
+							"status": "assumed",
+							"sourceIds": [
+								"uldk",
+								"drawing"
+							]
+						},
+						{
+							"label": "Bilans terenu",
+							"text": "Przy domu 200 m², podjeździe około 42 m², tarasie 30 m² i nasadzeniach około 344 m² pozostaje około 528 m² na inne funkcje. Nie jest to gwarantowany trawnik i nie należy dodawać tej powierzchni do 505 m² ogrodu za domem. Zieleń wymagana planem może leżeć w tym ogrodzie.",
+							"status": "assumed",
+							"sourceIds": [
+								"uldk",
+								"plan"
+							]
+						},
+						{
+							"label": "Program domu i zbiornik",
+							"text": "Założono garaż w bryle, gabinet, trzy sypialnie i poddasze. Nie rozrysowano pomieszczeń ani manewrowania samochodem. Rezerwa na zbiornik ściekowy na mapie jest wyłącznie koncepcyjna, z możliwą obsługą od drogi SW; wymaga sprawdzenia odległości i dostępu.",
+							"status": "assumed",
+							"sourceIds": [
+								"uldk",
+								"amendment"
+							]
+						},
+						{
+							"label": "Słońce i prywatność",
+							"text": "Drzewa po E/SE mogą zacieniać ogród rano i zimą; nie obliczono godzin nasłonecznienia. Droga SW ogranicza prywatność, a na sąsiednich działkach może powstać zabudowa. Nie potwierdzono suchego, całorocznie użytkowego trawnika.",
+							"status": "unknown",
+							"sourceIds": [
+								"ortho"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/chwaszczyno-775-193/ortofoto.png",
+							"alt": "Ortofotomapa działki 775/193 z granicami sąsiednich działek",
+							"caption": "Odczyt WMS 25.10.2026; data tego zdjęcia nieustalona. Nie potwierdza obecnego stanu drogi i zabudowy."
+						},
+						{
+							"src": "assets/chwaszczyno-775-193/warianty-domu.png",
+							"alt": "Dwa warianty obrysu domu 200 m², ogrodu i rezerwy na zbiornik",
+							"caption": "Schemat geometryczny: 5 m od dróg i 4 m od pozostałych granic. Ogród około 505 lub 305 m² nie jest zatwierdzonym bilansem nasadzeń ani potwierdzeniem suchego gruntu."
+						}
+					]
+				},
+				{
+					"id": "teren",
+					"title": "Teren, grunt i woda",
+					"lead": "NMT wskazuje niemal płaski teren. O kosztach posadowienia i suchym ogrodzie zdecydują lokalne badania.",
+					"items": [
+						{
+							"label": "Model i wysokości",
+							"text": "ALS z 08.09.2024, NMT 1 m, EPSG:2180, wysokości PL-EVRF2007-NH. Deklarowany błąd wysokości 0,07 m nie gwarantuje dokładności każdego punktu. Zakres na parceli 156,24–156,56 m; różnica 0,32 m.",
+							"status": "verified",
+							"sourceIds": [
+								"nmt"
+							]
+						},
+						{
+							"label": "Nachylenie i przekrój",
+							"text": "Dopasowana płaszczyzna ma nachylenie około 0,49% ku SE. Przekrój NW–SE na około 43 m opada z 156,53 do 156,32 m, czyli o około 0,21 m. To historyczna topografia, nie pomiar aktualnych rzędnych ani przepływu wód.",
+							"status": "verified",
+							"sourceIds": [
+								"nmt"
+							]
+						},
+						{
+							"label": "Roboty ziemne",
+							"text": "Nie ma topograficznej przesłanki dla dużych nasypów, pali lub wysokich murów. Nieznane są jednak przyszła rzędna drogi, grunty nasypowe, nośność, poziom wody i infiltracja. Nie można utożsamić płaskiego terenu z zerowym kosztem przygotowania.",
+							"status": "unknown",
+							"sourceIds": [
+								"nmt"
+							]
+						},
+						{
+							"label": "Badania i podtopienia",
+							"text": "Brak geotechniki dla parceli. Historyczny otwór hydrogeologiczny oddalony o około 611 m nie potwierdza jej podłoża. Brak trafienia w odczytanych warstwach SOPO i podtopień nie wyklucza lokalnych problemów; pełnej kontroli aktualnych MZP/MRP nie ukończono. Potrzebne odwierty, ocena wody i infiltracji oraz oględziny po deszczu.",
+							"status": "unknown",
+							"sourceIds": [
+								"sopo",
+								"hydroportal"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/chwaszczyno-775-193/teren.png",
+							"alt": "Mapa wysokości 775/193 i otoczenia na NMT",
+							"caption": "NMT 1 m, skaning 08.09.2024, PL-EVRF2007-NH. Stan historyczny; projekt wymaga aktualnego pomiaru."
+						},
+						{
+							"src": "assets/chwaszczyno-775-193/przekroje.png",
+							"alt": "Przekroje wysokości działki 775/193 i sąsiedztwa",
+							"caption": "Przekroje z NMT 08.09.2024. Skala pionowa powiększona — rysunek nie pokazuje rzeczywistego wizualnego nachylenia."
+						}
+					]
+				},
+				{
+					"id": "droga-media",
+					"title": "Droga, media i koszty",
+					"lead": "Najważniejszą niewiadomą budżetu pozostaje wykonanie dojazdu i faktyczny zakres przyłączy.",
+					"items": [
+						{
+							"label": "Droga 775/133",
+							"text": "Granica drogi biegnie przy NW i SW. Sprzedający deklaruje jej wykonanie. Nie zweryfikowano praw do całej trasy do drogi publicznej, prowadzenia mediów, parametrów i rzędnych drogi, odwodnienia, finansowania, terminu ani utrzymania. Wymagana umowa z konkretnym zakresem.",
+							"status": "unknown",
+							"sourceIds": [
+								"uldk",
+								"offer-mirror"
+							]
+						},
+						{
+							"label": "Prąd, woda i gaz",
+							"text": "Widoczne na GESUT elementy sieci leżą poza działką: prąd około 40 m na E, wodociąg około 65 m, gaz około 58 m. To przybliżone odległości na mapie, nie długości przyłączy ani potwierdzenie dostępnej mocy, ciśnienia, eksploatacji i prawa do trasy.",
+							"status": "verified",
+							"sourceIds": [
+								"gesut"
+							]
+						},
+						{
+							"label": "Kanalizacja około 35 m — tylko symbol",
+							"text": "Na E/SE występuje punktowy symbol warstwy kanalizacyjnej. Nie potwierdzono, że oznacza dostępny publiczny kolektor sanitarny. Dostępność kanalizacji oraz dopuszczalność rozwiązania tymczasowego musi potwierdzić operator i projektant.",
+							"status": "unknown",
+							"sourceIds": [
+								"gesut",
+								"amendment"
+							]
+						},
+						{
+							"label": "Stara linia SN",
+							"text": "Rysunek MPZP pokazuje linię SN przez zachodnią część parceli i przewiduje jej skablowanie. Aktualna mapa pokazuje linię po wschodniej stronie, bez oczywistego słupa na działce. Nie potwierdzono ani obecnej kolizji, ani dokumentacji wykonanej przebudowy i wygaśnięcia ograniczeń.",
+							"status": "unknown",
+							"sourceIds": [
+								"drawing",
+								"gesut",
+								"ortho"
+							]
+						},
+						{
+							"label": "Badania i zbiornik",
+							"text": "Punkt odniesienia dla podstawowej geotechniki: 1200–1800 zł netto, bez potwierdzenia zakresu dla tego terenu. Oferta wykonawcy dla zbiornika 10 m³ z montażem: 9500–14 000 zł, bez jednoznacznej informacji o podatku. Nie jest to wycena wykonawcy dla 775/193.",
+							"status": "declared",
+							"sourceIds": [
+								"geotech-price",
+								"tank-price"
+							]
+						},
+						{
+							"label": "Budżet wejścia",
+							"text": "570 000 zł plus koszty transakcyjne, badania i rzeczywiste dopłaty za drogę, przyłącza, odwodnienie lub podłoże. Brak danych nie oznacza zera. Przy standardowej płycie na dobrym gruncie należy liczyć tylko uzasadnione koszty dodatkowe, bez ponownego doliczania całej płyty. Nie ustalono wiarygodnej kwoty łącznej.",
+							"status": "unknown",
+							"sourceIds": [
+								"offer-mirror"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/chwaszczyno-775-193/gesut-kartuski-775-193-overlay.png",
+							"alt": "Mapa sieci GESUT z obrysem działki 775/193",
+							"caption": "Odczyt 25.10.2026. Mapa nie stanowi warunków przyłączenia. Symbol kanalizacji około 35 m od działki nie potwierdza czynnego publicznego kolektora."
+						}
+					]
+				},
+				{
+					"id": "otoczenie",
+					"title": "Otoczenie i codzienność",
+					"lead": "Znane są obwód szkolny i położenie względem otuliny parku oraz OOU lotniska. Hałas wymaga osobnej oceny.",
+					"items": [
+						{
+							"label": "Szkoła obwodowa",
+							"text": "SP im. Adama Mickiewicza, ul. Mickiewicza 16 w Chwaszczynie. Uchwała LXIV/833/2023 obejmuje całe Chwaszczyno i Nowy Świat od 1.09.2024. W przeglądzie do 25.10.2026 nie znaleziono nowszej zmiany; nie jest to pełny audyt wszystkich aktów ani potwierdzenie organizacji roku szkolnego 2026/27.",
+							"status": "verified",
+							"sourceIds": [
+								"school"
+							]
+						},
+						{
+							"label": "Przyroda",
+							"text": "Działka leży w otulinie Trójmiejskiego Parku Krajobrazowego, poza samym parkiem. Sprawdzone warstwy nie wykazały przecięcia z Natura 2000, obszarem chronionego krajobrazu ani rezerwatem. Nie jest to inwentaryzacja gatunków.",
+							"status": "verified",
+							"sourceIds": [
+								"gdos"
+							]
+						},
+						{
+							"label": "Lotnisko i hałas",
+							"text": "Obliczenie względem granicy OOU z uchwały 203/XVIII/16 wskazuje położenie poza obszarem, około 4,16 km od jego zewnętrznej granicy. Lotnisko nadal wskazuje ten akt. Położenie poza OOU nie oznacza ciszy; nie odczytano rozstrzygająco aktualnych izofon LDWN/LN.",
+							"status": "verified",
+							"sourceIds": [
+								"oou",
+								"airport"
+							]
+						},
+						{
+							"label": "Pozostałe luki",
+							"text": "Nie ukończono pełnej kontroli zabytków i aktualnej ochrony ujęcia Straszyn. Czasy dojazdu, bezpieczne dojście do szkoły i komfort akustyczny wymagają oględzin według codziennych potrzeb.",
+							"status": "unknown",
+							"sourceIds": []
+						}
+					],
+					"figures": []
+				},
+				{
+					"id": "cena",
+					"title": "Cena i transakcje porównawcze",
+					"lead": "570 000 zł za 1146 m² daje 497,38 zł/m². To poziom mieszczący się w rozrzucie pobliskich transakcji, bez dowodu na okazję.",
+					"items": [
+						{
+							"label": "Właściwa parcela w ofercie zbiorczej",
+							"text": "570 000 zł i 1146 m² dotyczą 775/193. Nagłówkowe 530 000 zł i 1001 m² dotyczą 775/190. Bezpośredni odczyt Otodom był niedostępny; wykorzystano lustro ogłoszenia w Gratka, dodane 21.10.2026.",
+							"status": "declared",
+							"sourceIds": [
+								"offer",
+								"offer-mirror"
+							]
+						},
+						{
+							"label": "Dwie bliskie transakcje z 2026 r.",
+							"text": "RCN: 775/69 — 10.07.2026, 1123 m², 535 000 zł, 476,40 zł/m², około 325 m od działki. 775/70 — 30.07.2026, 1135 m², 630 000 zł, 555,07 zł/m², około 330 m. Nie ustalono wszystkich różnic w prawach, uzbrojeniu i gruncie.",
+							"status": "verified",
+							"sourceIds": [
+								"rcn"
+							]
+						},
+						{
+							"label": "Transakcja pakietowa",
+							"text": "26.03.2025: 775/114 i 775/120, łącznie 1357 m² za 720 000 zł, czyli 530,58 zł/m²; około 440 m. Ceny pakietu nie przypisano osobno każdej działce. Starsze przykłady: 775/94 w 2023 r. — 390,04 zł/m², 775/198 w 2022 r. — 443,23 zł/m², 775/203 w 2022 r. — 356,23 zł/m².",
+							"status": "verified",
+							"sourceIds": [
+								"rcn"
+							]
+						},
+						{
+							"label": "Ograniczenia porównania",
+							"text": "Próba obejmuje wybrane parcele 775/* od 2022 r.: 17 rekordów i sześć zweryfikowanych identyfikatorów transakcji z kontrolą całych pakietów. Nie jest to pełny rynek ani operat szacunkowy. Nieznane dopłaty do drogi i mediów mogą zmienić atrakcyjność ceny.",
+							"status": "unknown",
+							"sourceIds": [
+								"rcn"
+							]
+						}
+					],
+					"figures": []
+				}
+			],
+			"risks": [
+				{
+					"title": "Niepotwierdzona droga i jej wykonanie",
+					"detail": "Potrzebne prawa do każdego odcinka, do prowadzenia mediów oraz umowa określająca standard, rzędne, odwodnienie, cenę i termin.",
+					"severity": "high"
+				},
+				{
+					"title": "Media bez warunków operatorów",
+					"detail": "Odległości od sieci i punkt kanalizacji nie potwierdzają przyłączenia. Koszt i harmonogram pozostają nieustalone.",
+					"severity": "high"
+				},
+				{
+					"title": "Suchy ogród bez geotechniki",
+					"detail": "Płaski NMT nie wyklucza słabej infiltracji, wysokiej wody lub nasypów. Nie ma podstaw do gwarancji standardowego posadowienia.",
+					"severity": "high"
+				},
+				{
+					"title": "Linie zabudowy, SN i RIVa",
+					"detail": "Aktualny projekt musi potwierdzić oba odsunięcia od dróg, los starej linii SN i formalności wyłączenia rolnego.",
+					"severity": "medium"
+				},
+				{
+					"title": "Nasadzenia i komfort ogrodu",
+					"detail": "Około 344 m² drzew i krzewów wpływa na bilans użytkowy; droga SW i drzewa E/SE na prywatność i światło.",
+					"severity": "medium"
+				}
+			],
+			"questions": [
+				{
+					"id": "droga-prawa",
+					"text": "Jakie dokumenty potwierdzają prawa do całej trasy do drogi publicznej, zjazdu i prowadzenia mediów?"
+				},
+				{
+					"id": "droga-budowa",
+					"text": "Kto, za ile i kiedy wykona drogę 775/133; jakie będą jej rzędne, nawierzchnia, odwodnienie i zasady utrzymania?"
+				},
+				{
+					"id": "media",
+					"text": "Czy operatorzy wydali pisemne warunki dla prądu, wody i ewentualnego gazu oraz potwierdzili trasy przyłączy?"
+				},
+				{
+					"id": "kanalizacja",
+					"text": "Czy istnieje dostępny publiczny kolektor sanitarny, a jeśli nie, jakie warunki obowiązują dla tymczasowego zbiornika?"
+				},
+				{
+					"id": "geotechnika",
+					"text": "Czy odwierty oraz badania wody i infiltracji potwierdzą standardowe posadowienie i suchy ogród także po opadach?"
+				},
+				{
+					"id": "mpzp-sn",
+					"text": "Czy aktualny wypis i wyrys oraz operator energii potwierdzą linie zabudowy i usunięcie ograniczeń starej linii SN?"
+				},
+				{
+					"id": "riva",
+					"text": "Jakie jest pochodzenie gleby RIVa i czy istnieje lub jest wymagana decyzja o wyłączeniu z produkcji rolnej?"
+				},
+				{
+					"id": "projekt",
+					"text": "Czy projekt domu z garażem, gabinetem i trzema sypialniami zachowa 30% nasadzeń oraz wygodny podjazd, taras i ogród?"
+				},
+				{
+					"id": "teren-otoczenie",
+					"text": "Co pokażą oględziny po deszczu i w godzinach ruchu oraz pełne sprawdzenie MZP/MRP, hałasu, zabytków i ochrony ujęcia?"
+				},
+				{
+					"id": "cena-zakres",
+					"text": "Czy 570 000 zł obejmuje wszystkie udziały drogowe i zobowiązania sprzedającego; jakie dopłaty pozostaną po stronie nabywcy?"
+				}
+			],
+			"sources": [
+				{
+					"id": "offer",
+					"label": "Ogłoszenie Otodom",
+					"url": "https://www.otodom.pl/pl/oferta/chwaszczyno-twoja-przestrzen-na-wymarzony-dom-bl-ID4DD65",
+					"note": "Oferta zbiorcza. Bezpośredni odczyt niedostępny podczas analizy; dane 775/193 z lustra Gratka."
+				},
+				{
+					"id": "offer-mirror",
+					"label": "Lustro oferty — Gratka",
+					"url": "https://gratka.pl/nieruchomosci/dzialka-kartuski-zukowo-boguslawa/ob/49365509",
+					"note": "Ogłoszenie dodane 21.10.2026; deklaracje sprzedającego, odczyt 25.10.2026."
+				},
+				{
+					"id": "uldk",
+					"label": "GUGiK — geometria ULDK",
+					"url": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=220508_5.0004.775%2F193&result=id,geom_wkt,commune,region,parcel,datasource&srid=2180",
+					"note": "Granice i identyfikator pobrane 25.10.2026. Obliczona powierzchnia nie zastępuje wypisu EGiB."
+				},
+				{
+					"id": "plan",
+					"label": "MPZP 05029 — tekst uchwały",
+					"url": "https://bip.zukowo.pl/api/files/108363",
+					"note": "XLV/781/2002, 30.08.2002; 3MN i ustalenia ogólne."
+				},
+				{
+					"id": "drawing",
+					"label": "MPZP 05029 — rysunek",
+					"url": "https://bip.zukowo.pl/api/files/108362",
+					"note": "Archiwalny rysunek: linie zabudowy i linia SN. Nałożenie współczesnych granic orientacyjne."
+				},
+				{
+					"id": "amendment",
+					"label": "MPZP 05029z — zmiana",
+					"url": "https://bip.zukowo.pl/api/files/108360",
+					"note": "IV/52/2006, 29.12.2006; przejściowe zbiorniki ściekowe."
+				},
+				{
+					"id": "bip",
+					"label": "BIP Żukowo — karta planu",
+					"url": "https://bip.zukowo.pl/api/articles/67967",
+					"note": "Wykaz dokumentów sprawdzony 25.10.2026; bez pełnego audytu orzeczeń."
+				},
+				{
+					"id": "nmt",
+					"label": "GUGiK — plik NMT",
+					"url": "https://opendata.geoportal.gov.pl/NumDaneWys/NMT/81008/81008_1561282_N-34-49-D-b-4-3.asc",
+					"note": "ALS 08.09.2024, siatka 1 m, EPSG:2180, PL-EVRF2007-NH; stan historyczny."
+				},
+				{
+					"id": "ortho",
+					"label": "GUGiK — ortofotomapa WMS",
+					"url": "https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMS/StandardResolution",
+					"note": "Odczyt 25.10.2026; nie potwierdzono daty konkretnego zdjęcia użytego w mapie."
+				},
+				{
+					"id": "gesut",
+					"label": "Powiat kartuski — EGiB i GESUT",
+					"url": "https://kartuski-wms.webewid.pl/iip/ows",
+					"note": "Odczyt 25.10.2026. Sieci i użytki mapowe, bez potwierdzenia tytułów prawnych i przyłączenia."
+				},
+				{
+					"id": "rcn",
+					"label": "Powiat kartuski — RCN",
+					"url": "https://kartuski-wms.webewid.pl/iip/ows/rcn",
+					"note": "Wybrane transakcje 2022–2026, odczyt 25.10.2026. Pakiety weryfikowane łącznie; nie operat."
+				},
+				{
+					"id": "school",
+					"label": "Uchwała obwodów szkół 2023/4964",
+					"url": "https://edziennik.gdansk.uw.gov.pl/WDU_G/2023/4964/akt.pdf",
+					"note": "LXIV/833/2023, obowiązywanie od 1.09.2024; załącznik, wiersz 4."
+				},
+				{
+					"id": "gdos",
+					"label": "GDOŚ — formy ochrony przyrody",
+					"url": "https://sdi.gdos.gov.pl/wfs",
+					"note": "Wybrane warstwy sprawdzone 25.10.2026, w tym otulina TPK; bez badania gatunków."
+				},
+				{
+					"id": "oou",
+					"label": "Uchwała OOU lotniska 2016/1093",
+					"url": "https://edziennik.gdansk.uw.gov.pl/wdu_g/2016/1093/akt.pdf",
+					"note": "203/XVIII/16; odległość obliczona z zewnętrznego poligonu 51 punktów załącznika 2. Nie mapa hałasu."
+				},
+				{
+					"id": "airport",
+					"label": "Lotnisko Gdańsk — OOU",
+					"url": "https://www.airport.gdansk.pl/lotnisko/ochrona-srodowiska/obszar-ograniczonego-uzytkowania-oou",
+					"note": "Strona wskazująca akt OOU, sprawdzona 25.10.2026."
+				},
+				{
+					"id": "sopo",
+					"label": "PIG-PIB — SOPO",
+					"url": "https://geoportal.pgi.gov.pl/sopo/",
+					"note": "Przegląd warstwy osuwisk nie zastępuje badań geotechnicznych."
+				},
+				{
+					"id": "hydroportal",
+					"label": "Wody Polskie — Hydroportal",
+					"url": "https://wody.isok.gov.pl/imap_kzgw/",
+					"note": "Źródło do uzupełnienia pełnej kontroli MZP/MRP; w analizie brak rozstrzygającego sprawdzenia."
+				},
+				{
+					"id": "agricultural",
+					"label": "Ustawa o ochronie gruntów rolnych i leśnych",
+					"url": "https://eli.gov.pl/eli/DU/2024/82/ogl",
+					"note": "Punkt odniesienia formalności wyłączenia. Dla konkretnej działki potrzebne ustalenia starosty."
+				},
+				{
+					"id": "geotech-price",
+					"label": "MS Geotechnika — ceny orientacyjne",
+					"url": "https://ms-geotechnika-pomorskie.pl/geologia-gdansk/",
+					"note": "1200–1800 zł netto; odczyt 25.10.2026, zakres dla parceli niepotwierdzony."
+				},
+				{
+					"id": "tank-price",
+					"label": "Instalbud Kaszuby — zbiornik z montażem",
+					"url": "https://instalbudkaszuby.pl/wykop-pod-szambo-cena-pomorskie/",
+					"note": "9500–14 000 zł za 10 m³; odczyt 25.10.2026. Podstawa podatkowa niepodana jednoznacznie."
+				}
+			]
 		}
 	]
 }

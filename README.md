@@ -4,7 +4,7 @@ Publiczny hub analiz działek pod dom w Trójmieście i okolicach.
 
 **Strona:** https://patrykmilewski.github.io/dzialki-hub/
 
-Pierwsza analiza: **220508_5.0004.750/73, Chwaszczyno**, stan ustaleń 25.10.2026. Katalog, porównanie, mapy, źródła, ryzyka, lista pytań oraz kalkulator wspólnej drogi i mediów.
+Analizy: **220508_5.0004.750/73** i **220508_5.0004.1209/2**, Chwaszczyno, stan ustaleń 25.10.2026. Katalog, porównanie, mapy, źródła, ryzyka i listy pytań. Kalkulator wspólnej drogi i mediów dotyczy wyłącznie 750/73; dla 1209/2 koszt przygotowania pozostaje nieustalony.
 
 ## Uruchomienie i sprawdzenie
 
@@ -19,7 +19,7 @@ Otwórz http://127.0.0.1:8767/. Strona wymaga HTTP ze względu na pobieranie JSO
 
 ## Dodawanie kolejnej działki
 
-1. Dodaj rekord do `data/plots.json`, zachowując strukturę istniejącego rekordu i unikalny `slug`, identyfikator działki oraz identyfikatory źródeł i pytań. Ustaw własne `updatedAt`, `imageLabel`, `cardNotice`, cenę i wnioski.
+1. Dodaj rekord do `data/plots.json`, zachowując strukturę istniejącego rekordu i unikalny `slug`, identyfikator działki oraz identyfikatory źródeł i pytań. Ustaw własne `updatedAt`, `imageLabel`, `imageAlt`, `cardNotice`, cenę i wnioski.
 2. Umieść mapy w osobnym `assets/<numer>/`. Podaj datę zobrazowania, pochodzenie danych i ograniczenia w podpisach. `hero` jest mapą główną; `thumbnail` jej alternatywą.
 3. Sekcje, fakty, pytania i źródła są renderowane z danych. Status dowodu: `verified`, `declared`, `assumed` lub `unknown`. Status całej analizy: `conditional`, `favorable` lub `excluded`.
 4. `costFile` jest opcjonalne. Obecny formularz i opis kalkulacji w `scripts/calculator.js` dotyczą **wyłącznie 750/73**. Dla kolejnej działki pomiń to pole, dopóki nie przygotujesz jej osobnego modelu, opisu zakresu i mapy trasy. Nie kopiuj kosztów Chwaszczyna bez dostosowania.
@@ -44,6 +44,6 @@ Warianty oszczędniejsze wymagają potwierdzenia nośności gruntu i konstrukcji
 
 ## Źródła i prywatność
 
-Źródła merytoryczne oraz ograniczenia znajdują się w rekordzie działki i na stronie. Mapy są opracowaniami analitycznymi na podstawie wskazanych danych publicznych; ortofotomapa jest archiwalna, z 23.04.2023. Pełnej decyzji WZ, praw do drogi i końców sieci nie zweryfikowano dokumentami.
+Źródła merytoryczne oraz ograniczenia znajdują się w rekordzie działki i na stronie. Mapy są opracowaniami analitycznymi na podstawie wskazanych danych publicznych. Dla 750/73 ortofotomapa pochodzi z 23.04.2023; pełnej decyzji WZ, praw do drogi i końców sieci nie zweryfikowano dokumentami. Dla 1209/2 wykorzystano NMT z 08.09.2024, a konkretna data zdjęcia w mozaice ortofotomapy pozostaje niepotwierdzona. Granica dwóch MPZP jest orientacyjna; test obrysów domu nie jest projektem ani potwierdzeniem dopuszczalności zabudowy.
 
 Brak analityki, backendu, kluczy API i formularza wysyłającego wiadomości. Lista pytań zapisuje tylko identyfikatory zaznaczeń w `localStorage` użytkownika. Czcionki są pobierane z Google Fonts; pozostałe zasoby strony są lokalne. Repozytorium i wszystkie jego dane są publiczne.

@@ -1,8 +1,8 @@
 import { calculateCosts, roadTypes } from "./model.js";
 import { escapeHtml as e, range, rangeThousands, money } from "./ui.js";
 
-export function calculatorMarkup() {
-	return `<section id="koszty" class="report-section cost-section"><div class="section-heading"><span class="section-no">06</span><div><span class="eyebrow">DROGA I MEDIA</span><h2>Ile dopłacisz do działki?</h2></div></div>
+export function calculatorMarkup(sectionNumber = 6) {
+	return `<section id="koszty" class="report-section cost-section"><div class="section-heading"><span class="section-no">${String(sectionNumber).padStart(2, "0")}</span><div><span class="eyebrow">DROGA I MEDIA</span><h2>Ile dopłacisz do działki?</h2></div></div>
     <p class="section-lead">Sprawdź udział w kosztach wspólnych oraz przyłącza, które finansujesz samodzielnie. Kwoty brutto, stan kalkulacji: 25.10.2026.</p>
     <div class="notice"><strong>Scenariusz, nie potwierdzone uzbrojenie.</strong> Przyjmujemy, że droga, wodociąg i sieć elektryczna dochodzą do rejonu 750/54. Od punktu A pozostaje około 192 m — do budżetu 200 m. Dokładnych końców sieci i zgód na finansowanie nie potwierdzono.</div>
     <div class="cost-layout"><form id="cost-form" class="cost-controls" aria-label="Założenia kalkulacji">

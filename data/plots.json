@@ -511,6 +511,610 @@
 				"title": "Najpierw sprawdź WZ",
 				"text": "Pełna decyzja nie została udostępniona."
 			}
+		},
+		{
+			"slug": "chwaszczyno-1209-2",
+			"id": "220508_5.0004.1209/2",
+			"number": "1209/2",
+			"title": "Zaciszna / Kawelska",
+			"location": "Chwaszczyno · gmina Żukowo",
+			"areaM2": 1108,
+			"pricePln": 700000,
+			"pricePerM2": 631.77,
+			"updatedAt": "2026-10-25",
+			"statusKey": "excluded",
+			"statusLabel": "Odrzucone",
+			"summary": "Istotne niedopasowanie do domu z dużym, wygodnym ogrodem. Różnica terenu 12,64 m, dwa MPZP i niewycenione zabezpieczenie zbocza. Obrys domu 200 m² mieści się geometrycznie, ale nie rozstrzyga wjazdu i ogrodu.",
+			"verdict": {
+				"title": "Istotne niedopasowanie do dużego ogrodu",
+				"text": "Ocena dotyczy domu o zabudowie około 200 m² z garażem, poddaszem, gabinetem i trzema sypialniami oraz dużego suchego ogrodu. Przy cenie 700 tys. zł działka nie jest rekomendowana dla tego profilu. Nie stwierdzono bezwzględnego zakazu budowy. Indywidualny dom na stoku i ogród tarasowy można rozważyć po badaniach stateczności, projekcie i wycenie; oznacza to zmianę oczekiwań wobec użytkowania."
+			},
+			"offerUrl": "https://chwaszczyno.nieruchomosci-online.pl/dzialka,na-sprzedaz/26620200.html",
+			"thumbnail": "assets/chwaszczyno-1209-2/teren-szczegoly.png",
+			"hero": "assets/chwaszczyno-1209-2/teren-szczegoly.png",
+			"imageLabel": "MAPA WYSOKOŚCI · NMT 08.09.2024",
+			"imageAlt": "Mapa wysokości działki 1209/2: teren opada od zachodu ku drodze na południowym wschodzie",
+			"cardNotice": {
+				"title": "Skarpa, wjazd i ogród wymagają wspólnego projektu",
+				"text": "12,64 m różnicy terenu nie oznacza jednego muru tej wysokości. Koszt zabezpieczeń i użyteczna powierzchnia ogrodu pozostają nieustalone."
+			},
+			"facts": [
+				{
+					"label": "Różnica wysokości",
+					"value": "12,64 m",
+					"note": "Obliczenie z NMT 2024: 142,13–154,77 m; nie pomiar terenu z 2026 r.",
+					"status": "verified"
+				},
+				{
+					"label": "Podejście od drogi",
+					"value": "średnio 32,2%",
+					"note": "Obliczenie przekroju: 12,08 m na 37,5 m; lokalne nachylenia są różne.",
+					"status": "verified"
+				},
+				{
+					"label": "Dom około 200 m²",
+					"value": "Dwa obrysy mieszczą się",
+					"note": "Test 16 × 12,5 m i 18 × 11,11 m; nie potwierdzenie wykonalności projektu.",
+					"status": "assumed"
+				},
+				{
+					"label": "Planowanie",
+					"value": "1MN + 2.MN11",
+					"note": "Dwie uchwały: 2010 i 2014. Oferta wskazuje tylko starszą.",
+					"status": "verified"
+				},
+				{
+					"label": "Przygotowanie terenu",
+					"value": "Brak pełnej wyceny",
+					"note": "Niewycenione konstrukcje oporowe, odwodnienie, ogród i przyłącza.",
+					"status": "unknown"
+				},
+				{
+					"label": "Szkoła obwodowa",
+					"value": "SP w Chwaszczynie",
+					"note": "SP im. Adama Mickiewicza, Mickiewicza 16; obwód całej miejscowości, 2026/27.",
+					"status": "verified"
+				}
+			],
+			"sections": [
+				{
+					"id": "planowanie",
+					"title": "Dwa plany i ochrona ujęcia",
+					"lead": "Oferta nie przedstawia całego układu planistycznego. Granicę dwóch planów odczytano z georeferencjonowanego rastra.",
+					"items": [
+						{
+							"label": "Tożsamość i powierzchnia",
+							"text": "ULDK potwierdza 220508_5.0004.1209/2. Oferta podaje 1108 m², geometria daje 1106,22 m² (różnica 0,16%). Pole geometrii nie zastępuje wypisu EGiB.",
+							"status": "verified",
+							"sourceIds": [
+								"uldk",
+								"offer"
+							]
+						},
+						{
+							"label": "Zachodnia część 1MN",
+							"text": "Plan XLIII/710/2010: do 25% zabudowy, minimum 25% PBC, dom do 10 m i dwóch kondygnacji nadziemnych z poddaszem, dach dwuspadowy 21–45°. Brak liczbowej intensywności w odczytanym tekście. Około 451 m² parceli według orientacyjnej digitalizacji.",
+							"status": "verified",
+							"sourceIds": [
+								"mpzp-2010",
+								"sip"
+							]
+						},
+						{
+							"label": "Wschodnia część 2.MN11",
+							"text": "Plan L/620/2014, §10 karta 3: do 50% powierzchni zabudowy, intensywność 0–0,7, PBC minimum 20%, dom do 10 m, dwie kondygnacje nadziemne z poddaszem, dach symetryczny dwuspadowy 22–45°. Kalenica zasadniczo równolegle do drogi, linia zabudowy 6 m. Około 655 m² parceli.",
+							"status": "verified",
+							"sourceIds": [
+								"mpzp-2014",
+								"sip"
+							]
+						},
+						{
+							"label": "Bilans i niwelacja",
+							"text": "Granica planów ma założoną niepewność około 1–2 m. Nie należy mnożyć jednego wskaźnika przez całe 1108 m². Plan 2014 ogranicza przekształcanie rzeźby; duży nasyp ogrodu nie jest automatycznie dopuszczony. Posadzka parteru ma limit 0,60 m, a wysokość liczy się od najniżej położonej części pierwszej kondygnacji.",
+							"status": "verified",
+							"sourceIds": [
+								"mpzp-2014",
+								"mpzp-2010"
+							]
+						},
+						{
+							"label": "Strefa ujęcia Osowa",
+							"text": "Rozporządzenie z 25.10.2020 obejmuje pierwotną 1209. Zakazuje m.in. ścieków do ziemi i wód, prywatnych studni, mycia samochodów oraz parkingów naziemnych ponad 100 m². Oczyszczalnia rozsączająca z ogłoszenia nie jest potwierdzonym rozwiązaniem. Pozostaje sprawdzenie kanalizacji lub dopuszczonego planem szczelnego zbiornika.",
+							"status": "verified",
+							"sourceIds": [
+								"osowa",
+								"mpzp-2014"
+							]
+						},
+						{
+							"label": "RVI i projekt sąsiedniego planu",
+							"text": "Mapa EGiB wskazuje RVI, nie Ls; pochodzenie mineralne/organiczne i status wyłączenia z produkcji wymagają dokumentów. Projekt przy Widokowej, Spacerowej i Zacisznej z 11.08.2026 nie obejmuje 1209/2; leży na południe. Nie ustalono późniejszego uchwalenia.",
+							"status": "verified",
+							"sourceIds": [
+								"egib",
+								"projekt-2026"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/chwaszczyno-1209-2/mpzp-parcela.png",
+							"alt": "Granica działki 1209/2 na rastrze dwóch planów miejscowych",
+							"caption": "SIP GISON i ULDK, odczyt 25.10.2026. Zachód: 1MN z 2010 r.; wschód: 2.MN11 z 2014 r. Orientacyjna granica planów ±1–2 m; nie urzędowy pomiar powierzchni stref."
+						}
+					]
+				},
+				{
+					"id": "dom-ogrod",
+					"title": "Dom, podjazd i ogród",
+					"lead": "Dom geometrycznie się mieści. Konflikt dotyczy poziomów podłogi, wjazdu i wygodnego ogrodu na zboczu.",
+					"items": [
+						{
+							"label": "Założenia testu",
+							"text": "Dom około 200 m² zabudowy razem z garażem, poddasze użytkowe, gabinet i trzy sypialnie; możliwa antresola. Testowe prostokąty nie potwierdzają programu pomieszczeń. Robocze odsunięcia: 4,5 m od granic i 7 m od drogi; aktualne odległości, okapy, ppoż. i sieci wymagają projektu.",
+							"status": "assumed",
+							"sourceIds": [
+								"uldk",
+								"mpzp-2014"
+							]
+						},
+						{
+							"label": "Dwa warianty bryły",
+							"text": "A: 16 × 12,5 m, NMT pod domem 143,56–145,84 m (2,28 m różnicy). B: 18 × 11,11 m, 143,62–145,70 m (2,08 m). Oba leżą w przybliżonym obszarze 2.MN11. Garaż 6 × 6 m to szkic wymiarów zewnętrznych, nie sprawdzony wygodny G2.",
+							"status": "assumed",
+							"sourceIds": [
+								"nmt",
+								"sip"
+							]
+						},
+						{
+							"label": "Scenariusz podjazdu 8%",
+							"text": "Przy około 7 m podjazdu i rzędnej drogi około 142,32 m podłoga wypada około 142,9 m. Grunt pod bryłą leży wtedy 0,7–3,0 m wyżej. Uproszczone cięcie do podłogi wynosi 338–360 m³; nie obejmuje fundamentu, zapasu roboczego, podparcia skarpy ani odwodnienia i nie jest objętością luźnego wywozu.",
+							"status": "assumed",
+							"sourceIds": [
+								"nmt"
+							]
+						},
+						{
+							"label": "Pozostały teren to nie gotowy ogród",
+							"text": "Po domu, pasie podjazdu i tarasie pozostaje około 831–832 m², lecz obejmuje to skarpę, pasy boczne, przyszłe dojścia, ścieki i zabezpieczenia. Nie ustalono powierzchni suchego, wygodnego ogrodu. Podniesienie domu ogranicza cięcie, ale pogarsza spadek wjazdu.",
+							"status": "assumed",
+							"sourceIds": [
+								"nmt"
+							]
+						},
+						{
+							"label": "Światło i prywatność",
+							"text": "Taras po SW jest możliwy do rozważenia. Wysoki teren od W/NW, drzewa i dom na górnej platformie ograniczają pewność dobrego nasłonecznienia i prywatności. Brak pełnej analizy godzin słońca zimą i w równonoc; sam grunt jest bardziej otwarty ku S i SE.",
+							"status": "unknown",
+							"sourceIds": [
+								"orto",
+								"nmt"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/chwaszczyno-1209-2/warianty-domu.png",
+							"alt": "Dwa warunkowe obrysy domu 200 m² z garażem, podjazdem i tarasem",
+							"caption": "Test geometryczny A/B, nie projekt. NMT GUGiK 08.09.2024; ULDK i SIP 25.10.2026. Teren pod bryłą różni się o 2,1–2,3 m. Nie potwierdzono niwelacji, stateczności i końcowych rzędnych."
+						}
+					]
+				},
+				{
+					"id": "teren-woda",
+					"title": "Teren, skarpa i woda",
+					"lead": "Górna część jest stromsza; dolny pas pozwala ustawiać dom wzdłuż warstwic, ale także wymaga robót.",
+					"items": [
+						{
+							"label": "Urzędowy NMT 2024",
+							"text": "Obliczenie na siatce 1 m: 142,13–154,77 m n.p.m., czyli 12,64 m różnicy. Dane ALS z 08.09.2024, EPSG:2180 / PL-EVRF2007-NH. Deklarowany błąd średni 0,07 m nie jest gwarancją dokładności na każdej skarpie. To nie aktualny pomiar geodety.",
+							"status": "verified",
+							"sourceIds": [
+								"nmt"
+							]
+						},
+						{
+							"label": "Przekroje",
+							"text": "Od drogi SE ku NW: 12,08 m podejścia na 37,5 m, średnio 32,2%. Wzdłuż warstwic SW–NE: około 0,50 m zakresu na 30 m. Średnia nie opisuje lokalnego maksimum. Różnica 12,64 m nie oznacza jednego muru takiej wysokości.",
+							"status": "verified",
+							"sourceIds": [
+								"nmt"
+							]
+						},
+						{
+							"label": "Stateczność i geotechnika",
+							"text": "Plan 2010 oznacza potencjalne ruchy masowe i wymaga rozpoznania geologii oraz stateczności skarp. Nie ma badań tej działki. Odczyt SOPO nie zwrócił obiektów, ale był ograniczony i nie obala wymogu planu. Nie ma podstaw przesądzać o palach ani je wykluczać.",
+							"status": "unknown",
+							"sourceIds": [
+								"mpzp-2010",
+								"sopo"
+							]
+						},
+						{
+							"label": "Wody i regionalne otwory",
+							"text": "NMT wskazuje spływ z W/NW ku SE. Poziom wód gruntowych, sączenia, odbiornik i parcelowe zagrożenie powodziowe pozostają nieustalone. Najbliższy odnaleziony otwór PIG jest około 149 m od centroidu, ma 172 m głębokości i pochodzi z 1975 r.; metadane nie są badaniem fundamentów.",
+							"status": "unknown",
+							"sourceIds": [
+								"nmt",
+								"pig"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/chwaszczyno-1209-2/teren.png",
+							"alt": "Ortofotomapa i mapa wysokości działki 1209/2 oraz sąsiedztwa",
+							"caption": "Granice ULDK 25.10.2026; NMT ALS 08.09.2024, 1 m, EVRF2007. Orto: mozaika WMS, konkretna data zdjęcia niepotwierdzona. Mapa nie określa poziomu wody ani dzisiejszych nasypów."
+						},
+						{
+							"src": "assets/chwaszczyno-1209-2/teren-szczegoly.png",
+							"alt": "Szczegółowa mapa wysokości 1209/2 z liniami przekrojów",
+							"caption": "NMT ALS 08.09.2024, siatka 1 m; granice ULDK. Warstwice i linie A–A, B–B, C–C służą odczytowi przekrojów. Pełna mapa użyta także w nagłówku analizy."
+						},
+						{
+							"src": "assets/chwaszczyno-1209-2/przekroje.png",
+							"alt": "Trzy przekroje NMT z zaznaczonym odcinkiem w granicach 1209/2",
+							"caption": "NMT 08.09.2024, interpolacja biliniowa. Skala pionowa celowo powiększona; przekrój C biegnie zachód–wschód siatki EPSG:2180. Przecięcie granicy nie dowodzi uskoku lub konstrukcji oporowej."
+						}
+					]
+				},
+				{
+					"id": "media-dojazd",
+					"title": "Dostęp i media",
+					"lead": "Sieci widoczne na mapie nie potwierdzają przyłączy, ich wydajności ani kosztów.",
+					"items": [
+						{
+							"label": "Woda, gaz i energia",
+							"text": "KIUT pokazuje wodę i gaz w drodze SE oraz energię w drodze i przy NE oraz górnym NW skraju. Trzeba sprawdzić kolizje wykopu i zabezpieczeń z sieciami. Warunków gestorów nie uzyskano.",
+							"status": "verified",
+							"sourceIds": [
+								"kiut"
+							]
+						},
+						{
+							"label": "Ścieki",
+							"text": "Na sprawdzonym widoku KIUT nie ma narysowanej kanalizacji; nie dowodzi to braku sieci. Potrzebne potwierdzenie możliwości przyłączenia lub projektu szczelnego zbiornika z dostępem do wywozu. Zakaz ścieków do ziemi i wód ogranicza wariant oczyszczalni.",
+							"status": "unknown",
+							"sourceIds": [
+								"kiut",
+								"osowa",
+								"mpzp-2014"
+							]
+						},
+						{
+							"label": "Dojazd prawny i zjazd",
+							"text": "Droga jest widoczna przy SE. Dokument transportowy opisuje Kawelską jako drogę wewnętrzną. Własności, służebności, ciągłego dostępu do drogi publicznej, możliwości zjazdu i zasad utrzymania nie potwierdzono.",
+							"status": "unknown",
+							"sourceIds": [
+								"droga",
+								"orto"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/chwaszczyno-1209-2/media.png",
+							"alt": "Publiczna mapa KIUT: woda, gaz, energia i widok kanalizacji przy 1209/2",
+							"caption": "KIUT i ULDK, odczyt 25.10.2026. Zapis mapowy nie potwierdza czynnego statusu sieci i warunków przyłączenia. Pusty widok kanalizacji nie jest dowodem jej braku."
+						}
+					]
+				},
+				{
+					"id": "otoczenie",
+					"title": "Otoczenie i szkoła",
+					"lead": "Ustalono obwód szkoły i położenie wobec obszarów ochrony. Komfort akustyczny wymaga osobnej oceny.",
+					"items": [
+						{
+							"label": "Szkoła obwodowa",
+							"text": "SP im. Adama Mickiewicza w Chwaszczynie, ul. Mickiewicza 16. Uchwała LXIV/833/2023 obejmuje miejscowość Chwaszczyno; sprawdzenie na rok szkolny 2026/2027. Przyszłe zmiany sieci pozostają możliwe.",
+							"status": "verified",
+							"sourceIds": [
+								"szkola"
+							]
+						},
+						{
+							"label": "Przyroda i lotnisko",
+							"text": "Obliczenie z GDOŚ WFS: cała parcela w otulinie Trójmiejskiego Parku Krajobrazowego; sam park około 836 m od granicy. Działka poza OOU lotniska według geometrii uchwały 2016, około 4,7 km do granicy zewnętrznej. Otulina nie jest terenem parku, a poza OOU nie znaczy bez hałasu.",
+							"status": "verified",
+							"sourceIds": [
+								"gdos",
+								"oou"
+							]
+						},
+						{
+							"label": "Hałas i roślinność",
+							"text": "Nie ustalono parcelowej izofony drogowej, kolejowej ani pomiaru hałasu. Nie określono gatunków i prawa wycinki. Roślinność może wpływać na stabilność skarpy; sam wygląd ortofotomapy nie rozstrzyga prac przygotowawczych.",
+							"status": "unknown",
+							"sourceIds": [
+								"orto"
+							]
+						},
+						{
+							"label": "Dojazdy do celów codziennych",
+							"text": "Nie wskazano miejsc pracy ani innych celów; nie przypisano czasów podróży. Lokalizacja szkoły obwodowej nie jest analizą bezpiecznej trasy dojścia.",
+							"status": "assumed",
+							"sourceIds": [
+								"szkola"
+							]
+						}
+					],
+					"figures": []
+				},
+				{
+					"id": "cena-przygotowanie",
+					"title": "Cena i niewycenione przygotowanie",
+					"lead": "Cena 700 tys. zł jest wysoka względem rozpoznanych transakcji. Całkowity koszt przygotowania pozostaje nieustalony.",
+					"items": [
+						{
+							"label": "Cena oferty",
+							"text": "700 000 zł za deklarowane 1108 m², czyli 631,77 zł/m². Ogłoszenie zaktualizowano 04.10.2026, odczyt w analizie 25.10.2026. Publikacja nie stanowi ponownej weryfikacji dostępności oferty.",
+							"status": "declared",
+							"sourceIds": [
+								"offer"
+							]
+						},
+						{
+							"label": "Dziewięć transakcji RCN",
+							"text": "Niezabudowane MN, własność, 963–1202 m², lata 2024–2026: jawne ceny działek 390,48–579,42 zł/m². Próba w kwadracie ±1 km, do około 1,4 km w narożnikach; ostatni akt całego odczytu z maja 2026. Możliwe opóźnienie. Bez korekt za teren, datę, media i dostęp; to nie przedział wyceny 1209/2.",
+							"status": "verified",
+							"sourceIds": [
+								"rcn"
+							]
+						},
+						{
+							"label": "Sprawdzone przykłady i pakiety",
+							"text": "771/168: 21.03.2025, 963 m², 510 tys. zł (529,60 zł/m²); 560 tys. zł za cały akt obejmowało też udziały drogowe. 773/87: 28.01.2025, 1001 m², 580 tys. zł. 773/42: 04.05.2026, 1202 m², 600 tys. zł. Cen aktu nie przypisano jednej działce.",
+							"status": "verified",
+							"sourceIds": [
+								"rcn"
+							]
+						},
+						{
+							"label": "Osobno ceny ofertowe",
+							"text": "Odczyt 25.10.2026: Wieniawskiego 730/90, 549 tys. zł za 1144 m², teren płaski według sprzedającego; Kasztanowa 734/23, 635 tys. zł za 1173 m². Nie wykonano pełnej oceny tych alternatyw. Cena żądana nie dowodzi ceny sprzedaży.",
+							"status": "declared",
+							"sourceIds": [
+								"wieniawskiego",
+								"kasztanowa"
+							]
+						},
+						{
+							"label": "Zakres dopłaty bez fikcyjnej sumy",
+							"text": "Bazą jest zwykła płyta na dobrej, płaskiej działce. Niewycenione: rozpoznanie i stateczność, zabezpieczenia skarpy, dodatkowy wykop, izolacje i odwodnienie, ogród, media, ścieki, zjazd oraz ewentualne wyłączenie RVI. Pale są nieprzesądzone. Nie zsumowano alternatywnych technologii.",
+							"status": "unknown",
+							"sourceIds": [
+								"nmt",
+								"mpzp-2010"
+							]
+						},
+						{
+							"label": "Stawki nie są kosztorysem skarpy",
+							"text": "Publikowane typowe badania w Gdańsku 1500–3000 zł netto nie obejmują potwierdzonego programu stateczności tej skarpy. Minikoparka 200 zł/h netto, koparko-ładowarka 250 zł/h netto; brak wydajności, godzin i projektu. Nie przemnożono 338–360 m³ gruntu rodzimego przez stawkę wywozu o nieznanej podstawie objętości.",
+							"status": "declared",
+							"sourceIds": [
+								"geotechnic",
+								"koparka"
+							]
+						},
+						{
+							"label": "Koszt wejścia",
+							"text": "700 tys. zł + rzeczywiste koszty transakcji + dodatkowe przygotowanie + uzasadniona rezerwa. Nie podano liczbowej rezerwy bez projektu i ofert. Brak wyceny nie oznacza kosztu 0 zł.",
+							"status": "unknown",
+							"sourceIds": [
+								"offer"
+							]
+						}
+					],
+					"figures": []
+				}
+			],
+			"risks": [
+				{
+					"severity": "high",
+					"title": "Stateczność zbocza i wpływ wykopu na sąsiada",
+					"detail": "Potrzebne badania pod domem i skarpą oraz obliczenia stanu przed i po robotach. Brak obiektu w ograniczonym odczycie SOPO nie jest potwierdzeniem bezpieczeństwa."
+				},
+				{
+					"severity": "high",
+					"title": "Wygodny ogród i wjazd nie są wykazane",
+					"detail": "Prostokąt domu się mieści, lecz poziomy garażu, tarasu i ogrodu wymagają wspólnego projektu. Pozostałe 832 m² obejmuje skarpę i przyszłą infrastrukturę."
+				},
+				{
+					"severity": "high",
+					"title": "Niepełne parametry oferty i ograniczenia ścieków",
+					"detail": "Dwa MPZP, zasady niwelacji i strefa Osowa wymagają projektu. Oczyszczalnia rozsączająca nie jest zaakceptowaną alternatywą."
+				},
+				{
+					"severity": "high",
+					"title": "Cena plus niewycenione roboty",
+					"detail": "Cena przekracza rozpoznaną próbę RCN, a zabezpieczenia, woda i ogród nie mają kosztorysu. Brak podstaw do stałej procentowej korekty ceny."
+				},
+				{
+					"severity": "medium",
+					"title": "Dostęp, przyłącza i kolizje",
+					"detail": "Mapa nie ustala praw do drogi ani warunków gestorów. Sieci na obrzeżach trzeba uwzględnić przy wykopie i murach."
+				}
+			],
+			"questions": [
+				{
+					"id": "badania-skarpa",
+					"text": "Czy są badania geotechniczne oraz obliczenia stateczności skarpy z uwzględnieniem wykopu i sąsiedniej zabudowy?"
+				},
+				{
+					"id": "rzedne-projekt",
+					"text": "Czy istnieje projekt z rzędnymi domu, garażu, podjazdu, tarasu i ogrodu oraz pełnym zakresem murów i skarp?"
+				},
+				{
+					"id": "mpzp-bilans",
+					"text": "Czy dostępny jest aktualny wypis i wyrys dla 1209/2 oraz bilans projektu w obu obszarach MPZP?"
+				},
+				{
+					"id": "droga-tytul",
+					"text": "Jaki dokument zapewnia ciągły dostęp do drogi publicznej i prawo wykonania zjazdu? Kto utrzymuje drogę?"
+				},
+				{
+					"id": "media-warunki",
+					"text": "Czy gestorzy wydali warunki wody i energii oraz wskazali kolizje sieci z planowanymi robotami?"
+				},
+				{
+					"id": "scieki-osowa",
+					"text": "Czy możliwe jest przyłączenie kanalizacji, a jeśli nie — gdzie można legalnie umieścić szczelny zbiornik i zapewnić wywóz?"
+				},
+				{
+					"id": "woda-odbiornik",
+					"text": "Gdzie ma odpływać woda opadowa i jak projekt chroni niższe działki oraz drogę przed zalewaniem?"
+				},
+				{
+					"id": "rvi-wylaczenie",
+					"text": "Jakie jest pochodzenie gleby RVI i czy istnieją decyzje dotyczące wyłączenia z produkcji rolnej?"
+				},
+				{
+					"id": "koszt-zakres",
+					"text": "Czy są oferty na pełen zaprojektowany zakres robót, z podatkami, zabezpieczeniem skarpy, odwodnieniem i ogrodem?"
+				}
+			],
+			"sources": [
+				{
+					"id": "offer",
+					"label": "Ogłoszenie BH08439",
+					"url": "https://chwaszczyno.nieruchomosci-online.pl/dzialka,na-sprzedaz/26620200.html",
+					"note": "Cena i powierzchnia deklarowane; aktualizacja 04.10.2026, odczyt 25.10.2026. Opis MPZP i oczyszczalni wymaga korekty według źródeł urzędowych."
+				},
+				{
+					"id": "uldk",
+					"label": "ULDK — granica 1209/2",
+					"url": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=220508_5.0004.1209/2&result=id,geom_wkt&srid=2180",
+					"note": "Odczyt 25.10.2026, EPSG:2180. Powierzchnia geometrii 1106,22 m², nie pole urzędowego wypisu."
+				},
+				{
+					"id": "nmt",
+					"label": "GUGiK — źródłowy arkusz NMT",
+					"url": "https://opendata.geoportal.gov.pl/NumDaneWys/NMT/81008/81008_1561282_N-34-49-D-b-4-3.asc",
+					"note": "ALS 08.09.2024, siatka 1 m, PL-1992 / PL-EVRF2007-NH. Model gruntu, nie wód ani aktualnych robót; skorowidz sprawdzony 25.10.2026."
+				},
+				{
+					"id": "orto",
+					"label": "GUGiK — ortofotomapa WMS",
+					"url": "https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMS/StandardResolution?SERVICE=WMS&REQUEST=GetCapabilities",
+					"note": "Odczyt mozaiki 25.10.2026; konkretna data zdjęcia w wyświetlonym obrazie niepotwierdzona."
+				},
+				{
+					"id": "sip",
+					"label": "Gminny SIP Żukowo",
+					"url": "https://sip.gison.pl/zukowo",
+					"note": "Odczyt tekstów i georeferencjonowanego rastra 25.10.2026. Przybliżone powierzchnie dwóch stref: 451 i 655 m²; niepewność linii około 1–2 m."
+				},
+				{
+					"id": "mpzp-2010",
+					"label": "MPZP XLIII/710/2010 — tekst",
+					"url": "https://edziennik.gdansk.uw.gov.pl/WDU_G/2010/89/1676/Akt.pdf",
+					"note": "Plan z 28.05.2010. Zachodnia część 1MN; §2 ust. 8 pkt 11 o rozpoznaniu geologicznym i stateczności."
+				},
+				{
+					"id": "rysunek-2010",
+					"label": "MPZP 2010 — rysunek",
+					"url": "https://edziennik.gdansk.uw.gov.pl/WDU_G/2010/89/1676/Zalacznik1.pdf",
+					"note": "Rysunek porównano z ULDK i późniejszym planem. Stare 2ZP nie przecina 1209/2."
+				},
+				{
+					"id": "mpzp-2014",
+					"label": "MPZP L/620/2014 — tekst i rysunek",
+					"url": "https://rastry.gison.pl/mpzp-public/zukowo/uchwaly/U_2014_620_L.pdf",
+					"note": "Wschodni obszar 2.MN11, karta 3 §10. Źródło wskaźników, niwelacji, wysokości i ścieków; odczyt 25.10.2026."
+				},
+				{
+					"id": "osowa",
+					"label": "Strefa ochronna ujęcia Osowa",
+					"url": "https://edziennik.gdansk.uw.gov.pl/WDU_G/2020/4450/akt.pdf",
+					"note": "Rozporządzenie z 25.10.2020, załącznik 5 pozycja 157: pierwotna działka 1209. §3 zawiera zakazy istotne dla studni, ścieków, mycia aut i parkingów."
+				},
+				{
+					"id": "egib",
+					"label": "Krajowa Integracja Ewidencji Gruntów",
+					"url": "https://integracja02.gugik.gov.pl/cgi-bin/KrajowaIntegracjaEwidencjiGruntow?SERVICE=WMS&REQUEST=GetCapabilities",
+					"note": "Publiczny odczyt użytków i konturów 25.10.2026: RVI. Nie ustala pochodzenia gleby ani istniejących decyzji o wyłączeniu."
+				},
+				{
+					"id": "projekt-2026",
+					"label": "Projekt przy Widokowej i Spacerowej — rysunek",
+					"url": "https://bip.zukowo.pl/e,pobierz,get.html?id=147329",
+					"note": "Wersja z 11.08.2026; porównanie rysunku z EGiB potwierdziło brak 1209/2 w zasięgu. Nie ustalono późniejszego uchwalenia."
+				},
+				{
+					"id": "kiut",
+					"label": "KIUT — mapa uzbrojenia",
+					"url": "https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaUzbrojeniaTerenu?SERVICE=WMS&REQUEST=GetCapabilities",
+					"note": "Odczyt 25.10.2026: woda, gaz, energia i kanalizacja. Obraz nie jest warunkami przyłączenia; pusty widok nie dowodzi braku sieci."
+				},
+				{
+					"id": "sopo",
+					"label": "PIG — SOPO",
+					"url": "https://cbdgmapa.pgi.gov.pl/arcgis/rest/services/geozagrozenia/sopo_obszary/MapServer",
+					"note": "Zapytanie punktowe nie zwróciło obiektów dla parceli; dodatkowe zapytanie przestrzenne nie było obsługiwane. Ograniczony odczyt z 25.10.2026 nie potwierdza stateczności."
+				},
+				{
+					"id": "pig",
+					"label": "PIG — metadane otworów CBDG",
+					"url": "https://cbdgmapa.pgi.gov.pl/arcgis/rest/services/cbdg_otwory/MapServer/0",
+					"note": "Najbliższy odnaleziony otwór hydrogeologiczny: GDAŃSK-OSOWA 1, 1975 r., głębokość 172 m, około 149 m od centroidu. Nie jest badaniem pod dom."
+				},
+				{
+					"id": "droga",
+					"label": "Dokument transportowy — Kawelska",
+					"url": "https://edziennik.gdansk.uw.gov.pl/WDU_G/2025/2060/akt.pdf",
+					"note": "Uchwała z 2025 r. wskazuje drogę wewnętrzną. Nie zastępuje tytułu prawnego do przejazdu i zjazdu."
+				},
+				{
+					"id": "szkola",
+					"label": "Obwód SP w Chwaszczynie",
+					"url": "https://edziennik.gdansk.uw.gov.pl/WDU_G/2023/4964/oryginal/akt.pdf",
+					"note": "Uchwała LXIV/833/2023: obwód miejscowości Chwaszczyno. Stan sprawdzony na 2026/27, bez gwarancji przyszłego obwodu."
+				},
+				{
+					"id": "gdos",
+					"label": "GDOŚ — granice form ochrony",
+					"url": "https://sdi.gdos.gov.pl/wfs",
+					"note": "Obliczenie z WFS, odczyt 25.10.2026: otulina TPK pokrywa parcelę; granica samego parku około 836 m dalej."
+				},
+				{
+					"id": "oou",
+					"label": "OOU lotniska Gdańsk",
+					"url": "https://edziennik.gdansk.uw.gov.pl/WDU_G/2016/1093/akt.pdf",
+					"note": "Uchwała 203/XXI/16; geometria z tabel współrzędnych: działka poza OOU, około 4,7 km od granicy zewnętrznej. Nie dowodzi braku hałasu."
+				},
+				{
+					"id": "rcn",
+					"label": "GUGiK — Rejestr Cen Nieruchomości",
+					"url": "https://www.geoportal.gov.pl/pl/dane/rejestr-cen-nieruchomosci-rcn/",
+					"note": "WFS, odczyt 25.10.2026: 384 rekordy od 2024 r. w kwadracie ±1 km; po kontroli 9 odrębnych transakcji MN. Osobno sprawdzono pakiety. Brak korekt i operatu."
+				},
+				{
+					"id": "wieniawskiego",
+					"label": "Oferta porównawcza — Wieniawskiego 730/90",
+					"url": "https://adresowo.pl/o/dzialka-budowlana-zukowo-chwaszczyno-ul-wieniawskiego-q2x5e4",
+					"note": "Odczyt 25.10.2026: 549 tys. zł / 1144 m². Płaski teren jest deklaracją. Nie przeprowadzono pełnej oceny alternatywy."
+				},
+				{
+					"id": "kasztanowa",
+					"label": "Oferta porównawcza — Kasztanowa 734/23",
+					"url": "https://tektonproperty.pl/oferta/dzia%C5%82ka-budowlana-chwaszczyno-ul-kasztanowa-chwaszczyno-kasztanowa-tc897210/",
+					"note": "Odczyt 25.10.2026: 635 tys. zł / 1173 m². Cena żądana, nie potwierdzona cena transakcyjna."
+				},
+				{
+					"id": "geotechnic",
+					"label": "Geotechnic — typowe badania Gdańsk",
+					"url": "https://www.geotechnic.pl/pomorskie/geotechnika-gdansk.php",
+					"note": "Publikowane 1500–3000 zł netto, odczyt 25.10.2026. Nie jest wyceną programu badań i obliczeń stateczności tego zbocza."
+				},
+				{
+					"id": "koparka",
+					"label": "Koparka Gdańsk — stawki sprzętu",
+					"url": "https://koparkagdansk.pl/koparka-wynajem-cena/gdansk/",
+					"note": "Odczyt 25.10.2026: 200/250 zł netto za godzinę. Bez czasu pracy i indywidualnej oferty na działkę."
+				}
+			]
 		}
 	]
 }

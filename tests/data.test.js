@@ -12,7 +12,18 @@ test("all records have unique links, valid evidence references and existing map 
 		new Set(atlas.plots.map((plot) => plot.slug)).size,
 		atlas.plots.length,
 	);
+	assert.equal(
+		new Set(atlas.plots.map((plot) => plot.id)).size,
+		atlas.plots.length,
+	);
 	for (const plot of atlas.plots) {
+		const sectionIds = plot.sections.map((section) => section.id);
+		assert.equal(new Set(sectionIds).size, sectionIds.length);
+		assert.ok(
+			sectionIds.every(
+				(id) => !["koszty", "ryzyka", "pytania", "zrodla"].includes(id),
+			),
+		);
 		assert.match(plot.slug, /^[a-z0-9-]+$/);
 		assert.ok(Number.isFinite(plot.pricePln) && plot.pricePln > 0);
 		const sources = new Set(plot.sources.map((source) => source.id));
@@ -47,6 +58,37 @@ test("all records have unique links, valid evidence references and existing map 
 			reportMarkup(plot),
 			/undefined|NaN|\/Users\/|file:\/\//,
 		);
+	}
+});
+
+test("1209/2 has its own terrain provenance and no inherited cost calculator", () => {
+	const plot = atlas.plots.find((plot) => plot.id === "220508_5.0004.1209/2");
+	assert.ok(plot);
+	assert.equal(plot.pricePln, 700000);
+	assert.equal(plot.areaM2, 1108);
+	assert.equal(plot.costFile, undefined);
+	for (const html of [cardsMarkup([plot]), reportMarkup(plot)]) {
+		assert.match(html, /NMT 08\.09\.2024/);
+		assert.match(html, /alt="Mapa wysokości działki 1209\/2/);
+		assert.doesNotMatch(
+			html,
+			/archiwalnej ortofotomapie|OLX|750\/73|750\/54|cost-form|href="#koszty"|przy kalkulatorze/,
+		);
+	}
+});
+
+test("section numbering follows content length with or without a calculator", () => {
+	for (const costFile of [undefined, "data/costs.json"]) {
+		const plot = {
+			...atlas.plots[0],
+			sections: atlas.plots[0].sections.slice(0, 2),
+			costFile,
+		};
+		const numbers = [
+			...reportMarkup(plot).matchAll(/class="section-no">(\d+)</g),
+		].map((match) => Number(match[1]));
+		const count = plot.sections.length + (costFile ? 1 : 0) + 3;
+		assert.deepEqual(numbers, Array.from({ length: count }, (_, i) => i + 1));
 	}
 });
 

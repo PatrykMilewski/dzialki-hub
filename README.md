@@ -1,5 +1,22 @@
 # Działki — atlas decyzji
 
+## Przykładowe zagospodarowanie 750/70
+
+Podstrona `zagospodarowanie-750-70.html` pokazuje lustrzany HOMEKONCEPT 130 A:
+uproszczony obrys z garażem przy górnym narożniku, taras i schemat podjazdu.
+Opracowanie 26.10.2026, publikacja 27.10.2026. Karta 750/70 prowadzi do niej przez
+`exampleLayout`; wspólne style podstron pozostają bez zmian.
+
+Zasoby w `assets/750-70/zagospodarowanie/`: rzut PNG/PDF i katalogowa wizualizacja
+z oficjalnej karty Extradom dla odbicia lustrzanego. Obraz pokazuje wygląd domu,
+nie otoczenie tej działki. Źródło i autor HOMEKONCEPT są wskazani na podstronie.
+
+Przyjęte 17%, 4 m od drogi i 12 m od Ls to założenia tego przykładu, nie nowe
+potwierdzenie WZ ani zastąpienie wcześniejszego wariantu 20% w głównej analizie.
+Powierzchnia projektu 165,01 m²; uproszczonej obwiedni 169,13 m² nie należy z nią
+utożsamiać. Kontur Ls orientacyjny 1–3 m; dopasowanie geometryczne nie potwierdza
+warunków ppoż., manewrowania ani dopuszczalności budowy.
+
 ## Przykładowe zagospodarowanie 750/73
 
 Podstrona `zagospodarowanie-750-73.html` rozwija kartę 750/73 o wariant HOMEKONCEPT

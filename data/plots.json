@@ -4144,6 +4144,11 @@
 				"sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=220508_5.0004.750%2F70&result=geom_wkt&srid=2180",
 				"checkedAt": "2026-10-26",
 				"method": "Centroid ULDK EPSG:2180 przeliczony do WGS84; punkt orientacyjny."
+			},
+			"exampleLayout": {
+				"href": "zagospodarowanie-750-70.html",
+				"title": "HOMEKONCEPT 130 A · garaż w narożniku",
+				"description": "Lustrzane odbicie, uproszczony rzut i wizualizacja projektu. Przykład z limitem 17%: 165,01 m² zabudowy, 4 m od drogi i 12 m od lasu jako założenia wariantu."
 			}
 		},
 		{

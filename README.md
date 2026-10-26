@@ -1,5 +1,25 @@
 # Działki — atlas decyzji
 
+## Przykładowe zagospodarowanie 750/74
+
+Podstrona `zagospodarowanie-750-74.html` pokazuje Naszą Stodołę M KRY1007,
+wersja szkieletowa, bez odbicia lustrzanego: garaż od drogi, cofnięcie na NE,
+podjazd 3 m przy granicy NW i plac 5 × 4 m. Roboczo 4 m od granic i linia 6 m
+od drogi; nie potwierdzenie WZ. Link pochodzi z `exampleLayout` karty 750/74.
+Opracowanie i publikacja 27.10.2026, geometria ULDK odczytana 26.10.2026.
+
+Sekcje ogrodu A–F: 628,4 m², w tym południe A–C 186,6 m² poniżej linii E–W
+przez południowy skraj pełnej strefy domu i tarasu. Rezerwy: 183,3 m² na pełną
+obwiednię domu, tarasu, podcienia i wejścia oraz 62,5 m² podjazdu poza nią.
+Rozłączny bilans w EPSG:2177 zamyka geometrię parceli 874,26 m²; wartości
+zaokrąglono po sumowaniu. To wolny teren, nie bilans PBC ani suchy ogród.
+Katalogowe 142,90 m² zabudowy (16,35% nominalnych 874 m²) to odrębny parametr.
+
+Zasoby `assets/750-74/zagospodarowanie/`: dwa rzuty PNG/PDF, dane powierzchni
+oraz katalogowa wizualizacja Biura architektonicznego Stodoła Kamila Rusnak.
+Kliknięcie zdjęcia i przyciski „Zobacz projekt domu” otwierają wskazany KRY1007.
+Wizualizacja pokazuje ten sam podstawowy projekt, z przykładowym otoczeniem.
+
 ## Przykładowe zagospodarowanie 750/70
 
 Podstrona `zagospodarowanie-750-70.html` pokazuje lustrzany HOMEKONCEPT 130 A:

@@ -1,0 +1,54 @@
+{
+  "analysis_date": "2026-10-27",
+  "crs": "EPSG:2177",
+  "origin": [
+    6528409.789999969,
+    6032167.529999999
+  ],
+  "parcel_m2": 874.2595500160203,
+  "nominal_parcel_m2": 874,
+  "south_garden_m2": 186.58400285845246,
+  "all_garden_m2": 628.4229295831408,
+  "house_terrace_reserve_m2": 183.32502564752062,
+  "drive_reserve_m2": 62.51159478535873,
+  "south_cut_northing_m": 6032158.176021265,
+  "south_cut_local_m": -9.353978734463453,
+  "sections": [
+    {
+      "id": "A",
+      "name": "Południowo-zachodni",
+      "area_m2": 44.10043801886807,
+      "color": "#d9e8a5"
+    },
+    {
+      "id": "B",
+      "name": "Południowy środkowy",
+      "area_m2": 100.53626292555393,
+      "color": "#a8d5a0"
+    },
+    {
+      "id": "C",
+      "name": "Południowo-wschodni",
+      "area_m2": 41.94730191403047,
+      "color": "#7bc5a6"
+    },
+    {
+      "id": "D",
+      "name": "Przed domem · od drogi",
+      "area_m2": 238.2646303405645,
+      "color": "#c9dfba"
+    },
+    {
+      "id": "E",
+      "name": "Przy tarasie i za domem",
+      "area_m2": 154.17334416533123,
+      "color": "#98cfc8"
+    },
+    {
+      "id": "F",
+      "name": "Północny narożnik",
+      "area_m2": 49.400952218792575,
+      "color": "#b2c9dd"
+    }
+  ]
+}

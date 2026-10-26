@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"updatedAt": "2026-10-25",
+	"updatedAt": "2026-10-26",
 	"plots": [
 		{
 			"slug": "chwaszczyno-750-73",
@@ -2226,6 +2226,619 @@
 					"label": "Plantowanie — cennik Gdańsk",
 					"url": "https://koparkagdansk.pl/niwelacja-terenu/gdansk/",
 					"note": "5–20 zł/m², VAT niepodany; hipotetyczny zakres, nie kosztorys."
+				}
+			]
+		},
+		{
+			"id": "226101_1.0003.260/3",
+			"number": "260/3",
+			"slug": "gdansk-klukowo-260-3",
+			"title": "Telewizyjna · Klukowo",
+			"location": "Gdańsk · Klukowo",
+			"areaM2": 2003,
+			"pricePln": 890000,
+			"pricePerM2": 444.3334997503744,
+			"updatedAt": "2026-10-25",
+			"statusKey": "conditional",
+			"statusLabel": "Warunkowo",
+			"offerUrl": "https://www.otodom.pl/pl/oferta/dzialka-budowlana-2003-m-gdansk-osowa-klukowo-ul-telewizyjna-ID4C5pa",
+			"thumbnail": "assets/gdansk-klukowo-260-3/lokalizacja.png",
+			"hero": "assets/gdansk-klukowo-260-3/lokalizacja.png",
+			"imageLabel": "ORTOFOTO · DATA MOZAIKI NIEPOTWIERDZONA",
+			"imageAlt": "Granice działki 260/3 w Klukowie na ortofotomapie GUGiK; data zdjęcia mozaiki niepotwierdzona",
+			"summary": "Łagodny teren i miejsce na dom z garażem oraz duży ogród. Do potwierdzenia dojazd, ścieki i grunt. MPZP wymaga minimum 2000 m² działki.",
+			"cardNotice": {
+				"title": "Bez standardowego podziału na dwie budowlane",
+				"text": "2003 m² nie wystarcza na dwie działki po minimum 2000 m². Dom dwumieszkaniowy to osobny wariant na jednej parceli."
+			},
+			"verdict": {
+				"title": "Dom i ogród pasują pod warunkami",
+				"text": "Testy geometrii mieszczą dom 200 m² rzutu łącznie z garażem i główny ogród około 550–668 m². Przed zakupem trzeba potwierdzić prawa do dróg 260/7 i 260/12, rozwiązanie ścieków i warunki gruntowo-wodne. Limit intensywności to około 400,6 m² powierzchni całkowitej nadziemnej; nie należy porównywać go z powierzchnią użytkową. Nie traktować oferty jako gruntu do podziału i odsprzedaży połowy pod osobny dom."
+			},
+			"facts": [
+				{
+					"label": "Powierzchnia",
+					"value": "2003 m²",
+					"note": "Powierzchnia oferty; geometria miejska w EPSG:2177 daje 2003,02 m². Wypis potrzebny do formalnego bilansu.",
+					"status": "declared"
+				},
+				{
+					"label": "Plan miejscowy",
+					"value": "2706 · 011-21",
+					"note": "Cała działka: zabudowa mieszkaniowa ekstensywna.",
+					"status": "verified"
+				},
+				{
+					"label": "Minimalna działka",
+					"value": "2000 m²",
+					"note": "Dwie połowy po 1001,5 m² nie spełniają parametru planu.",
+					"status": "verified"
+				},
+				{
+					"label": "Intensywność",
+					"value": "0,2",
+					"note": "Około 400,6 m² wszystkich kondygnacji nadziemnych, z garażem i poddaszem.",
+					"status": "verified"
+				},
+				{
+					"label": "Główny ogród",
+					"value": "550–668 m²",
+					"note": "Obliczenie w dwóch schematach domu; suchość i nośność niepotwierdzone.",
+					"status": "assumed"
+				},
+				{
+					"label": "Cena z kopii oferty",
+					"value": "890 tys. zł",
+					"note": "Około 444,33 zł/m². Aktualność i zakres sprzedaży do potwierdzenia.",
+					"status": "declared"
+				}
+			],
+			"sections": [
+				{
+					"id": "tozsamosc",
+					"title": "Lokalizacja i zakres",
+					"lead": "Jedna działka w obrębie Klukowo 0003. Stan analizy: 25.10.2026; publikacja i rozwinięcie wniosku o podziale: 26.10.2026. Pozostałych ustaleń nie odświeżano.",
+					"items": [
+						{
+							"label": "Granice i powierzchnia",
+							"text": "ULDK i miejska EGiB wskazują ten sam poligon. Pole w EPSG:2180 wynosi 2000,54 m², a w rodzimym EPSG:2177 2003,02 m²; różnica skali odwzorowania nie oznacza rozbieżnych granic. Orientacyjny front przy dojeździe NE ma 51 m, głębokość 39–42 m.",
+							"status": "verified",
+							"sourceIds": [
+								"uldk",
+								"geogdansk"
+							]
+						},
+						{
+							"label": "Cena wymaga potwierdzenia",
+							"text": "Otodom zwracał HTTP 403. Agregator CenaDzialki wskazywał dokładny EGiB i 890 tys. zł. Nie potwierdzono ceny bezpośrednio u sprzedającego ani tego, jakie udziały drogowe obejmuje.",
+							"status": "declared",
+							"sourceIds": [
+								"oferta",
+								"cena"
+							]
+						},
+						{
+							"label": "Profil domu",
+							"text": "Przyjęto około 200 m² rzutu łącznie z garażem, poddasze użytkowe, gabinet i trzy sypialnie. Schemat nie rozstrzyga rozkładu wnętrz ani wymiarów użytkowych garażu.",
+							"status": "assumed",
+							"sourceIds": []
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/gdansk-klukowo-260-3/lokalizacja.png",
+							"alt": "Działka 260/3 i sąsiednie parcele na ortofotomapie",
+							"caption": "GUGiK ortofoto + ULDK, odczyt 25.10.2026. Skorowidz wskazuje zdjęcie 23.09.2024, dokładna data mozaiki WMS niepotwierdzona. Granice poglądowe; drogi na zdjęciu nie dowodzą prawa przejazdu."
+						}
+					]
+				},
+				{
+					"id": "plan",
+					"title": "Plan i podział gruntu",
+					"lead": "Obowiązujący w odczycie MPZP 2706, karta 011-21. Uchwała XIX/564/04 z 22.01.2004. WZ nie jest podstawą zmiany tych parametrów.",
+					"items": [
+						{
+							"label": "Nie na dwie działki po około 1000 m²",
+							"text": "Karta 011, pkt 6.4: minimalna wielkość działki 2000 m². Połowy ofertowych 2003 m² miałyby po 1001,5 m², więc standardowy podział na dwie samodzielne działki budowlane nie spełnia planu. Dwie zgodne z tym parametrem wymagałyby łącznie co najmniej 4000 m². Wniosek nie rozstrzyga szczególnych ustawowych trybów podziału ani wydzieleń infrastruktury.",
+							"status": "verified",
+							"sourceIds": [
+								"karta",
+								"uchwala"
+							]
+						},
+						{
+							"label": "Dom dwumieszkaniowy jest innym wariantem",
+							"text": "Strefa 21 dopuszcza dom wolno stojący jedno- lub dwumieszkaniowy na jednej działce. Nie oznacza to zgody na podział gruntu ani potwierdzenia dwóch osobnych domów. Limit około 400,6 m² powierzchni całkowitej nadziemnej dotyczy całości, nie każdego lokalu. Minimum 2 miejsca parkingowe na mieszkanie.",
+							"status": "verified",
+							"sourceIds": [
+								"uchwala",
+								"karta"
+							]
+						},
+						{
+							"label": "Limity projektu",
+							"text": "Maksimum 20% pokrycia zabudową (roboczo 400,6 m²), intensywność 0,2 (400,6 m²) i minimum 70% PBC (1402,1 m²). Garaż i poddasze wchodzą do powierzchni całkowitej nadziemnej; wyłączono tarasy i balkony. Parter 200 m² i drugie 200 m² poddasza praktycznie wyczerpują limit. Pustkę/antresolę musi przeliczyć architekt.",
+							"status": "verified",
+							"sourceIds": [
+								"karta",
+								"uchwala"
+							]
+						},
+						{
+							"label": "Wysokość i linie na rysunku",
+							"text": "Maksimum 12 m, od naturalnej warstwicy w najniższym punkcie obrysu; dach stromy, bez kąta określonego w karcie. Plan nie ustala linii zabudowy. Ukośne kreskowane linie są zalecanymi podziałami parcelacyjnymi i nie znoszą minimum 2000 m². Odrębne odległości i ppoż. wymagają sprawdzenia.",
+							"status": "verified",
+							"sourceIds": [
+								"karta",
+								"rysunek"
+							]
+						},
+						{
+							"label": "Plan w przygotowaniu",
+							"text": "Plan 2722 obejmuje działkę, lecz BRG podaje status „Plan zawieszony”. Nie zastępuje planu 2706. Przed zakupem potrzebny aktualny wypis i wyrys z informacją o zmianach; raport nie jest zaświadczeniem o braku orzeczeń.",
+							"status": "verified",
+							"sourceIds": [
+								"brg"
+							]
+						},
+						{
+							"label": "Grunt RV i wyłączenie",
+							"text": "Cała działka ma oznaczenie RV. Pochodzenia mineralnego lub organicznego nie potwierdzono. Od tego zależą obowiązki wyłączenia z produkcji; sprawdzić z urzędem. Ewentualne zwolnienie z opłat do 500 m² na cele domu jednorodzinnego nie zastępuje wymaganej decyzji.",
+							"status": "unknown",
+							"sourceIds": [
+								"grunty",
+								"geogdansk"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/gdansk-klukowo-260-3/mpzp-dzialka.png",
+							"alt": "Działka 260/3 na rysunku MPZP 2706",
+							"caption": "Miejski rysunek MPZP 2706 i EGiB, odczyt 25.10.2026. Całość w 011-21. Nakładka poglądowa; ukośne kreskowane linie oznaczają zalecane podziały, nie linie zabudowy."
+						}
+					]
+				},
+				{
+					"id": "dom-ogrod",
+					"title": "Dom i ogród",
+					"lead": "Dwa alternatywne testy jednego domu 200 m² z garażem. To sprawdzenie geometrii, nie projekt zagospodarowania ani gwarancja pozwolenia.",
+					"items": [
+						{
+							"label": "Wariant A: 16 × 12,5 m",
+							"text": "Dom 200 m², w tym zewnętrzny podobszar garażu 38,4 m²; podjazd 80,9 m², taras 36 m² i przejścia 52,6 m². Pozostała zieleń około 1631 m²; główny ogród około 550 m². Najmniejszy odstęp ściany od granicy w teście około 9 m.",
+							"status": "assumed",
+							"sourceIds": []
+						},
+						{
+							"label": "Wariant B: 20 × 10 m",
+							"text": "Dom 200 m², w tym podobszar garażu 38,4 m²; podjazd 80,9 m², taras 36 m², przejścia 56,2 m². Pozostała zieleń około 1627 m²; główny ogród około 668 m². Najmniejszy odstęp ściany około 7,4 m.",
+							"status": "assumed",
+							"sourceIds": []
+						},
+						{
+							"label": "Ogród i słońce",
+							"text": "Główny ogród liczono po odsunięciu 2 m od granic, poza tarasem i przejściami. To geometria, nie potwierdzenie suchego trawnika ani formalny bilans PBC. Salon/taras na SW sprzyja popołudniowemu słońcu, lecz sąsiednie domy i drzewa mogą zacieniać zimą. Nie zmierzono wysokości przeszkód ani godzin nasłonecznienia.",
+							"status": "assumed",
+							"sourceIds": []
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/gdansk-klukowo-260-3/dom-ogrod.png",
+							"alt": "Dwa alternatywne schematy domu 200 m² i ogrodu na działce 260/3",
+							"caption": "Własne obliczenia 25.10.2026; ULDK i NMT 23.09.2024, ortofoto z niepotwierdzoną datą mozaiki. Garaż zawarty w rzucie domu. Brama, zjazd, instalacje, okapy i ppoż. wymagają projektu."
+						}
+					]
+				},
+				{
+					"id": "teren",
+					"title": "Teren, grunt i woda",
+					"lead": "NMT wskazuje łagodny teren. Nie rozstrzyga nośności, organiki ani sezonowej wody.",
+					"items": [
+						{
+							"label": "Rzędne i nachylenie",
+							"text": "Obliczenie z NMT: 142,73–144,25 m n.p.m., mediana 143,17 m; dopasowana płaszczyzna około 1,16% ku północy. Ekstrema obejmują miejscowe nierówności, a nie jednolity spadek całej parceli. Różnica wysokości pod testowanym obrysem domu około 0,22–0,26 m.",
+							"status": "verified",
+							"sourceIds": [
+								"nmt"
+							]
+						},
+						{
+							"label": "Przekroje przez działkę",
+							"text": "A, dojazd NE → ogród SW: 39,27 m, końce około 143,10 → 143,30 m. B, NW → SE: około 50,67 m, końce 143,10 → 143,37 m. Siatka 1 m, skaning 23.09.2024, PL-EVRF2007-NH. Deklarowany średni błąd 0,07 m nie jest pewnością każdego punktu.",
+							"status": "verified",
+							"sourceIds": [
+								"nmt"
+							]
+						},
+						{
+							"label": "Brak opinii geotechnicznej",
+							"text": "Archiwalne otwory PIG leżą 270–324 m dalej i pochodzą z 1995/2007. Odczytano metadane, bez litologii i poziomów wód. Nie można na ich podstawie potwierdzić posadowienia. Badania pod rzeczywistym obrysem powinny objąć nośność, organikę/nasypy, wodę sezonową i infiltrację.",
+							"status": "unknown",
+							"sourceIds": [
+								"pgi"
+							]
+						},
+						{
+							"label": "Fundament i ogród",
+							"text": "Wariant bazowy to obecne rzędne i łagodne spadki. NMT nie uzasadnia wielkiego nasypu, wysokich murów ani pali jako standardu. Wymiana/wzmocnienie i odwodnienie są wariantami zależnymi od badań. Nie zakłada się odpływu na cudzy teren.",
+							"status": "assumed",
+							"sourceIds": [
+								"nmt"
+							]
+						},
+						{
+							"label": "Powódź i osuwiska",
+							"text": "SOPO nie pokazało oznaczeń na działce w odczycie mapy 3 × 3 km; nie jest to zaświadczenie o kompletności. Endpointy Hydroportalu MZP 10%, 1% i 0,2% zwróciły HTTP 401. Stref powodziowych nie potwierdzono; błąd usługi nie dowodzi braku ryzyka.",
+							"status": "unknown",
+							"sourceIds": [
+								"sopo",
+								"mzp"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/gdansk-klukowo-260-3/wysokosci.png",
+							"alt": "Mapa wysokości działki 260/3 i otoczenia",
+							"caption": "NMT GUGiK 23.09.2024, siatka 1 m, EPSG:2180 / PL-EVRF2007-NH; opracowanie 25.10.2026. Model gruntu, nie wysokości drzew i dachów."
+						},
+						{
+							"src": "assets/gdansk-klukowo-260-3/przekroje.png",
+							"alt": "Przekroje NE–SW oraz NW–SE przez działkę 260/3",
+							"caption": "Obliczenia z NMT GUGiK 23.09.2024; odczyt 25.10.2026. Skala pionowa powiększona. Przekroje nie opisują poziomu wód, nośności ani dzisiejszych robót."
+						}
+					]
+				},
+				{
+					"id": "dostep-media",
+					"title": "Dojazd i media",
+					"lead": "Widoczna droga i przewody nie potwierdzają praw do korzystania ani warunków przyłączenia.",
+					"items": [
+						{
+							"label": "Drogi 260/7 i 260/12",
+							"text": "Widoczne w ewidencji i w historycznym pakiecie RCN z 2017 r. Brak potwierdzenia aktualnych udziałów/służebności. Potrzebne dokumenty od sprzedającego: przejazd oraz prawo prowadzenia sieci na całej trasie, zakres sprzedaży, utrzymanie i podział kosztów.",
+							"status": "unknown",
+							"sourceIds": [
+								"uldk",
+								"rcn"
+							]
+						},
+						{
+							"label": "Woda, gaz i energia na mapie",
+							"text": "Odczyt oddzielnych warstw KIUT pokazuje te sieci wzdłuż boku NE. Przy północnym narożniku są urządzenia/odgałęzienia elektryczne blisko granicy. Mapa nie dowodzi czynności, wydajności ani braku innych kolizji. Potrzebne warunki operatorów.",
+							"status": "verified",
+							"sourceIds": [
+								"kiut"
+							]
+						},
+						{
+							"label": "Ścieki do rozstrzygnięcia",
+							"text": "Nie potwierdzono ciągłej kanalizacji sanitarnej przy dojeździe. Plan przewiduje ją docelowo, a do jej realizacji dopuszcza zbiorniki bezodpływowe. Operator/miasto musi potwierdzić rozwiązanie dla tej działki, rzędne, ewentualną grawitację i koszt.",
+							"status": "unknown",
+							"sourceIds": [
+								"kiut",
+								"karta"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/gdansk-klukowo-260-3/media.png",
+							"alt": "Sieci widoczne w KIUT przy północno-wschodniej granicy 260/3",
+							"caption": "KIUT GUGiK, odczyt 25.10.2026, osobne warstwy WMS 1.1.1. Brak potwierdzonych warunków przyłączenia i ciągłej sieci sanitarnej; narożnik północny do kontroli kolizji."
+						}
+					]
+				},
+				{
+					"id": "otoczenie",
+					"title": "Lotnisko, przyroda i szkoła",
+					"lead": "Położenie poza OOU nie oznacza ciszy ani braku innych ograniczeń lotniczych.",
+					"items": [
+						{
+							"label": "Poza OOU z uchwały 2016",
+							"text": "Obliczenie z tabeli współrzędnych uchwały 203/XVIII/16: brak przecięcia z obszarami A/B; najbliższa zewnętrzna granica B około 680 m, A około 1095 m. To wynik dla tego aktu, nie audyt wszystkich ograniczeń lotniczych.",
+							"status": "verified",
+							"sourceIds": [
+								"oou"
+							]
+						},
+						{
+							"label": "Hałas wymaga odsłuchu",
+							"text": "Sześć warstw miejskich 2022, lotnisko/drogi/kolej × LDWN/LN, nie przecinało działki. To brak przecięcia odczytanych izofon, nie 0 dB ani pomiar z 2026 r. Warto sprawdzić na miejscu rzeczywiste operacje lotniska o różnych porach.",
+							"status": "verified",
+							"sourceIds": [
+								"geogdansk"
+							]
+						},
+						{
+							"label": "Otulina TPK",
+							"text": "Cała działka w otulinie Trójmiejskiego Parku Krajobrazowego, poza parkiem około 1 km od granicy. Kontrola GDOŚ nie wykazała przecięcia badanych obszarów Natura 2000. Nie był to pełny audyt gatunków i drzew. Karta wskazuje też zlewnię Raduni/ujęcie Straszyn; aktualnej granicy strefy ochronnej ujęcia osobno nie ustalono.",
+							"status": "verified",
+							"sourceIds": [
+								"gdos",
+								"karta"
+							]
+						},
+						{
+							"label": "SP nr 82, Radarowa 26",
+							"text": "Obwód na 2026/27 obejmuje całą Telewizyjną. Podstawa: uchwała XXIV/580/26, załącznik poz. 56, s. 10. Numer przyszłego domu nieustalony; zakup gruntu nie oznacza zamieszkania w obwodzie.",
+							"status": "verified",
+							"sourceIds": [
+								"szkola"
+							]
+						},
+						{
+							"label": "Chodnik na Telewizyjnej",
+							"text": "DRMG informuje o robotach do adresu 62a; aktualizacja 1.10.2026, planowany termin przywrócenia organizacji ruchu 7.12.2026. Nie potwierdza to gotowej i bezpiecznej całej trasy pieszej od działki. Dojazdów do pracy nie analizowano bez wskazania celów.",
+							"status": "verified",
+							"sourceIds": [
+								"chodnik"
+							]
+						},
+						{
+							"label": "Sąsiedztwo",
+							"text": "Domy przy NW i SW; niezabudowane działki po drugiej stronie dojazdu mogą się zabudować. Dzisiejszy widok i prywatność nie są trwałą gwarancją.",
+							"status": "verified",
+							"sourceIds": [
+								"uldk"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/gdansk-klukowo-260-3/oou.png",
+							"alt": "Schemat obszarów ograniczonego użytkowania lotniska i działki 260/3",
+							"caption": "Odtworzenie współrzędnych uchwały 203/XVIII/16, załącznik 2, s. 5–6; obliczenia 25.10.2026. Schemat granic zewnętrznych, nie mapa słyszalności samolotów."
+						}
+					]
+				},
+				{
+					"id": "cena-przygotowanie",
+					"title": "Cena i koszty przygotowania",
+					"lead": "890 tys. zł jest ceną z kopii ogłoszenia. Łączny koszt zakupu i przygotowania nie został ustalony.",
+					"items": [
+						{
+							"label": "Cena w kontekście RCN",
+							"text": "Obliczenie: 890 000 / 2003 = 444,33 zł/m². Lokalne transakcje: 259/4 (14.02.2025) 424,58 zł/m²; 260/10 (12.06.2025) 548,90; 260/14 (29.02.2024) 402,75; 260/44 (05.02.2025) 412,00; 259/14 (08.05.2024) 343,92; 265/8 (17.06.2024) 188,11. Nie wykazano identycznych mediów, gruntu i stanu prawnego; cena mieści się w obserwacjach, ale nie dowodzi okazji.",
+							"status": "declared",
+							"sourceIds": [
+								"cena",
+								"rcn"
+							]
+						},
+						{
+							"label": "Pakiety a cena parceli",
+							"text": "Dla 260/14 cena parceli 806 300 zł, całego aktu 810 000 zł; dla 260/44 parcela 824 000 zł, akt 825 000 zł. Różnice to udziały drogowe. Kwota 320 tys. zł z 2017 r. dla 260/3 dotyczyła pakietu 4559 m² z drogami, nie samej tej działki.",
+							"status": "verified",
+							"sourceIds": [
+								"rcn"
+							]
+						},
+						{
+							"label": "Badania: robocza rezerwa 2–4 tys. zł brutto",
+							"text": "Założenie na 3–4 otwory 4–6 m i opinię, do indywidualnej oferty geotechnika. Publiczne cenniki mają różny zakres i dodatki. Nie jest to potwierdzona cena usługi dla parceli.",
+							"status": "assumed",
+							"sourceIds": [
+								"badania1",
+								"badania2"
+							]
+						},
+						{
+							"label": "Nieustalone dopłaty",
+							"text": "Nie wyceniono wymiany/wzmocnienia gruntu, niwelacji i odwodnienia, przyłączy, ścieków, praw do drogi, poprawy dojazdu ani kosztów transakcyjnych. Nie sumowano alternatywnych fundamentów ani arbitralnego PCC/VAT. 892–894 tys. zł to tylko oferta plus rezerwa badań, nie budżet zakupu i przygotowania.",
+							"status": "unknown",
+							"sourceIds": []
+						}
+					],
+					"figures": []
+				}
+			],
+			"risks": [
+				{
+					"severity": "high",
+					"title": "Prawny dojazd i ścieki",
+					"detail": "Bez dokumentów obu dróg i warunków sanitarnych nie ma potwierdzonego zakresu budowy ani kosztu wejścia."
+				},
+				{
+					"severity": "high",
+					"title": "Grunt i sezonowa woda",
+					"detail": "Brak badań pod działką. Łagodna powierzchnia nie oznacza nośnego i suchego podłoża."
+				},
+				{
+					"severity": "high",
+					"title": "Zakup z zamiarem podziału",
+					"detail": "Standardowy podział na dwie budowlane po około 1000 m² nie spełnia minimum 2000 m² w planie. Dom dwumieszkaniowy wymaga osobnego projektu na całej parceli."
+				},
+				{
+					"severity": "medium",
+					"title": "Limit powierzchni całkowitej",
+					"detail": "Parter 200 m² i poddasze o podobnym obrysie praktycznie wyczerpują intensywność 0,2; garaż nie jest wyłączony."
+				},
+				{
+					"severity": "medium",
+					"title": "Hałas i niewyjaśnione warstwy",
+					"detail": "Poza OOU nie oznacza ciszy. MZP i aktualna granica ochrony ujęcia Straszyn pozostały nierozstrzygnięte."
+				},
+				{
+					"severity": "medium",
+					"title": "Cena i koszty są częściowe",
+					"detail": "890 tys. zł z agregatora wymaga potwierdzenia; droga, sieci, grunt i transakcja mogą istotnie zmienić opłacalność."
+				}
+			],
+			"questions": [
+				{
+					"id": "telewizyjna-cena",
+					"text": "Czy cena 890 tys. zł jest aktualna i obejmuje udziały w 260/7 i 260/12? Jakie są prowizje i sposób opodatkowania sprzedaży?"
+				},
+				{
+					"id": "telewizyjna-drogi",
+					"text": "Jakie dokumenty potwierdzają skuteczny przejazd i prawo prowadzenia mediów przez obie działki drogowe? Kto utrzymuje drogę?"
+				},
+				{
+					"id": "telewizyjna-scieki",
+					"text": "Czy możliwe jest przyłączenie kanalizacji, jakie są rzędne i koszty, a jeśli nie — czy można zastosować zbiornik i gdzie?"
+				},
+				{
+					"id": "telewizyjna-operatorzy",
+					"text": "Jakie są pisemne warunki przyłączenia wody, prądu i gazu oraz kolizje przy północnym narożniku?"
+				},
+				{
+					"id": "telewizyjna-geotechnika",
+					"text": "Czy sprzedający zgadza się na badania pod rzeczywistym obrysem domu przed zakupem? Czy występują nasypy, organika lub sezonowa woda?"
+				},
+				{
+					"id": "telewizyjna-projekt",
+					"text": "Czy konkretny projekt mieści się w intensywności 0,2, 20% zabudowy, 70% PBC oraz wymaganiach wysokości, odległości i parkowania?"
+				},
+				{
+					"id": "telewizyjna-dwa-lokale",
+					"text": "Jeśli potrzebne są dwa lokale: czy architekt potwierdzi dom dwumieszkaniowy na jednej parceli, bez założenia podziału na dwie budowlane?"
+				},
+				{
+					"id": "telewizyjna-wypis",
+					"text": "Czy aktualny wypis i wyrys potwierdzają parametry 2706/011-21 i informację o zmianach lub innych decyzjach?"
+				},
+				{
+					"id": "telewizyjna-rv",
+					"text": "Czy grunt RV ma pochodzenie mineralne czy organiczne i jakie są obowiązki wyłączenia z produkcji?"
+				},
+				{
+					"id": "telewizyjna-halas",
+					"text": "Czy hałas podczas rzeczywistych operacji lotniska i zacienienie ogrodu odpowiadają oczekiwaniom?"
+				},
+				{
+					"id": "telewizyjna-woda",
+					"text": "Czy urząd potwierdzi zasięg MZP i aktualnej strefy ochronnej ujęcia Straszyn oraz dopuszczalne gospodarowanie wodą na działce?"
+				}
+			],
+			"sources": [
+				{
+					"id": "oferta",
+					"label": "Ogłoszenie Otodom",
+					"url": "https://www.otodom.pl/pl/oferta/dzialka-budowlana-2003-m-gdansk-osowa-klukowo-ul-telewizyjna-ID4C5pa",
+					"note": "W analizie 25.10.2026 HTTP 403; nie potwierdzono treści bezpośrednio."
+				},
+				{
+					"id": "cena",
+					"label": "CenaDzialki — kopia właściwej oferty",
+					"url": "https://cenadzialki.pl/dzialki-na-sprzedaz/pomorskie/gdansk",
+					"note": "Odczyt 25.10.2026: dokładny EGiB, 2003 m² i 890 tys. zł; agregator, nie potwierdzenie sprzedającego."
+				},
+				{
+					"id": "uldk",
+					"label": "GUGiK — ULDK",
+					"url": "https://uldk.gugik.gov.pl/",
+					"note": "Geometria parceli, odczyt 25.10.2026. Nie potwierdza praw do drogi."
+				},
+				{
+					"id": "geogdansk",
+					"label": "GeoGdańsk — EGiB, plany i hałas",
+					"url": "https://geogdansk.pl/",
+					"note": "Odczyt 25.10.2026: miejska geometria, RV, zasięg planu; hałas według modelu 2022."
+				},
+				{
+					"id": "karta",
+					"label": "MPZP 2706 — karta 011",
+					"url": "https://geogdansk.pl/pliki/WUIA/karty_terenow/2706011.pdf",
+					"note": "Odczyt 25.10.2026; pkt 6.4 minimum 2000 m². Uzupełnienie o podziale 26.10.2026 oparto na tym odczycie."
+				},
+				{
+					"id": "uchwala",
+					"label": "MPZP 2706 — tekst uchwały",
+					"url": "https://zpid.geogdansk.pl/plany/27/2706UCHWv1.pdf",
+					"note": "XIX/564/04 z 22.01.2004; definicja strefy 21 i intensywności. Odczyt 25.10.2026."
+				},
+				{
+					"id": "rysunek",
+					"label": "MPZP 2706 — urzędowy rysunek",
+					"url": "https://zpid.geogdansk.pl/plany/27/2706RYSv1.tif",
+					"note": "Odczyt 25.10.2026; zalecane podziały parcelacyjne nie znoszą minimum powierzchni."
+				},
+				{
+					"id": "brg",
+					"label": "BRG — plan 2722",
+					"url": "https://www.brg.gda.pl/plany/klukowo-rejon-ulic-radiowej-i-teleskopowej",
+					"note": "Status „Plan zawieszony” w odczycie 25.10.2026."
+				},
+				{
+					"id": "nmt",
+					"label": "GUGiK — NMT N-34-49-D-d-2-4",
+					"url": "https://opendata.geoportal.gov.pl/NumDaneWys/NMT/81008/81008_1561288_N-34-49-D-d-2-4.asc",
+					"note": "Skaning 23.09.2024; siatka 1 m, PL-EVRF2007-NH. Podstawa obliczeń wysokości i przekrojów."
+				},
+				{
+					"id": "kiut",
+					"label": "GUGiK — integracja uzbrojenia terenu",
+					"url": "https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaUzbrojeniaTerenu",
+					"note": "Odczyt 25.10.2026, osobne warstwy; kartograficzny przebieg, nie warunki operatora."
+				},
+				{
+					"id": "pgi",
+					"label": "PIG — archiwalne otwory geoinżynierskie",
+					"url": "https://cbdgmapa.pgi.gov.pl/arcgis/rest/services/geoinz/atlas_gi_otwory/MapServer/0",
+					"note": "Odczyt metadanych 25.10.2026; sąsiednie otwory z 1995/2007, brak profili litologicznych i wód."
+				},
+				{
+					"id": "sopo",
+					"label": "PIG — SOPO",
+					"url": "https://geoportal.pgi.gov.pl/portal/page/portal/SOPO/Wyszukaj3",
+					"note": "Odczyt mapy 25.10.2026 nie wykazał oznaczeń na parceli; nie stanowi zaświadczenia."
+				},
+				{
+					"id": "mzp",
+					"label": "Wody Polskie — Hydroportal",
+					"url": "https://wody.isok.gov.pl/",
+					"note": "Próba odczytu warstw MZP 25.10.2026 zakończyła się HTTP 401; zasięg pozostaje nieustalony."
+				},
+				{
+					"id": "oou",
+					"label": "Uchwała 203/XVIII/16 — OOU lotniska",
+					"url": "https://edziennik.gdansk.uw.gov.pl/WDU_G/2016/1093/akt.pdf",
+					"note": "Załącznik 2, s. 5–6: współrzędne odtworzone i sprawdzone 25.10.2026; wynik poza OOU tego aktu."
+				},
+				{
+					"id": "gdos",
+					"label": "GDOŚ — Geoserwis",
+					"url": "https://geoserwis.gdos.gov.pl/mapy/",
+					"note": "Kontrola geometrii 25.10.2026: całość w otulinie TPK; nie pełny audyt ochrony gatunkowej i drzew."
+				},
+				{
+					"id": "szkola",
+					"label": "Obwody szkół — uchwała XXIV/580/26",
+					"url": "https://edziennik.gdansk.uw.gov.pl/WDU_G/2026/1000/akt.pdf",
+					"note": "Załącznik poz. 56, s. 10; Telewizyjna w SP82, rok 2026/27; odczyt 25.10.2026."
+				},
+				{
+					"id": "chodnik",
+					"label": "DRMG — chodnik na Telewizyjnej",
+					"url": "https://drmg.gdansk.pl/index.php/inwestycje/1301-przebudowa-drogi-w-zakresie-budowy-chodnika-na-ul-telewizyjnej",
+					"note": "Aktualizacja źródła 1.10.2026, odczyt 25.10.2026. Termin 7.12.2026 jest planem, nie potwierdzeniem zakończenia."
+				},
+				{
+					"id": "rcn",
+					"label": "GUGiK — Rejestr Cen Nieruchomości",
+					"url": "https://mapy.geoportal.gov.pl/wss/service/rcn",
+					"note": "Odczyt 25.10.2026; transakcje 2024–2025 i rozdzielenie cen parceli od pakietów drogowych. Nie jest operatem wyceny."
+				},
+				{
+					"id": "badania1",
+					"label": "MS-Geotechnika — pakiety badań",
+					"url": "https://ms-geotechnika-pomorskie.pl/ceny-i-przykladowe-pakiety/",
+					"note": "Odczyt 25.10.2026; 1200–2000 zł netto za zakres 2–3 otworów do 6 m. Rezerwa dla parceli to własne założenie."
+				},
+				{
+					"id": "badania2",
+					"label": "Geotechnic — Gdańsk",
+					"url": "https://www.geotechnic.pl/pomorskie/geotechnika-gdansk.php",
+					"note": "Odczyt 25.10.2026; widełki 1500–3000 zł netto o mniej precyzyjnym zakresie."
+				},
+				{
+					"id": "grunty",
+					"label": "Ustawa o ochronie gruntów rolnych i leśnych",
+					"url": "https://api.sejm.gov.pl/eli/acts/DU/2024/82/text/U/D20240082Lj.pdf",
+					"note": "Podstawa analizy RV z 25.10.2026; pochodzenie gleby i konkretne obowiązki wymagają potwierdzenia."
 				}
 			]
 		}

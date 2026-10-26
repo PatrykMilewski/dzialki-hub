@@ -3159,6 +3159,493 @@
 					"note": "Objaśnienie procedury; nie jest decyzją dotyczącą tej działki."
 				}
 			]
+		},
+		{
+			"slug": "barniewice-319-49",
+			"id": "220508_5.0002.319/49",
+			"number": "319/49",
+			"title": "Witrażowa · Nowy Świat",
+			"location": "Nowy Świat · obręb Barniewice · gmina Żukowo",
+			"areaM2": 1449,
+			"pricePln": 950000,
+			"pricePerM2": 655.62,
+			"updatedAt": "2026-10-26",
+			"statusKey": "conditional",
+			"statusLabel": "Warunkowo",
+			"summary": "Istotne niedopasowanie do dużego, suchego ogrodu. Dom 200 m² mieści się geometrycznie w części MN, lecz niższy zachód obejmuje ZK z zakazem niwelacji oraz pas WP. Grunt, woda i sprawa Strugi wymagają rozwiązania przed zakupem.",
+			"verdict": {
+				"title": "Dom możliwy warunkowo; duży suchy ogród niepotwierdzony",
+				"text": "Nie rekomenduje się zakupu za 950 tys. zł z założeniem, że wystarczy dowieźć ziemię i wykonać zwykłą płytę. Około 620 m² leży w MN, 720 m² w ZK, a 110 m² w WP. Po domu, tarasie i podjeździe wariantu A zostaje około 365 m² MN przed skarpami i dojściami. To nie jest potwierdzony suchy ogród. Najpierw zgodny z planem PZT, projekt geotechniczny, rozwiązanie odwodnienia i wyjaśnienie sprawy Strugi Wysockiej."
+			},
+			"offerUrl": "https://barniewice.nieruchomosci-online.pl/dzialka,na-sprzedaz/26504102.html",
+			"thumbnail": "assets/barniewice-319-49/dom-A.png",
+			"hero": "assets/barniewice-319-49/dom-A.png",
+			"imageLabel": "SCHEMAT NA MPZP · 26.10.2026",
+			"imageAlt": "Schemat domu 200 m² na działce 319/49, z orientacyjnymi strefami MN, ZK i WP",
+			"cardNotice": {
+				"title": "Nie zakładaj podniesienia całego ogrodu",
+				"text": "ZK ma zakaz niwelacji; 319/49 obejmuje też postępowanie dotyczące Strugi Wysockiej."
+			},
+			"facts": [
+				{
+					"label": "Część pod zabudowę MN",
+					"value": "ok. 620 m²",
+					"note": "Rastrowy szacunek 622 ±30 m²; potrzebny dokładny wyrys.",
+					"status": "assumed"
+				},
+				{
+					"label": "Dom z garażem",
+					"value": "200 m² rzutu",
+					"note": "Dwa testy geometrii; nie projekt i nie powierzchnia użytkowa.",
+					"status": "assumed"
+				},
+				{
+					"label": "Woda gruntowa",
+					"value": "0,20–1,90 m p.p.t.",
+					"note": "Trzy otwory z 08.10.2026, pomiar jednego dnia; możliwe wahania.",
+					"status": "verified"
+				},
+				{
+					"label": "Różnica wjazd–ogród",
+					"value": "około 2 m",
+					"note": "NMT 08.09.2024; nie bieżący pomiar budowlany.",
+					"status": "verified"
+				},
+				{
+					"label": "Szkoła obwodowa",
+					"value": "SP w Chwaszczynie",
+					"note": "Nowy Świat: SP im. A. Mickiewicza, ul. Mickiewicza 16; obwód według uchwały 2023/4964.",
+					"status": "verified"
+				},
+				{
+					"label": "Pełny koszt przygotowania",
+					"value": "Nieustalony",
+					"note": "Stary wariant nasypów nie jest potwierdzoną prawnie bazą.",
+					"status": "unknown"
+				}
+			],
+			"sections": [
+				{
+					"id": "plan",
+					"title": "Plan i granice przeznaczeń",
+					"lead": "Całe 1449 m² nie jest jednolitą powierzchnią budowlaną.",
+					"items": [
+						{
+							"label": "MN, ZK oraz WP",
+							"text": "Obliczenie na ręcznie odczytanym rastrze: 9.MN około 622 ±30 m², 2.ZK około 717 ±60 m², 1.WP około 110 ±30 m². Powierzchnie liczono w EPSG:2180; to orientacyjny podział, nie urzędowy wyrys.",
+							"status": "assumed",
+							"sourceIds": [
+								"mpzp",
+								"uldk",
+								"sip"
+							]
+						},
+						{
+							"label": "Plan nadal wskazany w SIP",
+							"text": "XLIX/600/2018: zabudowa wolnostojąca, maks. 40% zabudowy, intensywność 0,9, min. 50% PBC, do 9 m i dwóch kondygnacji, dach 30–45°. Definicja dachu stromego wymaga ponad 30° — projekt dokładnie 30° wymaga wyjaśnienia. Minimum nowego podziału 1000 m²; nie oznacza zakazu budowy na istniejącej mniejszej części MN. Wyrok dotyczący 317/24 nie znosi ograniczeń 319/49.",
+							"status": "verified",
+							"sourceIds": [
+								"mpzp",
+								"sip",
+								"wyrok"
+							]
+						},
+						{
+							"label": "Zakaz niwelacji ZK",
+							"text": "§18 ust.4 pkt2a zakazuje zmiany ukształtowania terenu; wyjątki obejmują utrzymanie rowów i budowę/utrzymanie retencji. Nie jest to ogólna zgoda na nasyp pod trawnik. Nie przenosi się tego zakazu automatycznie na MN.",
+							"status": "verified",
+							"sourceIds": [
+								"mpzp"
+							]
+						},
+						{
+							"label": "Sprawa Strugi Wysockiej",
+							"text": "Obwieszczenie MI z 16.10.2026, DOK-4.774.25.2025.MP, wprost wymienia 319/49. Zebrano materiał w sprawie charakteru wód; przewidywany termin 20.12.2026. To nie rozstrzygnięcie ani zgoda na niwelację. Nie przesądzono konsekwencji własnościowych.",
+							"status": "verified",
+							"sourceIds": [
+								"struga"
+							]
+						},
+						{
+							"label": "Użytki i klasy EGiB",
+							"text": "Mapa pokazuje N, PsIV oraz wschodnie kontury rolne z sąsiadującymi opisami RIIIb/RV. Nie ma pewnego bilansu klas dla parceli. Potrzebny wypis/wyrys i ustalenie wyłączenia z produkcji, w tym pochodzenia organicznego gleby.",
+							"status": "unknown",
+							"sourceIds": [
+								"egib"
+							]
+						}
+					],
+					"figures": []
+				},
+				{
+					"id": "dom-ogrod",
+					"title": "Dom i użytkowy ogród",
+					"lead": "Rzut domu można zmieścić. Duży, suchy ogród to osobny warunek.",
+					"items": [
+						{
+							"label": "Wariant A: 14 × 14,286 m",
+							"text": "Łącznie 200 m² domu i garażu. Taras 24 m² po zachodniej stronie, schemat podjazdu od północy. Dom ma w modelu minimum 5 m od granicy, 7 m od drogi i około 3,9 m do linii MN/ZK. Nie sprawdzono konkretnego rzutu pomieszczeń, okapów, sieci, zjazdu ani toru przejazdu.",
+							"status": "assumed",
+							"sourceIds": [
+								"mpzp",
+								"uldk"
+							]
+						},
+						{
+							"label": "Wariant B: 16 × 12,5 m",
+							"text": "Dom 200 m² pozostaje w MN, ale pokazany taras częściowo wchodzi w ZK i wymaga przeprojektowania. Ten rysunek sprawdza obrys domu, nie potwierdza całego zagospodarowania.",
+							"status": "assumed",
+							"sourceIds": [
+								"mpzp",
+								"uldk"
+							]
+						},
+						{
+							"label": "Około 365 m² MN pozostaje w wariancie A",
+							"text": "Obliczenie po odjęciu domu, tarasu i schematycznego podjazdu; jeszcze przed dodatkowymi dojściami, skarpami i odwodnieniem. Są to pasy terenu, nie jednolity ani potwierdzony suchy ogród. Konserwatywna kontrola dla samych 622 m² MN daje około 249 m² limitu zabudowy i 311 m² PBC; mianownik potwierdza projektant.",
+							"status": "assumed",
+							"sourceIds": [
+								"mpzp",
+								"uldk"
+							]
+						},
+						{
+							"label": "Światło i zejście",
+							"text": "Ogród zasadniczo od zachodu/północnego zachodu; możliwe dodatkowe przeszklenia na południe. Nie policzono godzin słońca ani wysokości przeszkód. Wcześniejsze zejście 10% i podnoszony ogród były wariantem warunkowym, nie zatwierdzoną niweletą.",
+							"status": "unknown",
+							"sourceIds": [
+								"nmt"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/barniewice-319-49/dom-A.png",
+							"alt": "Wariant A domu z garażem na 319/49",
+							"caption": "Koncepcja 26.10.2026 na MPZP 2018 i granicach ULDK. 200 m² z garażem; granice przeznaczeń orientacyjne. Nie PZT."
+						},
+						{
+							"src": "assets/barniewice-319-49/dom-B.png",
+							"alt": "Wariant B: dom w MN, taras częściowo w ZK",
+							"caption": "Koncepcja 26.10.2026. Taras B wymaga przeprojektowania; nie jest to potwierdzony wariant realizacji."
+						}
+					]
+				},
+				{
+					"id": "teren",
+					"title": "Teren, grunt i woda",
+					"lead": "Niższy zachód jest rozległy; większy spadek skupia się przy wjeździe.",
+					"items": [
+						{
+							"label": "NMT z 08.09.2024",
+							"text": "GUGiK, siatka 1 m, PL-1992 / PL-EVRF2007-NH. Zakres w parceli około 129,13–132,07 m; typowo około 2 m między wjazdem a ogrodem. Dane nie uwzględniają pewnie późniejszych robót. Pion przekrojów jest powiększony.",
+							"status": "verified",
+							"sourceIds": [
+								"nmt"
+							]
+						},
+						{
+							"label": "Opinia geotechniczna: nie tylko torf",
+							"text": "Dokument niepubliczny z 08.10.2026: trzy ręczne otwory po 4 m. Nasypy niekontrolowane, torfy/namuły, słabsze piaski i lokalnie miękkoplastyczna glina. Zalecenie usunięcia/wzmocnienia obejmuje nN, I, II, IVA i VA. Parametry korelacyjne nie zastępują obliczeń osiadania.",
+							"status": "verified",
+							"sourceIds": [
+								"geotech"
+							]
+						},
+						{
+							"label": "Płytka woda",
+							"text": "Najpłytsza ustabilizowana woda w trzech otworach: 0,20 / 0,60 / 1,90 m p.p.t. Występuje zwierciadło napięte i sączenia; autor wskazuje możliwe wahania około 0,5 m. Pomiary punktowe z jednego dnia nie opisują całego ogrodu ani roku.",
+							"status": "verified",
+							"sourceIds": [
+								"geotech"
+							]
+						},
+						{
+							"label": "Fundament i ogród wymagają osobnych rozwiązań",
+							"text": "Pale nie są nakazane ani wykluczone. Potrzebne obliczenia domu wraz z ciężarem nasypu i rozpoznanie pod finalnym obrysem. Samo podniesienie powierzchni nie usuwa wody ani osiadania; drenaż potrzebuje legalnego odbiornika.",
+							"status": "unknown",
+							"sourceIds": [
+								"geotech",
+								"mpzp"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/barniewice-319-49/wysokosci.png",
+							"alt": "Kolorowa mapa wysokości 319/49 i sąsiedztwa",
+							"caption": "GUGiK NMT 08.09.2024, 1 m, EPSG:2180, PL-EVRF2007-NH. Wspólna skala barw, granice ULDK; nie aktualna niwelacja."
+						},
+						{
+							"src": "assets/barniewice-319-49/przekroje.png",
+							"alt": "Przekroje N–S przez 319/47, 319/48, 319/49 i 319/34",
+							"caption": "NMT 08.09.2024, przekroje po południkach WGS84, odległości w EPSG:2180. Pion powiększony; stan bez hipotetycznego nasypu."
+						}
+					]
+				},
+				{
+					"id": "otoczenie",
+					"title": "Dojazd, media i otoczenie",
+					"lead": "Mapa sieci i opis ogłoszenia nie zapewniają przyłączy ani tytułu dojazdu.",
+					"items": [
+						{
+							"label": "Dojazd i media według oferty",
+							"text": "Sprzedający podaje dojazd Yomb, dostęp do drogi publicznej oraz wodę, gaz i prąd w drodze. WMS GESUT pokazuje sieci na północnym wschodzie. Nie potwierdzono warunków przyłączenia, kanalizacji, przepustowości, kosztów ani tytułu prawnego dojazdu.",
+							"status": "declared",
+							"sourceIds": [
+								"oferta",
+								"gesut"
+							]
+						},
+						{
+							"label": "Szkoła: Chwaszczyno",
+							"text": "Dla Nowego Świata obwód prowadzi do SP im. Adama Mickiewicza w Chwaszczynie, ul. Mickiewicza 16, według uchwały LXIV/833/2023, dla stanu 2026/27. Obręb Barniewice nie jest miejscowością adresową; Witrażowa znajduje się w Nowym Świecie. Numer domu nieustalony, uchwała obejmuje miejscowość.",
+							"status": "verified",
+							"sourceIds": [
+								"szkola"
+							]
+						},
+						{
+							"label": "Hałas i OOU",
+							"text": "W wykazie parceli OOU z 2016 r. nie znaleziono Barniewic ani 319/49, co wskazuje na położenie poza OOU, lecz nie zastępuje kontroli aktualnej geometrii. Nie uzyskano poziomów dB na parceli; pobliska kolej i lotnisko wymagają osobnej oceny. Brak przekroczeń w innym punkcie pomiarowym nie dowodzi ciszy tutaj.",
+							"status": "unknown",
+							"sourceIds": [
+								"oou",
+								"halas"
+							]
+						},
+						{
+							"label": "Przyroda i pozostałe luki",
+							"text": "Obliczenie przecięć z siedmioma warstwami GDOŚ nie wykazało nakładania: Natura 2000, OChK, parki krajobrazowe, rezerwaty, użytki ekologiczne i punktowe pomniki. Otulina TPK około 148 m. Nie znosi to lokalnego ZK/korytarza. Brak punktowego wyniku ISOK/SOPO, pełnego wykazu inwestycji i ochrony zabytkowej; nie oznacza braku ograniczeń.",
+							"status": "unknown",
+							"sourceIds": [
+								"gdos",
+								"mpzp"
+							]
+						}
+					],
+					"figures": []
+				},
+				{
+					"id": "cena",
+					"title": "Cena i dodatkowe koszty",
+					"lead": "950 tys. zł to cena samej działki. Pełny koszt przygotowania jest nieustalony.",
+					"items": [
+						{
+							"label": "Cena ofertowa",
+							"text": "950 000 zł / 1449 m² = 655,62 zł/m². Ogłoszenie zaktualizowane 12.08.2026, odczyt 26.10.2026. Poligon ULDK ma 1449,226 m², co jest obliczeniem geometrii, nie wypisem EGiB.",
+							"status": "declared",
+							"sourceIds": [
+								"oferta",
+								"uldk"
+							]
+						},
+						{
+							"label": "Rzeczywiste transakcje — mała próba",
+							"text": "RCN: działka 989, 18.08.2025, 1822 m² za 850 tys. zł (466,52 zł/m²); 323/9, 27.06.2023, 810 m² za 360 tys. zł (444,44 zł/m²). Obręb Barniewice, przeznaczenie mieszkaniowe w rejestrze. Sprawdzono zakres aktów bez BBOX, rozdzielono duplikaty/pakiety. Różne daty i nieznane cechy nie pozwalają wyznaczyć wartości ani rabatu dla 319/49. Cena wygląda wysoko w tym materiale.",
+							"status": "verified",
+							"sourceIds": [
+								"rcn"
+							]
+						},
+						{
+							"label": "Oferty nie są transakcjami",
+							"text": "Odczyt 26.10.2026: wybrane mniejsze działki w Barniewicach oferowano za około 389–632 zł/m² (Jastrzębia, Orzechowa, Wenus, Pod Chmurką). Różne lokalizacje i niepotwierdzony grunt; to nie przedział wyceny 319/49.",
+							"status": "declared",
+							"sourceIds": [
+								"oferty"
+							]
+						},
+						{
+							"label": "Korekta dawnego kosztorysu",
+							"text": "121–313 tys. zł netto dopłat (przykład 203 tys.) dotyczyło warunkowego wariantu z podnoszeniem dolnego ogrodu. Nie jest to koszt prawnie potwierdzonego zagospodarowania. Nie można zakładać, że za tę kwotę powstanie suchy ogród w ZK.",
+							"status": "assumed",
+							"sourceIds": []
+						},
+						{
+							"label": "Rezerwy pod dom — nie pełny budżet",
+							"text": "Wybrane wcześniejsze rezerwy: wymiana 30–80, badania/projekt 5–10, odwodnienie robót 8–20, zabezpieczenie dna 0–8, nasyp konstrukcyjny 15–40 tys. zł netto. Suma 58–158 tys. zł netto jest koncepcyjna, bez pełnego docelowego odwodnienia, skarp, podjazdu, przyłączy i ewentualnych pali. Standardowa płyta i dom poza dopłatami; VAT zależy od zakresu.",
+							"status": "assumed",
+							"sourceIds": []
+						},
+						{
+							"label": "Pale i koszt wejścia",
+							"text": "Stara rezerwa palowa 70–160 tys. zł netto nie jest ofertą ani potwierdzoną koniecznością. Pale mogą zastąpić część wymiany — nie sumować pełnych alternatyw. Cena zakupu plus 58–158 tys. netto nie jest kosztem wejścia brutto. Brakuje kosztorysu legalnego wariantu, przyłączy, dostępu i opłat transakcji.",
+							"status": "unknown",
+							"sourceIds": []
+						}
+					],
+					"figures": []
+				}
+			],
+			"risks": [
+				{
+					"severity": "high",
+					"title": "Suchy ogród może nie powstać w oczekiwanej skali",
+					"detail": "Niski teren ZK nie jest swobodnie podnoszoną rezerwą ogrodową. Oceniaj wygodny ogród pozostały w MN."
+				},
+				{
+					"severity": "high",
+					"title": "Grunt i woda mogą zmienić konstrukcję oraz budżet",
+					"detail": "Obliczenia pod ostatecznym domem i nasypem mają rozstrzygnąć zakres wymiany/wzmocnienia; nie zakładaj z góry ani braku pali, ani ich konieczności."
+				},
+				{
+					"severity": "high",
+					"title": "Nierozstrzygnięta sprawa Strugi",
+					"detail": "Uzyskaj stan akt i konsekwencje rozstrzygnięcia DOK-4.774.25.2025.MP dla 319/49."
+				},
+				{
+					"severity": "high",
+					"title": "Dostęp, przyłącza i ścieki niepotwierdzone dokumentami",
+					"detail": "Warunki gestorów i tytuły do całej drogi powinny poprzedzać cenę ostateczną."
+				},
+				{
+					"severity": "medium",
+					"title": "Niepełne rozpoznanie pozostałych ograniczeń",
+					"detail": "Wypis EGiB/wyłączenie, punktowy hałas, ISOK/SOPO, zabytki, inwestycje i nasłonecznienie pozostają częściowo nieustalone."
+				}
+			],
+			"questions": [
+				{
+					"id": "pzt-mn",
+					"text": "Czy PZT mieści dom, taras, podjazd i całe skarpy w dopuszczalnych strefach, bez zwykłego podnoszenia ZK?"
+				},
+				{
+					"id": "ogrod-suchy",
+					"text": "Ile zostaje faktycznie suchego, wygodnego ogrodu po dojściach, skarpach i odwodnieniu?"
+				},
+				{
+					"id": "struga",
+					"text": "Jaki jest aktualny stan sprawy DOK-4.774.25.2025.MP i jej wpływ na działkę?"
+				},
+				{
+					"id": "geotechnika",
+					"text": "Jakie są obliczone osiadania domu i nasypu oraz koszt brutto przygotowania ostatecznego obrysu?"
+				},
+				{
+					"id": "odwodnienie",
+					"text": "Gdzie legalnie odprowadzić wodę, z jakimi rzędnymi i bez szkody dla sąsiadów?"
+				},
+				{
+					"id": "droga",
+					"text": "Jaki dokument zapewnia ciągły dostęp prawny do drogi publicznej i jakie są koszty udziałów lub utrzymania?"
+				},
+				{
+					"id": "media",
+					"text": "Jakie warunki przyłączenia i rozwiązanie ścieków potwierdzili gestorzy?"
+				},
+				{
+					"id": "egib",
+					"text": "Jakie użytki i klasy obejmuje zakres inwestycji i czy wymaga wyłączenia z produkcji?"
+				},
+				{
+					"id": "halas",
+					"text": "Jakie są aktualne uciążliwości kolejowe i lotnicze oraz wynik sprawdzenia map zagrożeń dla parceli?"
+				}
+			],
+			"sources": [
+				{
+					"id": "oferta",
+					"label": "Ogłoszenie AS02602",
+					"note": "Cena/powierzchnia i deklaracje mediów/dojazdu. Aktualizacja 12.08.2026, odczyt 26.10.2026.",
+					"url": "https://barniewice.nieruchomosci-online.pl/dzialka,na-sprzedaz/26504102.html"
+				},
+				{
+					"id": "uldk",
+					"label": "GUGiK ULDK — 319/49",
+					"note": "Granica odczytana 26.10.2026; powierzchnia obliczona, nie urzędowy wypis.",
+					"url": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=220508_5.0002.319%2F49&result=geom_wkt&srid=2180"
+				},
+				{
+					"id": "mpzp",
+					"label": "MPZP XLIX/600/2018 — tekst i rysunek",
+					"note": "§18: 9.MN, 2.ZK i 1.WP. Rysunek rastrowy; obliczone powierzchnie orientacyjne.",
+					"url": "https://edziennik.gdansk.uw.gov.pl/WDU_G/2018/798/oryginal/akt.pdf"
+				},
+				{
+					"id": "sip",
+					"label": "Gminny SIP Żukowo",
+					"note": "Odczyt 26.10.2026 nadal wskazuje plan 2018; nie urzędowe zaświadczenie.",
+					"url": "https://mpzp.gison.pl/zukowo"
+				},
+				{
+					"id": "wyrok",
+					"label": "Wyrok II SA/Gd 78/19",
+					"note": "Nieważność ZK w zakresie 317/24; nie znosi ograniczeń 319/49.",
+					"url": "https://rastry.gison.pl/mpzp-public/zukowo/uchwaly/U_2018_600_XLIX_wyrok.pdf"
+				},
+				{
+					"id": "struga",
+					"label": "MI — obwieszczenie o Strudze Wysockiej",
+					"note": "16.10.2026; obejmuje 319/49, przewidywany termin 20.12.2026; nie decyzja.",
+					"url": "https://www.gov.pl/web/infrastruktura/obwieszczenie-z-dnia-16-pazdziernika-2026-r-znak-dok-4774252025mp-o-zebraniu-calosci-materialu-dowodowego-i-zmianie-terminu-zalatwienia-sprawy"
+				},
+				{
+					"id": "egib",
+					"label": "GUGiK — ewidencja gruntów i budynków",
+					"note": "Mapa KIEG odczytana 26.10.2026; potrzebny wypis i dokładny bilans użytków.",
+					"url": "https://www.geoportal.gov.pl/pl/dane/ewidencja-gruntow-i-budynkow-egib/"
+				},
+				{
+					"id": "nmt",
+					"label": "GUGiK NMT — arkusz z 08.09.2024",
+					"note": "NMT 1 m, PL-1992 / PL-EVRF2007-NH; odczyt 23.10.2026. Mapa otoczenia obejmuje też sąsiedni arkusz N-34-49-D-d-2-1.",
+					"url": "https://opendata.geoportal.gov.pl/NumDaneWys/NMT/81008/81008_1561282_N-34-49-D-b-4-3.asc"
+				},
+				{
+					"id": "nmt-s",
+					"label": "GUGiK NMT — arkusz południowy",
+					"note": "Ta sama data 08.09.2024 i układy; uzupełnia sąsiedztwo na południu.",
+					"url": "https://opendata.geoportal.gov.pl/NumDaneWys/NMT/81008/81008_1561285_N-34-49-D-d-2-1.asc"
+				},
+				{
+					"id": "geotech",
+					"label": "Opinia geotechniczna — dokument niepubliczny",
+					"note": "Dokument niepubliczny: dostarczona przez użytkownika opinia MS-GEOTECHNIKA, badania 08.10.2026. Trzy otwory do 4 m. Publikowane są wyłącznie wnioski; dokument, podpisy i lokalizacje badań pozostają prywatne."
+				},
+				{
+					"id": "gesut",
+					"label": "Powiat kartuski — GESUT WMS",
+					"note": "Mapa 26.10.2026: sieci na NE. Nie warunki przyłączenia ani zapewnienie kompletności.",
+					"url": "https://kartuski-wms.webewid.pl/iip/ows?service=WMS&request=GetCapabilities"
+				},
+				{
+					"id": "szkola",
+					"label": "Obwody szkół — LXIV/833/2023",
+					"note": "Nowy Świat w obwodzie SP im. A. Mickiewicza w Chwaszczynie; stan rozpoznania 2026/27.",
+					"url": "https://edziennik.gdansk.uw.gov.pl/eli/POL_WOJ_PM/2023/4964/ogl/pol/pdf"
+				},
+				{
+					"id": "oou",
+					"label": "Uchwała OOU lotniska 203/XVIII/16",
+					"note": "Wykaz z 2016 r. nie wymienia Barniewic/319/49; nie zastępuje aktualnego przecięcia granic ani pomiaru hałasu.",
+					"url": "https://www.airport.gdansk.pl/media/434/download/Uchawla_Sejmiku_Wojewodztwa_Pomorskiego_PL.pdf?v=1"
+				},
+				{
+					"id": "halas",
+					"label": "GIOŚ — strategiczne mapy hałasu",
+					"note": "Źródło zakresu mapowania. Nie uzyskano punktowego odczytu na działce.",
+					"url": "https://www.gov.pl/web/gios/strategiczne-mapy-halasu"
+				},
+				{
+					"id": "gdos",
+					"label": "GDOŚ WFS",
+					"note": "26.10.2026: przecięcie poligonu z siedmioma warstwami, po filtrowaniu obwiedni; nie pełna inwentaryzacja przyrody.",
+					"url": "https://sdi.gdos.gov.pl/wfs"
+				},
+				{
+					"id": "rcn",
+					"label": "GUGiK — Rejestr Cen Nieruchomości",
+					"note": "Oficjalny WFS, pobranie 26.10.2026; BBOX około ±2 km, deduplikacja i kontrola wybranych aktów bez BBOX. Data kompletności powiatu niepotwierdzona.",
+					"url": "https://www.geoportal.gov.pl/pl/dane/rejestr-cen-nieruchomosci-rcn/"
+				},
+				{
+					"id": "oferty",
+					"label": "Oferty Barniewic — Adresowo",
+					"note": "Odczyt 26.10.2026; ceny ofertowe, odrębne od RCN i niebędące wyceną 319/49.",
+					"url": "https://adresowo.pl/dzialki/barniewice/"
+				}
+			]
 		}
 	]
 }

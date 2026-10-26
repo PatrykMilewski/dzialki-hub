@@ -48,8 +48,11 @@ test("all records have unique links, valid evidence references and existing map 
 			await access(new URL(image, root));
 		}
 		if (plot.costFile) await access(new URL(plot.costFile, root));
-		for (const source of plot.sources)
-			assert.equal(new URL(source.url).protocol, "https:");
+		for (const source of plot.sources) {
+			if (source.url !== undefined)
+				assert.equal(new URL(source.url).protocol, "https:");
+			else assert.ok(source.note.includes("niepubliczn"));
+		}
 		assert.equal(
 			new Set(plot.questions.map((question) => question.id)).size,
 			plot.questions.length,
@@ -88,7 +91,10 @@ test("section numbering follows content length with or without a calculator", ()
 			...reportMarkup(plot).matchAll(/class="section-no">(\d+)</g),
 		].map((match) => Number(match[1]));
 		const count = plot.sections.length + (costFile ? 1 : 0) + 3;
-		assert.deepEqual(numbers, Array.from({ length: count }, (_, i) => i + 1));
+		assert.deepEqual(
+			numbers,
+			Array.from({ length: count }, (_, i) => i + 1),
+		);
 	}
 });
 
@@ -110,4 +116,23 @@ test("future cards use their own image dates and notices", () => {
 	assert.match(html, /ORTO · 2025/);
 	assert.match(html, /Sprawdź dojazd/);
 	assert.doesNotMatch(html, /23\.04\.2023|Najpierw sprawdź WZ/);
+});
+
+test("private sources render escaped text without a fabricated link", () => {
+	const plot = {
+		...atlas.plots[0],
+		sources: [
+			{
+				id: "private",
+				label: "Opinia <prywatna>",
+				note: "Dokument niepubliczny",
+			},
+		],
+	};
+	const html = reportMarkup(plot);
+	assert.match(
+		html,
+		/<article id="source-private"><strong>Opinia &lt;prywatna&gt;<\/strong>/,
+	);
+	assert.doesNotMatch(html, /href="#"/);
 });

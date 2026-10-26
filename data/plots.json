@@ -13,18 +13,18 @@
 			"pricePerM2": 575,
 			"statusKey": "conditional",
 			"statusLabel": "Warunkowo",
-			"summary": "Łagodny teren i możliwość ogrodu od południowego zachodu. Deklarowane WZ ograniczają jednak powierzchnię zabudowy do 136,88 m² — przy założeniu, że wskaźnik dotyczy całych 944 m². To istotny konflikt z domem o rzucie 200 m² z garażem.",
+			"summary": "Łagodny teren i możliwość ogrodu od południowego zachodu. Po korekcie użytkownika WZ dopuszcza 20% zabudowy: dla 944 m² daje to 188,8 m². Rzut 200 m² z garażem nadal przekracza limit o 11,2 m².",
 			"verdict": {
 				"title": "Do dalszej analizy przy mniejszym rzucie domu",
-				"text": "Najpierw pełna decyzja WZ. Jeżeli potwierdzi maksymalnie 14,5% zabudowy dla 944 m², rzut 200 m² nie spełni limitu. Schemat 130 m² mieści się w deklarowanym wskaźniku, ale jego legalność i program pomieszczeń pozostają niepotwierdzone. Zakup wymaga też wyjaśnienia praw do całej drogi, mediów oraz warunków gruntowo-wodnych. Cena ofertowa jest o około 15,2% wyższa od stawki sąsiedniej transakcji z lutego 2026 r."
+				"text": "Najpierw pełna decyzja WZ. Jeżeli potwierdzi maksymalnie 20% zabudowy dla 944 m², rzut 200 m² nie spełni limitu. Schemat 130 m² mieści się w deklarowanym wskaźniku, ale jego legalność i program pomieszczeń pozostają niepotwierdzone. Zakup wymaga też wyjaśnienia praw do całej drogi, mediów oraz warunków gruntowo-wodnych. Cena ofertowa jest o około 15,2% wyższa od stawki sąsiedniej transakcji z lutego 2026 r."
 			},
 			"offerUrl": "https://www.olx.pl/d/oferta/dzialka-budowlana-z-wz-chwaszczyno-w-sasiedztwie-lasu-i-jeziora-wysockiego-CID3-ID1cIXVb.html",
 			"thumbnail": "assets/750-73/lokalizacja-750-73.png",
 			"facts": [
 				{
-					"label": "Limit zabudowy z oferty",
-					"value": "136,88 m²",
-					"note": "14,5% × 944 m²; warunkowy rachunek, bez wglądu w decyzję WZ.",
+					"label": "Limit po korekcie WZ",
+					"value": "188,8 m²",
+					"note": "20% × 944 m²; informacja użytkownika, bez wglądu w decyzję.",
 					"status": "declared"
 				},
 				{
@@ -62,43 +62,60 @@
 				{
 					"id": "planowanie",
 					"title": "Planowanie i dokumenty",
-					"lead": "Aktualizacja planowania i lasu: 26.10.2026. Pozostałe ustalenia raportu i kosztorysu zachowują daty 25.10.2026. Parametry WZ nadal pochodzą z ogłoszenia, bez decyzji.",
+					"lead": "Aktualizacja planowania i lasu: 26.10.2026. Pozostałe ustalenia raportu i kosztorysu zachowują daty 25.10.2026. Wskaźnik 20% pochodzi z korekty użytkownika; pozostałe parametry z ogłoszenia, bez decyzji.",
 					"items": [
 						{
 							"label": "MPZP na mapie gminy",
 							"text": "Odczyt SIP z 26.10.2026 wskazuje wszystkie cztery działki 750/70, /71, /73, /74 poza rysunkami obowiązujących planów. W otoczeniu około 1 km są odrębne płaty MPZP, m.in. na NW, E/NE i SE. Nie ustalono numerów ich aktów; to przegląd mapy, nie urzędowe zaświadczenie.",
 							"status": "verified",
-							"sourceIds": ["sip"]
+							"sourceIds": [
+								"sip"
+							]
 						},
 						{
-							"label": "Deklarowane WZ",
-							"text": "Ogłoszenie podaje dom wolnostojący, zabudowę 10,45–14,5%, minimum 40% PBC, wysokość do 9 m i dach dwuspadowy 30–40°. Nie udostępniono numeru, daty ani treści decyzji.",
+							"label": "WZ — korekta wskaźnika",
+							"text": "Użytkownik sprostował błąd ogłoszenia: maksymalna zabudowa wynosi 20%. Pozostałe parametry z oferty (minimum 40% PBC, do 9 m wysokości, dach dwuspadowy 30–40°) nie zostały zweryfikowane decyzją. Brak pełnej decyzji, mapy, numeru i potwierdzenia zakresu.",
 							"status": "declared",
-							"sourceIds": ["offer", "offer-mirror"]
+							"sourceIds": [
+								"wz-correction",
+								"offer"
+							]
 						},
 						{
 							"label": "Konflikt z rzutem 200 m²",
-							"text": "Przy podstawie 944 m² deklarowany przedział zabudowy wynosi 98,65–136,88 m². Rzut 200 m² wymaga 21,19%. Poddasze zwiększa powierzchnię użytkową, lecz nie limit powierzchni zabudowy; osobny garaż nie jest automatycznym obejściem wskaźnika.",
+							"text": "20% × 944 m² = 188,8 m². Rzut 200 m² przekracza ten limit o 11,2 m². Podstawa: korekta użytkownika; pełna decyzja i zakres terenu nadal do potwierdzenia. To powierzchnia zabudowy łącznie z garażem, nie powierzchnia użytkowa.",
 							"status": "assumed",
-							"sourceIds": ["offer"]
+							"sourceIds": [
+								"wz-correction"
+							]
 						},
 						{
 							"label": "Procedowany plan",
 							"text": "Obwieszczenie z 11.02.2025 dotyczy rejonu Sobiesława I, Świętobora i Kaszubska Droga: UN-P.6722.9.2025.LM, uchwała XXXVI/393/2017. Nie oznacza uchwalenia planu.",
 							"status": "verified",
-							"sourceIds": ["plan-notice", "plan-resolution"]
+							"sourceIds": [
+								"plan-notice",
+								"plan-resolution"
+							]
 						},
 						{
 							"label": "Ustalony poglądowo zasięg, nieznane przeznaczenia",
 							"text": "Aktualizacja 26.10.2026: dopasowanie załącznika XXXVI/393/2017 do ULDK wskazuje 750/70, /71, /73, /74 oraz las 750/65 i większość 750/64 wewnątrz obszaru przystąpienia. Dokładność orientacyjna około 15 m; 750/73 leży około 59 m od granicy procedury. Nie znaleziono projektu przeznaczeń ani potwierdzenia wejścia w życie POG. Przystąpienie nie jest zgodą na zabudowę lasu i nie zapewnia nowej WZ na większy dom.",
 							"status": "assumed",
-							"sourceIds": ["plan-resolution", "general-plan", "wz-communique"]
+							"sourceIds": [
+								"plan-resolution",
+								"general-plan",
+								"wz-communique"
+							]
 						},
 						{
 							"label": "Użytek RVI i wyłączenie",
 							"text": "Warstwa KIEG wskazuje RVI. Nie ustalono mineralnego lub organicznego pochodzenia gleby ani konieczności i istnienia decyzji o wyłączeniu z produkcji rolnej. Potrzebne są wypis EGiB i potwierdzenie w starostwie.",
 							"status": "unknown",
-							"sourceIds": ["kieg", "agricultural-exclusion"]
+							"sourceIds": [
+								"kieg",
+								"agricultural-exclusion"
+							]
 						}
 					],
 					"figures": [
@@ -123,37 +140,54 @@
 							"label": "Granice i kształt",
 							"text": "Obrys ULDK jest nieregularny, z wcięciem przy dojeździe 750/69. Obliczona powierzchnia w PL-2000 wynosi 944,11 m²; nie zastępuje powierzchni urzędowej EGiB.",
 							"status": "verified",
-							"sourceIds": ["uldk"]
+							"sourceIds": [
+								"uldk"
+							]
 						},
 						{
 							"label": "Dwa testy 200 m²",
 							"text": "Obrysy 20 × 10 m oraz 16 × 12,5 m mieszczą się geometrycznie przy roboczym odsunięciu około 4 m. Wydzielone fragmenty ogrodu SW mają odpowiednio około 146 i 243 m². Oba obrysy przekraczają deklarowany limit zabudowy; pierwszy praktycznie nie ma zapasu ponad 4 m.",
 							"status": "assumed",
-							"sourceIds": ["uldk", "offer"]
+							"sourceIds": [
+								"uldk",
+								"offer",
+								"wz-correction"
+							]
 						},
 						{
 							"label": "Test 130 m²",
-							"text": "Obrys 13 × 10 m daje około 322 m² wydzielonego ogrodu SW przy geometrycznym odsunięciu co najmniej 4,02 m. Mieści się wyłącznie w ofertowym limicie powierzchni. Nie potwierdzono rozplanowania gabinetu, trzech sypialni i garażu.",
+							"text": "Obrys 13 × 10 m daje około 322 m² wydzielonego ogrodu SW przy geometrycznym odsunięciu co najmniej 4,02 m. Mieści się w skorygowanym limicie powierzchni. Nie potwierdzono rozplanowania gabinetu, trzech sypialni i garażu. To wcześniejszy wariant geometryczny, nie maksymalny rzut po korekcie WZ; większego wariantu do 188,8 m² nie rozrysowano.",
 							"status": "assumed",
-							"sourceIds": ["uldk", "offer"]
+							"sourceIds": [
+								"uldk",
+								"offer"
+							]
 						},
 						{
 							"label": "Co oznacza zielona powierzchnia",
 							"text": "W modelu odjęto dom z metrowym obejściem, taras 24 m² i roboczy podjazd. Pozostała zieleń obejmuje również wąskie boczne pasy. Nie jest zatwierdzoną PBC ani potwierdzeniem suchego, użytkowego ogrodu.",
 							"status": "assumed",
-							"sourceIds": ["uldk"]
+							"sourceIds": [
+								"uldk"
+							]
 						},
 						{
 							"label": "Wjazd i orientacja",
 							"text": "Roboczy wjazd od NE przez 750/69 pozwala skierować salon i taras na SW. Ogród graniczy z 750/54, a nie bezpośrednio z lasem. Nie zweryfikowano zjazdu, łuków skrętu ani przejezdności.",
 							"status": "assumed",
-							"sourceIds": ["uldk", "ortho"]
+							"sourceIds": [
+								"uldk",
+								"ortho"
+							]
 						},
 						{
 							"label": "Nasłonecznienie i projekt",
 							"text": "Nie ustalono rzeczywistych godzin słońca: potrzebne są aktualne wysokości drzew i sąsiednich budynków. Do sprawdzenia pozostają linia zabudowy, szerokość elewacji, odległości pożarowe, okapy i okna poddasza. Przyjęte 4 m to wyłącznie parametr testu geometrycznego.",
 							"status": "unknown",
-							"sourceIds": ["sip", "offer"]
+							"sourceIds": [
+								"sip",
+								"offer"
+							]
 						}
 					],
 					"figures": [
@@ -165,7 +199,7 @@
 						{
 							"src": "assets/750-73/warianty-domu.png",
 							"alt": "Trzy schematyczne obrysy domu oraz wydzielone fragmenty ogrodu",
-							"caption": "Dwa rzuty 200 m² i jeden 130 m². Test geometrii, bez potwierdzenia legalnej zabudowy; oba warianty 200 m² przekraczają deklarowany limit WZ."
+							"caption": "Dwa rzuty 200 m² i jeden 130 m². Test geometrii, bez potwierdzenia legalnej zabudowy; oba warianty 200 m² przekraczają limit WZ po korekcie."
 						}
 					]
 				},
@@ -178,25 +212,34 @@
 							"label": "Data i dokładność modelu",
 							"text": "Dane ALS z 30.04.2022, siatka NMT 0,5 m, układ pionowy PL-EVRF2007-NH. Metadane wskazują średni błąd wysokości 0,10 m, co nie gwarantuje takiej dokładności każdego punktu. Wybrano spójny model całej parceli.",
 							"status": "verified",
-							"sourceIds": ["nmt"]
+							"sourceIds": [
+								"nmt"
+							]
 						},
 						{
 							"label": "Wysokości i spadek",
 							"text": "Zakres NMT wynosi 142,04–143,15 m, a różnica 1,11 m. Nachylenie dopasowanej płaszczyzny to około 1,95%; lokalne nachylenia są różne. Wyżej położone otoczenie od SE i niższe od NW sugerują możliwy kierunek spływu, nie dowodzą rzeczywistego przepływu wody.",
 							"status": "verified",
-							"sourceIds": ["nmt"]
+							"sourceIds": [
+								"nmt"
+							]
 						},
 						{
 							"label": "Pod domem i na osi ogrodu",
 							"text": "Pod schematycznym obrysem 130 m² różnica NMT wynosi około 0,24 m. Łamana wjazd–dom–ogród ma 36,79 m, a jej końce są na około 142,45 m. Po drodze występują lokalne różnice wysokości.",
 							"status": "assumed",
-							"sourceIds": ["nmt", "uldk"]
+							"sourceIds": [
+								"nmt",
+								"uldk"
+							]
 						},
 						{
 							"label": "Roboty ziemne",
 							"text": "Historyczny model nie wskazuje topograficznej potrzeby dużego nasypu ani wysokich murów. Nie ma jednak aktualnej mapy ani projektu rzędnych, odwodnienia i zagospodarowania. Nie ustalono zakresu robót.",
 							"status": "unknown",
-							"sourceIds": ["nmt"]
+							"sourceIds": [
+								"nmt"
+							]
 						},
 						{
 							"label": "Grunt i suchy ogród",
@@ -208,7 +251,11 @@
 							"label": "Powódź, podtopienia i osuwiska",
 							"text": "Nie uzyskano rozstrzygającego odczytu aktualnych map zagrożenia powodziowego; obraz warstwy podtopień był niejednoznaczny. Na wstępnym odczycie SOPO nie widać osuwiska na parceli. Te odczyty nie wykluczają lokalnych problemów wodnych ani nie zastępują badania gruntu.",
 							"status": "unknown",
-							"sourceIds": ["hydroportal", "sopo", "flooding"]
+							"sourceIds": [
+								"hydroportal",
+								"sopo",
+								"flooding"
+							]
 						}
 					],
 					"figures": [
@@ -238,37 +285,52 @@
 							"label": "Szkoła obwodowa",
 							"text": "SP im. Adama Mickiewicza, ul. Mickiewicza 16 w Chwaszczynie. Uchwała LXIV/833/2023, opublikowana jako 2023/4964, obejmuje całą miejscowość od 1.09.2024. W wyszukiwaniu tytułowym do 25.10.2026 nie odnaleziono nowszej zmiany; nie ustalono warunków rekrutacji i organizacji nauki w 2026/27.",
 							"status": "verified",
-							"sourceIds": ["school"]
+							"sourceIds": [
+								"school"
+							]
 						},
 						{
 							"label": "Dojazd i nawierzchnia",
 							"text": "Ogłoszenie deklaruje dojazd częściowo po płytach JUMBO, częściowo po gruncie. Nie potwierdzono praw do wszystkich odcinków dojazdu do drogi publicznej ani zasad utrzymania i odśnieżania.",
 							"status": "declared",
-							"sourceIds": ["offer"]
+							"sourceIds": [
+								"offer"
+							]
 						},
 						{
 							"label": "Jezioro i las",
 							"text": "Oferta deklaruje około 350 m do kąpieliska nad Jeziorem Wysockim. Nie zweryfikowano długości i legalnej dostępności trasy pieszej. Las znajduje się dalej na zachód; działka nie ma bezpośredniej granicy z lasem.",
 							"status": "declared",
-							"sourceIds": ["offer", "kieg", "uldk"]
+							"sourceIds": [
+								"offer",
+								"kieg",
+								"uldk"
+							]
 						},
 						{
 							"label": "Kontur lasu",
 							"text": "Aktualizacja 26.10.2026: od granicy 750/73 do najbliższego konturu Ls jest około 45 m. To pomiar z poglądowej digitalizacji KIEG (niepewność około 1–3 m), nie odległość przyszłego budynku. Najbliższe LsVI leżą na 750/65 i 750/64; potrzebna aktualna mapa dla projektu.",
 							"status": "assumed",
-							"sourceIds": ["kieg"]
+							"sourceIds": [
+								"kieg"
+							]
 						},
 						{
 							"label": "Ochrona przyrody",
 							"text": "Zapytania wybranych warstw GDOŚ nie wykazały przecięcia z OSO, SOO, obszarem chronionego krajobrazu ani rezerwatem. To wynik tych zapytań, a nie pełne wykluczenie wszystkich form ochrony, otulin i chronionych gatunków.",
 							"status": "verified",
-							"sourceIds": ["gdos"]
+							"sourceIds": [
+								"gdos"
+							]
 						},
 						{
 							"label": "Hałas i lotnisko",
 							"text": "Nie odczytano rozstrzygająco izofon ani położenia względem prawnego obszaru ograniczonego użytkowania lotniska. Starsze mapy drogowe z 2022 r. poprzedzają uruchomienie OMT w 2025 r. Potrzebne są aktualne źródła oraz oględziny w godzinach ruchu i lotów.",
 							"status": "unknown",
-							"sourceIds": ["sip", "noise"]
+							"sourceIds": [
+								"sip",
+								"noise"
+							]
 						},
 						{
 							"label": "Codzienne trasy",
@@ -280,7 +342,11 @@
 							"label": "Co będzie z lasem",
 							"text": "Najbliższy drzewostan BDL jest poza zasobem Lasów Państwowych; dane taksacyjne pochodzą z 2019 r. Nie ustalono aktualnego UPUL, harmonogramu cięć ani projektu zmiany przeznaczenia. Wiek drzew nie dowodzi terminu wycinki. Obecny Ls i procedowane MPZP nie gwarantują niezmiennego widoku na las.",
 							"status": "unknown",
-							"sourceIds": ["bdl", "plan-notice", "plan-resolution"]
+							"sourceIds": [
+								"bdl",
+								"plan-notice",
+								"plan-resolution"
+							]
 						}
 					],
 					"figures": []
@@ -294,31 +360,45 @@
 							"label": "Właściwa cena oferty",
 							"text": "Dla 750/73 podano 944 m² i 542 800 zł, czyli 575 zł/m². Nagłówkowe 469 775 zł dotyczy innej parceli — 750/71. Oferta jest zbiorcza; opis odczytano z indeksu wyszukiwarki i lustra, ponieważ strona OLX blokowała bezpośredni odczyt.",
 							"status": "declared",
-							"sourceIds": ["offer", "offer-mirror"]
+							"sourceIds": [
+								"offer",
+								"offer-mirror"
+							]
 						},
 						{
 							"label": "Transakcja sąsiada 750/72",
 							"text": "RCN: 16.02.2026, parcela 819 m², cena głównej nieruchomości 408 900 zł, czyli 499,27 zł/m². Cały akt na 409 500 zł obejmuje dodatkowo udziały drogowe za 600 zł. Nie przypisano całej ceny aktu samej działce.",
 							"status": "verified",
-							"sourceIds": ["rcn", "rcn-info"]
+							"sourceIds": [
+								"rcn",
+								"rcn-info"
+							]
 						},
 						{
 							"label": "Różnica 15,17%",
 							"text": "Cena ofertowa 750/73 jest o 15,17% wyższa jednostkowo od wskazanej transakcji. Mechaniczne przeliczenie stawki sąsiada na 944 m² daje około 471 308 zł. To wyłącznie scenariusz negocjacyjny: bez korekt za datę, WZ, grunt, media, drogę, wielkość i kształt.",
 							"status": "assumed",
-							"sourceIds": ["offer", "rcn"]
+							"sourceIds": [
+								"offer",
+								"rcn"
+							]
 						},
 						{
 							"label": "Szeroki rozrzut porównań",
 							"text": "Inne bliskie transakcje: 750/38 — 487,50 zł/m² w 2022 r.; 750/60 — 421,00 zł/m² w 2023 r.; 757/9 — 808,31 zł/m² w 2024 r. Różnice i wiek danych nie uzasadniają prostej mediany ani uznania oferty za okazję.",
 							"status": "verified",
-							"sourceIds": ["rcn"]
+							"sourceIds": [
+								"rcn"
+							]
 						},
 						{
 							"label": "Zakres sprzedaży",
 							"text": "Nie ustalono, czy cena obejmuje wszystkie wymagane udziały drogowe i jakie ewentualne dopłaty obciążą nabywcę. Prawa drogowe opisane przy transakcji 750/72 nie dowodzą takich samych praw dla 750/73.",
 							"status": "unknown",
-							"sourceIds": ["offer", "rcn"]
+							"sourceIds": [
+								"offer",
+								"rcn"
+							]
 						}
 					],
 					"figures": []
@@ -327,7 +407,7 @@
 			"risks": [
 				{
 					"title": "Rzut 200 m² koliduje z deklarowanym WZ",
-					"detail": "Przy wskaźniku 14,5% dla 944 m² limit wynosi 136,88 m². Brak pełnej decyzji uniemożliwia ostateczną ocenę; nowa WZ na większy dom nie jest zapewniona.",
+					"detail": "Przy wskaźniku 20% dla 944 m² limit wynosi 188,8 m². Brak pełnej decyzji uniemożliwia ostateczną ocenę; nowa WZ na większy dom nie jest zapewniona.",
 					"severity": "high"
 				},
 				{
@@ -363,7 +443,7 @@
 				},
 				{
 					"id": "wz-scope",
-					"text": "Jakiej dokładnie powierzchni terenu dotyczą wskaźniki WZ 10,45–14,5% i 40% PBC? Czy obejmują dom i garaż łącznie, jaka jest linia zabudowy oraz szerokość elewacji i czy decyzję można przenieść na kupującego?"
+					"text": "Jakiej dokładnie powierzchni terenu dotyczą wskaźniki WZ 20% i 40% PBC? Czy obejmują dom i garaż łącznie, jaka jest linia zabudowy oraz szerokość elewacji i czy decyzję można przenieść na kupującego?"
 				},
 				{
 					"id": "sale-scope",
@@ -403,7 +483,7 @@
 					"id": "offer",
 					"label": "Ogłoszenie OLX",
 					"url": "https://www.olx.pl/d/oferta/dzialka-budowlana-z-wz-chwaszczyno-w-sasiedztwie-lasu-i-jeziora-wysockiego-CID3-ID1cIXVb.html",
-					"note": "Oferta zbiorcza; dane 750/73 odczytane 25.10.2026 z indeksu i lustra. Parametry WZ są deklaracją, nie odczytem decyzji."
+					"note": "Oferta zbiorcza; dane 750/73 odczytane 25.10.2026 z indeksu i lustra. Parametry WZ są deklaracją, nie odczytem decyzji. Wskaźnik zabudowy skorygowany przez użytkownika na 20%; ogłoszenie nie jest źródłem poprawionej wartości."
 				},
 				{
 					"id": "offer-mirror",
@@ -524,6 +604,11 @@
 					"label": "Bank Danych o Lasach — publiczne warstwy",
 					"url": "https://mapserver.bdl.lasy.gov.pl/ArcGIS/rest/services/WMS_BDL/MapServer",
 					"note": "Odczyt 26.10.2026, najbliższy drzewostan poza PGL-LP; dane taksacyjne 2019, bez potwierdzonego harmonogramu cięć."
+				},
+				{
+					"id": "wz-correction",
+					"label": "Korekta użytkownika — wskaźnik WZ 20%",
+					"note": "Informacja niepubliczna z rozmowy 26.10.2026: ogłoszenie zawiera błąd, WZ dopuszcza 20% zabudowy. Zastępuje wcześniejsze 14,5% z ogłoszenia. Pełnej decyzji i zakresu terenu nie udostępniono."
 				}
 			],
 			"hero": "assets/750-73/hero.svg",
@@ -3732,10 +3817,10 @@
 			"updatedAt": "2026-10-26",
 			"statusKey": "conditional",
 			"statusLabel": "Warunkowo",
-			"summary": "Największa z trzech działek, lecz klinowaty kształt i pobliski las ograniczają ustawienie domu. Rzut 200 m² przekracza deklarowany limit WZ 148,77 m².",
+			"summary": "Po korekcie WZ na 20% rzut 200 m² mieści się w limicie 205,2 m². Największa z trzech nowych działek, lecz klinowaty kształt i pobliski las ograniczają ustawienie domu.",
 			"verdict": {
-				"title": "Dalsza analiza przy mniejszym rzucie: 140 m²",
-				"text": "Największa z trzech działek, lecz klinowaty kształt i pobliski las ograniczają ustawienie domu. Rzut 200 m² przekracza deklarowany limit WZ 148,77 m². Najpierw pełne WZ z mapą i projektowa kontrola odległości od lasu. Mniejszy rzut zmienia profil domu; nie jest dowodem zachowania oczekiwanego programu pomieszczeń."
+				"title": "200 m² mieści się w limicie — kluczowe usytuowanie względem lasu",
+				"text": "Korekta WZ na 20% zmienia ocenę: 200 m² zabudowy z garażem wymaga 19,49%, więc pozostaje 5,2 m² zapasu. W pokazanym układzie 20 × 10 m dom jest około 19,3 m od poglądowego Ls, a południowy fragment ogrodu ma około 155 m². Wariant 16 × 12,5 m ma większy fragment ogrodu, lecz tylko około 13,5 m do Ls. Potrzebna pełna decyzja WZ, linia zabudowy i projektowa kontrola lasu, dojazdu oraz pozostałych ograniczeń. To nie potwierdzenie legalności projektu."
 			},
 			"offerUrl": "https://www.olx.pl/d/oferta/dzialka-budowlana-z-wz-chwaszczyno-w-sasiedztwie-lasu-i-jeziora-wysockiego-CID3-ID1cIXVb.html",
 			"thumbnail": "assets/750-70/uklad.png",
@@ -3743,14 +3828,14 @@
 			"imageLabel": "SCHEMATY · NMT 30.04.2022",
 			"imageAlt": "Test usytuowania domu na 750/70",
 			"cardNotice": {
-				"title": "200 m² przekracza deklarowane WZ",
-				"text": "Limit z oferty: 148,77 m². Pełnej decyzji nie otrzymano."
+				"title": "200 m² w limicie powierzchni",
+				"text": "WZ 20% według użytkownika. Sprawdź pełną decyzję i odległość od lasu."
 			},
 			"facts": [
 				{
-					"label": "Deklarowany limit zabudowy",
-					"value": "148,77 m²",
-					"note": "14,5% × 1026 m²; bez decyzji WZ.",
+					"label": "Limit po korekcie WZ",
+					"value": "205,2 m²",
+					"note": "20% × 1026 m²; informacja użytkownika, bez wglądu w decyzję.",
 					"status": "declared"
 				},
 				{
@@ -3770,32 +3855,38 @@
 				{
 					"id": "dom-ogrod",
 					"title": "Dom i ogród",
-					"lead": "200 m² to rzut domu łącznie z garażem, nie powierzchnia użytkowa.",
+					"lead": "200 m² to rzut domu łącznie z garażem, nie powierzchnia użytkowa. Korekta 26.10.2026: 20% według użytkownika. Mniejsze warianty pozostają przykładami, nie maksymalnymi obrysami po korekcie.",
 					"items": [
 						{
 							"label": "Limit z deklaracji",
-							"text": "14,5% × 1026 m² = 148,77 m². Dom 200 m² wymaga 19,49% zabudowy. Nie otrzymano decyzji ani nie potwierdzono zakresu terenu, do którego odnoszą się wskaźniki.",
+							"text": "20% × 1026 m² = 205,2 m². Rzut 200 m² mieści się w tym wskaźniku z zapasem 5,2 m². Podstawa: korekta użytkownika; pełna decyzja i zakres terenu nadal do potwierdzenia. To powierzchnia zabudowy łącznie z garażem, nie powierzchnia użytkowa.",
 							"status": "assumed",
-							"sourceIds": ["offer"]
+							"sourceIds": [
+								"wz-correction"
+							]
 						},
 						{
 							"label": "Dwa obrysy 200 m²",
 							"text": "20 × 10 m: zielona reszta około 671 m², największy fragment na południe od domu 155 m²; 16 × 12,5 m: zielona reszta około 706 m², największy fragment na południe od domu 326 m². Garaż 36 m² wliczony w dom, taras 24 m²; odjęto podjazd i pas dojść 1 m. Nie sprawdzono toru skrętu auta ani programu pomieszczeń.",
 							"status": "assumed",
-							"sourceIds": ["uldk"]
+							"sourceIds": [
+								"uldk"
+							]
 						},
 						{
 							"label": "Mniejszy obrys 140 m²",
 							"text": "Schemat 14 × 10 m z garażem 36 m²: około 745 m² zielonej reszty, największy południowy fragment 283 m² i przykładowy trawnik 12 × 8 m. Nie jest to maksimum ogrodu ani potwierdzenie programu domu, suchości, nasłonecznienia czy zgodności z WZ. Zieleń obejmuje też boczne pasy; nie jest bilansem PBC.",
 							"status": "assumed",
-							"sourceIds": ["uldk"]
+							"sourceIds": [
+								"uldk"
+							]
 						}
 					],
 					"figures": [
 						{
 							"src": "assets/750-70/uklad.png",
 							"alt": "Trzy schematy domu i ogrodu na działce 750/70",
-							"caption": "Opracowanie 26.10.2026: ULDK, PL-2000, NMT 30.04.2022. Testy geometrii, nie PZT. Oba obrysy 200 m² przekraczają deklarowany limit WZ."
+							"caption": "Testy geometrii na ULDK, nie PZT. WZ 20% według korekty użytkownika z 26.10.2026. Oba obrysy 200 m² mieszczą się w limicie powierzchni, lecz wariant 16 × 12,5 m wymaga szczególnego sprawdzenia odległości od lasu."
 						}
 					]
 				},
@@ -3805,34 +3896,52 @@
 					"lead": "Poza rysunkami obowiązujących MPZP; wewnątrz obszaru procedury rozpoczętej w 2017 r. Los lasu pozostaje nieustalony.",
 					"items": [
 						{
-							"label": "WZ z oferty",
-							"text": "Zabudowa 10,45–14,5%, minimum 40% PBC, wysokość do 9 m, dach dwuspadowy 30–40°. Brak decyzji z załącznikiem, numeru, daty i potwierdzenia ostateczności.",
+							"label": "WZ — korekta wskaźnika",
+							"text": "Użytkownik sprostował błąd ogłoszenia: maksymalna zabudowa wynosi 20%. Pozostałe parametry z oferty (minimum 40% PBC, do 9 m wysokości, dach dwuspadowy 30–40°) nie zostały zweryfikowane decyzją. Brak pełnej decyzji, mapy, numeru i potwierdzenia zakresu.",
 							"status": "declared",
-							"sourceIds": ["offer"]
+							"sourceIds": [
+								"wz-correction",
+								"offer"
+							]
 						},
 						{
 							"label": "MPZP i procedura 2017",
 							"text": "SIP z 26.10.2026 wskazuje parcelę poza obowiązującymi rysunkami MPZP. Georeferencja załącznika XXXVI/393/2017 umieszcza ją wewnątrz obszaru przystąpienia, wraz z 750/65 i prawie całą 750/64. To nie uchwalony plan ani zgoda na odlesienie. Dokładność nakładu około 15 m; nie urzędowy wyrys.",
 							"status": "assumed",
-							"sourceIds": ["sip", "plan2017", "notice"]
+							"sourceIds": [
+								"sip",
+								"plan2017",
+								"notice"
+							]
 						},
 						{
 							"label": "Co będzie z lasem",
 							"text": "Najbliższe kontury LsVI leżą na 750/65 i 750/64. Nie uzyskano projektu przyszłych przeznaczeń ani harmonogramu cięć prywatnego lasu. BDL: wydzielenie 108-tx, sosna, wiek 90 lat w danych z 2019 r.; wiek drzew nie dowodzi terminu wycinki. Gospodarcze cięcia i odnowienie są czym innym niż trwałe odlesienie. Nie ma gwarancji niezmiennego widoku.",
 							"status": "unknown",
-							"sourceIds": ["egib", "bdl", "plan2017"]
+							"sourceIds": [
+								"egib",
+								"bdl",
+								"plan2017"
+							]
 						},
 						{
 							"label": "Usytuowanie względem lasu",
 							"text": "Najbliższa granica parceli leży około 8 m od zdigitalizowanego Ls; to nie dystans domu. Testy używają 4 m od granic i docelowo 19 m od poglądowego Ls (16 m + 3 m marginesu digitalizacji, nie przepis). Wariant 16 × 12,5 m na 750/70 ma tylko około 13,5 m do Ls: konflikt ze scenariuszem 16 m; w siatce nie znaleziono pełnego układu z 19 m. Mniejszy dom 140 m² ma około 19,4 m.",
 							"status": "assumed",
-							"sourceIds": ["egib", "uldk"]
+							"sourceIds": [
+								"egib",
+								"uldk"
+							]
 						},
 						{
 							"label": "Reżim techniczny i braki",
 							"text": "WT 2002 uchylono 21.09.2026; art. 102a Prawa budowlanego przewiduje przejściowe stosowanie dawnych zasad po oświadczeniu inwestora. Pokazane scenariusze 12/16 m wymagają projektowej kontroli reżimu i warunków pożarowych. Nie potwierdzono wyjątku 4 m od lasu ani wejścia w życie planu ogólnego.",
 							"status": "unknown",
-							"sourceIds": ["law", "wt", "pog"]
+							"sourceIds": [
+								"law",
+								"wt",
+								"pog"
+							]
 						}
 					],
 					"figures": [
@@ -3857,13 +3966,17 @@
 							"label": "Wysokości i spadek",
 							"text": "NMT 30.04.2022: 141,93–142,45 m; różnica 0,52 m. Nachylenie dopasowanej płaszczyzny całej parceli około 0,71%. Raster 0,5 m, PL-2000 / PL-EVRF2007-NH; późniejsze roboty niepotwierdzone.",
 							"status": "verified",
-							"sourceIds": ["nmt"]
+							"sourceIds": [
+								"nmt"
+							]
 						},
 						{
 							"label": "Grunt, woda i niwelacja",
 							"text": "Brak opinii geotechnicznej dla tej działki. Nie ustalono nośności, sezonowej wody ani legalnego odbiornika odwodnienia. Różnica wysokości nie jest grubością koniecznego nasypu.",
 							"status": "unknown",
-							"sourceIds": ["nmt"]
+							"sourceIds": [
+								"nmt"
+							]
 						}
 					],
 					"figures": [
@@ -3893,13 +4006,18 @@
 							"label": "Dojazd i media",
 							"text": "Oferta deklaruje drogę częściowo JUMBO, częściowo gruntową i media przy Sobiesława I. Sąsiedztwo 750/69 jest geometryczne: nie potwierdza praw do całej trasy, warunków zjazdu ani przyłączy.",
 							"status": "declared",
-							"sourceIds": ["offer", "uldk"]
+							"sourceIds": [
+								"offer",
+								"uldk"
+							]
 						},
 						{
 							"label": "Cena ofertowa",
 							"text": "589950 zł za 1026 m², czyli 575 zł/m². Odczyt 26.10.2026 z indeksu oferty; cena i dostępność wymagają potwierdzenia. Bez indywidualnej wyceny i kosztorysu przygotowania.",
 							"status": "declared",
-							"sourceIds": ["offer"]
+							"sourceIds": [
+								"offer"
+							]
 						},
 						{
 							"label": "Pozostały zakres",
@@ -3914,8 +4032,8 @@
 			"risks": [
 				{
 					"severity": "high",
-					"title": "200 m² przekracza deklarowany limit WZ",
-					"detail": "Mniejszy obrys albo inne potwierdzone parametry są warunkiem dalszej analizy."
+					"title": "Las i linia zabudowy nadal ograniczają projekt",
+					"detail": "Limit 205,2 m² mieści rzut 200 m², ale nie potwierdza usytuowania. Wariant 16 × 12,5 m ma około 13,5 m do orientacyjnego konturu Ls. Pełna WZ i ocena projektowa pozostają konieczne."
 				},
 				{
 					"severity": "high",
@@ -3947,7 +4065,7 @@
 					"id": "offer",
 					"label": "Wspólna oferta — osobne ceny działek",
 					"url": "https://www.olx.pl/d/oferta/dzialka-budowlana-z-wz-chwaszczyno-w-sasiedztwie-lasu-i-jeziora-wysockiego-CID3-ID1cIXVb.html",
-					"note": "Odczyt 26.10.2026 przez indeks; bezpośredni odczyt niedostępny. WZ to deklaracja bez decyzji."
+					"note": "Odczyt 26.10.2026 przez indeks; bezpośredni odczyt niedostępny. WZ to deklaracja bez decyzji. Wskaźnik zabudowy skorygowany przez użytkownika na 20%; ogłoszenie nie jest źródłem poprawionej wartości."
 				},
 				{
 					"id": "uldk",
@@ -4008,6 +4126,11 @@
 					"label": "BIP — plan ogólny Żukowa",
 					"url": "https://bip.zukowo.pl/m,2451,plan-ogolny-gminy-zukowo.html",
 					"note": "Lista odświeżona 26.10.2026; aktu wejścia w życie nie potwierdzono."
+				},
+				{
+					"id": "wz-correction",
+					"label": "Korekta użytkownika — wskaźnik WZ 20%",
+					"note": "Informacja niepubliczna z rozmowy 26.10.2026: ogłoszenie zawiera błąd, WZ dopuszcza 20% zabudowy. Zastępuje wcześniejsze 14,5% z ogłoszenia. Pełnej decyzji i zakresu terenu nie udostępniono."
 				}
 			],
 			"mapLocation": {
@@ -4030,10 +4153,10 @@
 			"updatedAt": "2026-10-26",
 			"statusKey": "conditional",
 			"statusLabel": "Warunkowo",
-			"summary": "Najmniejsza z trzech działek. Dom 200 m² pozostawia niewielki zwarty ogród; mniejszy rzut wyraźnie poprawia układ. Rzut 200 m² przekracza deklarowany limit WZ 118,47 m².",
+			"summary": "Najmniejsza z trzech działek. Dom 200 m² pozostawia niewielki zwarty ogród; mniejszy rzut wyraźnie poprawia układ. Rzut 200 m² przekracza limit WZ po korekcie 163,4 m².",
 			"verdict": {
 				"title": "Dalsza analiza przy mniejszym rzucie: 115 m²",
-				"text": "Najmniejsza z trzech działek. Dom 200 m² pozostawia niewielki zwarty ogród; mniejszy rzut wyraźnie poprawia układ. Rzut 200 m² przekracza deklarowany limit WZ 118,47 m². Najpierw pełne WZ z mapą i projektowa kontrola odległości od lasu. Mniejszy rzut zmienia profil domu; nie jest dowodem zachowania oczekiwanego programu pomieszczeń."
+				"text": "Najmniejsza z trzech działek. Dom 200 m² pozostawia niewielki zwarty ogród; mniejszy rzut wyraźnie poprawia układ. Rzut 200 m² przekracza limit WZ po korekcie 163,4 m². Najpierw pełne WZ z mapą i projektowa kontrola odległości od lasu. Mniejszy rzut zmienia profil domu; nie jest dowodem zachowania oczekiwanego programu pomieszczeń."
 			},
 			"offerUrl": "https://www.olx.pl/d/oferta/dzialka-budowlana-z-wz-chwaszczyno-w-sasiedztwie-lasu-i-jeziora-wysockiego-CID3-ID1cIXVb.html",
 			"thumbnail": "assets/750-71/uklad.png",
@@ -4042,13 +4165,13 @@
 			"imageAlt": "Test usytuowania domu na 750/71",
 			"cardNotice": {
 				"title": "200 m² przekracza deklarowane WZ",
-				"text": "Limit z oferty: 118,47 m². Pełnej decyzji nie otrzymano."
+				"text": "Limit po korekcie użytkownika: 163,4 m². Pełnej decyzji nie otrzymano."
 			},
 			"facts": [
 				{
-					"label": "Deklarowany limit zabudowy",
-					"value": "118,47 m²",
-					"note": "14,5% × 817 m²; bez decyzji WZ.",
+					"label": "Limit po korekcie WZ",
+					"value": "163,4 m²",
+					"note": "20% × 817 m²; informacja użytkownika, bez wglądu w decyzję.",
 					"status": "declared"
 				},
 				{
@@ -4068,32 +4191,38 @@
 				{
 					"id": "dom-ogrod",
 					"title": "Dom i ogród",
-					"lead": "200 m² to rzut domu łącznie z garażem, nie powierzchnia użytkowa.",
+					"lead": "200 m² to rzut domu łącznie z garażem, nie powierzchnia użytkowa. Korekta 26.10.2026: 20% według użytkownika. Mniejsze warianty pozostają przykładami, nie maksymalnymi obrysami po korekcie.",
 					"items": [
 						{
 							"label": "Limit z deklaracji",
-							"text": "14,5% × 817 m² = 118,47 m². Dom 200 m² wymaga 24,48% zabudowy. Nie otrzymano decyzji ani nie potwierdzono zakresu terenu, do którego odnoszą się wskaźniki.",
+							"text": "20% × 817 m² = 163,4 m². Rzut 200 m² przekracza ten limit o 36,6 m². Podstawa: korekta użytkownika; pełna decyzja i zakres terenu nadal do potwierdzenia. To powierzchnia zabudowy łącznie z garażem, nie powierzchnia użytkowa.",
 							"status": "assumed",
-							"sourceIds": ["offer"]
+							"sourceIds": [
+								"wz-correction"
+							]
 						},
 						{
 							"label": "Dwa obrysy 200 m²",
 							"text": "20 × 10 m: zielona reszta około 511 m², największy fragment na południe od domu 94 m²; 16 × 12,5 m: zielona reszta około 496 m², największy fragment na południe od domu 153 m². Garaż 36 m² wliczony w dom, taras 24 m²; odjęto podjazd i pas dojść 1 m. Nie sprawdzono toru skrętu auta ani programu pomieszczeń.",
 							"status": "assumed",
-							"sourceIds": ["uldk"]
+							"sourceIds": [
+								"uldk"
+							]
 						},
 						{
 							"label": "Mniejszy obrys 115 m²",
 							"text": "Schemat 11,5 × 10 m z garażem 36 m²: około 597 m² zielonej reszty, największy południowy fragment 319 m² i przykładowy trawnik 12 × 10 m. Nie jest to maksimum ogrodu ani potwierdzenie programu domu, suchości, nasłonecznienia czy zgodności z WZ. Zieleń obejmuje też boczne pasy; nie jest bilansem PBC.",
 							"status": "assumed",
-							"sourceIds": ["uldk"]
+							"sourceIds": [
+								"uldk"
+							]
 						}
 					],
 					"figures": [
 						{
 							"src": "assets/750-71/uklad.png",
 							"alt": "Trzy schematy domu i ogrodu na działce 750/71",
-							"caption": "Opracowanie 26.10.2026: ULDK, PL-2000, NMT 30.04.2022. Testy geometrii, nie PZT. Oba obrysy 200 m² przekraczają deklarowany limit WZ."
+							"caption": "Testy geometrii na ULDK, nie PZT. WZ 20% według korekty użytkownika z 26.10.2026. Oba obrysy 200 m² nadal przekraczają limit powierzchni."
 						}
 					]
 				},
@@ -4103,34 +4232,52 @@
 					"lead": "Poza rysunkami obowiązujących MPZP; wewnątrz obszaru procedury rozpoczętej w 2017 r. Los lasu pozostaje nieustalony.",
 					"items": [
 						{
-							"label": "WZ z oferty",
-							"text": "Zabudowa 10,45–14,5%, minimum 40% PBC, wysokość do 9 m, dach dwuspadowy 30–40°. Brak decyzji z załącznikiem, numeru, daty i potwierdzenia ostateczności.",
+							"label": "WZ — korekta wskaźnika",
+							"text": "Użytkownik sprostował błąd ogłoszenia: maksymalna zabudowa wynosi 20%. Pozostałe parametry z oferty (minimum 40% PBC, do 9 m wysokości, dach dwuspadowy 30–40°) nie zostały zweryfikowane decyzją. Brak pełnej decyzji, mapy, numeru i potwierdzenia zakresu.",
 							"status": "declared",
-							"sourceIds": ["offer"]
+							"sourceIds": [
+								"wz-correction",
+								"offer"
+							]
 						},
 						{
 							"label": "MPZP i procedura 2017",
 							"text": "SIP z 26.10.2026 wskazuje parcelę poza obowiązującymi rysunkami MPZP. Georeferencja załącznika XXXVI/393/2017 umieszcza ją wewnątrz obszaru przystąpienia, wraz z 750/65 i prawie całą 750/64. To nie uchwalony plan ani zgoda na odlesienie. Dokładność nakładu około 15 m; nie urzędowy wyrys.",
 							"status": "assumed",
-							"sourceIds": ["sip", "plan2017", "notice"]
+							"sourceIds": [
+								"sip",
+								"plan2017",
+								"notice"
+							]
 						},
 						{
 							"label": "Co będzie z lasem",
 							"text": "Najbliższe kontury LsVI leżą na 750/65 i 750/64. Nie uzyskano projektu przyszłych przeznaczeń ani harmonogramu cięć prywatnego lasu. BDL: wydzielenie 108-tx, sosna, wiek 90 lat w danych z 2019 r.; wiek drzew nie dowodzi terminu wycinki. Gospodarcze cięcia i odnowienie są czym innym niż trwałe odlesienie. Nie ma gwarancji niezmiennego widoku.",
 							"status": "unknown",
-							"sourceIds": ["egib", "bdl", "plan2017"]
+							"sourceIds": [
+								"egib",
+								"bdl",
+								"plan2017"
+							]
 						},
 						{
 							"label": "Usytuowanie względem lasu",
 							"text": "Najbliższa granica parceli leży około 11 m od zdigitalizowanego Ls; to nie dystans domu. Testy używają 4 m od granic i docelowo 19 m od poglądowego Ls (16 m + 3 m marginesu digitalizacji, nie przepis). Mniejszy dom ma około 19,0 m.",
 							"status": "assumed",
-							"sourceIds": ["egib", "uldk"]
+							"sourceIds": [
+								"egib",
+								"uldk"
+							]
 						},
 						{
 							"label": "Reżim techniczny i braki",
 							"text": "WT 2002 uchylono 21.09.2026; art. 102a Prawa budowlanego przewiduje przejściowe stosowanie dawnych zasad po oświadczeniu inwestora. Pokazane scenariusze 12/16 m wymagają projektowej kontroli reżimu i warunków pożarowych. Nie potwierdzono wyjątku 4 m od lasu ani wejścia w życie planu ogólnego.",
 							"status": "unknown",
-							"sourceIds": ["law", "wt", "pog"]
+							"sourceIds": [
+								"law",
+								"wt",
+								"pog"
+							]
 						}
 					],
 					"figures": [
@@ -4155,13 +4302,17 @@
 							"label": "Wysokości i spadek",
 							"text": "NMT 30.04.2022: 141,93–142,39 m; różnica 0,46 m. Nachylenie dopasowanej płaszczyzny całej parceli około 1,12%. Raster 0,5 m, PL-2000 / PL-EVRF2007-NH; późniejsze roboty niepotwierdzone.",
 							"status": "verified",
-							"sourceIds": ["nmt"]
+							"sourceIds": [
+								"nmt"
+							]
 						},
 						{
 							"label": "Grunt, woda i niwelacja",
 							"text": "Brak opinii geotechnicznej dla tej działki. Nie ustalono nośności, sezonowej wody ani legalnego odbiornika odwodnienia. Różnica wysokości nie jest grubością koniecznego nasypu.",
 							"status": "unknown",
-							"sourceIds": ["nmt"]
+							"sourceIds": [
+								"nmt"
+							]
 						}
 					],
 					"figures": [
@@ -4191,13 +4342,18 @@
 							"label": "Dojazd i media",
 							"text": "Oferta deklaruje drogę częściowo JUMBO, częściowo gruntową i media przy Sobiesława I. Sąsiedztwo 750/69 jest geometryczne: nie potwierdza praw do całej trasy, warunków zjazdu ani przyłączy.",
 							"status": "declared",
-							"sourceIds": ["offer", "uldk"]
+							"sourceIds": [
+								"offer",
+								"uldk"
+							]
 						},
 						{
 							"label": "Cena ofertowa",
 							"text": "469775 zł za 817 m², czyli 575 zł/m². Odczyt 26.10.2026 z indeksu oferty; cena i dostępność wymagają potwierdzenia. Bez indywidualnej wyceny i kosztorysu przygotowania.",
 							"status": "declared",
-							"sourceIds": ["offer"]
+							"sourceIds": [
+								"offer"
+							]
 						},
 						{
 							"label": "Pozostały zakres",
@@ -4212,7 +4368,7 @@
 			"risks": [
 				{
 					"severity": "high",
-					"title": "200 m² przekracza deklarowany limit WZ",
+					"title": "200 m² przekracza limit WZ po korekcie",
 					"detail": "Mniejszy obrys albo inne potwierdzone parametry są warunkiem dalszej analizy."
 				},
 				{
@@ -4245,7 +4401,7 @@
 					"id": "offer",
 					"label": "Wspólna oferta — osobne ceny działek",
 					"url": "https://www.olx.pl/d/oferta/dzialka-budowlana-z-wz-chwaszczyno-w-sasiedztwie-lasu-i-jeziora-wysockiego-CID3-ID1cIXVb.html",
-					"note": "Odczyt 26.10.2026 przez indeks; bezpośredni odczyt niedostępny. WZ to deklaracja bez decyzji."
+					"note": "Odczyt 26.10.2026 przez indeks; bezpośredni odczyt niedostępny. WZ to deklaracja bez decyzji. Wskaźnik zabudowy skorygowany przez użytkownika na 20%; ogłoszenie nie jest źródłem poprawionej wartości."
 				},
 				{
 					"id": "uldk",
@@ -4306,6 +4462,11 @@
 					"label": "BIP — plan ogólny Żukowa",
 					"url": "https://bip.zukowo.pl/m,2451,plan-ogolny-gminy-zukowo.html",
 					"note": "Lista odświeżona 26.10.2026; aktu wejścia w życie nie potwierdzono."
+				},
+				{
+					"id": "wz-correction",
+					"label": "Korekta użytkownika — wskaźnik WZ 20%",
+					"note": "Informacja niepubliczna z rozmowy 26.10.2026: ogłoszenie zawiera błąd, WZ dopuszcza 20% zabudowy. Zastępuje wcześniejsze 14,5% z ogłoszenia. Pełnej decyzji i zakresu terenu nie udostępniono."
 				}
 			],
 			"mapLocation": {
@@ -4328,10 +4489,10 @@
 			"updatedAt": "2026-10-26",
 			"statusKey": "conditional",
 			"statusLabel": "Warunkowo",
-			"summary": "Najmniej ograniczona pobliskim lasem, z wygodniejszą geometrią. Południowy ogród ma lokalną skarpę lub nierówność. Rzut 200 m² przekracza deklarowany limit WZ 126,73 m².",
+			"summary": "Najmniej ograniczona pobliskim lasem, z wygodniejszą geometrią. Południowy ogród ma lokalną skarpę lub nierówność. Rzut 200 m² przekracza limit WZ po korekcie 174,8 m².",
 			"verdict": {
 				"title": "Dalsza analiza przy mniejszym rzucie: 120 m²",
-				"text": "Najmniej ograniczona pobliskim lasem, z wygodniejszą geometrią. Południowy ogród ma lokalną skarpę lub nierówność. Rzut 200 m² przekracza deklarowany limit WZ 126,73 m². Najpierw pełne WZ z mapą i projektowa kontrola odległości od lasu. Mniejszy rzut zmienia profil domu; nie jest dowodem zachowania oczekiwanego programu pomieszczeń."
+				"text": "Najmniej ograniczona pobliskim lasem, z wygodniejszą geometrią. Południowy ogród ma lokalną skarpę lub nierówność. Rzut 200 m² przekracza limit WZ po korekcie 174,8 m². Najpierw pełne WZ z mapą i projektowa kontrola odległości od lasu. Mniejszy rzut zmienia profil domu; nie jest dowodem zachowania oczekiwanego programu pomieszczeń."
 			},
 			"offerUrl": "https://www.olx.pl/d/oferta/dzialka-budowlana-z-wz-chwaszczyno-w-sasiedztwie-lasu-i-jeziora-wysockiego-CID3-ID1cIXVb.html",
 			"thumbnail": "assets/750-74/uklad.png",
@@ -4340,13 +4501,13 @@
 			"imageAlt": "Test usytuowania domu na 750/74",
 			"cardNotice": {
 				"title": "200 m² przekracza deklarowane WZ",
-				"text": "Limit z oferty: 126,73 m². Pełnej decyzji nie otrzymano."
+				"text": "Limit po korekcie użytkownika: 174,8 m². Pełnej decyzji nie otrzymano."
 			},
 			"facts": [
 				{
-					"label": "Deklarowany limit zabudowy",
-					"value": "126,73 m²",
-					"note": "14,5% × 874 m²; bez decyzji WZ.",
+					"label": "Limit po korekcie WZ",
+					"value": "174,8 m²",
+					"note": "20% × 874 m²; informacja użytkownika, bez wglądu w decyzję.",
 					"status": "declared"
 				},
 				{
@@ -4366,32 +4527,38 @@
 				{
 					"id": "dom-ogrod",
 					"title": "Dom i ogród",
-					"lead": "200 m² to rzut domu łącznie z garażem, nie powierzchnia użytkowa.",
+					"lead": "200 m² to rzut domu łącznie z garażem, nie powierzchnia użytkowa. Korekta 26.10.2026: 20% według użytkownika. Mniejsze warianty pozostają przykładami, nie maksymalnymi obrysami po korekcie.",
 					"items": [
 						{
 							"label": "Limit z deklaracji",
-							"text": "14,5% × 874 m² = 126,73 m². Dom 200 m² wymaga 22,88% zabudowy. Nie otrzymano decyzji ani nie potwierdzono zakresu terenu, do którego odnoszą się wskaźniki.",
+							"text": "20% × 874 m² = 174,8 m². Rzut 200 m² przekracza ten limit o 25,2 m². Podstawa: korekta użytkownika; pełna decyzja i zakres terenu nadal do potwierdzenia. To powierzchnia zabudowy łącznie z garażem, nie powierzchnia użytkowa.",
 							"status": "assumed",
-							"sourceIds": ["offer"]
+							"sourceIds": [
+								"wz-correction"
+							]
 						},
 						{
 							"label": "Dwa obrysy 200 m²",
 							"text": "20 × 10 m: zielona reszta około 560 m², największy fragment na południe od domu 240 m²; 16 × 12,5 m: zielona reszta około 546 m², największy fragment na południe od domu 222 m². Garaż 36 m² wliczony w dom, taras 24 m²; odjęto podjazd i pas dojść 1 m. Nie sprawdzono toru skrętu auta ani programu pomieszczeń.",
 							"status": "assumed",
-							"sourceIds": ["uldk"]
+							"sourceIds": [
+								"uldk"
+							]
 						},
 						{
 							"label": "Mniejszy obrys 120 m²",
 							"text": "Schemat 12 × 10 m z garażem 36 m²: około 612 m² zielonej reszty, największy południowy fragment 360 m² i przykładowy trawnik 12 × 10 m. Nie jest to maksimum ogrodu ani potwierdzenie programu domu, suchości, nasłonecznienia czy zgodności z WZ. Zieleń obejmuje też boczne pasy; nie jest bilansem PBC.",
 							"status": "assumed",
-							"sourceIds": ["uldk"]
+							"sourceIds": [
+								"uldk"
+							]
 						}
 					],
 					"figures": [
 						{
 							"src": "assets/750-74/uklad.png",
 							"alt": "Trzy schematy domu i ogrodu na działce 750/74",
-							"caption": "Opracowanie 26.10.2026: ULDK, PL-2000, NMT 30.04.2022. Testy geometrii, nie PZT. Oba obrysy 200 m² przekraczają deklarowany limit WZ."
+							"caption": "Testy geometrii na ULDK, nie PZT. WZ 20% według korekty użytkownika z 26.10.2026. Oba obrysy 200 m² nadal przekraczają limit powierzchni."
 						}
 					]
 				},
@@ -4401,34 +4568,52 @@
 					"lead": "Poza rysunkami obowiązujących MPZP; wewnątrz obszaru procedury rozpoczętej w 2017 r. Los lasu pozostaje nieustalony.",
 					"items": [
 						{
-							"label": "WZ z oferty",
-							"text": "Zabudowa 10,45–14,5%, minimum 40% PBC, wysokość do 9 m, dach dwuspadowy 30–40°. Brak decyzji z załącznikiem, numeru, daty i potwierdzenia ostateczności.",
+							"label": "WZ — korekta wskaźnika",
+							"text": "Użytkownik sprostował błąd ogłoszenia: maksymalna zabudowa wynosi 20%. Pozostałe parametry z oferty (minimum 40% PBC, do 9 m wysokości, dach dwuspadowy 30–40°) nie zostały zweryfikowane decyzją. Brak pełnej decyzji, mapy, numeru i potwierdzenia zakresu.",
 							"status": "declared",
-							"sourceIds": ["offer"]
+							"sourceIds": [
+								"wz-correction",
+								"offer"
+							]
 						},
 						{
 							"label": "MPZP i procedura 2017",
 							"text": "SIP z 26.10.2026 wskazuje parcelę poza obowiązującymi rysunkami MPZP. Georeferencja załącznika XXXVI/393/2017 umieszcza ją wewnątrz obszaru przystąpienia, wraz z 750/65 i prawie całą 750/64. To nie uchwalony plan ani zgoda na odlesienie. Dokładność nakładu około 15 m; nie urzędowy wyrys.",
 							"status": "assumed",
-							"sourceIds": ["sip", "plan2017", "notice"]
+							"sourceIds": [
+								"sip",
+								"plan2017",
+								"notice"
+							]
 						},
 						{
 							"label": "Co będzie z lasem",
 							"text": "Najbliższe kontury LsVI leżą na 750/65 i 750/64. Nie uzyskano projektu przyszłych przeznaczeń ani harmonogramu cięć prywatnego lasu. BDL: wydzielenie 108-tx, sosna, wiek 90 lat w danych z 2019 r.; wiek drzew nie dowodzi terminu wycinki. Gospodarcze cięcia i odnowienie są czym innym niż trwałe odlesienie. Nie ma gwarancji niezmiennego widoku.",
 							"status": "unknown",
-							"sourceIds": ["egib", "bdl", "plan2017"]
+							"sourceIds": [
+								"egib",
+								"bdl",
+								"plan2017"
+							]
 						},
 						{
 							"label": "Usytuowanie względem lasu",
 							"text": "Najbliższa granica parceli leży około 38 m od zdigitalizowanego Ls; to nie dystans domu. Testy używają 4 m od granic i docelowo 19 m od poglądowego Ls (16 m + 3 m marginesu digitalizacji, nie przepis). Mniejszy dom ma około 44,7 m.",
 							"status": "assumed",
-							"sourceIds": ["egib", "uldk"]
+							"sourceIds": [
+								"egib",
+								"uldk"
+							]
 						},
 						{
 							"label": "Reżim techniczny i braki",
 							"text": "WT 2002 uchylono 21.09.2026; art. 102a Prawa budowlanego przewiduje przejściowe stosowanie dawnych zasad po oświadczeniu inwestora. Pokazane scenariusze 12/16 m wymagają projektowej kontroli reżimu i warunków pożarowych. Nie potwierdzono wyjątku 4 m od lasu ani wejścia w życie planu ogólnego.",
 							"status": "unknown",
-							"sourceIds": ["law", "wt", "pog"]
+							"sourceIds": [
+								"law",
+								"wt",
+								"pog"
+							]
 						}
 					],
 					"figures": [
@@ -4453,13 +4638,17 @@
 							"label": "Wysokości i spadek",
 							"text": "NMT 30.04.2022: 142,18–143,32 m; różnica 1,14 m. Nachylenie dopasowanej płaszczyzny całej parceli około 1,47%. Raster 0,5 m, PL-2000 / PL-EVRF2007-NH; późniejsze roboty niepotwierdzone.",
 							"status": "verified",
-							"sourceIds": ["nmt"]
+							"sourceIds": [
+								"nmt"
+							]
 						},
 						{
 							"label": "Grunt, woda i niwelacja",
 							"text": "Południowy ogród ma około 0,86–0,97 m różnicy wysokości w pokazanych wariantach; wymaga aktualnego pomiaru i oględzin. Brak opinii geotechnicznej dla tej działki. Nie ustalono nośności, sezonowej wody ani legalnego odbiornika odwodnienia. Różnica wysokości nie jest grubością koniecznego nasypu.",
 							"status": "unknown",
-							"sourceIds": ["nmt"]
+							"sourceIds": [
+								"nmt"
+							]
 						}
 					],
 					"figures": [
@@ -4489,13 +4678,18 @@
 							"label": "Dojazd i media",
 							"text": "Oferta deklaruje drogę częściowo JUMBO, częściowo gruntową i media przy Sobiesława I. Sąsiedztwo 750/69 jest geometryczne: nie potwierdza praw do całej trasy, warunków zjazdu ani przyłączy.",
 							"status": "declared",
-							"sourceIds": ["offer", "uldk"]
+							"sourceIds": [
+								"offer",
+								"uldk"
+							]
 						},
 						{
 							"label": "Cena ofertowa",
 							"text": "502550 zł za 874 m², czyli 575 zł/m². Odczyt 26.10.2026 z indeksu oferty; cena i dostępność wymagają potwierdzenia. Bez indywidualnej wyceny i kosztorysu przygotowania.",
 							"status": "declared",
-							"sourceIds": ["offer"]
+							"sourceIds": [
+								"offer"
+							]
 						},
 						{
 							"label": "Pozostały zakres",
@@ -4510,7 +4704,7 @@
 			"risks": [
 				{
 					"severity": "high",
-					"title": "200 m² przekracza deklarowany limit WZ",
+					"title": "200 m² przekracza limit WZ po korekcie",
 					"detail": "Mniejszy obrys albo inne potwierdzone parametry są warunkiem dalszej analizy."
 				},
 				{
@@ -4543,7 +4737,7 @@
 					"id": "offer",
 					"label": "Wspólna oferta — osobne ceny działek",
 					"url": "https://www.olx.pl/d/oferta/dzialka-budowlana-z-wz-chwaszczyno-w-sasiedztwie-lasu-i-jeziora-wysockiego-CID3-ID1cIXVb.html",
-					"note": "Odczyt 26.10.2026 przez indeks; bezpośredni odczyt niedostępny. WZ to deklaracja bez decyzji."
+					"note": "Odczyt 26.10.2026 przez indeks; bezpośredni odczyt niedostępny. WZ to deklaracja bez decyzji. Wskaźnik zabudowy skorygowany przez użytkownika na 20%; ogłoszenie nie jest źródłem poprawionej wartości."
 				},
 				{
 					"id": "uldk",
@@ -4604,6 +4798,11 @@
 					"label": "BIP — plan ogólny Żukowa",
 					"url": "https://bip.zukowo.pl/m,2451,plan-ogolny-gminy-zukowo.html",
 					"note": "Lista odświeżona 26.10.2026; aktu wejścia w życie nie potwierdzono."
+				},
+				{
+					"id": "wz-correction",
+					"label": "Korekta użytkownika — wskaźnik WZ 20%",
+					"note": "Informacja niepubliczna z rozmowy 26.10.2026: ogłoszenie zawiera błąd, WZ dopuszcza 20% zabudowy. Zastępuje wcześniejsze 14,5% z ogłoszenia. Pełnej decyzji i zakresu terenu nie udostępniono."
 				}
 			],
 			"mapLocation": {

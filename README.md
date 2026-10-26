@@ -17,6 +17,14 @@ Powierzchnia projektu 165,01 m²; uproszczonej obwiedni 169,13 m² nie należy z
 utożsamiać. Kontur Ls orientacyjny 1–3 m; dopasowanie geometryczne nie potwierdza
 warunków ppoż., manewrowania ani dopuszczalności budowy.
 
+Rozwinięcie z 27.10.2026: `ogrod.png` i `ogrod.pdf` pokazują sześć sekcji A–F,
+łącznie 720,2 m² wolnego terenu. Południe A–C: 329,6 m², poniżej geograficznej
+linii E–W przez najbardziej południowy punkt strefy domu i tarasu. Rezerwy:
+257,4 m² na pełną obwiednię domu i tarasu oraz 48,0 m² podjazdu poza nią.
+Sekcje i bilans liczone bez nakładania; sumy przed zaokrągleniem. To nie bilans
+PBC ani potwierdzenie suchego i nasłonecznionego ogrodu. Zdjęcie oraz przycisk
+„Zobacz projekt domu” prowadzą do KRX1280 w Extradom.
+
 ## Przykładowe zagospodarowanie 750/73
 
 Podstrona `zagospodarowanie-750-73.html` rozwija kartę 750/73 o wariant HOMEKONCEPT

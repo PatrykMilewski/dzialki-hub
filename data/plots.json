@@ -510,6 +510,13 @@
 			"cardNotice": {
 				"title": "Najpierw sprawdź WZ",
 				"text": "Pełna decyzja nie została udostępniona."
+			},
+			"mapLocation": {
+				"lat": 54.4186368,
+				"lng": 18.4374929,
+				"sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=220508_5.0004.750%2F73&result=geom_wkt&srid=4326",
+				"checkedAt": "2026-10-26",
+				"method": "Centroid geometrii ULDK w WGS84; punkt orientacyjny."
 			}
 		},
 		{
@@ -1114,7 +1121,14 @@
 					"url": "https://koparkagdansk.pl/koparka-wynajem-cena/gdansk/",
 					"note": "Odczyt 25.10.2026: 200/250 zł netto za godzinę. Bez czasu pracy i indywidualnej oferty na działkę."
 				}
-			]
+			],
+			"mapLocation": {
+				"lat": 54.4351615,
+				"lng": 18.4556128,
+				"sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=220508_5.0004.1209%2F2&result=geom_wkt&srid=4326",
+				"checkedAt": "2026-10-26",
+				"method": "Centroid geometrii ULDK w WGS84; punkt orientacyjny."
+			}
 		},
 		{
 			"slug": "chwaszczyno-775-193",
@@ -1705,7 +1719,14 @@
 					"url": "https://instalbudkaszuby.pl/wykop-pod-szambo-cena-pomorskie/",
 					"note": "9500–14 000 zł za 10 m³; odczyt 25.10.2026. Podstawa podatkowa niepodana jednoznacznie."
 				}
-			]
+			],
+			"mapLocation": {
+				"lat": 54.4319017,
+				"lng": 18.4399134,
+				"sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=220508_5.0004.775%2F193&result=geom_wkt&srid=4326",
+				"checkedAt": "2026-10-26",
+				"method": "Centroid geometrii ULDK w WGS84; punkt orientacyjny."
+			}
 		},
 		{
 			"slug": "chwaszczyno-768-136-137",
@@ -2227,7 +2248,15 @@
 					"url": "https://koparkagdansk.pl/niwelacja-terenu/gdansk/",
 					"note": "5–20 zł/m², VAT niepodany; hipotetyczny zakres, nie kosztorys."
 				}
-			]
+			],
+			"mapLocation": {
+				"lat": 54.4266703,
+				"lng": 18.444803,
+				"sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=220508_5.0004.768%2F136&result=geom_wkt&srid=4326",
+				"checkedAt": "2026-10-26",
+				"method": "Środek ważony powierzchnią obu geometrii ULDK w WGS84; jeden punkt dla pakietu.",
+				"additionalSourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=220508_5.0004.768%2F137&result=geom_wkt&srid=4326"
+			}
 		},
 		{
 			"id": "226101_1.0003.260/3",
@@ -2840,7 +2869,14 @@
 					"url": "https://api.sejm.gov.pl/eli/acts/DU/2024/82/text/U/D20240082Lj.pdf",
 					"note": "Podstawa analizy RV z 25.10.2026; pochodzenie gleby i konkretne obowiązki wymagają potwierdzenia."
 				}
-			]
+			],
+			"mapLocation": {
+				"lat": 54.3939591,
+				"lng": 18.4708761,
+				"sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=226101_1.0003.260%2F3&result=geom_wkt&srid=4326",
+				"checkedAt": "2026-10-26",
+				"method": "Centroid geometrii ULDK w WGS84; punkt orientacyjny."
+			}
 		},
 		{
 			"slug": "chwaszczyno-771-134",
@@ -3158,7 +3194,14 @@
 					"url": "https://www.torun.lasy.gov.pl/wylaczenia-gruntow-lesnych-z-produkcji",
 					"note": "Objaśnienie procedury; nie jest decyzją dotyczącą tej działki."
 				}
-			]
+			],
+			"mapLocation": {
+				"lat": 54.4321618,
+				"lng": 18.4530606,
+				"sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=220508_5.0004.771%2F134&result=geom_wkt&srid=4326",
+				"checkedAt": "2026-10-26",
+				"method": "Centroid geometrii ULDK w WGS84; punkt orientacyjny."
+			}
 		},
 		{
 			"slug": "barniewice-319-49",
@@ -3645,7 +3688,14 @@
 					"note": "Odczyt 26.10.2026; ceny ofertowe, odrębne od RCN i niebędące wyceną 319/49.",
 					"url": "https://adresowo.pl/dzialki/barniewice/"
 				}
-			]
+			],
+			"mapLocation": {
+				"lat": 54.4170282,
+				"lng": 18.4413926,
+				"sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=220508_5.0002.319%2F49&result=geom_wkt&srid=4326",
+				"checkedAt": "2026-10-26",
+				"method": "Centroid geometrii ULDK w WGS84; punkt orientacyjny."
+			}
 		}
 	]
 }

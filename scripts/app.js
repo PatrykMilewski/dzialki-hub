@@ -1,13 +1,15 @@
+import { mountCalculator } from "./calculator.js";
+import { mountAtlasMap } from "./map.js";
+import { filterPlots } from "./model.js";
 import {
-	hubMarkup,
 	cardsMarkup,
 	comparisonMarkup,
+	hubMarkup,
 	reportMarkup,
 } from "./render.js";
-import { filterPlots } from "./model.js";
-import { mountCalculator } from "./calculator.js";
 import { escapeHtml as e, safeUrl } from "./ui.js";
 
+let disposeMap = () => {};
 const main = document.querySelector("#main");
 let atlas;
 let view = "cards";
@@ -40,6 +42,7 @@ function updateResults() {
 
 function mountHub() {
 	main.innerHTML = hubMarkup(atlas);
+	disposeMap = mountAtlasMap(atlas.plots);
 	document.querySelector("#filters").addEventListener("input", updateResults);
 	document
 		.querySelector("#filters")
@@ -48,11 +51,9 @@ function mountHub() {
 		button.setAttribute("aria-pressed", String(button.dataset.view === view));
 		button.addEventListener("click", () => {
 			view = button.dataset.view;
-			document
-				.querySelectorAll("[data-view]")
-				.forEach((item) =>
-					item.setAttribute("aria-pressed", String(item === button)),
-				);
+			document.querySelectorAll("[data-view]").forEach((item) => {
+				item.setAttribute("aria-pressed", String(item === button));
+			});
 			updateResults();
 		});
 	});
@@ -117,6 +118,8 @@ function mountChecklist(plot) {
 
 async function renderRoute() {
 	const sequence = ++renderSequence;
+	disposeMap();
+	disposeMap = () => {};
 	renderedSearch = location.search;
 	const slug = new URLSearchParams(location.search).get("dzialka");
 	const plot = atlas.plots.find((item) => item.slug === slug);

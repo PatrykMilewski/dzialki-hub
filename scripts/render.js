@@ -1,21 +1,23 @@
-import {
-	escapeHtml as e,
-	safeUrl,
-	number,
-	money,
-	badge,
-	sourceRefs,
-	figureMarkup,
-	plotLink,
-	date,
-} from "./ui.js";
 import { calculatorMarkup } from "./calculator.js";
+import { atlasMapMarkup } from "./map.js";
+import {
+	badge,
+	date,
+	escapeHtml as e,
+	figureMarkup,
+	money,
+	number,
+	plotLink,
+	safeUrl,
+	sourceRefs,
+} from "./ui.js";
 
 export function hubMarkup(data) {
 	const locations = new Set(
 		data.plots.map((plot) => plot.location.split(" · ")[0]),
 	).size;
 	return `<section class="hub-intro"><div><span class="eyebrow"><span class="status-dot"></span> TRÓJMIASTO I OKOLICE · ATLAS DZIAŁEK</span><h1>Zanim wybierzesz<br>miejsce <em>na dom.</em></h1><p>Wszystkie analizy w jednym miejscu. Zobacz, co wiemy o działce, co wymaga sprawdzenia i ile może kosztować przygotowanie jej do budowy.</p></div><aside class="intro-note"><span class="folio">01 / ATLAS</span><div class="intro-count"><strong>${data.plots.length}</strong><span>analiz w atlasie<br>${locations} miejscowości</span></div><span class="small">Aktualizacja<br><strong>${e(date(data.updatedAt))}</strong></span></aside></section>
+    ${atlasMapMarkup(data.plots)}
     <section class="catalog" aria-labelledby="catalog-title"><div class="catalog-heading"><h2 id="catalog-title">Działki pod lupą <span class="count">${data.plots.length}</span></h2><span class="small">Ustalenia. Założenia. Otwarte pytania.</span></div>
     <form id="filters" class="filters" role="search"><label class="search-field"><span class="sr-only">Szukaj działki</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><input name="query" type="search" placeholder="Szukaj miejscowości, ulicy lub numeru działki…" autocomplete="off"></label><label><span class="sr-only">Status analizy</span><select name="status"><option value="all">Wszystkie statusy</option><option value="conditional">Warunkowo</option><option value="favorable">Do rozważenia</option><option value="excluded">Odrzucone</option></select></label><label><span class="sr-only">Sortowanie</span><select name="sort"><option value="number">Numer działki</option><option value="price">Cena rosnąco</option><option value="area">Powierzchnia malejąco</option></select></label></form>
     <div class="catalog-toolbar"><span id="result-count" aria-live="polite"></span><div class="view-switch" aria-label="Widok wyników"><button type="button" data-view="cards" aria-pressed="true">Karty</button><button type="button" data-view="table" aria-pressed="false">Porównanie</button></div></div><div id="plot-results"></div></section>

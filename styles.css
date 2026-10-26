@@ -647,6 +647,29 @@ select {
 	border-top: 1px solid var(--line);
 	border-left: 1px solid var(--line);
 }
+.example-layout-link {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 24px;
+	flex-wrap: wrap;
+	padding: 28px 32px;
+	margin-top: 24px;
+	background: var(--soft-green);
+	border: 1px solid var(--line);
+	border-radius: var(--radius);
+}
+.example-layout-link > div {
+	flex: 1 1 380px;
+}
+.example-layout-link h2 {
+	font-size: 28px;
+	margin: 10px 0;
+}
+.example-layout-link p {
+	font-size: 14px;
+	margin: 0;
+}
 .fact-grid article {
 	padding: 22px 24px;
 	border-right: 1px solid var(--line);

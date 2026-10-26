@@ -1,6 +1,6 @@
-import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
+import test from "node:test";
 import { calculateCosts, filterPlots } from "../scripts/model.js";
 import { escapeHtml, safeUrl } from "../scripts/ui.js";
 
@@ -109,9 +109,15 @@ test("rendering escapes markup and rejects executable and traversing URLs", () =
 		"data:text/html,x",
 		"assets/../secret",
 		"//evil.test",
+		"zagospodarowanie-../secret.html",
+		'zagospodarowanie-750-73.html" onclick="alert(1)',
 		undefined,
 	])
 		assert.equal(safeUrl(value), "#");
 	assert.equal(safeUrl("assets/750-73/hero.svg"), "assets/750-73/hero.svg");
+	assert.equal(
+		safeUrl("zagospodarowanie-750-73.html"),
+		"zagospodarowanie-750-73.html",
+	);
 	assert.equal(safeUrl("https://example.com/map"), "https://example.com/map");
 });

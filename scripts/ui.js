@@ -21,6 +21,7 @@ export function escapeHtml(value) {
 
 export function safeUrl(value) {
 	if (typeof value !== "string") return "#";
+	if (/^zagospodarowanie-[a-z0-9-]+\.html$/.test(value)) return value;
 	if (/^assets\/[a-zA-Z0-9_./-]+$/.test(value) && !value.includes(".."))
 		return value;
 	try {

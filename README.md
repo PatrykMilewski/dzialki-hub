@@ -1,5 +1,19 @@
 # Działki — atlas decyzji
 
+## Przykładowe zagospodarowanie 750/73
+
+Podstrona `zagospodarowanie-750-73.html` rozwija kartę 750/73 o wariant HOMEKONCEPT
+102 G2 z 26.10.2026: rzut, wizualizację autora, sześć stref ogrodu i bilans
+powierzchni. Link na karcie pochodzi z opcjonalnego pola `exampleLayout`
+(`href`, `title`, `description`). Pliki PNG i PDF są w
+`assets/750-73/zagospodarowanie/`, a style podstrony w
+`styles/zagospodarowanie.css`. Podstrona działa bez JavaScript.
+
+Wizualizacja katalogowa pochodzi od HOMEKONCEPT; zachowano podpis autora i link
+do projektu. Nie przedstawia otoczenia 750/73. Ogród 624,8 m² to wolny teren po
+wyłączeniu całego gabarytu 240,4 m² i rezerwy podjazdu 78,9 m²; nie jest bilansem
+PBC ani projektem zagospodarowania. Pełna WZ i manewrowanie pozostają niezweryfikowane.
+
 Publiczny hub analiz działek pod dom w Trójmieście i okolicach.
 
 **Strona:** https://patrykmilewski.github.io/dzialki-hub/

@@ -53,6 +53,12 @@ function sourcesMarkup(plot, sectionNumber) {
 	return `<section class="report-section" id="zrodla"><div class="section-heading"><span class="section-no">${String(sectionNumber).padStart(2, "0")}</span><h2>Źródła i ślad analizy</h2></div><p class="section-lead">Analiza z ${e(date(plot.updatedAt))}. Przy każdym źródle opisano, co potwierdza i jakie ma ograniczenia.${plot.costFile ? " Źródła cen mediów znajdują się także przy kalkulatorze." : ""}</p><div class="sources">${plot.sources.map((source) => `<article id="source-${e(source.id)}">${source.url ? `<a href="${e(safeUrl(source.url))}" target="_blank" rel="noopener noreferrer">${e(source.label)} ↗</a>` : `<strong>${e(source.label)}</strong>`}<p>${e(source.note)}</p></article>`).join("")}</div><div class="notice"><strong>To materiał do podejmowania decyzji.</strong> Mapy i schematy nie są dokumentacją projektową. Nie potwierdzają praw do gruntu, dopuszczalności zabudowy ani faktycznego przebiegu sieci.</div></section>`;
 }
 
+function exampleLayoutMarkup(plot) {
+	const layout = plot.exampleLayout;
+	if (!layout) return "";
+	return `<aside class="example-layout-link"><div><span class="eyebrow">PRZYKŁADOWE ZAGOSPODAROWANIE</span><h2>${e(layout.title)}</h2><p>${e(layout.description)}</p></div><a class="button primary" href="${e(safeUrl(layout.href))}">Zobacz dom i ogród ↗</a></aside>`;
+}
+
 export function reportMarkup(plot) {
 	const lastContentSection = plot.sections.length + (plot.costFile ? 1 : 0);
 	const navigation = [
@@ -62,7 +68,7 @@ export function reportMarkup(plot) {
 		{ id: "pytania", title: "Pytania" },
 		{ id: "zrodla", title: "Źródła" },
 	];
-	return `${reportHero(plot)}<div class="verdict-panel"><span class="verdict-tag">${e(plot.statusLabel)}</span><div><h2>${e(plot.verdict.title)}</h2><p>${e(plot.verdict.text)}</p></div></div><div class="fact-grid">${plot.facts.map((fact) => `<article>${badge(fact.status)}<h3>${e(fact.label)}</h3><strong>${e(fact.value)}</strong><p>${e(fact.note)}</p></article>`).join("")}</div><nav class="report-nav" aria-label="Sekcje analizy">${navigation
+	return `${reportHero(plot)}<div class="verdict-panel"><span class="verdict-tag">${e(plot.statusLabel)}</span><div><h2>${e(plot.verdict.title)}</h2><p>${e(plot.verdict.text)}</p></div></div>${exampleLayoutMarkup(plot)}<div class="fact-grid">${plot.facts.map((fact) => `<article>${badge(fact.status)}<h3>${e(fact.label)}</h3><strong>${e(fact.value)}</strong><p>${e(fact.note)}</p></article>`).join("")}</div><nav class="report-nav" aria-label="Sekcje analizy">${navigation
 		.filter((item) => plot.costFile || item.id !== "koszty")
 		.map((item) => `<a href="#${e(item.id)}">${e(item.title)}</a>`)
 		.join(

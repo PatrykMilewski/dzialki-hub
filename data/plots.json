@@ -4,6 +4,11 @@
 	"plots": [
 		{
 			"slug": "chwaszczyno-750-73",
+			"exampleLayout": {
+				"href": "zagospodarowanie-750-73.html",
+				"title": "HOMEKONCEPT 102 G2 · dom i ogród na 750/73",
+				"description": "Przykład z 26.10.2026: dom dosunięty do górnej linii i drogi, garaż i taras na dole rzutu. Ogród od południa około 259 m², wszystkie strefy ogrodu około 625 m². Rzut, wizualizacja projektu i bilans powierzchni."
+			},
 			"id": "220508_5.0004.750/73",
 			"number": "750/73",
 			"title": "Sobiesława I",

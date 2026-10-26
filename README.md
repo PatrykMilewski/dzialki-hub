@@ -76,3 +76,7 @@ Treść etykiet i okien Leaflet jest tworzona przez DOM `textContent`, a nie prz
 przekazanie danych jako HTML; chroni to przed wstrzyknięciem kodu do popupów.
 Podkład korzysta z HTTPS i standardowego cache przeglądarki, z widoczną atrybucją
 OpenStreetMap; bez pobierania offline i prefetch.
+
+Analizy **220508_5.0004.750/70**, **750/71** i **750/74** (ten sam obręb), stan 26.10.2026: trzy osobne karty, skupione na usytuowaniu domu. Każda pokazuje dwa rzuty 200 m² oraz mniejszy wariant 140/115/120 m², wjazd, garaż, taras i południową część ogrodu. Deklarowane w zbiorczej ofercie WZ 14,5% wykluczają 200 m² przy ofertowych powierzchniach; pełnych decyzji nie otrzymano. Wspólne mapy planów, Ls, NMT 30.04.2022 i przekrojów z przebiegiem tras. Brak osobnego kosztorysu i pełnej oceny zakupu.
+
+Aktualizacja planowania/lasu 750/73 z 26.10.2026: poglądowa georeferencja załącznika XXXVI/393/2017 umieszcza wszystkie cztery działki oraz sąsiedni las w obszarze przystąpienia. Nie ustalono projektu przeznaczeń ani harmonogramu cięć. To nie uchwalony MPZP ani zgoda na odlesienie. Pozostałe ustalenia i kosztorys 750/73 zachowują dotychczasowe daty.

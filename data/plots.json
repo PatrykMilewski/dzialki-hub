@@ -2841,6 +2841,324 @@
 					"note": "Podstawa analizy RV z 25.10.2026; pochodzenie gleby i konkretne obowiązki wymagają potwierdzenia."
 				}
 			]
+		},
+		{
+			"slug": "chwaszczyno-771-134",
+			"id": "220508_5.0004.771/134",
+			"number": "771/134",
+			"title": "Cicha — podział na dwie działki",
+			"location": "Chwaszczyno · gmina Żukowo",
+			"areaM2": 3012,
+			"pricePln": 1700000,
+			"pricePerM2": 564.41,
+			"statusKey": "conditional",
+			"statusLabel": "Warunkowo",
+			"updatedAt": "2026-10-26",
+			"offerUrl": "https://www.otodom.pl/pl/oferta/150m-od-jeziora-wiele-mozliwosci-ID4DnjR",
+			"thumbnail": "assets/chwaszczyno-771-134/granice.png",
+			"hero": "assets/chwaszczyno-771-134/granice.png",
+			"imageLabel": "ULDK + ORTO · odczyt 26.10.2026",
+			"imageAlt": "Granice działki 771/134 na ortofotomapie GUGiK; data zdjęcia nieustalona",
+			"summary": "MPZP 38.MN daje podstawę do podziału na dwie działki. Wariant geometryczny: około 1504 m² każda. Grunt LsIV, dostęp drogowy i sąsiedni las wymagają wyjaśnienia przed zakupem.",
+			"verdict": {
+				"title": "Dwie działki są realnym wariantem pod warunkami",
+				"text": "Minimum planu wynosi 400 m². Na dwóch częściach testowo mieszczą się obrysy 200 m², lecz nie jest to zatwierdzony podział ani projekt. Wschodnia część ma szerszy front i mniej ograniczeń od zachodniego lasu. Potrzebne są dokumenty wyłączenia leśnego, prawa do dojazdu oraz weryfikacja odległości pożarowych. To ocena podziału z 26.10.2026, nie pełna ocena zakupu; duży, suchy ogród pozostaje niepotwierdzony."
+			},
+			"cardNotice": {
+				"title": "MN w planie, LsIV w ewidencji",
+				"text": "Przeznaczenie mieszkaniowe nie zastępuje wyłączenia z produkcji leśnej. Nie potwierdzono indywidualnej decyzji."
+			},
+			"facts": [
+				{
+					"label": "Minimum nowej działki",
+					"value": "400 m²",
+					"note": "§41 MPZP; działka leży w 38.MN.",
+					"status": "verified"
+				},
+				{
+					"label": "Wariant podziału",
+					"value": "2 × ok. 1504 m²",
+					"note": "Obliczenie z geometrii ULDK 3007,72 m²; oferta podaje 3012 m².",
+					"status": "verified"
+				},
+				{
+					"label": "Użytek ewidencyjny",
+					"value": "LsIV",
+					"note": "Odczyt mapy EGiB, nie wypis. Wyłączenie leśne niepotwierdzone.",
+					"status": "verified"
+				},
+				{
+					"label": "Zakup na jedną część",
+					"value": "ok. 850 tys. zł",
+					"note": "Połowa ofertowych 1,7 mln zł; bez podziału, wyłączenia i infrastruktury.",
+					"status": "declared"
+				}
+			],
+			"sections": [
+				{
+					"id": "plan",
+					"title": "Plan i podział",
+					"lead": "Rysunek uchwały XXII/264/2020 przypisuje 771/134 do 38.MN.",
+					"items": [
+						{
+							"label": "Parametry zabudowy",
+							"text": "§41: minimum nowej działki 400 m², zabudowa do 25%, minimum 50% biologicznie czynnej, intensywność do 0,5, dom do 8 m i dwóch kondygnacji; dach dowolny. Jeden dom wolnostojący na działce.",
+							"status": "verified",
+							"sourceIds": [
+								"mpzp"
+							]
+						},
+						{
+							"label": "Front i dojazdy",
+							"text": "§14 w zasadach scalania i podziału określa front jako dowolny oraz kąt przy drodze 90° ±45°. §41 dopuszcza wydzielanie dojazdów o szerokości minimum 6 m; dostęp 38.MN wskazano z 19.KDD.",
+							"status": "verified",
+							"sourceIds": [
+								"mpzp"
+							]
+						},
+						{
+							"label": "Granica aktualności",
+							"text": "Odczytano tekst i rysunek planu. Nie znaleziono zmiany dotyczącej tej parceli, ale nie zamknięto audytu wszystkich późniejszych zmian i rozstrzygnięć. Przed zakupem potrzebny aktualny wypis i wyrys.",
+							"status": "unknown",
+							"sourceIds": [
+								"mpzp"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/chwaszczyno-771-134/mpzp.png",
+							"alt": "Wycinek rysunku MPZP: 771/134 w 38.MN przy 57.ZL",
+							"caption": "Załącznik 1 do XXII/264/2020 z 26.05.2020, odczyt 26.10.2026. Podkład ewidencyjny z daty opracowania planu; nie przedstawia zatwierdzonego nowego podziału."
+						}
+					]
+				},
+				{
+					"id": "wariant",
+					"title": "Dwa domy i ogród",
+					"lead": "Podział prostopadły do południowo-wschodniego pasa dojazdu.",
+					"items": [
+						{
+							"label": "Powierzchnie i fronty",
+							"text": "Obliczenie w EPSG:2180: dwie części po 1503,86 m², fronty około 23,18 m i 29,38 m. Przy powierzchni ofertowej 3012 m² arytmetyczna połowa to 1506 m². Geodeta ustali ostateczne granice i powierzchnie.",
+							"status": "verified",
+							"sourceIds": [
+								"uldk"
+							]
+						},
+						{
+							"label": "Test domu 200 m²",
+							"text": "Prostokąty 20 × 10 m mieszczą się po przyjęciu 4 m od granic i orientacyjnych 12 m od zachodniego lasu. To wariant warunkowy: nie sprawdza wszystkich pozostałych Ls, wyłączenia leśnego, terenu, manewrowania ani konkretnego projektu.",
+							"status": "assumed",
+							"sourceIds": [
+								"uldk",
+								"mpzp"
+							]
+						},
+						{
+							"label": "Ogród i drzewa",
+							"text": "Limit zabudowy to około 376 m² na część, minimum biologicznie czynne około 752 m². Nie oznacza to suchego, użytkowego ogrodu. Plan wymaga zachowania drzew niekolidujących z zabudową. Część zachodnia jest bardziej ograniczona lasem.",
+							"status": "verified",
+							"sourceIds": [
+								"mpzp"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/chwaszczyno-771-134/podzial.png",
+							"alt": "Warunkowy podział 771/134 na części A i B z testowymi obrysami domów",
+							"caption": "Opracowanie 26.10.2026: ULDK EPSG:2180 i ortofotomapa GUGiK o nieustalonej dacie zdjęcia. Czerwony pas: orientacyjne 12 m od zachodniej granicy lasu. Nie jest to projekt podziału ani potwierdzenie dopuszczalności domów."
+						}
+					]
+				},
+				{
+					"id": "las",
+					"title": "Status leśny",
+					"lead": "LsIV w ewidencji i MN w planie opisują różne kwestie.",
+					"items": [
+						{
+							"label": "Mapa użytków",
+							"text": "Warstwy użytków i konturów EGiB wskazują LsIV dla 771/134. Lasy występują też w otoczeniu, a zachodni sąsiad ma w planie przeznaczenie 57.ZL.",
+							"status": "verified",
+							"sourceIds": [
+								"egib",
+								"mpzp"
+							]
+						},
+						{
+							"label": "Zgoda planowa a wyłączenie",
+							"text": "§52 wymienia przeznaczenie 3,9497 ha na cele nieleśne na podstawie decyzji Marszałka WBG-OGR.7151.68.2018.AS z 26.11.2018. Nie pozyskano jej załącznika parcelowego ani indywidualnej decyzji wyłączenia 771/134. Należy uzyskać zakres, mapę i obowiązki od sprzedawcy/RDLP.",
+							"status": "unknown",
+							"sourceIds": [
+								"mpzp",
+								"rdlp"
+							]
+						},
+						{
+							"label": "Odległości od lasu",
+							"text": "Na rysunku jest informacyjna strefa 12 m od zachodniego lasu. Architekt powinien sprawdzić wszystkie właściwe odległości pożarowe, także od pozostałych gruntów Ls, oraz możliwość lokalizacji obu domów.",
+							"status": "unknown",
+							"sourceIds": [
+								"mpzp"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/chwaszczyno-771-134/uzytki.png",
+							"alt": "Mapa EGiB z oznaczeniem LsIV na działce 771/134",
+							"caption": "KIEG/GUGiK, warstwy użytków i konturów, odczyt 26.10.2026. Jest to mapa, nie urzędowy wypis z rejestru gruntów."
+						}
+					]
+				},
+				{
+					"id": "dostep",
+					"title": "Dojazd, media i zakres braków",
+					"lead": "Obie części mają geometryczny front przy istniejącym pasie dojazdu.",
+					"items": [
+						{
+							"label": "Pas 1313/1314",
+							"text": "Nie jest geometrycznie konieczne wydzielenie drogi ze środka działki, jeżeli istniejący dojazd obsłuży obie części. Początek 1314 ma z geometrii około 4,91 m szerokości. Nie potwierdzono praw przejazdu, zjazdów ani parametrów technicznych. Wymóg 6 m dla wydzielanych dojazdów nie rozstrzyga sam statusu istniejącego pasa.",
+							"status": "unknown",
+							"sourceIds": [
+								"uldk",
+								"egib",
+								"mpzp"
+							]
+						},
+						{
+							"label": "Media",
+							"text": "Oferta deklaruje wodę, prąd i gaz. Nie sprawdzono warunków przyłączenia dla dwóch domów ani rozwiązania ścieków.",
+							"status": "declared",
+							"sourceIds": [
+								"oferta"
+							]
+						},
+						{
+							"label": "Teren, woda, otoczenie i szkoła",
+							"text": "Analiza dotyczyła podziału. Nie wykonano NMT ani badań gruntu i wody; nie potwierdzono suchego ogrodu, zagrożeń, hałasu ani szkoły obwodowej. Nie należy traktować tej karty jako pełnej oceny zakupowej.",
+							"status": "unknown",
+							"sourceIds": []
+						}
+					],
+					"figures": []
+				},
+				{
+					"id": "budzet",
+					"title": "Cena i koszty podziału",
+					"lead": "Cena oferty to około 1,7 mln zł za całość.",
+					"items": [
+						{
+							"label": "Cena na część",
+							"text": "1 700 000 zł / 3012 m² = 564,41 zł/m²; połowa ceny to 850 000 zł. Cena pochodzi z kopii oferty Home Experts; kopia Trojmiasto podawała 1 699 999 zł. Deklaracja czterech domów dwulokalowych nie jest dowodem zatwierdzonej inwestycji.",
+							"status": "declared",
+							"sourceIds": [
+								"oferta",
+								"kopia"
+							]
+						},
+						{
+							"label": "Niepełny budżet",
+							"text": "Nie wyceniono podziału geodezyjnego, wyłączenia leśnego, przygotowania gruntu, drogi i przyłączy. Brakuje dokumentów siedliska oraz zakresu wyłączenia. Nie wykonano porównania transakcyjnego; rachunek na część nie jest wyceną rynkową.",
+							"status": "unknown",
+							"sourceIds": []
+						}
+					],
+					"figures": []
+				}
+			],
+			"risks": [
+				{
+					"severity": "high",
+					"title": "Wyłączenie z produkcji leśnej",
+					"detail": "Nie potwierdzono indywidualnej decyzji, jej zakresu i kosztów. Sama funkcja MN nie zamyka tej procedury."
+				},
+				{
+					"severity": "high",
+					"title": "Dostęp dla obu nowych działek",
+					"detail": "Potwierdź prawo do całego dojazdu i techniczne warunki obsługi dwóch domów."
+				},
+				{
+					"severity": "high",
+					"title": "Las i układ domów",
+					"detail": "Zachodnia część jest bardziej ograniczona; orientacyjny obrys nie potwierdza wszystkich wymaganych odległości."
+				}
+			],
+			"questions": [
+				{
+					"id": "771134-wypis",
+					"text": "Czy aktualny wypis i wyrys potwierdzają 38.MN oraz warunki podziału?"
+				},
+				{
+					"id": "771134-podzial",
+					"text": "Czy gmina pozytywnie zaopiniuje wstępny projekt dwóch działek z osobnymi domami?"
+				},
+				{
+					"id": "771134-las",
+					"text": "Czy sprzedawca ma decyzję wyłączenia leśnego z mapą, zakresem i obowiązkami dla 771/134?"
+				},
+				{
+					"id": "771134-droga",
+					"text": "Jakie prawa do 1313/1314 i dalszego połączenia z drogą publiczną otrzyma każda działka?"
+				},
+				{
+					"id": "771134-projekt",
+					"text": "Czy architekt potwierdzi obydwa domy, odległości od lasu, wjazdy i zachowanie drzew?"
+				},
+				{
+					"id": "771134-media",
+					"text": "Jakie są warunki przyłączenia obu domów oraz sposób odprowadzania ścieków?"
+				},
+				{
+					"id": "771134-grunt",
+					"text": "Czy badania gruntu i pomiar terenu potwierdzają wykonalność domów oraz użytkowego ogrodu?"
+				}
+			],
+			"sources": [
+				{
+					"id": "mpzp",
+					"label": "MPZP XXII/264/2020 — tekst i rysunek",
+					"url": "https://edziennik.gdansk.uw.gov.pl/WDU_G/2020/2896/akt.pdf",
+					"note": "Akt z 26.05.2020; §14, §41, §52 i załącznik 1. Odczyt 26.10.2026; późniejsze zmiany wymagają końcowego potwierdzenia."
+				},
+				{
+					"id": "uldk",
+					"label": "ULDK — geometria działki",
+					"url": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=220508_5.0004.771%2F134&result=id,geom_wkt&srid=2180",
+					"note": "Odczyt 26.10.2026; powiat kartuski WFS. Powierzchnia obliczona 3007,72 m²."
+				},
+				{
+					"id": "egib",
+					"label": "GUGiK — ewidencja gruntów i budynków",
+					"url": "https://www.geoportal.gov.pl/pl/dane/ewidencja-gruntow-i-budynkow-egib/",
+					"note": "Mapa KIEG, użytki/kontury: LsIV. Odczyt 26.10.2026; metadane publikacji 25.10.2026. Nie jest wypisem."
+				},
+				{
+					"id": "orto",
+					"label": "GUGiK — ortofotomapa",
+					"url": "https://www.geoportal.gov.pl/pl/dane/ortofotomapa-orto/",
+					"note": "Mozaika WMS StandardResolution, odczyt 26.10.2026. Data zdjęcia nieustalona."
+				},
+				{
+					"id": "oferta",
+					"label": "Home Experts — oferta HEX391784",
+					"url": "https://homeexperts.pl/nieruchomosci/dzialka-na-sprzedaz/chwaszczyno/12612",
+					"note": "Odczyt 26.10.2026: 3012 m², 1,7 mln zł, deklaracje mediów i potencjału zabudowy."
+				},
+				{
+					"id": "kopia",
+					"label": "Kopia oferty w Trojmiasto",
+					"url": "https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/150m-od-jeziora-wiele-mozliwosci-ogl66553573.html",
+					"note": "Odczyt 26.10.2026; cena 1 699 999 zł, aktualizacja ogłoszenia 04.10.2026."
+				},
+				{
+					"id": "rdlp",
+					"label": "Lasy Państwowe — wyłączenia gruntów leśnych",
+					"url": "https://www.torun.lasy.gov.pl/wylaczenia-gruntow-lesnych-z-produkcji",
+					"note": "Objaśnienie procedury; nie jest decyzją dotyczącą tej działki."
+				}
+			]
 		}
 	]
 }

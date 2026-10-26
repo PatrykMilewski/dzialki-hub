@@ -7,48 +7,55 @@
   ],
   "parcel_m2": 874.2595500160203,
   "nominal_parcel_m2": 874,
-  "south_garden_m2": 186.58400285845246,
-  "all_garden_m2": 628.4229295831408,
-  "house_terrace_reserve_m2": 183.32502564752062,
-  "drive_reserve_m2": 62.51159478535873,
-  "south_cut_northing_m": 6032158.176021265,
-  "south_cut_local_m": -9.353978734463453,
+  "south_garden_m2": 210.00059416931902,
+  "all_garden_m2": 629.3310774304782,
+  "house_terrace_reserve_m2": 183.32502534456393,
+  "drive_reserve_m2": 61.603447240978625,
+  "south_cut_northing_m": 6032159.012498299,
+  "south_cut_local_m": -8.517501700669527,
   "sections": [
     {
       "id": "A",
       "name": "Południowo-zachodni",
-      "area_m2": 44.10043801886807,
+      "area_m2": 50.780610884981996,
       "color": "#d9e8a5"
     },
     {
       "id": "B",
       "name": "Południowy środkowy",
-      "area_m2": 100.53626292555393,
+      "area_m2": 108.06455622969926,
       "color": "#a8d5a0"
     },
     {
       "id": "C",
       "name": "Południowo-wschodni",
-      "area_m2": 41.94730191403047,
+      "area_m2": 51.155427054637755,
       "color": "#7bc5a6"
     },
     {
       "id": "D",
       "name": "Przed domem · od drogi",
-      "area_m2": 238.2646303405645,
+      "area_m2": 225.66974909133063,
       "color": "#c9dfba"
     },
     {
       "id": "E",
       "name": "Przy tarasie i za domem",
-      "area_m2": 154.17334416533123,
+      "area_m2": 152.5396955925998,
       "color": "#98cfc8"
     },
     {
       "id": "F",
       "name": "Północny narożnik",
-      "area_m2": 49.400952218792575,
+      "area_m2": 41.12103857722829,
       "color": "#b2c9dd"
     }
-  ]
+  ],
+  "variant": "NW3: zamknięte dwa boczne okna parteru w garażu i kotłowni; projekt do adaptacji",
+  "assumed_setbacks_m": {
+    "NW": 3,
+    "NE": 4,
+    "road_building_line": 6
+  },
+  "original_project_footprint_m2": 142.9
 }

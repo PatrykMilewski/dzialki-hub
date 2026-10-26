@@ -180,3 +180,11 @@
 		width: auto;
 	}
 }
+
+.layout-project-image {
+	display: block;
+	border-radius: var(--radius);
+}
+.layout-project-actions {
+	margin-top: 12px;
+}

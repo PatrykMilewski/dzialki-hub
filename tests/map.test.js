@@ -1,12 +1,7 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
-import {
-	atlasMapMarkup,
-	hasMapLocation,
-	mapPrice,
-	placeLabels,
-} from "../scripts/map.js";
+import { atlasMapMarkup, hasMapLocation, mapPrice } from "../scripts/map.js";
 
 const atlas = JSON.parse(
 	await readFile(new URL("../data/plots.json", import.meta.url)),
@@ -45,47 +40,4 @@ test("missing price and coordinates stay explicit and fallback links escape data
 	assert.match(html, /Lokalizacja nieustalona/);
 	assert.match(html, /href="\?dzialka=test"/);
 	assert.doesNotMatch(html, /<img/);
-});
-
-test("seven neighboring price labels remain separate on a phone", () => {
-	const points = Array.from({ length: 7 }, (_, i) => ({
-		x: 160 + i,
-		y: 170 + i,
-	}));
-	const labels = placeLabels(points, { x: 320, y: 360 });
-	for (const [i, point] of labels.entries()) {
-		assert.ok(point.x >= 63 && point.x <= 320 - 63);
-		assert.ok(point.y >= 24 && point.y <= 360 - 24);
-		for (const other of labels.slice(i + 1)) {
-			assert.ok(
-				Math.abs(point.x - other.x) >= 126 || Math.abs(point.y - other.y) >= 48,
-			);
-		}
-	}
-	assert.deepEqual(placeLabels([{ x: -200, y: -200 }], { x: 320, y: 360 }), [
-		{ x: -200, y: -200 },
-	]);
-});
-
-test("current atlas positions have no overlapping prices on narrow phones", () => {
-	const points = [
-		{ x: 128, y: 160 },
-		{ x: 181, y: 77 },
-		{ x: 135, y: 93 },
-		{ x: 150, y: 119 },
-		{ x: 226, y: 283 },
-		{ x: 174, y: 92 },
-		{ x: 140, y: 168 },
-	];
-	for (const width of [280, 288, 320, 339, 354, 400]) {
-		const labels = placeLabels(points, { x: width, y: 360 });
-		for (const [i, point] of labels.entries()) {
-			for (const other of labels.slice(i + 1))
-				assert.ok(
-					Math.abs(point.x - other.x) >= 126 ||
-						Math.abs(point.y - other.y) >= 48,
-					`Overlap at ${width}px`,
-				);
-		}
-	}
 });

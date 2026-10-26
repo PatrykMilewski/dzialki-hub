@@ -60,10 +60,11 @@ Analiza **220508_5.0002.319/49**, Nowy Świat, ul. Witrażowa (obręb Barniewice
 
 ## Mapa całego atlasu
 
-Strona główna pokazuje wszystkie rekordy `plots` na wspólnej mapie z cenami i linkami
-do analiz. Filtry katalogu nie ograniczają mapy. Kropki wskazują orientacyjne środki
-geometrii ULDK; etykiety cen są rozsuwane i połączone z punktami liniami. Pakiet
-działek ma jeden znacznik i cenę całości. Pod mapą pozostaje lista dostępna także
+Strona główna zaczyna się od mapy wszystkich rekordów `plots`, bez bloku powitalnego.
+Ceny pojawiają się po najechaniu na punkt lub ustawieniu fokusu klawiaturą,
+a po kliknięciu lub dotknięciu dostępne jest okno z ceną i linkiem do analizy.
+Filtry katalogu nie ograniczają mapy. Punkty wskazują orientacyjne środki geometrii
+ULDK. Pakiet działek ma jeden znacznik i cenę całości. Pod mapą pozostaje lista dostępna także
 bez podkładu lub biblioteki mapowej.
 
 Nowa analiza wymaga `mapLocation`: `lat`, `lng` (WGS84), `sourceUrl`, `checkedAt`

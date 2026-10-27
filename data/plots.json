@@ -4846,6 +4846,581 @@
 				"title": "Nasza Stodoła M · garaż od drogi, dom w głębi działki",
 				"description": "Przykładowe zagospodarowanie KRY1007: pełna boczna ściana NW i założone 3 m od granicy, podjazd przy granicy i sześć sekcji ogrodu. Południe: 210,0 m², cały wolny teren: 629,3 m². Wariant do adaptacji z 27.10.2026."
 			}
+		},
+		{
+			"slug": "chwaszczyno-761-18",
+			"id": "220508_5.0004.761/18",
+			"number": "761/18",
+			"title": "Nowy Świat · ogród od SW",
+			"location": "Chwaszczyno · gmina Żukowo",
+			"areaM2": 714,
+			"pricePln": 575000,
+			"pricePerM2": 805.3221288515406,
+			"updatedAt": "2026-10-27",
+			"statusKey": "conditional",
+			"statusLabel": "Warunkowo",
+			"summary": "Niemal płaska działka z wjazdem od NE i ogrodem od SW. NewHouse 755 G2 mieści się w deklarowanych 25% zabudowy, ale front 13,65 m przekracza podane 13 m. Za tarasem pozostaje około 224 m²; grunt, ścieki i prawa do jeziora są niepotwierdzone.",
+			"verdict": {
+				"title": "Dobra geometria ogrodu, dom wymaga adaptacji",
+				"text": "Teren sprzyja temu układowi domu i ogrodu, lecz oryginalny NewHouse 755 G2 nie spełnia podanego limitu szerokości frontu. Potrzebne są pełna skuteczna WZ, ocena adaptacji frontu, okien i dachu garażu, badania gruntu oraz dokumenty drogi i jeziora. Cena 575 tys. zł nie wygląda na okazję na tle wybranych transakcji; 527–539 tys. zł to tylko arytmetyczny punkt negocjacyjny, bez korekt wyceny."
+			},
+			"offerUrl": "https://www.otodom.pl/pl/oferta/dzialka-z-warunkami-zabudowy-chwaszczyno-ID4DyRk",
+			"thumbnail": "assets/761-18/ortho.png",
+			"hero": "assets/761-18/ortho.png",
+			"imageLabel": "ORTOFOTO · ROK NALOTU NIEUSTALONY",
+			"imageAlt": "Granica działki 761/18 na ortofotomapie GUGiK; żółta linia oznacza poglądową oś linii elektroenergetycznej na zachód od działki",
+			"cardNotice": {
+				"title": "Front domu przekracza deklarowaną WZ",
+				"text": "13,65 m zamiast maksymalnie 13 m. Pełnej decyzji WZ nie otrzymano; dopasowanie wymaga pracy projektanta."
+			},
+			"facts": [
+				{
+					"label": "Powierzchnia",
+					"value": "714 m²",
+					"note": "Oferta i historyczny RCN; geometria w EPSG:2177: 714,28 m². Aktualny wypis EGiB niezweryfikowany.",
+					"status": "declared"
+				},
+				{
+					"label": "Limit zabudowy",
+					"value": "178,50 m²",
+					"note": "25% × 714 m² według parametrów użytkownika. Dom 153,27 m²; zapas 25,23 m².",
+					"status": "declared"
+				},
+				{
+					"label": "Teren pod domem",
+					"value": "0,29 m różnicy",
+					"note": "NMT ALS 08.09.2024; cała działka 0,53 m. To model terenu, bez informacji o nośności i wodzie.",
+					"status": "verified"
+				},
+				{
+					"label": "Ogród za tarasem",
+					"value": "około 224 m²",
+					"note": "Pas SW o głębokości około 10,76 m. Bilans geometryczny, bez potwierdzenia suchości i PBC.",
+					"status": "assumed"
+				},
+				{
+					"label": "Szkoła obwodowa",
+					"value": "SP w Chwaszczynie",
+					"note": "SP im. Adama Mickiewicza, ul. Mickiewicza 16. Uchwała obejmuje cały Nowy Świat; sprawdzono rekrutację 2026/27.",
+					"status": "verified"
+				},
+				{
+					"label": "Prawa do drogi i jeziora",
+					"value": "Do potwierdzenia",
+					"note": "Widoczna droga 761/15 nie dowodzi ciągłości prawnej dojazdu. Dostęp do jeziora jest deklaracją oferty.",
+					"status": "unknown"
+				}
+			],
+			"sections": [
+				{
+					"id": "identyfikacja",
+					"title": "Działka, oferta i granice",
+					"lead": "Stan analizy i publikacja: 27.10.2026. Zdjęcia i dane wysokościowe mają własne daty; mapy nie zastępują pomiaru geodezyjnego.",
+					"items": [
+						{
+							"label": "Identyfikator i wymiary",
+							"text": "ULDK potwierdza 220508_5.0004.761/18, obręb Chwaszczyno. Boki około 20,78 × 34,37 m. Od NE droga 761/15, od NW 761/19, od SE 761/17, od SW 761/10. Obliczenia metryczne wykonano w EPSG:2177.",
+							"status": "verified",
+							"sourceIds": ["uldk"]
+						},
+						{
+							"label": "Aktualna cena oferty",
+							"text": "27.10.2026 odczytano 575 000 zł za 714 m², czyli 805,32 zł/m². Starsze kopie z innymi cenami nie są osobnymi nieruchomościami porównawczymi. Nazwy Wilków Morskich / Białe Żagle z dawnych ofert nie potwierdzają adresu administracyjnego.",
+							"status": "declared",
+							"sourceIds": ["offer"]
+						}
+					],
+					"figures": []
+				},
+				{
+					"id": "planowanie",
+					"title": "WZ, planowanie i użytki",
+					"lead": "Pełnej decyzji WZ, załącznika mapowego i potwierdzenia jej skuteczności nie udostępniono. Parametry poniżej są deklaracją przekazaną do analizy.",
+					"items": [
+						{
+							"label": "Parametry WZ od użytkownika",
+							"text": "Maksymalnie 25% zabudowy, 6 m od drogi, wysokość do 9 m, dach dwuspadowy 35–45°, elewacja frontowa do 13 m. Daje to 178,50 m² zabudowy; dom o rzucie 200 m² przekracza limit. Sposób pomiaru linii i frontu wymaga decyzji oraz mapy.",
+							"status": "declared",
+							"sourceIds": ["wz"]
+						},
+						{
+							"label": "Rozbieżność ze starszą kopią oferty",
+							"text": "Wtórna kopia podawała 21,9% zabudowy i 40% powierzchni biologicznie czynnej. Nie zastępuje to deklarowanych 25% ani pełnej WZ. Przy 21,9% limit wyniósłby 156,37 m², a zapas dla domu tylko 3,10 m². Wymóg PBC pozostaje niepotwierdzony.",
+							"status": "unknown",
+							"sourceIds": ["wz", "old-offer", "secondary"]
+						},
+						{
+							"label": "MPZP i plan ogólny",
+							"text": "Na odczytanych warstwach SIP działka jest poza rastrami obowiązujących MPZP; nie uzyskano urzędowego potwierdzenia braku planu. Plan 05062, uchwała XXII/264/2020, dotyczy sąsiedztwa od SE, a jego parametrów nie przenosimy na 761/18. Nie potwierdzono wejścia planu ogólnego w życie; komunikat gminy z 27.08.2026 nie daje gwarancji uzyskania nowej WZ.",
+							"status": "unknown",
+							"sourceIds": ["sip", "mpzp", "pog", "wz-termin"]
+						},
+						{
+							"label": "Użytki rolne i las",
+							"text": "Na mapie EGiB przez część SE przebiegają RV i PsIV. Pochodzenie mineralne lub organiczne i zakres wyłączenia z produkcji rolnej są nieustalone. LsV widoczne od NW wymaga dokładnego konturu oraz pomiaru odległości. Odległość budynku od prawnie istotnego konturu lasu pozostaje do ustalenia.",
+							"status": "unknown",
+							"sourceIds": ["sip", "uldk"]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/761-18/mpzp.png",
+							"alt": "Działka 761/18 na tle rastrów sąsiednich MPZP w SIP Żukowa",
+							"caption": "SIP Żukowo / GISON, odczyt 27.10.2026. Sąsiedni MPZP 05062 nie określa parametrów tej działki."
+						},
+						{
+							"src": "assets/761-18/egib.png",
+							"alt": "Granica działki 761/18 i oznaczenia użytków EGiB, w tym RV, PsIV i pobliskie LsV",
+							"caption": "Warstwa EGiB, odczyt 27.10.2026. Nie jest wypisem ani ustaleniem granic lasu do projektu."
+						}
+					]
+				},
+				{
+					"id": "dom-ogrod",
+					"title": "NewHouse 755 G2 i rzeczywisty bilans ogrodu",
+					"lead": "Przymiarka wersji podstawowej, bez lustra: garaż i wejście od NE, salon i ogród od SW. To koncepcja geometryczna, bez zatwierdzonego PZT.",
+					"items": [
+						{
+							"label": "Co mieści się w podanych liczbach",
+							"text": "Katalogowa powierzchnia zabudowy 153,27 m² stanowi 21,47% nominalnych 714 m². Wysokość 7,49 m jest poniżej 9 m, a główny dach dwuspadowy ma 35°. Cała przednia rama znajduje się około 6,05 m od granicy drogi, ściana około 7,90 m. Płaski dach garażu i taras nad nim wymagają interpretacji pełnej WZ.",
+							"status": "assumed",
+							"sourceIds": ["house", "outline", "wz"]
+						},
+						{
+							"label": "Front jest za szeroki",
+							"text": "Ściany frontu mają 13,65 m, czyli o 0,65 m więcej niż podane 13 m; z boczną ramą obrys ma 14,85 m. Sam obrót lub przesunięcie nie usuwa konfliktu szerokości w pokazanej orientacji. Adaptację musi rozstrzygnąć autor/projektant na podstawie decyzji.",
+							"status": "assumed",
+							"sourceIds": ["house", "outline", "wz"]
+						},
+						{
+							"label": "Odległości boczne i okna garażu",
+							"text": "Ściana garażu leży około 3,06 m od granicy, mieszkalna około 4,07 m; boczna rama około 2,87 m. Oryginał ma dwa boczne okna garażu. W przyjętym scenariuszu WT 3/4 m wymagają likwidacji. Ustawa z 2026 r., art. 102a PB, pozwala czasowo stosować dawny reżim po oświadczeniu inwestora; właściwe zasady, elementy wysunięte i ochronę pożarową musi potwierdzić projektant. Rysunek nie potwierdza legalności usytuowania.",
+							"status": "assumed",
+							"sourceIds": ["house", "law", "wt"]
+						},
+						{
+							"label": "Ogród i podjazd",
+							"text": "Dom z pełnymi tarasami i ramą zajmuje prostokąt 14,85 × 17,55 m. Podjazd około 5,65 × 7,90 m częściowo wchodzi w ten obrys. Łączna zajętość wynosi około 294,80 m², pozostaje około 419,48 m² przed ścieżkami i instalacjami. Za pełnym tarasem: pas SW około 223,73 m², głęboki na 10,76 m; pozostała reszta około 195,74 m². To nie bilans PBC ani potwierdzenie suchego ogrodu. Nie badano toru jazdy auta.",
+							"status": "assumed",
+							"sourceIds": ["uldk", "outline"]
+						},
+						{
+							"label": "Program i słońce",
+							"text": "Projekt ma 123,23 m² powierzchni użytkowej oraz garaż z wnęką 47,10 m², gabinet na parterze i trzy sypialnie na poddaszu. Salon i ogród SW sprzyjają popołudniowemu światłu. Nie wykonano pełnej analizy przesłaniania przez przyszłe domy, prywatności ani potwierdzenia antresoli dla oczekiwanego programu.",
+							"status": "assumed",
+							"sourceIds": ["house"]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/761-18/newhouse755-na-761-18.png",
+							"alt": "Nieodwrócony rzut NewHouse 755 G2 na działce 761/18 z garażem od NE, wymiarami i pasem ogrodu SW",
+							"caption": "Koncepcja 27.10.2026. Granice ULDK, rzut i wymiary Modern House / Extradom; WZ deklarowana. Obraz liczy wskaźnik od geometrii 714,28 m², tekst od nominalnych 714 m². Odległości WT są scenariuszem do kontroli projektanta."
+						}
+					]
+				},
+				{
+					"id": "teren-woda",
+					"title": "Teren, grunt i woda",
+					"lead": "NMT ALS z 08.09.2024, siatka 1 m, EPSG:2180, PL-EVRF2007-NH. Deklarowany błąd wysokości RMSE 0,07 m. Model opisuje powierzchnię gruntu, nie warstwy nośne ani poziom wody.",
+					"items": [
+						{
+							"label": "Prawie płasko",
+							"text": "Cała działka: 142,74–143,27 m, różnica 0,53 m. Pod ścianami domu 142,85–143,14 m, różnica 0,29 m; z pełnymi tarasami różnica 0,37 m. W ogrodzie SW różnica 0,45 m. Front drogi ma medianę około 143,11 m, dom i ogród około 142,99 m. Różnica osi NE–SW około 3 cm na 34 m jest poniżej praktycznej dokładności tej interpretacji.",
+							"status": "verified",
+							"sourceIds": ["nmt"]
+						},
+						{
+							"label": "Bez terenowej przesłanki do wysokiego nasypu",
+							"text": "Sam NMT nie wskazuje potrzeby wysokich murów, rampy ani podnoszenia całego ogrodu. Przyrost rzędnych względem modelu 2022 o około 0,08–0,15 m nie dowodzi nasypu. Dobór fundamentu, odwodnienie i ewentualna wymiana gruntu wymagają badań pod domem i ogrodem.",
+							"status": "unknown",
+							"sourceIds": ["nmt"]
+						},
+						{
+							"label": "Suchość ogrodu pozostaje niewiadomą",
+							"text": "Brak geotechniki i badań infiltracji. Historyczny punkt PIG z 1910 r., nominalnie około 79 m dalej, ma szkicową lokalizację i nie dowodzi warunków pod domem. Odczyty ISOK/SOPO bez obiektów w sprawdzonym miejscu nie wykluczają podtopień opadowych, słabego gruntu ani wysokiej wody gruntowej.",
+							"status": "unknown",
+							"sourceIds": ["isok", "sopo"]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/761-18/nmt.png",
+							"alt": "Mapa wysokości działki 761/18 z obrysem domu i ogrodu SW",
+							"caption": "GUGiK, NMT ALS 08.09.2024; analiza 27.10.2026. Działka 142,74–143,27 m."
+						},
+						{
+							"src": "assets/761-18/nmt-kontekst.png",
+							"alt": "Szerszy kontekst wysokościowy działki 761/18 i okolicy",
+							"caption": "GUGiK, NMT 08.09.2024. Skala wysokości i północ na obrazie; nie jest to mapa zagrożenia powodzią."
+						},
+						{
+							"src": "assets/761-18/przekroje.png",
+							"alt": "Przekroje wysokościowe przez dom, ogród i drogę działki 761/18",
+							"caption": "Trasy pokazane na opracowaniu; NMT 08.09.2024, obliczenia 27.10.2026. Nie są przekrojami geotechnicznymi."
+						}
+					]
+				},
+				{
+					"id": "media-dojazd",
+					"title": "Media, droga i jezioro",
+					"lead": "KIUT odczytano warstwami osobno, 27.10.2026, w skali około 1:357. Odległości są poglądowe; mapa nie zastępuje warunków przyłączenia.",
+					"items": [
+						{
+							"label": "Woda i prąd przy froncie",
+							"text": "Wodociąg widoczny około 1–2 m od granicy NE; prąd przy froncie. Oferta deklaruje wykonane przyłącze elektryczne, lecz nie udostępniono umowy, protokołu ani mocy. Dostępność wody wymaga warunków operatora.",
+							"status": "unknown",
+							"sourceIds": ["kiut", "offer"]
+						},
+						{
+							"label": "Kanalizacja nie jest potwierdzonym przyłączem",
+							"text": "Najbliższy przewód kanalizacyjny około 12 m na NE. Nie ustalono, czy jest sanitarny czy deszczowy, istniejący czy projektowany, ani rzędnych, przepustowości i możliwości grawitacji. Gaz około 42 m na SE, telekomunikacja około 44 m na SE. Żadnej z tych pozycji nie przyjęto za bezkosztową.",
+							"status": "unknown",
+							"sourceIds": ["kiut"]
+						},
+						{
+							"label": "Linia energetyczna od zachodu",
+							"text": "Poglądowa oś linii biegnie poza działką, około 18,7 m od granicy, z dokładnością interpretacji około 1–2 m. To odległość do osi, nie do skrajnego przewodu. Napięcie, pas eksploatacyjny i ograniczenia wymagają operatora; brak podstaw do nazywania jej linią wysokiego napięcia.",
+							"status": "unknown",
+							"sourceIds": ["kiut"]
+						},
+						{
+							"label": "Dojazd i prywatny dostęp do jeziora",
+							"text": "Od NE działka styka się z drogą 761/15, oznaczoną dr. Nie zbadano ciągłości własności, udziałów i służebności do drogi publicznej ani zgody na zjazd. Oferta deklaruje dostęp do jeziora; dokumenty, opłaty, zakres użytkowania i związanie prawa z działką pozostają nieustalone. Służebności innych parceli w RCN nie dowodzą praw 761/18.",
+							"status": "unknown",
+							"sourceIds": ["uldk", "offer"]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/761-18/woda.png",
+							"alt": "Oddzielna warstwa wodociągowa KIUT przy działce 761/18",
+							"caption": "GUGiK KIUT, odczyt 27.10.2026. Przewód przy froncie nie potwierdza warunków przyłączenia."
+						},
+						{
+							"src": "assets/761-18/kanalizacja.png",
+							"alt": "Oddzielna warstwa kanalizacyjna KIUT przy działce 761/18",
+							"caption": "GUGiK KIUT, odczyt 27.10.2026. Typ i rzędne przewodu około 12 m od działki nieustalone."
+						}
+					]
+				},
+				{
+					"id": "otoczenie",
+					"title": "Szkoła, ochrona przyrody i hałas",
+					"lead": "Zakres rozpoznania mapowego nie zastępuje wizji lokalnej ani oceny akustycznej.",
+					"items": [
+						{
+							"label": "Szkoła obwodowa",
+							"text": "SP im. Adama Mickiewicza w Chwaszczynie, ul. Mickiewicza 16. Uchwała LXIV/833/2023, §1, wiersz 4, obejmuje Chwaszczyno i Nowy Świat; obowiązuje od 1.09.2024. Strona rekrutacji 2026/27 nadal odsyła do tego obwodu. Numer domu nie jest konieczny do przypisania całej miejscowości.",
+							"status": "verified",
+							"sourceIds": ["school-law", "school"]
+						},
+						{
+							"label": "Otulina Trójmiejskiego Parku Krajobrazowego",
+							"text": "Działka leży w otulinie TPK; od granicy samego parku około 2,22 km. Nie stwierdzono przecięcia z odczytanymi warstwami Natura 2000 SOO/OSO, OChK i rezerwatów. Otulina nie oznacza automatycznego przeniesienia zakazów z parku; skutki inwestycji wymagają oceny w właściwej procedurze.",
+							"status": "verified",
+							"sourceIds": ["gdos"]
+						},
+						{
+							"label": "Poza OOU lotniska, poziom hałasu nieustalony",
+							"text": "Około 3,21 km od granicy OOU według pełnego poligonu uchwały 203/XVIII/16, nadal wskazywanej przez lotnisko. Nie oznacza to ciszy. Nie odczytano lokalnych izofon LDWN/LN; odległość od kolei i hałas drogowo-kolejowy nie zostały wiarygodnie ustalone. Czasów dojazdu do pracy nie liczono bez wskazania celu.",
+							"status": "unknown",
+							"sourceIds": ["airport", "oou"]
+						}
+					],
+					"figures": []
+				},
+				{
+					"id": "cena-koszty",
+					"title": "Cena transakcyjna i koszty dodatkowe",
+					"lead": "RCN powiatu kartuskiego odczytano 27.10.2026, sprawdzając składowe wybranych grup transakcyjnych. Nie publikujemy surowych eksportów ani danych osób. To analiza porównawcza, nie operat szacunkowy.",
+					"items": [
+						{
+							"label": "Ta sama działka sprzedana za 485 tys. zł",
+							"text": "761/18: transakcja 27.10.2023, 485 000 zł za 714 m², 679,27 zł/m². Odczytana grupa obejmuje jedną działkę i pełną własność, bez dodatkowych budynków/lokali. Dzisiejsza oferta jest wyższa o 90 000 zł, czyli 18,56%; różnica nie jest zyskiem sprzedającego.",
+							"status": "verified",
+							"sourceIds": ["rcn", "rcn-info"]
+						},
+						{
+							"label": "Dwa pobliskie porównania z 2025 r.",
+							"text": "761/22: 17.04.2025, 450 000 zł / 610 m² = 737,70 zł/m², około 45 m od środka 761/18. 761/23: 11.12.2025, 480 000 zł / 636 m² = 754,72 zł/m², około 56 m. Obie opisano ze służebnością. Proste przeliczenie na 714 m² daje 526 721–538 868 zł; oferta ma premię około 6,7–9,2%. Bez korekt czasu, praw do jeziora, WZ, mediów i cech działki to wyłącznie punkt negocjacyjny.",
+							"status": "verified",
+							"sourceIds": ["rcn"]
+						},
+						{
+							"label": "Pozostałe transakcje i ograniczenia",
+							"text": "766/66: 09.08.2024, 612 000 / 816 m² = 750 zł/m²; 1394: 13.12.2024, 565 400 / 822 m² = 687,83 zł/m². Wyraźny odstający wynik 765/5: 27.06.2024, 1,3 mln / 800 m² = 1625 zł/m², bez wyjaśnienia premii. 750/72 z lutego 2026: 499,27 zł/m²; 734/19 z maja 2026: 407,51 zł/m², większa parcela. Sąsiednia 761/17 sprzedana w 2024 r. ma sprzeczny opis „droga wewnętrzna”, więc nie jest zwykłym porównaniem. Nie dokonano prawnej analizy aktów notarialnych.",
+							"status": "verified",
+							"sourceIds": ["rcn"]
+						},
+						{
+							"label": "Znane punkty budżetu, bez pozornej sumy",
+							"text": "Przy założeniu opodatkowania PCC 2% od 575 000 zł: 11 500 zł; cena plus warunkowy PCC to 586 500 zł, nie całkowity koszt wejścia. Lokalny artykuł podaje badanie gruntu 1000–2500 zł bez jednoznacznego VAT. Cennik mapy do projektu: od 1000 zł netto, czyli około 1230 zł przy założeniu VAT 23%; opcjonalne wznowienie czterech znaków od 2000 zł netto, około 2460 zł brutto. Są to ceny „od”, nie oferty dla tej parceli.",
+							"status": "assumed",
+							"sourceIds": ["pcc", "geotech", "survey"]
+						},
+						{
+							"label": "Koszty niewycenione",
+							"text": "Adaptacja frontu, dachu i okien, geotechnika odpowiednia dla domu i ogrodu, ewentualna wymiana gruntu lub specjalne posadowienie, kanalizacja, retencja, przyłącza, wyłączenie rolne, notariusz, prawa do drogi i jeziora wymagają dokumentów oraz ofert. Brak kwot nie oznacza zera. Zwykły fundament na dobrym płaskim gruncie jest kosztem domu; jako dopłatę należy liczyć tylko uzasadnioną różnicę. Brak kalkulatora i pełnej sumy kosztów.",
+							"status": "unknown",
+							"sourceIds": ["kiut", "wz"]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/761-18/ceny.png",
+							"alt": "Porównanie ceny ofertowej 761/18 i wybranych transakcji RCN w okolicy",
+							"caption": "RCN powiatu kartuskiego, odczyt 27.10.2026. Daty i nieruchomości na wykresie. Weryfikacja składowych w rejestrze nie jest badaniem aktów notarialnych ani pełną wyceną."
+						}
+					]
+				}
+			],
+			"risks": [
+				{
+					"severity": "high",
+					"title": "Pełna WZ i projekt niezweryfikowane",
+					"detail": "Front 13,65 m przekracza deklarowane 13 m. Pełna decyzja musi rozstrzygnąć dach garażu, wskaźniki, linię zabudowy i możliwość adaptacji."
+				},
+				{
+					"severity": "high",
+					"title": "Grunt i woda bez badań",
+					"detail": "Płaski NMT nie dowodzi nośności podłoża, niskiej wody gruntowej ani suchego ogrodu."
+				},
+				{
+					"severity": "high",
+					"title": "Niepotwierdzone prawa do drogi i jeziora",
+					"detail": "Przed zakupem potrzebny kompletny łańcuch praw do dojazdu oraz dokument praw do jeziora, zakresu i opłat."
+				},
+				{
+					"severity": "high",
+					"title": "Ścieki, Ls i wyłączenie rolne",
+					"detail": "Widoczny przewód nie potwierdza kanalizacji sanitarnej; kontur lasu i pochodzenie gleb RV/PsIV pozostają do rozpoznania."
+				},
+				{
+					"severity": "medium",
+					"title": "Cena z premią i niepełny budżet",
+					"detail": "Oferta 805 zł/m² przewyższa dwa pobliskie porównania z 2025 r.; nieznane koszty nie zostały dodane jako zero."
+				},
+				{
+					"severity": "medium",
+					"title": "Hałas i linia energetyczna",
+					"detail": "Poza OOU nie oznacza ciszy; napięcie linii, izofony oraz hałas drogowy i kolejowy nieustalone."
+				}
+			],
+			"questions": [
+				{
+					"id": "wz",
+					"text": "Uzyskać pełną skuteczną WZ z mapą, numerem, datą, potwierdzeniem ostateczności i warunkami przeniesienia."
+				},
+				{
+					"id": "adaptacja",
+					"text": "Uzyskać stanowisko projektanta: front do 13 m, dach garażu, okna, rama, właściwy reżim odległości i ochrona pożarowa."
+				},
+				{
+					"id": "geotechnika",
+					"text": "Zlecić badania pod domem i ogrodem, poziom wody i infiltrację; określić dopłatę względem zwykłego fundamentu."
+				},
+				{
+					"id": "droga",
+					"text": "Sprawdzić dokumenty całego dojazdu do drogi publicznej, opłaty i możliwość wykonania zjazdu."
+				},
+				{
+					"id": "jezioro",
+					"text": "Potwierdzić prawny tytuł do jeziora/przystani, zakres, opłaty i związanie prawa z parcelą."
+				},
+				{
+					"id": "media",
+					"text": "Uzyskać pisemne warunki wody, prądu i ścieków: typ, status, rzędne kanalizacji oraz moc przyłącza."
+				},
+				{
+					"id": "egib-las",
+					"text": "Uzyskać aktualny wypis i wyrys EGiB, kontur Ls, odległości pożarowe i stanowisko w sprawie wyłączenia rolnego."
+				},
+				{
+					"id": "halas",
+					"text": "Sprawdzić lokalne izofony i hałas podczas wizji lokalnej, napięcie/pas linii oraz realną trasę dojazdu."
+				},
+				{
+					"id": "budzet",
+					"text": "Negocjować cenę z uwzględnieniem dokumentów, adaptacji i ofert wykonawczych; nie traktować 527–539 tys. zł jako operatu."
+				}
+			],
+			"sources": [
+				{
+					"id": "uldk",
+					"label": "GUGiK ULDK — geometria 761/18",
+					"note": "Identyfikacja i geometria, odczyt 27.10.2026. Granice mapowe nie są wznowieniem geodezyjnym; pole powierzchni obliczono w EPSG:2177.",
+					"url": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=220508_5.0004.761%2F18&result=geom_wkt&srid=2180"
+				},
+				{
+					"id": "offer",
+					"label": "Otodom — oferta 761/18",
+					"note": "Odczyt 27.10.2026: 575 000 zł, 714 m², deklaracje WZ, przyłącza prądu i dostępu do jeziora. Bez publikacji kontaktów ogłoszeniodawcy.",
+					"url": "https://www.otodom.pl/pl/oferta/dzialka-z-warunkami-zabudowy-chwaszczyno-ID4DyRk"
+				},
+				{
+					"id": "old-offer",
+					"label": "Archiwalne i wtórne kopie oferty",
+					"url": "https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/chwaszczyno-osowa-714-m-wz-biale-zagle-ogl66550455.html",
+					"note": "Starsze kopie tej samej nieruchomości, odczyt 27.10.2026. Wtórny agregat abyhom podawał 21,9% zabudowy / 40% PBC; bez dokumentu WZ te dane pozostają niepotwierdzone."
+				},
+				{
+					"id": "secondary",
+					"label": "Wtórny agregat — parametry wymagające potwierdzenia",
+					"url": "https://nieruchomosci.abyhom.pl/dzialki-i-grunty/chwaszczyno",
+					"note": "Źródło wtórnych parametrów 21,9% / PBC 40%, wyłącznie do ujawnienia rozbieżności. Nie jest decyzją WZ ani aktualnym cennikiem."
+				},
+				{
+					"id": "wz",
+					"label": "Parametry WZ przekazane do analizy",
+					"note": "Informacja niepubliczna, 27.10.2026: 25%, 6 m, 9 m, dach 35–45°, front 13 m. Pełnej decyzji i załączników nie udostępniono."
+				},
+				{
+					"id": "sip",
+					"label": "SIP gminy Żukowo — MPZP i EGiB",
+					"note": "Odczyt warstw 27.10.2026. Mapy publiczne, bez urzędowego zaświadczenia o przeznaczeniu i bez wypisu EGiB.",
+					"url": "https://sip.gison.pl/zukowo"
+				},
+				{
+					"id": "mpzp",
+					"label": "MPZP 05062 — XXII/264/2020",
+					"note": "Plan sąsiedztwa, 26.05.2020, poz. 2896. Nie stosujemy jego parametrów do działki 761/18.",
+					"url": "https://edziennik.gdansk.uw.gov.pl/WDU_G/2020/2896/oryginal/akt.pdf"
+				},
+				{
+					"id": "pog",
+					"label": "BIP Żukowo — plan ogólny",
+					"note": "Odczyt 27.10.2026; nie potwierdzono wejścia planu ogólnego w życie.",
+					"url": "https://bip.zukowo.pl/m,2451,plan-ogolny-gminy-zukowo.html"
+				},
+				{
+					"id": "wz-termin",
+					"label": "Gmina Żukowo — komunikat o WZ",
+					"note": "Komunikat 27.08.2026 o terminie 31 sierpnia i planowaniu; nie stanowi gwarancji nowej WZ.",
+					"url": "https://www.zukowo.pl/31_sierpnia_-_wazny_termin_dla_mieszkancow,10,10201"
+				},
+				{
+					"id": "house",
+					"label": "Modern House — NewHouse 755 G2",
+					"note": "Wersja podstawowa, rysunki i parametry katalogowe, odczyt 27.10.2026. Rzut na publicznym schemacie: Modern House / Extradom.",
+					"url": "https://modernhouse-projekty.pl/projekt/newhouse-755-g2/"
+				},
+				{
+					"id": "outline",
+					"label": "Modern House — obrys NewHouse 755 G2",
+					"note": "Wymiary 13,65 / 14,85 m oraz 17,55 m; odczyt 27.10.2026. PDF autora pozostaje pod jego adresem.",
+					"url": "https://modernhouse-projekty.pl/wp-content/uploads/2024/07/NH-755_G2-OBRYS-BUDYNKU.pdf"
+				},
+				{
+					"id": "extradom",
+					"label": "Extradom — wybrany projekt KRZ1096",
+					"note": "Projekt wskazany do dopasowania. Katalog nie potwierdza zgodności z tą WZ.",
+					"url": "https://www.extradom.pl/projekt-domu-newhouse-755-g2-KRZ1096"
+				},
+				{
+					"id": "law",
+					"label": "Prawo budowlane — przepis przejściowy art. 102a",
+					"note": "Odczyt 27.10.2026: czasowa możliwość sporządzenia projektu według dawnych przepisów po oświadczeniu inwestora. Wybór reżimu należy ustalić w projekcie.",
+					"url": "https://eli.gov.pl/api/acts/DU/2026/1161/text.pdf"
+				},
+				{
+					"id": "wt",
+					"label": "Warunki techniczne — tekst z 2022 r.",
+					"note": "ELI wskazuje uchylenie 21.09.2026. Scenariusz 3/4 m nie jest samodzielnym potwierdzeniem aktualnej dopuszczalności.",
+					"url": "https://eli.gov.pl/eli/DU/2022/1225/ogl"
+				},
+				{
+					"id": "nmt",
+					"label": "GUGiK — NMT ALS 08.09.2024",
+					"note": "Siatka 1 m, EPSG:2180, PL-EVRF2007-NH, RMSE deklarowane 0,07 m. Opracowania 27.10.2026. Orto GUGiK: rok nalotu nieustalony.",
+					"url": "https://opendata.geoportal.gov.pl/NumDaneWys/NMT/81008/81008_1561282_N-34-49-D-b-4-3.asc"
+				},
+				{
+					"id": "kiut",
+					"label": "GUGiK — Krajowa Integracja Uzbrojenia Terenu",
+					"note": "Odczyt oddzielnych warstw 27.10.2026. Geometria przewodu nie dowodzi jego stanu ani warunków przyłączenia.",
+					"url": "https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaUzbrojeniaTerenu"
+				},
+				{
+					"id": "isok",
+					"label": "Hydroportal — mapy zagrożenia powodziowego",
+					"note": "Sprawdzony punkt i warstwy bez wskazanego obiektu; nie wyklucza to lokalnych podtopień i wód gruntowych.",
+					"url": "https://wody.isok.gov.pl/"
+				},
+				{
+					"id": "sopo",
+					"label": "PIG-PIB — SOPO",
+					"note": "Odczyt 27.10.2026 bez obiektu w sprawdzonym miejscu. Brak wpisu nie zastępuje geotechniki.",
+					"url": "https://geoportal.pgi.gov.pl/portal/page/portal/SOPO"
+				},
+				{
+					"id": "school-law",
+					"label": "Uchwała LXIV/833/2023 — obwody szkół",
+					"note": "§1 wiersz 4 obejmuje cały Nowy Świat, wejście 1.09.2024.",
+					"url": "https://edziennik.gdansk.uw.gov.pl/WDU_G/2023/4964/akt.pdf"
+				},
+				{
+					"id": "school",
+					"label": "SP Chwaszczyno — rekrutacja",
+					"note": "Odczyt rekrutacji 2026/27 i odesłania do obwodów 27.10.2026.",
+					"url": "https://www.chwaszczyno.edu.pl/rekrutacja"
+				},
+				{
+					"id": "gdos",
+					"label": "GDOŚ — warstwy form ochrony przyrody",
+					"note": "Odczyt 27.10.2026: otulina TPK, poza samym parkiem; testy przecięć z odczytanymi warstwami.",
+					"url": "https://sdi.gdos.gov.pl/wfs"
+				},
+				{
+					"id": "airport",
+					"label": "Port Lotniczy Gdańsk — OOU",
+					"note": "Bieżąca strona odsyła do uchwały 203/XVIII/16; odczyt 27.10.2026. Brak lokalnych izofon.",
+					"url": "https://www.airport.gdansk.pl/lotnisko/ochrona-srodowiska/obszar-ograniczonego-uzytkowania-oou"
+				},
+				{
+					"id": "oou",
+					"label": "Uchwała 203/XVIII/16 — granice OOU",
+					"note": "Odległość około 3,21 km policzono do pełnego poligonu granicy. Brak OOU nie dowodzi braku hałasu.",
+					"url": "https://edziennik.gdansk.uw.gov.pl/WDU_G/2016/1093/oryginal/akt.pdf"
+				},
+				{
+					"id": "rcn",
+					"label": "Powiat kartuski — Rejestr Cen Nieruchomości",
+					"note": "Odczyt 27.10.2026; daty transakcji 2023–2026 wskazano w treści. Sprawdzono odczytane składowe wybranych grup; nie jest to analiza aktów notarialnych.",
+					"url": "https://kartuski-wms.webewid.pl/iip/ows/rcn"
+				},
+				{
+					"id": "rcn-info",
+					"label": "Powiat kartuski — uwolnione dane RCN",
+					"note": "Informacja o źródle rejestru. Publiczna karta zawiera wyłącznie opracowane dane bez osób i kontaktów.",
+					"url": "https://bip.kartuskipowiat.pl/artykul/50/5315/uwolnione-dane-z-rejestru-cen-nieruchomosci"
+				},
+				{
+					"id": "pcc",
+					"label": "Ministerstwo Finansów — stawki PCC",
+					"note": "2% użyto warunkowo. Podstawa i opodatkowanie konkretnej sprzedaży wymagają rozstrzygnięcia przy transakcji.",
+					"url": "https://www.podatki.gov.pl/podatki-osobiste/pcc/stawki-i-limity"
+				},
+				{
+					"id": "geotech",
+					"label": "MS Geotechnika — cena badań w 2026 r.",
+					"note": "Orientacyjne 1000–2500 zł; VAT niejednoznaczny. Zakres dla domu i ogrodu wymaga odrębnej oferty.",
+					"url": "https://ms-geotechnika-pomorskie.pl/badania-gruntu-gdansk-cena-przebieg-i-terminy-w-2026-roku/"
+				},
+				{
+					"id": "survey",
+					"label": "EAST — mapa do celów projektowych",
+					"note": "Ceny od 1000 zł netto; opcjonalne wznowienie czterech znaków od 2000 zł netto. Nie są wyceną tej parceli.",
+					"url": "https://east-geodezja.pl/oferta/mapa-do-celow-projektowych/"
+				}
+			],
+			"mapLocation": {
+				"lat": 54.422947942067786,
+				"lng": 18.4423511001345,
+				"sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=220508_5.0004.761%2F18&result=geom_wkt&srid=2180",
+				"checkedAt": "2026-10-27",
+				"method": "Centroid potwierdzonej geometrii ULDK 761/18 przeliczony z EPSG:2180 do WGS84; punkt orientacyjny, nie adres wjazdu."
+			}
 		}
 	]
 }

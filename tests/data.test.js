@@ -1,7 +1,7 @@
-import test from "node:test";
 import assert from "node:assert/strict";
-import { readFile, access } from "node:fs/promises";
-import { reportMarkup, cardsMarkup } from "../scripts/render.js";
+import { access, readFile } from "node:fs/promises";
+import test from "node:test";
+import { cardsMarkup, reportMarkup } from "../scripts/render.js";
 import { evidence } from "../scripts/ui.js";
 
 const root = new URL("../", import.meta.url);
@@ -135,4 +135,39 @@ test("private sources render escaped text without a fabricated link", () => {
 		/<article id="source-private"><strong>Opinia &lt;prywatna&gt;<\/strong>/,
 	);
 	assert.doesNotMatch(html, /href="#"/);
+});
+
+test("750/71 exposes both published layouts while existing single layouts still render", async () => {
+	for (const plot of atlas.plots) {
+		const layouts =
+			plot.exampleLayouts ?? (plot.exampleLayout ? [plot.exampleLayout] : []);
+		const html = reportMarkup(plot);
+		assert.equal(
+			(html.match(/class="example-layout-link"/g) ?? []).length,
+			layouts.length,
+		);
+		for (const layout of layouts) {
+			await access(new URL(layout.href, root));
+			assert.ok(html.includes(`href="${layout.href}"`));
+		}
+	}
+	const plot = atlas.plots.find((item) => item.slug === "chwaszczyno-750-71");
+	assert.equal(plot.exampleLayouts.length, 2);
+});
+
+test("multiple layout links escape content and reject executable URLs", () => {
+	const plot = {
+		...atlas.plots[0],
+		exampleLayouts: [
+			{
+				title: '<img onerror="x">',
+				description: "<script>x</script>",
+				href: "javascript:alert(1)",
+			},
+		],
+	};
+	const html = reportMarkup(plot);
+	assert.match(html, /&lt;img onerror=&quot;x&quot;&gt;/);
+	assert.match(html, /&lt;script&gt;x&lt;\/script&gt;/);
+	assert.doesNotMatch(html, /javascript:|<img onerror=|<script>x/);
 });

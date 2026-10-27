@@ -1,5 +1,33 @@
 # Działki — atlas decyzji
 
+## Dwa przykładowe zagospodarowania 750/71
+
+Karta 750/71 ma dwa odsyłacze w opcjonalnym `exampleLayouts` (tablica obiektów
+`href`, `title`, `description`). Dotychczasowe pojedyncze `exampleLayout`
+zachowuje obsługę. Nowe podstrony, opracowanie i publikacja 27.10.2026:
+
+- `zagospodarowanie-750-71-trzcinniki-4-g.html`: Dom w trzcinnikach 4 (G),
+  wcześniejsze ustawienie, lustro i garaż od NE. Zabudowa 116,05 m² (14,20%),
+  ogród od południa 183,0 m², cały wolny teren ogrodu 605,2 m².
+- `zagospodarowanie-750-71-trytomy-3-g.html`: Dom w trytomach 3 (G),
+  ostatni wariant dosunięty na północ: +1,26 m N i 0,54 m W względem porównania.
+  Czarne ściany 6 m od dwóch boków drogi, lustro, garaż od NE.
+  Zabudowa 132,29 m² (16,19%), południe 141,4 m², cały ogród 593,0 m².
+
+Każdy wariant zawiera rzut, sześć rozłącznych sekcji ogrodu A–F,
+pliki PNG/PDF i dane obliczeń w `assets/750-71/zagospodarowanie/<projekt>/`.
+Południe A–C leży poniżej linii E–W przez południowy skraj pełnej strefy domu
+oraz wszystkich tarasów. Wyłączono ściany i występy, pełne powierzchnie tarasów,
+wejścia i utwardzeń z rzutu ARCHON+ oraz podjazd poza tą strefą. Bilans geometrii
+zamyka 816,9918 m²; nominalne 817 m² służy do wskaźnika zabudowy.
+Wolny teren nie jest bilansem PBC ani potwierdzeniem suchego ogrodu.
+
+Wizualizacje i rzuty autorstwa ARCHON+, źródła z 27.10.2026. Wizualizacje pokazano
+w odbiciu lustrzanym przez CSS, z atrybucją i opisem katalogowego otoczenia;
+zdjęcie i przyciski prowadzą do właściwego projektu. Założenia 17%, 6 m od drogi,
+4 m od innych granic i 12 m od poglądowego Ls nie zastępują pełnej WZ.
+Dotychczasowa deklaracja 20% w głównej analizie zachowuje własną podstawę i datę.
+
 ## Przykładowe zagospodarowanie 750/74
 
 Podstrona `zagospodarowanie-750-74.html` pokazuje Naszą Stodołę M KRY1007,

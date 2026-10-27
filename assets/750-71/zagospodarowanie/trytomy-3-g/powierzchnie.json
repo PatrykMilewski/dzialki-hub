@@ -1,0 +1,54 @@
+{
+  "analysis_date": "2026-10-27",
+  "crs": "EPSG:2177",
+  "parcel_id": "220508_5.0004.750/71",
+  "parcel_geometry_m2": 816.991799988995,
+  "nominal_parcel_m2": 817,
+  "catalog_house_footprint_m2": 132.29,
+  "coverage_percent": 16.192166462668297,
+  "south_garden_m2": 141.42365751681282,
+  "all_garden_m2": 592.9507015529664,
+  "house_terraces_entrance_reserve_m2": 212.1168951545379,
+  "drive_outside_reserve_m2": 11.924203281490813,
+  "south_cut_northing_m": 6032182.086315257,
+  "sections": [
+    {
+      "id": "A",
+      "name": "Południowo-zachodni",
+      "area_m2": 50.51572362212636,
+      "color": "#d7e6a9"
+    },
+    {
+      "id": "B",
+      "name": "Południowy środkowy",
+      "area_m2": 68.18095042101486,
+      "color": "#a4d49f"
+    },
+    {
+      "id": "C",
+      "name": "Południowo-wschodni",
+      "area_m2": 22.72698347367162,
+      "color": "#79c7a8"
+    },
+    {
+      "id": "D",
+      "name": "Wschód · przy podjeździe",
+      "area_m2": 191.99350704838423,
+      "color": "#b3dcd1"
+    },
+    {
+      "id": "E",
+      "name": "Zachód · przy tarasie",
+      "area_m2": 175.3419977206326,
+      "color": "#c5dbb5"
+    },
+    {
+      "id": "F",
+      "name": "Północny narożnik",
+      "area_m2": 84.19153926713682,
+      "color": "#bbd1e5"
+    }
+  ],
+  "definition": "Wolny teren po odjęciu strefy ścian/występów, wszystkich powierzchni tarasu/wejścia z rzutu autora i podjazdu. Nie bilans PBC, suchości ani nasłonecznienia. Sekcje umowne i rozłączne; południe poniżej linii E-W przez południowy skraj strefy domu i tarasów.",
+  "placement": "Trzcinniki: dotychczasowy wariant. Trytomy: ostatni wariant maksymalnie kuN, ściany6m od drogi."
+}

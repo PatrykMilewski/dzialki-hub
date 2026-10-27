@@ -4485,7 +4485,19 @@
 				"sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=220508_5.0004.750%2F71&result=geom_wkt&srid=2180",
 				"checkedAt": "2026-10-26",
 				"method": "Centroid ULDK EPSG:2180 przeliczony do WGS84; punkt orientacyjny."
-			}
+			},
+			"exampleLayouts": [
+				{
+					"href": "zagospodarowanie-750-71-trzcinniki-4-g.html",
+					"title": "Dom w trzcinnikach 4 (G) · lustro, garaż od NE",
+					"description": "Przykładowe zagospodarowanie: 116,05 m² zabudowy, ogród od południa 183,0 m² i sześć sekcji ogrodu. Opracowanie 27.10.2026."
+				},
+				{
+					"href": "zagospodarowanie-750-71-trytomy-3-g.html",
+					"title": "Dom w trytomach 3 (G) · lustro, garaż od NE",
+					"description": "Przykładowe zagospodarowanie: 132,29 m² zabudowy, ogród od południa 141,4 m² i sześć sekcji ogrodu. Ostatni wariant dosunięty na północ. Opracowanie 27.10.2026."
+				}
+			]
 		},
 		{
 			"slug": "chwaszczyno-750-74",

@@ -1,0 +1,11 @@
+.layout-visual {
+	max-width: 900px;
+	margin-inline: auto;
+}
+.project-mirrored {
+	transform: scaleX(-1);
+}
+.project-table td:last-child {
+	white-space: normal;
+	text-align: left;
+}

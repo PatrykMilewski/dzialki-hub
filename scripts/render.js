@@ -54,9 +54,14 @@ function sourcesMarkup(plot, sectionNumber) {
 }
 
 function exampleLayoutMarkup(plot) {
-	const layout = plot.exampleLayout;
-	if (!layout) return "";
-	return `<aside class="example-layout-link"><div><span class="eyebrow">PRZYKŁADOWE ZAGOSPODAROWANIE</span><h2>${e(layout.title)}</h2><p>${e(layout.description)}</p></div><a class="button primary" href="${e(safeUrl(layout.href))}">Zobacz dom i ogród ↗</a></aside>`;
+	const layouts =
+		plot.exampleLayouts ?? (plot.exampleLayout ? [plot.exampleLayout] : []);
+	return layouts
+		.map(
+			(layout) =>
+				`<aside class="example-layout-link"><div><span class="eyebrow">PRZYKŁADOWE ZAGOSPODAROWANIE</span><h2>${e(layout.title)}</h2><p>${e(layout.description)}</p></div><a class="button primary" href="${e(safeUrl(layout.href))}" aria-label="${e(layout.title)} — zobacz dom i ogród">Zobacz dom i ogród ↗</a></aside>`,
+		)
+		.join("");
 }
 
 export function reportMarkup(plot) {

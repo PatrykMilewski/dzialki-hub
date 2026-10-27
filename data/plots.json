@@ -4145,11 +4145,18 @@
 				"checkedAt": "2026-10-26",
 				"method": "Centroid ULDK EPSG:2180 przeliczony do WGS84; punkt orientacyjny."
 			},
-			"exampleLayout": {
-				"href": "zagospodarowanie-750-70.html",
-				"title": "HOMEKONCEPT 130 A · garaż w narożniku",
-				"description": "Lustrzane odbicie HOMEKONCEPT 130 A, rzut i wizualizacja projektu. Ogród od południa: 329,6 m²; sześć sekcji i bilans wolnego terenu. Wariant z założonym limitem zabudowy 17%."
-			}
+			"exampleLayouts": [
+				{
+					"href": "zagospodarowanie-750-70.html",
+					"title": "HOMEKONCEPT 130 A · garaż w narożniku",
+					"description": "Lustrzane odbicie HOMEKONCEPT 130 A, rzut i wizualizacja projektu. Ogród od południa: 329,6 m²; sześć sekcji i bilans wolnego terenu. Wariant z założonym limitem zabudowy 17%."
+				},
+				{
+					"href": "zagospodarowanie-750-70-homekoncept-166-g2-w02.html",
+					"title": "HOMEKONCEPT 166 G2 wariant 02 · prostokątny ogród",
+					"description": "Wersja podstawowa. Prostokąt ogrodu 217,1 m², całe południe 422,8 m² i trzy duże strefy. Wariant ciasny i warunkowy: ramy bliżej granic, zakręcający dojazd do garażu."
+				}
+			]
 		},
 		{
 			"slug": "chwaszczyno-750-71",

@@ -51,6 +51,24 @@ z przykładowym otoczeniem. Rzuty przedstawiają pełną ścianę bez dwóch boc
 okien; brama garażu pozostaje. Okna na innych kondygnacjach i balkony wymagają
 sprawdzenia przy adaptacji.
 
+## Drugi wariant 750/70 · HOMEKONCEPT 166 G2 wariant 02
+
+`zagospodarowanie-750-70-homekoncept-166-g2-w02.html`, opracowanie 27.10.2026:
+wersja podstawowa, bez lustra. Karta 750/70 ma dwa `exampleLayouts`; zachowano
+HOMEKONCEPT 130 A. Nowe zasoby w `assets/750-70/homekoncept-166-g2-w02/`.
+
+Trzy strefy wolnego terenu: prostokąt A217,1 m² (ok.12,79×16,97 m), dopełnienie
+południa B205,8 m², pozostały teren C295,4 m². Południe A+B422,8 m²,
+całość718,2 m². Rezerwa bryły i detali233,2 m², schemat dojazdu74,1 m².
+
+Wariant jest warunkowy: odtworzone ściany parteru mają min.4,03 m od granic
+oraz13,05 m od poglądowegoLs; pełna rezerwa detali min.1,57 m od granicy,
+1,70 m od drogi i10,22 m odLs. Pełny obrys nie mieści się w odsunięciu4m.
+Garaż nie mieści się w północnym narożniku z prostym wjazdem: pokazano
+zakręcający pas3m bez kontroli torów jazdy. WZ, kwalifikacja ram, obrys piętra,
+okapy i wjazd wymagają adaptacji. Nie traktować jako potwierdzonej wykonalności.
+Karta autora169,69 m² zabudowy; limit scenariusza17%=174,42 m².
+
 ## Przykładowe zagospodarowanie 750/70
 
 Podstrona `zagospodarowanie-750-70.html` pokazuje lustrzany HOMEKONCEPT 130 A:

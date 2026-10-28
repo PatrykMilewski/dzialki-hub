@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"updatedAt": "2026-10-27",
+	"updatedAt": "2026-10-28",
 	"plots": [
 		{
 			"slug": "chwaszczyno-750-73",
@@ -5426,6 +5426,450 @@
 				"checkedAt": "2026-10-27",
 				"method": "Centroid potwierdzonej geometrii ULDK 761/18 przeliczony z EPSG:2180 do WGS84; punkt orientacyjny, nie adres wjazdu."
 			}
+		},
+		{
+			"slug": "gdansk-potokowa-152-5",
+			"id": "226101_1.0037.152/5",
+			"number": "152/5",
+			"title": "Potokowa · zadrzewiony stok",
+			"location": "Gdańsk · Brętowo / Matemblewo",
+			"areaM2": 956,
+			"pricePln": 1590000,
+			"pricePerM2": 1663.18,
+			"statusKey": "conditional",
+			"statusLabel": "Istotne niedopasowanie",
+			"updatedAt": "2026-10-28",
+			"summary": "Ponad 7 m różnicy wysokości, gęste drzewa i ograniczona strefa zabudowy. Dom z poddaszem dopuszczony, lecz wygodny ogród wymaga projektu stoku. Oferta o 360 tys. zł droższa od sąsiedniej transakcji.",
+			"verdict": {
+				"title": "Słabe dopasowanie do wygodnego ogrodu",
+				"text": "Nie rekomenduję jako prostej działki pod gotowy projekt. Rozważać wyłącznie po koncepcji domu, garażu i realnie użytkowego ogrodu z kosztorysem, badaniami oraz potwierdzonym dojazdem. Nie wykluczono technicznej budowy; zgodność samych wskaźników nie potwierdza usytuowania."
+			},
+			"offerUrl": "https://www.otodom.pl/pl/oferta/grunt-w-otulinie-lasu-956-m-przy-ul-potokowej-ID4DHq7",
+			"thumbnail": "assets/gdansk-potokowa-152-5/orto-parcel.png",
+			"hero": "assets/gdansk-potokowa-152-5/orto-parcel.png",
+			"imageLabel": "ORTO GUGiK · data mozaiki niepotwierdzona",
+			"imageAlt": "Działka 152/5 obrysowana na mozaice ortofotomapy GUGiK, gęste korony drzew; odczyt 28.10.2026",
+			"cardNotice": {
+				"title": "7,24 m różnicy wysokości",
+				"text": "Ogród powyżej zachodniego dojazdu; mapa NMT 23.09.2024. Brak kosztorysu niwelacji i murów."
+			},
+			"mapLocation": {
+				"lat": 54.35880196553094,
+				"lng": 18.56144099976334,
+				"sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=226101_1.0037.152/5&result=id,geom_wkt&srid=2180",
+				"checkedAt": "2026-10-28",
+				"method": "Centroid poligonu ULDK pełnego EGiB, EPSG:2180 → WGS84 przez pyproj, always_xy; sprawdzony wewnątrz poligonu."
+			},
+			"facts": [
+				{
+					"label": "Plan",
+					"value": "001-MN21",
+					"note": "MPZP 0921; funkcja mieszkaniowa dopuszczona.",
+					"status": "verified"
+				},
+				{
+					"label": "Limit zabudowy",
+					"value": "191,2 m²",
+					"note": "20% × ofertowe 956 m²; projekt HK166: 154,54 m².",
+					"status": "declared"
+				},
+				{
+					"label": "Różnica wysokości",
+					"value": "7,24 m",
+					"note": "Obliczenie z NMT 23.09.2024, siatka 1 m.",
+					"status": "verified"
+				},
+				{
+					"label": "Mediana spadku",
+					"value": "18,7%",
+					"note": "Lokalne gradienty rastra; nie jeden jednolity spadek.",
+					"status": "verified"
+				},
+				{
+					"label": "Cena sąsiada 152/6",
+					"value": "1,23 mln zł",
+					"note": "RCN, 12.12.2025, również 956 m².",
+					"status": "verified"
+				},
+				{
+					"label": "Dojazd prawny",
+					"value": "Niepotwierdzony",
+					"note": "Plan wskazuje 002-KX; potrzebny tytuł do przejazdu.",
+					"status": "unknown"
+				}
+			],
+			"sections": [
+				{
+					"id": "plan-dom",
+					"title": "Plan i dom z poddaszem",
+					"lead": "HOMEKONCEPT 166 G2 wariant 01 jest punktem odniesienia, bez gotowego PZT.",
+					"items": [
+						{
+							"label": "Wskaźniki",
+							"text": "20% zabudowy, minimum 70% PBC, intensywność do 0,3. Dla ofertowych 956 m²: 191,2 m² zabudowy, 669,2 m² PBC i 286,8 m² powierzchni całkowitej do intensywności. Geometria ULDK daje 954,70 m²; mianownik do projektu wymaga dokumentu ewidencyjnego.",
+							"status": "declared",
+							"sourceIds": [
+								"plan",
+								"oferta",
+								"uldk"
+							]
+						},
+						{
+							"label": "Projekt odniesienia",
+							"text": "144 m² użytkowe plus garaż 40,88 m²; zabudowa 154,54 m², całkowita 261,51 m², wysokość 7,91 m, główny dach 40°. Definicja powierzchni planu wymaga przeliczenia. Kolor dachówki, pokrycie i części płaskie wymagają sprawdzenia adaptacji.",
+							"status": "verified",
+							"sourceIds": [
+								"dom",
+								"plan"
+							]
+						},
+						{
+							"label": "Linia 12 m i magistrala",
+							"text": "Nieprzekraczalna linia 12 m od wschodniej/północno-wschodniej granicy terenu oraz zakaz zabudowy 5 m od skrajni wodociągu Ø500 po zachodniej stronie. Aktualnej skrajni i konturu lasu nie ustalono.",
+							"status": "verified",
+							"sourceIds": [
+								"plan"
+							]
+						},
+						{
+							"label": "Wysokość na stoku",
+							"text": "Limit 10,5 m mierzony od najniższej rzędnej pod obrysem na podkładzie planu. Nasyp nie tworzy automatycznie nowej podstawy pomiaru; katalogowe 7,91 m nie dowodzi zgodności.",
+							"status": "verified",
+							"sourceIds": [
+								"plan",
+								"dom"
+							]
+						},
+						{
+							"label": "Test obwiedni",
+							"text": "Przy 4 m od pozostałych granic i 12 m od wschodu zostaje nieregularne około 369 m². To nie dostępny prostokąt ani dowód zmieszczenia rzutu, okapów i podjazdu; nie uwzględnia dokładnej skrajni wodociągu.",
+							"status": "assumed",
+							"sourceIds": [
+								"uldk",
+								"plan"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/gdansk-potokowa-152-5/mpzp-overlay-orientacyjny.png",
+							"alt": "Orientacyjna nakładka ULDK na MPZP 0921. Raster kalibrowany na trzech punktach; nie wyrys geodezyjny. Odczyt 28.10.2026.",
+							"caption": "Orientacyjna nakładka ULDK na MPZP 0921. Raster kalibrowany na trzech punktach; nie wyrys geodezyjny. Odczyt 28.10.2026."
+						}
+					]
+				},
+				{
+					"id": "teren-ogrod",
+					"title": "Stok, ogród i światło",
+					"lead": "Największe niedopasowanie dotyczy wygody ogrodu i kosztu przygotowania.",
+					"items": [
+						{
+							"label": "Pomiar NMT",
+							"text": "72,85–80,09 m na 955 komórkach; rozpiętość 7,24 m. Mediana spadku 18,7%; 41,2% komórek powyżej 20%. Tylko 11,6% ma do 10%, co nie oznacza spójnego płaskiego ogrodu.",
+							"status": "verified",
+							"sourceIds": [
+								"nmt"
+							]
+						},
+						{
+							"label": "Wjazd niżej niż ogród",
+							"text": "Przekrój zachód–wschód rośnie o około 5,94 m na 37,93 m. Nawet w zachodniej strefie 4/12 m różnica rzędnych wynosi 3,39 m. Garaż, taras i ogród wymagają wspólnego projektu wysokościowego.",
+							"status": "verified",
+							"sourceIds": [
+								"nmt"
+							]
+						},
+						{
+							"label": "Budżet nawierzchni",
+							"text": "Po domu 154,54 m² pozostaje 132,26 m² w budżecie 30% powierzchni niebiologicznej; po samym tarasie katalogowym 25,65 m² — 106,61 m². Obliczenie na ofertowych 956 m², nie bilans gotowego PZT ani ilość suchego ogrodu.",
+							"status": "declared",
+							"sourceIds": [
+								"plan",
+								"dom",
+								"oferta"
+							]
+						},
+						{
+							"label": "Drzewa i nasłonecznienie",
+							"text": "Korony pokrywają znaczną część parceli. Wyższy stok od wschodu i drzewa mogą przesłaniać salon; nie zmierzono wysokości koron ani godzin słońca. Kontury EGiB/Ls, możliwość wycinki i wyłączenie z produkcji pozostają nieustalone.",
+							"status": "unknown",
+							"sourceIds": [
+								"ortho",
+								"nmt"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/gdansk-potokowa-152-5/mapa-wysokosci.png",
+							"alt": "NMT ALS 23.09.2024, siatka 1 m, EPSG:2180 / PL-EVRF2007-NH. Granice ULDK; ocena wstępna.",
+							"caption": "NMT ALS 23.09.2024, siatka 1 m, EPSG:2180 / PL-EVRF2007-NH. Granice ULDK; ocena wstępna."
+						},
+						{
+							"src": "assets/gdansk-potokowa-152-5/przekroje.png",
+							"alt": "Przekroje przez działkę i otoczenie; NMT 23.09.2024. Skala pionowa przewyższona.",
+							"caption": "Przekroje przez działkę i otoczenie; NMT 23.09.2024. Skala pionowa przewyższona."
+						},
+						{
+							"src": "assets/gdansk-potokowa-152-5/zachodnia-strefa.png",
+							"alt": "Warunkowy test strefy 4/12 m i profil ku wyższemu ogrodowi; nie potwierdzenie prawa do zabudowy.",
+							"caption": "Warunkowy test strefy 4/12 m i profil ku wyższemu ogrodowi; nie potwierdzenie prawa do zabudowy."
+						}
+					]
+				},
+				{
+					"id": "grunt-woda",
+					"title": "Grunt, woda i ochrona",
+					"lead": "Regionalne mapy nie zastępują badań pod konkretnym domem.",
+					"items": [
+						{
+							"label": "Grunt i sączenia",
+							"text": "Atlas PIG: grunty spoiste na 1–2 m, niespoiste na 5 m, warunki budowlane „ograniczone”, regionalna klasa wody 2–5 m. Nie są to lokalne odwierty ani gwarancja maksymalnego poziomu wody. Brak podstaw do automatycznego palowania.",
+							"status": "verified",
+							"sourceIds": [
+								"pig"
+							]
+						},
+						{
+							"label": "Odpływ ze stoku",
+							"text": "Wyższy teren za wschodnią granicą wymaga oceny spływu, sączeń i stateczności po wykopach. Nie ustalono odbiornika ani kosztu odwodnienia.",
+							"status": "unknown",
+							"sourceIds": [
+								"nmt",
+								"pig"
+							]
+						},
+						{
+							"label": "Powódź i osuwiska",
+							"text": "W odczytanych warstwach ISOK brak narysowanego zasięgu pod poligonem; SOPO identify całej obwiedni zwróciło zero obiektów. Nie wyklucza to lokalnego spływu, sączeń ani braków inwentaryzacji.",
+							"status": "verified",
+							"sourceIds": [
+								"isok",
+								"sopo"
+							]
+						},
+						{
+							"label": "Ochrona przyrody",
+							"text": "GDOŚ: ZPK Dolina Potoków Strzyża i Jasień oraz otulina TPK, poza samym Parkiem. Akt ochrony ogranicza zmiany stosunków wodnych i przekształcanie terenów wodno-błotnych; nie jest ogólnym zakazem wszystkich robót ziemnych.",
+							"status": "verified",
+							"sourceIds": [
+								"gdos",
+								"zpk"
+							]
+						}
+					],
+					"figures": []
+				},
+				{
+					"id": "dostep-otoczenie",
+					"title": "Dojazd, media i szkoła",
+					"lead": "Przebieg na mapie nie daje prawa przejazdu ani zapewnienia przyłączenia.",
+					"items": [
+						{
+							"label": "Dostęp przez 002-KX",
+							"text": "Plan prowadzi dostęp przez ciąg pieszo-jezdny 002-KX, dalej od Dolnych Młynów. Dokumentów własności, służebności i warunków zjazdu nie sprawdzono.",
+							"status": "unknown",
+							"sourceIds": [
+								"plan"
+							]
+						},
+						{
+							"label": "Sieci po zachodniej stronie",
+							"text": "KIUT pokazuje gaz przy zachodniej granicy, wodociąg dalej na zachód, kanalizację przy zabudowie na północy. Status przewodów, przepustowość, koszt i trasy przyłączy wymagają warunków gestorów.",
+							"status": "verified",
+							"sourceIds": [
+								"kiut"
+							]
+						},
+						{
+							"label": "Szkoła obwodowa",
+							"text": "Cała ulica Potokowa należy w roku 2026/2027 do SP nr 38 im. gen. Stanisława Maczka, ul. Leśna Góra 2. Przypisanie parceli warunkowe do potwierdzenia jej adresu; przyszły rok wymaga ponownego sprawdzenia.",
+							"status": "verified",
+							"sourceIds": [
+								"szkola"
+							]
+						},
+						{
+							"label": "Hałas",
+							"text": "Nie odczytano wiarygodnie LDWN/LN dla poligonu. Brak wartości nie oznacza ciszy; potrzebny odczyt miejskiej mapy i oględziny.",
+							"status": "unknown",
+							"sourceIds": []
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/gdansk-potokowa-152-5/kiut-overlay.png",
+							"alt": "KIUT/GESUT z granicą ULDK, odczyt 28.10.2026. Symbole sieci nie potwierdzają przyłączy ani precyzyjnych kolizji.",
+							"caption": "KIUT/GESUT z granicą ULDK, odczyt 28.10.2026. Symbole sieci nie potwierdzają przyłączy ani precyzyjnych kolizji."
+						}
+					]
+				},
+				{
+					"id": "cena-przygotowanie",
+					"title": "Cena i przygotowanie",
+					"lead": "Najlepszy znaleziony punkt porównania leży bezpośrednio na południe.",
+					"items": [
+						{
+							"label": "Sąsiad 152/6: 1,23 mln zł",
+							"text": "RCN: 12.12.2025, 956 m², grunt niezabudowany, pełna własność 1/1, wolny rynek. Cena działki = nieruchomości = transakcji: 1 230 000 zł (1286,61 zł/m²). Ta sama karta 001-MN21; nie przypisano ceny pakietu jednej parceli.",
+							"status": "verified",
+							"sourceIds": [
+								"rcn",
+								"plan"
+							]
+						},
+						{
+							"label": "Premia oferty: 360 tys. zł",
+							"text": "1 590 000 zł to o 29,27% więcej niż transakcja sąsiada. Mocny punkt negocjacyjny, ale nie automatyczna wycena: szczegóły dojazdu, mediów, gruntu i umowy porównania nieznane.",
+							"status": "declared",
+							"sourceIds": [
+								"rcn",
+								"oferta"
+							]
+						},
+						{
+							"label": "Koszt przygotowania nieustalony",
+							"text": "Brak projektu rzędnych, badań, ilości robót i ofert. Nie podano pozornego przedziału kosztów. Wycenić oddzielnie badania/stateczność, różnicę względem standardowej płyty, roboty ziemne, mury, ogród, odwodnienie i media/dojazd. Pale i pełna wymiana nie są pozycjami do automatycznego sumowania.",
+							"status": "unknown",
+							"sourceIds": []
+						}
+					],
+					"figures": []
+				}
+			],
+			"risks": [
+				{
+					"severity": "high",
+					"title": "Wygodny ogród na stoku",
+					"detail": "Ponad 7 m różnicy rzędnych oraz drzewa. Potrzebna koncepcja użytkowych poziomów, nie tylko procent PBC."
+				},
+				{
+					"severity": "high",
+					"title": "Usytuowanie i dojazd",
+					"detail": "Linia 12 m, Ø500, las i wysokość na stoku; brak pełnego PZT i dokumentu przejazdu przez 002-KX."
+				},
+				{
+					"severity": "high",
+					"title": "Cena bez kosztorysu",
+					"detail": "Premia 360 tys. zł względem sąsiada przy nieznanych kosztach przygotowania."
+				}
+			],
+			"questions": [
+				{
+					"id": "potokowa-152-5-pzt",
+					"text": "Czy architekt potwierdzi pełny rzut, garaż, wysokość, podjazd i użytkowy ogród z rzędnymi?"
+				},
+				{
+					"id": "potokowa-152-5-sieci",
+					"text": "Gdzie dokładnie przebiega skrajnia Ø500 i jakie są warunki przyłączenia wszystkich mediów?"
+				},
+				{
+					"id": "potokowa-152-5-droga",
+					"text": "Jaki dokument zapewnia przejazd całym 002-KX i możliwość wykonania zjazdu?"
+				},
+				{
+					"id": "potokowa-152-5-grunt",
+					"text": "Czy badania i obliczenia potwierdzą stateczność stoku po planowanych wykopach i murach?"
+				},
+				{
+					"id": "potokowa-152-5-drzewa",
+					"text": "Jakie są użytki EGiB, kontur lasu i warunki legalnej wycinki oraz wyłączenia z produkcji?"
+				},
+				{
+					"id": "potokowa-152-5-woda",
+					"text": "Jaki jest legalny odbiornik wód i sposób ograniczenia spływu bez szkody sąsiadom?"
+				},
+				{
+					"id": "potokowa-152-5-cena",
+					"text": "Co uzasadnia premię 360 tys. zł wobec transakcji 152/6 i jaki jest koszt całej koncepcji?"
+				}
+			],
+			"sources": [
+				{
+					"id": "uldk",
+					"label": "ULDK — geometria 152/5",
+					"url": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=226101_1.0037.152/5&result=id,geom_wkt&srid=2180",
+					"note": "Odczyt 28.10.2026. Granice EPSG:2180, powierzchnia geometryczna 954,70 m²; nie zastępuje wypisu i pomiaru."
+				},
+				{
+					"id": "oferta",
+					"label": "Oferta MG771566 — duplikat ogłoszenia",
+					"url": "https://gratka.pl/nieruchomosci/dzialka-gdansk-bretowo-potokowa/ob/49417597",
+					"note": "28.10.2026: 956 m² i 1 590 000 zł. Deklaracja sprzedającego; Otodom nie był dostępny w odczycie."
+				},
+				{
+					"id": "plan",
+					"label": "MPZP 0921 — tekst i rysunek",
+					"url": "https://edziennik.gdansk.uw.gov.pl/WDU_G/2009/155/2899/Akt.pdf",
+					"note": "XL/1142/09, 24.09.2009, karta 001-MN21. Odczyt 28.10.2026. W indeksie BRG brak adnotacji uchylenia; pełnej historii orzecznictwa nie potwierdzono."
+				},
+				{
+					"id": "dom",
+					"label": "HOMEKONCEPT 166 G2 wariant 01",
+					"url": "https://homekoncept.com.pl/produkt/homekoncept-166-g2-wariant-01/",
+					"note": "Parametry katalogowe odczytane 28.10.2026. Projekt odniesienia, bez potwierdzonego usytuowania."
+				},
+				{
+					"id": "nmt",
+					"label": "GUGiK — skorowidz NMT",
+					"url": "https://mapy.geoportal.gov.pl/wss/service/PZGIK/NumerycznyModelTerenuEVRF2007/WFS/Skorowidze?service=WFS&request=GetCapabilities",
+					"note": "ALS 23.09.2024, 1 m, EPSG:2180 / PL-EVRF2007-NH, błąd średni wysokości 0,07 m. Arkusze N-34-50-C-c-3-2 i N-34-50-C-c-4-1. Późniejszych robót nie wykluczono."
+				},
+				{
+					"id": "ortho",
+					"label": "GUGiK — ortofotomapa",
+					"url": "https://www.geoportal.gov.pl/pl/dane/ortofotomapa-orto/",
+					"note": "Mozaika WMS odczytana 28.10.2026. Lokalny skorowidz wskazuje zdjęcie 02.08.2024, 0,25 m; nie potwierdzono daty każdego piksela mozaiki."
+				},
+				{
+					"id": "kiut",
+					"label": "GUGiK — uzbrojenie terenu",
+					"url": "https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaUzbrojeniaTerenu?SERVICE=WMS&REQUEST=GetCapabilities",
+					"note": "KIUT odczytany 28.10.2026. Mapowe przebiegi nie potwierdzają warunków przyłączenia ani dokładnej skrajni Ø500."
+				},
+				{
+					"id": "pig",
+					"label": "PIG — Atlas geologiczno-inżynierski",
+					"url": "https://cbdgmapa.pgi.gov.pl/arcgis/rest/services/geoinz/agi_mapy/MapServer",
+					"note": "Atlas Trójmiasta, warstwy 7/8/10/14/16. Dane regionalne, nie odwierty pod domem."
+				},
+				{
+					"id": "gdos",
+					"label": "GDOŚ — formy ochrony przyrody",
+					"url": "https://geoserwis.gdos.gov.pl/",
+					"note": "Przestrzenny odczyt WFS 28.10.2026: ZPK i otulina TPK; poza samym Parkiem."
+				},
+				{
+					"id": "zpk",
+					"label": "Dolina Potoków Strzyża i Jasień — akt ochrony",
+					"url": "https://edziennik.gdansk.uw.gov.pl/WDU_G/2016/61/akt.pdf",
+					"note": "XVI/428/15; ograniczenia zmian stosunków wodnych i przekształcania terenów wodno-błotnych. Nie jest ogólnym zakazem wszystkich prac ziemnych."
+				},
+				{
+					"id": "isok",
+					"label": "ISOK — mapy zagrożenia powodziowego",
+					"url": "https://www.isok.gov.pl/inspire.html",
+					"note": "Sprawdzone warstwy WMS nie pokazują zasięgu pod poligonem. Nie jest to niezależna kontrola wszystkich scenariuszy ani ocena spływu nawalnego."
+				},
+				{
+					"id": "sopo",
+					"label": "PIG — SOPO",
+					"url": "https://mapa.osuwiska.pgi.gov.pl/",
+					"note": "Identify całej obwiedni nie zwrócił osuwisk ani terenów zagrożonych. Kompletność i aktualność lokalnej inwentaryzacji pozostają ograniczeniem."
+				},
+				{
+					"id": "szkola",
+					"label": "Obwody szkół 2026/2027",
+					"url": "https://edziennik.gdansk.uw.gov.pl/WDU_G/2026/1000/oryginal/akt.pdf",
+					"note": "XXIV/580/26, załącznik 1 pkt 25: cała Potokowa w SP 38. Adres niezabudowanej parceli niepotwierdzony."
+				},
+				{
+					"id": "rcn",
+					"label": "RCN GUGiK — transakcje",
+					"url": "https://mapy.geoportal.gov.pl/wss/service/rcn?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&TYPENAMES=ms:dzialki&RESOURCEID=dzialki.28985380",
+					"note": "Rekord gid 28985380, transakcja 173475: 152/6, 12.12.2025, 956 m², pełna własność 1/1, wolny rynek, grunt niezabudowany, 1 230 000 zł. Cena działki, nieruchomości i transakcji zgodna; VAT niepodany. Odczyt 28.10.2026."
+				}
+			]
 		}
 	]
 }

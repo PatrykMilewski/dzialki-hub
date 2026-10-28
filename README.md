@@ -196,3 +196,17 @@ Podstrona `zagospodarowanie-761-18-homekoncept-166-g2-w01.html`: HOMEKONCEPT 166
 Korekta HK166 G2 wariant 01 / 761/18 po nałożeniu obu kondygnacji (27.10.2026): ściana poddasza cofnięta 1,04 m, szyba około 1,24 m. Wcześniejszy obrys parteru pomijał pas garażu 0,78 m; odległość garażu w pokazanym ustawieniu wynosi 2,26 m zamiast 3,04 m. Pełny skraj ścian parteru 14,48 m; 13,70 m jest wymiarem między cofniętymi punktami frontu. Przy garażu 3 m ściana poddasza wypada 4,04 m, więc likwidacja przeszklenia nie jest automatycznie konieczna. Nowa nakładka PNG/PDF, poprawiony rzut i czterostronicowy PDF; położenie i bilans ogrodu bez zmian. Hipoteza zwężenia o 0,70 m wymaga zachowania cofnięcia i pozostawia praktycznie zerowy zapas szerokości.
 
 Analiza **226101_1.0037.152/5**, Gdańsk, Potokowa: stan i publikacja 28.10.2026. MPZP 0921/001-MN21, dom z poddaszem typu HOMEKONCEPT 166 G2 wariant 01. NMT 23.09.2024: 7,24 m różnicy wysokości, mediana spadku 18,7%. Sześć map w `assets/gdansk-potokowa-152-5/`; data mozaiki orto niepotwierdzona. Oferta 1,59 mln zł, RCN sąsiada 152/6 z 12.12.2025: 1,23 mln zł. Brak potwierdzonego PZT, prawnego dojazdu, warunków przyłączenia i kosztorysu; bez kalkulatora. Status warunkowy z jawnym istotnym niedopasowaniem, nie zakaz budowy.
+
+## Potokowa 152/5 · HOMEKONCEPT 130 A
+
+Podstrona `zagospodarowanie-152-5-homekoncept-130-a.html`, opracowanie 28.10.2026:
+wersja podstawowa bez lustra, garaż WNW i taras ESE. Własny analityczny obrys
+skalibrowany na wektorach autora; pełna rezerwa domu i utwardzeń 245,81 m²,
+podjazd i łącznik poza nią 28,47 m². Wolny teren 680,42 m², w tym południe
+293,93 m²; zapas do 70% zieleni geometrycznej tylko 12,13 m². To nie bilans PBC.
+NMT 23.09.2024 pod ścianami: 3,02 m różnicy poziomów. Dopasowanie warunkowe:
+nieustalony pas Ø500, formalna wysokość na stoku, dojazd i kontrola detali.
+Karta ma odsyłacz `exampleLayout`; PNG/PDF i wybrane dane bilansu są w osobnym
+katalogu `assets/gdansk-potokowa-152-5/zagospodarowanie/homekoncept-130-a/`.
+Wizualizacja jest osadzona z oficjalnego serwisu HOMEKONCEPT z podpisem autora
+oraz linkiem zdjęcia i przycisku do dokładnie tej wersji projektu.

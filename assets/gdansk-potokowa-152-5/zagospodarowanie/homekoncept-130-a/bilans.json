@@ -1,0 +1,125 @@
+{
+  "variant": "HK130A-basic-west-access",
+  "date": "2026-10-28",
+  "parcel_id": "226101_1.0037.152/5",
+  "crs": "EPSG:2180",
+  "transform": {
+    "mirror": false,
+    "rotation_ccw_degrees_from_source_x_right_y_rear": -113.0,
+    "translation_E": 471501.22633054765,
+    "translation_N": 721737.83081235,
+    "rear_bearing_degrees_from_grid_N": 113,
+    "garage_approach_side": "WNW",
+    "living_terrace_side": "ESE"
+  },
+  "catalog": {
+    "footprint_m2": 165.01,
+    "usable_m2": 144.72,
+    "garage_m2": 36.6,
+    "terrace_m2": 61.76,
+    "height_m": 8.63,
+    "roof_pitch_degrees": 40,
+    "dimensions_m": [
+      11.15,
+      20.13
+    ]
+  },
+  "source_geometry": {
+    "walls_m2": 164.855042682291,
+    "rear_and_side_paving_m2": 72.27759519060865,
+    "entry_m2": 8.676013751395127,
+    "all_project_reserve_m2": 245.80865162429484,
+    "reserve_dimensions_m": [
+      12.45000166558042,
+      20.680008110652473
+    ],
+    "walls_dimensions_m": [
+      11.15,
+      17.5
+    ],
+    "catalog_terrace_difference_m2": 19.193608942003785,
+    "calibration_accuracy_statement": "PDF vector; 11.15m calibration; centimetre numerical precision is not geodetic accuracy; garage location digitized approximately ±0.10m."
+  },
+  "areas": {
+    "parcel_geometry_m2": 954.7009634493181,
+    "parcel_nominal_m2": 956,
+    "house_and_full_project_paving_m2": 245.80865162429484,
+    "driveway_and_entry_connector_extra_m2": 28.468992786079944,
+    "total_reserved_m2": 274.27764441037476,
+    "garden_free_geometry_m2": 680.4233190389436,
+    "garden_south_m2": 293.92821830419524,
+    "garden_sections_m2": {
+      "A": 293.92821830419524,
+      "B": 57.38759880787639,
+      "C": 138.56692798966483,
+      "D": 190.540573937207
+    },
+    "free_fraction_geometry_percent": 71.27083192422744,
+    "max_additional_non_green_before_70pct_geometry_m2": 12.132644624421005,
+    "budget_30pct_nominal_after_reserve_m2": 12.52235558962525,
+    "catalog_footprint_percent_nominal": 17.260460251046027,
+    "catalog_footprint_percent_geometry": 17.283946106414486
+  },
+  "clearances_wall_to_parcel_edges_m": {
+    "north": 4.150000000000003,
+    "west_north": 4.220687083471461,
+    "west_south": 4.369438676655801,
+    "south": 12.499507764415243,
+    "east": 12.65731417220092
+  },
+  "terrain_under_house": {
+    "source_date": "2024-09-23",
+    "grid_spacing_m": 1,
+    "cell_center_count": 164,
+    "minimum_m": 73.51,
+    "maximum_m": 76.53,
+    "relief_m": 3.019999999999996
+  },
+  "garden_south_boundary": {
+    "N_epsg2180": 721719.2107108049,
+    "definition": "E-W line through southernmost point of complete house and project paving reserve; grid north"
+  },
+  "checks": {
+    "all_geometry_valid": true,
+    "reserve_outside_parcel_m2": 0.0,
+    "driveway_overlap_house_or_terrace_m2": 5.355958732078392e-17,
+    "balance_error_m2": -3.410605131648481e-13,
+    "sampled_orientation_range_degrees": [
+      -135,
+      -45
+    ],
+    "sample_step_degrees": 0.25,
+    "five_point_fifteen_west_boundary_proxy_feasible_samples": 0,
+    "west_proxy_not_water_main": true
+  },
+  "limitations": [
+    "Eastern12m and other4m are adopted boundary scenarios; 0.15m margin is smaller than possible map/boundary uncertainty.",
+    "Water-main extremes have not been surveyed: no verification of5m water clearance.",
+    "Upper-floor body checked conservatively with 0.05m mitre buffer after identifying 5cm body-width difference; roof/eaves not individually verified; detailed architecture review required.",
+    "Garden geometry is not legal PBC or proof of flat/dry useful garden.",
+    "Large natural relief and driveway gradient need designed levels; MPZP building-height datum is historic map, not this NMT.",
+    "No turning-path analysis, road-connection approval, or legal motor access certification.",
+    "No additional paths, utility pads, waste area, retaining-wall footprint or drainage works are reserved.",
+    "Difference between full outline PDF paving and catalog terrace is retained conservatively; confirm working project."
+  ],
+  "upper_floor_sensitivity": {
+    "method": "Conservative 0.05m outward mitre buffer of entire ground-floor wall outline; upper-floor body x8.90 vs ground8.85 from detailed PDF. Does not verify roof/eaves.",
+    "buffer_m": 0.05,
+    "buffered_clearances_to_edge_segments_m": {
+      "north": 4.098749682438699,
+      "west_north": 4.169921067882625,
+      "west_south": 4.307804379959176,
+      "south": 12.445941480864875,
+      "east": 12.603809158095723
+    },
+    "buffered_clearances_to_edge_supporting_lines_m": {
+      "north": 4.098749682438701,
+      "west_north": 4.169921067882626,
+      "west_south": 4.099375425207093,
+      "south": 12.445941480864876,
+      "east": 12.603809158095725
+    },
+    "passes_4m_other_12m_east": true,
+    "area_balance_unchanged": true
+  }
+}

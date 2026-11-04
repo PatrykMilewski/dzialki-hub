@@ -210,3 +210,7 @@ Karta ma odsyłacz `exampleLayout`; PNG/PDF i wybrane dane bilansu są w osobnym
 katalogu `assets/gdansk-potokowa-152-5/zagospodarowanie/homekoncept-130-a/`.
 Wizualizacja jest osadzona z oficjalnego serwisu HOMEKONCEPT z podpisem autora
 oraz linkiem zdjęcia i przycisku do dokładnie tej wersji projektu.
+
+## Osowa 146/12 — 4 listopada 2026
+
+Dodano analizę `226101_1.0001.146/12` pod `?dzialka=gdansk-osowa-146-12` oraz siedem publicznych map w `assets/gdansk-osowa-146-12/`. Źródła i daty znajdują się w karcie. Schematy domu mają nierozwiązane kolizje z wodociągiem; grunt, prawa do drogi i pełny koszt wymagają sprawdzenia. Rekord nie korzysta z kalkulatora 750/73.

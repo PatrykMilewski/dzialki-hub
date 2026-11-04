@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"updatedAt": "2026-10-28",
+	"updatedAt": "2026-11-04",
 	"plots": [
 		{
 			"slug": "chwaszczyno-750-73",
@@ -5873,6 +5873,523 @@
 					"label": "RCN GUGiK — transakcje",
 					"url": "https://mapy.geoportal.gov.pl/wss/service/rcn?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&TYPENAMES=ms:dzialki&RESOURCEID=dzialki.28985380",
 					"note": "Rekord gid 28985380, transakcja 173475: 152/6, 12.12.2025, 956 m², pełna własność 1/1, wolny rynek, grunt niezabudowany, 1 230 000 zł. Cena działki, nieruchomości i transakcji zgodna; VAT niepodany. Odczyt 28.10.2026."
+				}
+			]
+		},
+		{
+			"id": "226101_1.0001.146/12",
+			"number": "146/12",
+			"slug": "gdansk-osowa-146-12",
+			"title": "Chełmińska",
+			"location": "Gdańsk · Osowa",
+			"areaM2": 1023,
+			"pricePln": 850000,
+			"pricePerM2": 830.8895405669599,
+			"statusKey": "conditional",
+			"statusLabel": "Warunkowo",
+			"updatedAt": "2026-11-04",
+			"summary": "Łagodny teren i MPZP z limitem 204,6 m² zabudowy. Potencjał domu z poddaszem i ogrodem od południa, ale testowane obrysy przecina wodociąg. Cena 850 tys. zł wymaga oceny razem z drogą i kosztami sieci.",
+			"verdict": {
+				"title": "Potencjał jest, lecz najpierw sieci, grunt i droga",
+				"text": "Geometria pozwala testować dom z garażem dwustanowiskowym i ogrodem S/W. Oba schematy kolidują z wodociągiem, a status przewodu i możliwość przebudowy są nieznane. Przed zakupem potrzebne są warunki operatorów, geotechnika, aktualne dokumenty drogi oraz sprawdzenie konkretnego projektu. Cena nie jest potwierdzoną okazją."
+			},
+			"offerUrl": "https://www.otodom.pl/pl/oferta/dzialka-z-mpzp-gdansk-osowa-wybuduj-swoj-dom-ID4D8jH",
+			"mapLocation": {
+				"lat": 54.438111651498254,
+				"lng": 18.44798630381006,
+				"sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=226101_1.0001.146%2F12&result=id,geom_wkt,commune,region,parcel,datasource&srid=2180",
+				"checkedAt": "2026-11-04",
+				"method": "Centroid poligonu ULDK w EPSG:2180 przeliczony na EPSG:4326; punkt wewnątrz działki. Nie użyto pinezki ogłoszenia."
+			},
+			"thumbnail": "assets/gdansk-osowa-146-12/lokalizacja.png",
+			"hero": "assets/gdansk-osowa-146-12/lokalizacja.png",
+			"imageLabel": "ORTO · DATA ZDJĘCIA NIEUSTALONA",
+			"imageAlt": "Granice działki 146/12 na ortofotomapie GUGiK; data zdjęcia nieustalona",
+			"cardNotice": {
+				"title": "Kolizja domu z wodociągiem",
+				"text": "Schematy są testami geometrii. Status i możliwość przebudowy przewodu wymagają potwierdzenia."
+			},
+			"facts": [
+				{
+					"label": "Limit zabudowy",
+					"value": "204,6 m²",
+					"note": "20% × 1023 m²; dla całej zabudowy.",
+					"status": "verified"
+				},
+				{
+					"label": "Intensywność",
+					"value": "306,9 m²",
+					"note": "Całkowita nadziemna, nie użytkowa.",
+					"status": "verified"
+				},
+				{
+					"label": "Biologicznie czynna",
+					"value": "min. 613,8 m²",
+					"note": "60% powierzchni przyjętej z oferty i RCN.",
+					"status": "verified"
+				},
+				{
+					"label": "Różnica wysokości",
+					"value": "0,80 m",
+					"note": "NMT z 08.09.2024; nie pomiar dzisiejszego terenu.",
+					"status": "verified"
+				},
+				{
+					"label": "Szkoła dla Chełmińskiej",
+					"value": "SP nr 81",
+					"note": "Rok 2026/27; adres parceli wymaga potwierdzenia.",
+					"status": "verified"
+				},
+				{
+					"label": "Media i droga",
+					"value": "Do wyjaśnienia",
+					"note": "Brak potwierdzenia statusu przewodów i obecnego zakresu udziałów.",
+					"status": "unknown"
+				}
+			],
+			"sections": [
+				{
+					"id": "identyfikacja",
+					"title": "Działka i podstawa analizy",
+					"lead": "Stan analizy i publikacja: 04.11.2026. Obręb 0001 Osowa, identyfikator 226101_1.0001.146/12.",
+					"items": [
+						{
+							"label": "Powierzchnia i lokalizacja",
+							"text": "Oferta oraz historyczny RCN podają 1023 m². Pole poligonu ULDK wynosi 1022,04 m²; kształt ma około 35 × 30 m i ścięte zachodnie narożniki. Znacznik Atlasu to centroid granic, a nie pinezka Otodom przesunięta około 150 m na wschód.",
+							"status": "verified",
+							"sourceIds": [
+								"uldk",
+								"oferta",
+								"rcn"
+							]
+						},
+						{
+							"label": "Profil domu",
+							"text": "Przyjęto trzy sypialnie, osobny gabinet, garaż G2 i ogród S/W. Testowany obrys 200 m² obejmuje garaż; nie oznacza 200 m² użytkowej. Dodatkowa sypialnia wymaga ponownego bilansu projektu.",
+							"status": "assumed",
+							"sourceIds": []
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/gdansk-osowa-146-12/lokalizacja.png",
+							"alt": "Granice 146/12 na ortofotomapie",
+							"caption": "Granice: ULDK; podkład: GUGiK WMTS, pobrany 04.11.2026. Data konkretnego zdjęcia nieustalona."
+						}
+					]
+				},
+				{
+					"id": "planowanie",
+					"title": "MPZP i ograniczenia",
+					"lead": "Cała działka znajduje się w 006-M22 planu 2135 „Osowa — rejon ulicy Chełmińskiej”.",
+					"items": [
+						{
+							"label": "Parametry",
+							"text": "Maksymalnie 20% zabudowy (204,6 m²), intensywność 0,3 (306,9 m²), minimum 60% PBC (613,8 m²), wysokość do 9 m, dach dowolny, co najmniej 2 miejsca postojowe na mieszkanie. Wskaźniki obliczono dla 1023 m².",
+							"status": "verified",
+							"sourceIds": [
+								"plan",
+								"karta"
+							]
+						},
+						{
+							"label": "Poddasze i garaż",
+							"text": "Plan liczy powierzchnię całkowitą po obrysie zewnętrznym dla części pomieszczeń wyższych niż 1,90 m. Zwykły garaż wbudowany wlicza się. Przy parterze o 200 m² tak liczonej całkowitej pozostaje 106,9 m² na poddasze i inne kondygnacje. Rzut 200 m² zostawia tylko 4,6 m² marginesu zabudowy.",
+							"status": "verified",
+							"sourceIds": [
+								"plan",
+								"karta"
+							]
+						},
+						{
+							"label": "Otoczenie może się zagęścić",
+							"text": "M22 dopuszcza także bliźniaki i domy do 4 mieszkań oraz ograniczone usługi do 100 m². Obowiązują otulina TPK i ograniczenia lotnicze. Zadrzewienie na zachodzie nie gwarantuje niezabudowanego lasu. Najbliższy teren 003-ZL leży około 85 m dalej.",
+							"status": "verified",
+							"sourceIds": [
+								"plan",
+								"karta",
+								"egib"
+							]
+						},
+						{
+							"label": "Ochrona ujęcia — aktualna granica",
+							"text": "Stara niebieska linia na rysunku z 2010 r. przecina południowy skraj, lecz akt 2020/4450 zastąpił wcześniejszą ochronę. Odtworzenie 15 punktów nowej granicy wskazuje brak przecięcia z parcelą i około 8,5 m odstępu od południa. Ze względu na bliskość granicy wymaga to potwierdzenia na aktualnej mapie projektowej.",
+							"status": "verified",
+							"sourceIds": [
+								"strefa",
+								"rysunek"
+							]
+						},
+						{
+							"label": "Użytek rolny",
+							"text": "Publiczna EGiB pokazuje R; klasa i pochodzenie gleby są nieustalone. Obowiązek wyłączenia z produkcji rolnej i opłaty wymagają wypisu oraz kwalifikacji organu.",
+							"status": "unknown",
+							"sourceIds": [
+								"egib"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/gdansk-osowa-146-12/plan-parcela-overlay.png",
+							"alt": "Działka na historycznym rysunku MPZP z 2010 r.",
+							"caption": "MPZP 2135, rysunek 2010; obrys ULDK dodany 04.11.2026. UWAGA: niebieska granica ochrony ujęcia jest historyczna — obowiązujący zasięg określa akt 2020/4450, opisany powyżej."
+						}
+					]
+				},
+				{
+					"id": "dom-ogrod",
+					"title": "Dom, garaż i ogród — testy geometrii",
+					"lead": "Oba warianty mają nierozwiązane kolizje z wodociągiem. To koncepcje, nie potwierdzenie możliwości budowy.",
+					"items": [
+						{
+							"label": "Dwa obrysy po 200 m²",
+							"text": "A: 16 × 12,5 m; B: 14 × 14,286 m. Dom w części północnej, wjazd od 146/17 na południu, podjazd szerokości 6 m. Minimalny odstęp ściany od granicy w testach: 4,07 m. Garaż 7 × 6,5 m to rezerwa zewnętrzna, bez zweryfikowanego wnętrza.",
+							"status": "assumed",
+							"sourceIds": [
+								"uldk"
+							]
+						},
+						{
+							"label": "Bilans zieleni",
+							"text": "A: podjazd 79,9 m², taras 24 m², przejścia 49 m², zieleń 669,1 m², w tym około 344 m² na południu. B: odpowiednio 69,2 / 24 / 48,6 / 680,3 m², w tym 294,2 m² na południu. Bilans opiera się na geometrii 1022,04 m². Zieleń nie jest potwierdzonym PBC ani suchym ogrodem.",
+							"status": "assumed",
+							"sourceIds": [
+								"uldk"
+							]
+						},
+						{
+							"label": "Kolizje i zapas",
+							"text": "Wodociąg na KIUT przecina oba testowane obrysy domu. Nie ustalono jego statusu ani zgody na przebudowę. Zapas zieleni ponad wymaganym minimum wynosi około 55–66 m², przed dodaniem śmietnika, retencji, wiaty czy zmian podjazdu. Okapy, pożar i sąsiednie budynki nie są w pełni sprawdzone.",
+							"status": "unknown",
+							"sourceIds": [
+								"kiut",
+								"karta"
+							]
+						},
+						{
+							"label": "Słońce i prywatność",
+							"text": "Ogród S/W ma potencjał dobrego światła, lecz drzewa od zachodu i budynek od wschodu mogą zacieniać. Nie wykonano godzinowej symulacji ani pomiaru wysokości przeszkód. Ogród od południa graniczy z drogą i wymaga osłony.",
+							"status": "assumed",
+							"sourceIds": []
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/gdansk-osowa-146-12/warianty.png",
+							"alt": "Dwa schematy domu z zaznaczoną kolizją z wodociągiem",
+							"caption": "Opracowanie 04.11.2026: granice ULDK, symbole wodociągu KIUT. Oba układy kolidują z siecią; jej status pozostaje nieustalony. Bilans koncepcyjny, nie PZT."
+						}
+					]
+				},
+				{
+					"id": "teren-woda",
+					"title": "Teren, grunt i woda",
+					"lead": "Łagodna rzeźba jest atutem, ale nie rozstrzyga nośności ani wilgotności gruntu.",
+					"items": [
+						{
+							"label": "NMT 08.09.2024",
+							"text": "ALS, siatka 1 m, PL-EVRF2007-NH, błąd średni wysokości z metadanych 0,07 m. Rzędne 154,92–155,72 m, średnia 155,28 m; spadek płaszczyzny około 1,46% ku SSE. Wschodnie sąsiedztwo jest lokalnie 0,5–0,8 m wyżej od obniżenia wewnątrz parceli.",
+							"status": "verified",
+							"sourceIds": [
+								"nmt"
+							]
+						},
+						{
+							"label": "Geotechnika",
+							"text": "Brak badań tej parceli. Indeks PIG wskazuje otwór około 102 m dalej, z 1985 r., głębokość 4,5 m, lecz nie odczytano litologii ani wody. Nie można rozstrzygnąć wymiany gruntu, pali, infiltracji ani suchego trawnika.",
+							"status": "unknown",
+							"sourceIds": [
+								"pig"
+							]
+						},
+						{
+							"label": "Powódź, osuwiska, odwodnienie",
+							"text": "Punktowe zapytanie ISOK w środku nie zwróciło obiektu zagrożenia; nie był to pełny audyt poligonu ani wykluczenie zastoin. SOPO nie zostało rozstrzygnięte z powodu błędów usług. NMT nie potwierdza odbiornika deszczówki ani robót po 2024 r.",
+							"status": "unknown",
+							"sourceIds": []
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/gdansk-osowa-146-12/terrain_detail.png",
+							"alt": "Wysokości na działce 146/12",
+							"caption": "GUGiK NMT ALS 08.09.2024, 1 m, PL-EVRF2007-NH. Obliczenia 04.11.2026; nie zastępują aktualnego pomiaru."
+						},
+						{
+							"src": "assets/gdansk-osowa-146-12/terrain.png",
+							"alt": "Rzeźba działki i otoczenia",
+							"caption": "GUGiK NMT ALS 08.09.2024; opracowanie 04.11.2026. Obniżenie w okolicy nie jest potwierdzonym odbiornikiem wody."
+						},
+						{
+							"src": "assets/gdansk-osowa-146-12/sections.png",
+							"alt": "Trzy przekroje terenu przez działkę",
+							"caption": "GUGiK NMT 08.09.2024; przekroje opracowane 04.11.2026. Skala pionowa powiększona, kierunki według siatki PL-1992."
+						}
+					]
+				},
+				{
+					"id": "dostep-media",
+					"title": "Dostęp i media",
+					"lead": "Przyległe pasy drogowe potwierdzono geometrycznie; prawa oraz warunki przyłączenia wymagają dokumentów.",
+					"items": [
+						{
+							"label": "Udziały drogowe",
+							"text": "Od zachodu przylega 146/16, od południa 146/17. RCN z 2024 r. wskazuje udziały 1/4 i 6/56. Nie potwierdzono, czy obecne 850 000 zł obejmuje te same udziały, prawo przejazdu, budowy sieci i zjazdu. Nawierzchnia nie dowodzi statusu drogi publicznej.",
+							"status": "unknown",
+							"sourceIds": [
+								"uldk",
+								"rcn",
+								"oferta"
+							]
+						},
+						{
+							"label": "Przewody w działce",
+							"text": "KIUT pokazuje wodociąg i oznaczenia gazowe, elektryczne oraz kanalizacyjne w części S/E. To symbole mapy, nie potwierdzenie czynnych przyłączy, własności, rzędnych czy zgody na przebudowę. Potrzebne są inwentaryzacja, warunki gestorów i koszt usunięcia kolizji.",
+							"status": "unknown",
+							"sourceIds": [
+								"kiut"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/gdansk-osowa-146-12/kiut-zoom-oznaczony.png",
+							"alt": "Uzbrojenie KIUT z granicami działki i pasa drogowego",
+							"caption": "KIUT / GUGiK, odczyt 04.11.2026; granice ULDK. Czerwony: 146/12, zielony: 146/16. Status przewodów nieustalony."
+						}
+					]
+				},
+				{
+					"id": "otoczenie",
+					"title": "Szkoła i sąsiedztwo",
+					"lead": "Nie potwierdzono punktowych poziomów hałasu ani czasów dojazdu.",
+					"items": [
+						{
+							"label": "SP nr 81",
+							"text": "Dla całej ul. Chełmińskiej w roku 2026/27: SP nr 81 im. prof. Michała Siedleckiego, ul. prof. Michała Siedleckiego 14. Uchwała XXIV/580/26 obowiązuje od 01.09.2026. Przypisanie działki zależy od urzędowego adresu Chełmińska; nie gwarantuje obwodu w przyszłym roku przeprowadzki.",
+							"status": "verified",
+							"sourceIds": [
+								"szkola"
+							]
+						},
+						{
+							"label": "Plan przepompowni",
+							"text": "Plan 2164 około 150 m na NW został uchwalony 29.10.2026 i według BRG na 04.11.2026 oczekuje na ogłoszenie. To nie potwierdzenie zbudowanej infrastruktury ani terminu podłączenia.",
+							"status": "verified",
+							"sourceIds": [
+								"sasiedztwo"
+							]
+						},
+						{
+							"label": "Hałas",
+							"text": "Nie uzyskano wiarygodnego odczytu LDWN/LN dla parceli. Cisza oraz brak hałasu lotniczego i kolejowego pozostają niepotwierdzone. Potrzebne odsłuchanie miejsca o różnych porach i odczyt miejskich map.",
+							"status": "unknown",
+							"sourceIds": []
+						}
+					],
+					"figures": []
+				},
+				{
+					"id": "cena-wydatki",
+					"title": "Cena i koszty przed budową",
+					"lead": "850 000 zł / 1023 m² = 830,89 zł/m². To cena ofertowa z 04.11.2026, nie wycena rzeczoznawcy.",
+					"items": [
+						{
+							"label": "Poprzednia sprzedaż tej działki",
+							"text": "RCN, 10.04.2024: 648 000 zł za 146/12 oraz po 8 000 zł za udziały w 146/16 i 146/17, łącznie 664 000 zł. Dzisiejsze 850 000 zł jest o 186 000 zł, czyli 28,0%, wyższe, jeżeli zakres pakietu jest ten sam. Historia nie potwierdza aktualnych praw ani wartości rynkowej.",
+							"status": "verified",
+							"sourceIds": [
+								"rcn",
+								"oferta"
+							]
+						},
+						{
+							"label": "Porównania z okolicy",
+							"text": "144/54: 790 000 zł za 1026 m², 23.10.2024. 151/9: 519 000 zł za 970 m², 27.08.2025, plus 1000 zł za drogę. Nie skorygowano różnic planu, gruntu i uzbrojenia; nie wyliczono z nich pozornej mediany rynkowej ani arbitralnego rabatu.",
+							"status": "verified",
+							"sourceIds": [
+								"rcn"
+							]
+						},
+						{
+							"label": "Pierwsze badania",
+							"text": "Orientacyjna rezerwa 1,5–4,5 tys. zł brutto na wstępny etap geotechniki ma niską pewność i nie jest ofertą. Zakres odwiertów, laboratorium i ewentualnego CPTU musi dobrać geotechnik.",
+							"status": "assumed",
+							"sourceIds": [
+								"badania"
+							]
+						},
+						{
+							"label": "Pełny koszt pozostaje nieustalony",
+							"text": "Do ceny dochodzą transakcja, badania, przygotowanie oraz ewentualne sieci i droga. Brakuje danych do wyceny przebudowy przewodów, odwodnienia, gruntu i wyłączenia rolnego. Nie zakładamy zera, nie doliczamy drugi raz standardowej płyty ani historycznych udziałów.",
+							"status": "unknown",
+							"sourceIds": [
+								"kiut",
+								"egib",
+								"oferta"
+							]
+						}
+					],
+					"figures": []
+				}
+			],
+			"risks": [
+				{
+					"severity": "high",
+					"title": "Wodociąg przecina testowane domy",
+					"detail": "Status sieci i dopuszczalność przebudowy mogą zmienić obrys, ogród oraz koszt inwestycji."
+				},
+				{
+					"severity": "high",
+					"title": "Brak geotechniki",
+					"detail": "Łagodny teren nie potwierdza suchego, nośnego gruntu ani możliwości infiltracji."
+				},
+				{
+					"severity": "high",
+					"title": "Droga i zakres ceny",
+					"detail": "Aktualne udziały, obciążenia, prawa do sieci oraz wliczenie drogi w cenę wymagają dokumentów."
+				},
+				{
+					"severity": "medium",
+					"title": "Mały margines domu 200 m²",
+					"detail": "Pozostaje 4,6 m² limitu zabudowy; poddasze ogranicza intensywność 306,9 m² całkowitej."
+				},
+				{
+					"severity": "medium",
+					"title": "Cena bez potwierdzonej premii za media",
+					"detail": "28% ponad pakietem z 2024 r. wymaga porównania zakresu i ulepszeń, a nie założenia gotowych przyłączy."
+				},
+				{
+					"severity": "medium",
+					"title": "Otoczenie i formalności",
+					"detail": "Hałas, klasa gruntu, przyszła zabudowa sąsiednia i dokładna bliska granica ochrony ujęcia wymagają dalszej kontroli."
+				}
+			],
+			"questions": [
+				{
+					"id": "droga",
+					"text": "Czy cena obejmuje 1/4 w 146/16 i 6/56 w 146/17? Udostępnić aktualne dokumenty własności, obciążeń, przejazdu i praw do sieci."
+				},
+				{
+					"id": "sieci",
+					"text": "Które przewody są czynne, projektowane lub nieczynne? Dostarczyć inwentaryzację, warunki przyłączenia i zgodę/koszt usunięcia kolizji z domem."
+				},
+				{
+					"id": "grunt",
+					"text": "Zlecić geotechnikowi badania pod docelowym domem, ocenę wody sezonowej, nasypów i infiltracji."
+				},
+				{
+					"id": "projekt",
+					"text": "Sprawdzić realny projekt: 204,6 m² zabudowy, 306,9 m² całkowitej, PBC, garaż, okapy, pożar, drzewa i uzbrojenie."
+				},
+				{
+					"id": "egib",
+					"text": "Uzyskać aktualny wypis EGiB z klasą gruntu; ustalić wyłączenie rolne oraz granicę ochrony ujęcia na mapie projektowej."
+				},
+				{
+					"id": "ogledziny",
+					"text": "Obejrzeć parcelę po deszczu i o różnych porach: wschodnie obniżenie, cień zachodni, hałas i prywatność od południowej drogi."
+				},
+				{
+					"id": "cena",
+					"text": "Co zmieniło się od transakcji z kwietnia 2024 r. i jakie wykonane prace uzasadniają obecną cenę?"
+				},
+				{
+					"id": "adres",
+					"text": "Potwierdzić urzędowy adres Chełmińska i obwód szkoły na rok przeprowadzki."
+				}
+			],
+			"sources": [
+				{
+					"id": "oferta",
+					"label": "Otodom — oferta DH495387",
+					"url": "https://www.otodom.pl/pl/oferta/dzialka-z-mpzp-gdansk-osowa-wybuduj-swoj-dom-ID4D8jH",
+					"note": "Cena i opis odczytane 04.11.2026; zakres udziałów drogowych nieokreślony."
+				},
+				{
+					"id": "uldk",
+					"label": "GUGiK ULDK — granice 146/12",
+					"url": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=226101_1.0001.146%2F12&result=id,geom_wkt,commune,region,parcel,datasource&srid=2180",
+					"note": "Geometria powiatowa; odczyt 04.11.2026. Pole obliczone nie zastępuje wypisu."
+				},
+				{
+					"id": "plan",
+					"label": "MPZP 2135 — tekst uchwały",
+					"url": "https://zpid.geogdansk.pl/plany/21/2135UCHWv1.pdf",
+					"note": "LII/1472/10 z 30.09.2010; obowiązuje od 20.12.2010. Odczyt 04.11.2026."
+				},
+				{
+					"id": "karta",
+					"label": "MPZP — karta 006-M22",
+					"url": "https://geogdansk.pl/pliki/WUIA/karty_terenow/2135006.pdf",
+					"note": "Parametry terenu; odczyt 04.11.2026."
+				},
+				{
+					"id": "rysunek",
+					"label": "MPZP 2135 — rysunek z 2010 r.",
+					"url": "https://zpid.geogdansk.pl/plany/21/2135RYSv1.tif",
+					"note": "Niebieska granica ochrony ujęcia jest historyczna; porównano z aktem 2020/4450."
+				},
+				{
+					"id": "strefa",
+					"label": "Akt 2020/4450 — ochrona ujęcia Osowa",
+					"url": "https://edziennik.gdansk.uw.gov.pl/WDU_G/2020/4450/akt.pdf",
+					"note": "Akt z 25.10.2020; odtworzono 15 punktów granicy, odczyt 04.11.2026."
+				},
+				{
+					"id": "egib",
+					"label": "Gdańsk — publiczna EGiB",
+					"url": "https://ewid-wms.gdansk.gda.pl/iip/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+					"note": "Widoczny użytek R; klasy i pochodzenia gleby nie ustalono."
+				},
+				{
+					"id": "orto",
+					"label": "GUGiK — ortofotomapa",
+					"url": "https://www.geoportal.gov.pl/pl/dane/ortofotomapa-orto/",
+					"note": "Podkład WMTS pobrany 04.11.2026; data konkretnego zdjęcia nieustalona."
+				},
+				{
+					"id": "nmt",
+					"label": "GUGiK — skorowidze NMT EVRF2007",
+					"url": "https://mapy.geoportal.gov.pl/wss/service/PZGIK/NumerycznyModelTerenuEVRF2007/WFS/Skorowidze?service=WFS&request=GetCapabilities",
+					"note": "ALS 08.09.2024, siatka 1 m, PL-EVRF2007-NH; błąd średni wysokości 0,07 m."
+				},
+				{
+					"id": "kiut",
+					"label": "GUGiK — integracja uzbrojenia terenu",
+					"url": "https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaUzbrojeniaTerenu?SERVICE=WMS&REQUEST=GetCapabilities",
+					"note": "Mapa odczytana 04.11.2026; brak rozstrzygających atrybutów statusu przewodów."
+				},
+				{
+					"id": "pig",
+					"label": "PIG — indeks otworów geologiczno-inżynierskich",
+					"url": "https://cbdgmapa.pgi.gov.pl/arcgis/rest/services/geoinz/atlas_gi_otwory/MapServer/0",
+					"note": "Najbliższy indeksowany otwór około 102 m; 1985 r., 4,5 m. Bez odczytanego profilu i wody."
+				},
+				{
+					"id": "szkola",
+					"label": "Obwody szkół — uchwała XXIV/580/26",
+					"url": "https://edziennik.gdansk.uw.gov.pl/api/eli/acts/POL_WOJ_PM/2026/1000/text.pdf",
+					"note": "26.02.2026, obowiązuje od 01.09.2026; Chełmińska w obwodzie SP 81."
+				},
+				{
+					"id": "sasiedztwo",
+					"label": "BRG — plan 2164",
+					"url": "https://www.brg.gda.pl/plany/osowa-rejon-ulicy-chelminskiej-ii",
+					"note": "Według odczytu 04.11.2026 uchwalony 29.10.2026, oczekuje na ogłoszenie."
+				},
+				{
+					"id": "rcn",
+					"label": "GUGiK — Rejestr Cen Nieruchomości",
+					"url": "https://www.geoportal.gov.pl/pl/dane/rejestr-cen-nieruchomosci-rcn/",
+					"note": "Odczyt WFS 04.11.2026: sprzedaż 146/12 z 10.04.2024 i osobne udziały drogowe; publikowane wyłącznie zestawienie bez danych osób."
+				},
+				{
+					"id": "badania",
+					"label": "Działkopedia — orientacyjne koszty badań",
+					"url": "https://dzialkopedia.pl/poradnik/badania-gruntu-przed-zakupem-dzialki",
+					"note": "Pomocniczy cennik, nie oferta: 1200–3500 zł netto; zakres i VAT wymagają potwierdzenia."
 				}
 			]
 		}

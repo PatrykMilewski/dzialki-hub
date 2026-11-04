@@ -56,6 +56,8 @@ function addPlotMarker(L, map, plot) {
 		.addTo(map)
 		.bindTooltip(tooltip, { direction: "top", offset: [0, -12], opacity: 1 })
 		.bindPopup(popupContent(plot), { maxWidth: 240 });
+	marker.getElement().addEventListener("focus", () => marker.openTooltip());
+	marker.getElement().addEventListener("blur", () => marker.closeTooltip());
 	marker
 		.getElement()
 		.setAttribute(

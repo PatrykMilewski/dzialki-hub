@@ -5886,12 +5886,12 @@
 			"pricePln": 850000,
 			"pricePerM2": 830.8895405669599,
 			"statusKey": "conditional",
-			"statusLabel": "Warunkowo",
+			"statusLabel": "Wymaga wyjaśnienia",
 			"updatedAt": "2026-11-04",
-			"summary": "Łagodny teren i MPZP z limitem 204,6 m² zabudowy. Potencjał domu z poddaszem i ogrodem od południa, ale testowane obrysy przecina wodociąg. Cena 850 tys. zł wymaga oceny razem z drogą i kosztami sieci.",
+			"summary": "Sprzeczność danych: miejska mapa pokazuje budynek mieszkalny i adres Chełmińska 69G, podczas gdy zdjęcia oferty pokazują pusty teren. Najpierw wyjaśnić status budynku i instalacji; ocena wolnej działki pod nowy dom jest wstrzymana.",
 			"verdict": {
-				"title": "Potencjał jest, lecz najpierw sieci, grunt i droga",
-				"text": "Geometria pozwala testować dom z garażem dwustanowiskowym i ogrodem S/W. Oba schematy kolidują z wodociągiem, a status przewodu i możliwość przebudowy są nieznane. Przed zakupem potrzebne są warunki operatorów, geotechnika, aktualne dokumenty drogi oraz sprawdzenie konkretnego projektu. Cena nie jest potwierdzoną okazją."
+				"title": "Wstrzymaj ocenę zakupu — rozbieżność dotycząca zabudowy",
+				"text": "Korekta 04.11.2026: miejska warstwa budynków pokazuje na 146/12 obrys 226101_1.0001.4504_BUD, rodzaj m, oraz adres Chełmińska 69G. Obok widnieje kanalizacja ze zbiornikiem. Zdjęcie oferty i ortofotomapa pokazują pusty teren. Nie rozstrzygnięto, czy to wpis projektowy, nieaktualny czy zabudowa późniejsza niż zdjęcia. Nie potwierdzono rozbiórki. Wcześniejsza ocena pominęła warstwę budynków; założenie wolnej działki i schematy nowego domu są wstrzymane do wyjaśnienia."
 			},
 			"offerUrl": "https://www.otodom.pl/pl/oferta/dzialka-z-mpzp-gdansk-osowa-wybuduj-swoj-dom-ID4D8jH",
 			"mapLocation": {
@@ -5906,10 +5906,16 @@
 			"imageLabel": "ORTO · DATA ZDJĘCIA NIEUSTALONA",
 			"imageAlt": "Granice działki 146/12 na ortofotomapie GUGiK; data zdjęcia nieustalona",
 			"cardNotice": {
-				"title": "Kolizja domu z wodociągiem",
-				"text": "Schematy są testami geometrii. Status i możliwość przebudowy przewodu wymagają potwierdzenia."
+				"title": "Mapa pokazuje budynek na 146/12",
+				"text": "Brak potwierdzenia rozbiórki lub statusu projektowego. Zdjęcia nie rozstrzygają obecnego stanu."
 			},
 			"facts": [
+				{
+					"label": "Status zabudowy",
+					"value": "Sprzeczne dane",
+					"note": "Budynek 4504_BUD i adres 69G na mapie miejskiej; pusta działka na zdjęciach.",
+					"status": "unknown"
+				},
 				{
 					"label": "Limit zabudowy",
 					"value": "204,6 m²",
@@ -5948,6 +5954,37 @@
 				}
 			],
 			"sections": [
+				{
+					"id": "korekta-zabudowa",
+					"title": "Korekta: budynek i zbiornik na mapie miejskiej",
+					"lead": "Korekta 04.11.2026: miejska warstwa budynków pokazuje na 146/12 obrys 226101_1.0001.4504_BUD, rodzaj m, oraz adres Chełmińska 69G. Obok widnieje kanalizacja ze zbiornikiem. Zdjęcie oferty i ortofotomapa pokazują pusty teren. Nie rozstrzygnięto, czy to wpis projektowy, nieaktualny czy zabudowa późniejsza niż zdjęcia. Nie potwierdzono rozbiórki. Wcześniejsza ocena pominęła warstwę budynków; założenie wolnej działki i schematy nowego domu są wstrzymane do wyjaśnienia.",
+					"items": [
+						{
+							"label": "Co potwierdzono",
+							"text": "Granice, obrys budynku, adres i sieci pobrano razem z jednej usługi miejskiej w tym samym układzie współrzędnych. Obrys i zbiornik leżą wewnątrz 146/12, a nie na sąsiedniej 146/14. Odpowiedź budynku podaje identyfikator i rodzaj m, lecz nie rozstrzyga, czy został wykonany.",
+							"status": "verified",
+							"sourceIds": [
+								"budynek"
+							]
+						},
+						{
+							"label": "Czego nie wolno wywnioskować",
+							"text": "Nie ma dowodu rozbiórki ani potwierdzenia istniejącego fizycznie szamba. Możliwe są dane projektowe, historyczne albo zdjęcia starsze niż realizacja. Żadnej z tych hipotez nie potwierdzono. Potrzebne są aktualne zdjęcia miejsca, dokumentacja budowy/rozbiórki, PZT i wyjaśnienie wpisu w miejskiej ewidencji.",
+							"status": "unknown",
+							"sourceIds": [
+								"budynek",
+								"oferta"
+							]
+						}
+					],
+					"figures": [
+						{
+							"src": "assets/gdansk-osowa-146-12/miejska-mapa-budynki.png",
+							"alt": "Miejska mapa pokazująca budynek 69G i kanalizację na działce 146/12",
+							"caption": "Urząd Miejski w Gdańsku, WMS, odczyt 04.11.2026. Granice, budynki, adresy, wodociąg i kanalizacja w jednym zapytaniu. To treść bazy mapowej, nie potwierdzenie stanu fizycznego obiektów."
+						}
+					]
+				},
 				{
 					"id": "identyfikacja",
 					"title": "Działka i podstawa analizy",
@@ -6040,7 +6077,7 @@
 				{
 					"id": "dom-ogrod",
 					"title": "Dom, garaż i ogród — testy geometrii",
-					"lead": "Oba warianty mają nierozwiązane kolizje z wodociągiem. To koncepcje, nie potwierdzenie możliwości budowy.",
+					"lead": "WSTRZYMANE: schematy zakładały wolną działkę. Miejska warstwa pokazuje tutaj również budynek 4504_BUD; jego status wymaga wyjaśnienia. Poniższy bilans jest archiwalnym testem geometrii, nie podstawą decyzji o budowie.",
 					"items": [
 						{
 							"label": "Dwa obrysy po 200 m²",
@@ -6237,6 +6274,11 @@
 			"risks": [
 				{
 					"severity": "high",
+					"title": "Nierozstrzygnięty status budynku",
+					"detail": "Miejska mapa pokazuje obrys budynku na sprzedawanej jako pusta działce. Wyjaśnić zgodność ogłoszenia, aktualny stan i dokumentację przed oceną nowego domu."
+				},
+				{
+					"severity": "high",
 					"title": "Wodociąg przecina testowane domy",
 					"detail": "Status sieci i dopuszczalność przebudowy mogą zmienić obrys, ogród oraz koszt inwestycji."
 				},
@@ -6267,6 +6309,10 @@
 				}
 			],
 			"questions": [
+				{
+					"id": "status-budynku",
+					"text": "Dlaczego miejska mapa pokazuje na 146/12 budynek 4504_BUD, Chełmińska 69G, i zbiornik? Czy budynek lub sieci wykonano, jedynie projektowano, czy rozebrano? Proszę o aktualne zdjęcia, PZT i dokumentację."
+				},
 				{
 					"id": "droga",
 					"text": "Czy cena obejmuje 1/4 w 146/16 i 6/56 w 146/17? Udostępnić aktualne dokumenty własności, obciążeń, przejazdu i praw do sieci."
@@ -6390,6 +6436,12 @@
 					"label": "Działkopedia — orientacyjne koszty badań",
 					"url": "https://dzialkopedia.pl/poradnik/badania-gruntu-przed-zakupem-dzialki",
 					"note": "Pomocniczy cennik, nie oferta: 1200–3500 zł netto; zakres i VAT wymagają potwierdzenia."
+				},
+				{
+					"id": "budynek",
+					"label": "Gdańsk — budynki, adresy i sieci na jednej mapie",
+					"url": "https://ewid-wms.gdansk.gda.pl/iip/ows?service=WMS&version=1.1.1&request=GetMap&layers=dzialki%2Cnumery_dzialek%2Cbudynki%2Copisy_budynkow%2Cpunkty_adresowe%2Csiec_wodociagowa%2Csiec_kanalizacyjna&styles=&srs=EPSG%3A2180&bbox=464158%2C730548%2C464258%2C730648&width=1600&height=1600&format=image%2Fpng&transparent=false",
+					"note": "Odczyt 04.11.2026. GetFeatureInfo: ID 226101_1.0001.4504_BUD, RODZAJ m, kondygnacje puste, DATA 2026-11-03 23:26:03. Pole DATA nie jest datą budowy. Brak atrybutu statusu realizacji."
 				}
 			]
 		}

@@ -230,3 +230,18 @@ nie rozstrzygają wymogu. Schemat przesunięć nie jest pełnym zagospodarowanie
 a dawny bilans ogrodu wymaga ponownego sprawdzenia. Droga, media, grunt
 i pełny koszt pozostają nieustalone. Bez kalkulatora 750/73, zdjęcia prywatnego,
 KW i danych właścicieli. Punkt mapy: centroid ULDK przeliczony do WGS84.
+
+
+## Chwaszczyno 775/190 — 12 listopada 2026
+
+Dodano `220508_5.0004.775/190` pod `?dzialka=chwaszczyno-775-190` i sześć map
+w `assets/chwaszczyno-775-190/`. Stan analizy i publikacja: 12.11.2026; NMT
+ALS 08.09.2024, data mozaiki ortofoto nieustalona. Oferta 1001 m² / 530 tys. zł,
+pole ULDK 1000,06 m². MPZP 05029/05029z, teren 3MN, min. 30% drzew i krzewów.
+
+Dwa warunkowe obrysy 200 m²: A 16 × 12,5 m i około 340 m² za pełnym pasem
+tarasu, B 10 × 20 m i około 114 m². To geometria, nie suchy trawnik ani PZT.
+Droga, przyłącza, dawna SN, grunt i pełny koszt pozostają nieustalone.
+Cena konkretnej parceli i transakcje RCN są rozdzielone; bez kalkulatora 750/73.
+MapLocation to centroid potwierdzonej geometrii ULDK przeliczony do WGS84.
+Publikacja zawiera opracowania, bez dokumentów prywatnych i danych właścicieli.

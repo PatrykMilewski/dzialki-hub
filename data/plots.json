@@ -6731,6 +6731,15 @@
 								"ortho",
 								"plan"
 							]
+						},
+						{
+							"label": "Niewyjaśniony obiekt przy SE",
+							"text": "Warstwa budynków EGiB nie pokazuje budynku na samej 775/191, a ortofotomapa sugeruje mały obiekt przy południowo-wschodniej krawędzi. Nie ustalono jego rodzaju, dokładnego położenia ani obecnego istnienia; potrzebne oględziny i aktualna mapa. To odrębna niewiadoma od potwierdzonego starego domu sąsiada.",
+							"status": "unknown",
+							"sourceIds": [
+								"egib",
+								"ortho"
+							]
 						}
 					],
 					"figures": []
@@ -6937,7 +6946,7 @@
 				{
 					"id": "przygotowanie",
 					"title": "Koszty przygotowania",
-					"lead": "Regionalne punkty odniesienia poniżej regionalne punkty odniesienia, odczyt 12.11.2026; nie oferty wykonawców na tę działkę.",
+					"lead": "Regionalne punkty odniesienia, odczyt 12.11.2026; nie są ofertami wykonawców na tę działkę.",
 					"items": [
 						{
 							"label": "Badania",
@@ -7052,7 +7061,7 @@
 				},
 				{
 					"id": "drzewa-stan",
-					"text": "Czy aktualna mapa i oględziny potwierdzają obiekty, granice, drzewa i możliwe kolizje z planowanym domem?"
+					"text": "Czy aktualna mapa i oględziny wyjaśniają mały obiekt sugerowany przez ortofoto przy SE krawędzi, mimo braku budynku na 775/191 w EGiB, oraz potwierdzają drzewa, granice i kolizje?"
 				},
 				{
 					"id": "halas-inwestycje",

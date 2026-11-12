@@ -214,3 +214,19 @@ oraz linkiem zdjęcia i przycisku do dokładnie tej wersji projektu.
 ## Osowa 146/12 — 4 listopada 2026
 
 Dodano analizę `226101_1.0001.146/12` pod `?dzialka=gdansk-osowa-146-12` oraz siedem publicznych map w `assets/gdansk-osowa-146-12/`. Źródła i daty znajdują się w karcie. Schematy domu mają nierozwiązane kolizje z wodociągiem; grunt, prawa do drogi i pełny koszt wymagają sprawdzenia. Rekord nie korzysta z kalkulatora 750/73.
+
+
+## Chwaszczyno 775/191 — 12 listopada 2026
+
+Dodano `220508_5.0004.775/191` pod `?dzialka=chwaszczyno-775-191`, z siedmioma
+mapami w `assets/chwaszczyno-775-191/`. Stan analizy i publikacja: 12.11.2026;
+NMT 08.09.2024, data mozaiki ortofoto nieustalona. Oferta: 1000 m² / 530 tys. zł,
+geometria: 998,66 m². MPZP 05029/05029z, całość w 3MN.
+
+Karta uwzględnia korektę ppoż.: dawnych pozycji 200 m² z odstępem 6,4–6,5 m
+od starego domu nie uznano za zgodne. 8/12 m są scenariuszami zależnymi od
+parametrów ściany i przekrycia; murowana konstrukcja, siding i przyszły remont
+nie rozstrzygają wymogu. Schemat przesunięć nie jest pełnym zagospodarowaniem,
+a dawny bilans ogrodu wymaga ponownego sprawdzenia. Droga, media, grunt
+i pełny koszt pozostają nieustalone. Bez kalkulatora 750/73, zdjęcia prywatnego,
+KW i danych właścicieli. Punkt mapy: centroid ULDK przeliczony do WGS84.
